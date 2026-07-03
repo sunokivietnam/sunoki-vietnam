@@ -113,13 +113,18 @@ ${
 
 ----------------------------
 
-Vui lòng nhập thêm yêu cầu của bạn.
+Vui lòng nhập thêm yêu cầu của bạn。
 
 `;
 
     setMessage(text);
-  }, [language]);  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  }, [language]);
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+console.log("SERVICE", process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
+console.log("TEMPLATE", process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
+console.log("PUBLIC", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
 
     if (!form.current) return;
 
@@ -131,19 +136,16 @@ Vui lòng nhập thêm yêu cầu của bạn.
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
       .then(() => {
-  setSent(true);
-  form.current?.reset();
-  localStorage.removeItem("estimateData");
-})
-.catch((error) => {
-  console.log("EmailJS Error:", error);
-  console.log("Status:", error?.status);
-  console.log("Text:", error?.text);
-
-  alert(
-    `Status: ${error?.status}\nText: ${error?.text}`
-  );
+        setSent(true);
+        form.current?.reset();
+        localStorage.removeItem("estimateData");
+      })
+           .catch((error) => {
+  console.log(error);
+  alert(JSON.stringify(error, null, 2));
 });
+
+};
 
   return (
     <section
@@ -230,7 +232,7 @@ ngay tại Việt Nam.`}
 
           <div className="rounded-[18px] bg-white p-5 shadow-md md:p-6">
 
-            {sent ? (            
+            {sent ? (
 
               <div className="flex min-h-[320px] flex-col items-center justify-center text-center">
 
@@ -271,81 +273,94 @@ xin vui lòng liên hệ qua điện thoại.`}
                 ref={form}
                 onSubmit={sendEmail}
                 className="space-y-3"
-              >               <div className="grid gap-4 md:grid-cols-2">
+              >                <div className="grid gap-4 md:grid-cols-2">
 
-  <div>
+                  <div>
 
-    <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
-      {language === "ja" ? "お名前" : "Họ và tên"}
-    </label>
+                    <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
+                      {language === "ja"
+                        ? "お名前"
+                        : "Họ và tên"}
+                    </label>
 
-    <input
-      name="user_name"
-      type="text"
-      required
-      className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
-    />
+                    <input
+                      name="user_name"
+                      type="text"
+                      required
+                      className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
+                    />
 
-  </div>
+                  </div>
 
-  <div>
+                  <div>
 
-    <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
-      {language === "ja" ? "メールアドレス" : "Email"}
-    </label>
+                    <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
+                      {language === "ja"
+                        ? "メールアドレス"
+                        : "Email"}
+                    </label>
 
-    <input
-      name="user_email"
-      type="email"
-      required
-      className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
-    />
+                    <input
+                      name="user_email"
+                      type="email"
+                      required
+                      className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
+                    />
 
-  </div>
+                  </div>
 
-</div>
+                </div>
 
                 <div>
 
-  <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
-    {language === "ja" ? "電話番号" : "Số điện thoại"}
-  </label>
+                  <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
+                    {language === "ja"
+                      ? "電話番号"
+                      : "Số điện thoại"}
+                  </label>
 
-  <input
-    name="user_phone"
-    type="tel"
-    className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
-  />
+                  <input
+                    name="user_phone"
+                    type="tel"
+                    className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
+                  />
 
-</div>
+                </div>
+
                 <div>
 
-                  <label className="mb-2 block text-[14px] font-medium text-[#2B2520]">
-                    {language === "ja" ? "ご相談内容" : "Nội dung"}
+                  <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
+                    {language === "ja"
+                      ? "ご相談内容"
+                      : "Nội dung"}
                   </label>
 
                   <textarea
-  name="message"
-  rows={6}
-  required
-  value={message}
-  onChange={(e) => setMessage(e.target.value)}
-  className="min-h-[180px] w-full resize-none rounded-xl border border-[#DDD] px-4 py-2 text-[14px] leading-6 outline-none transition focus:border-[#B8895A]"
-/>
+                    name="message"
+                    rows={6}
+                    required
+                    value={message}
+                    onChange={(e) =>
+                      setMessage(e.target.value)
+                    }
+                    className="min-h-[180px] w-full resize-none rounded-xl border border-[#DDD] px-4 py-2 text-[14px] leading-6 outline-none transition focus:border-[#B8895A]"
+                  />
 
                 </div>
 
                 <div className="pt-2">
 
                   <Button type="submit">
+
                     {language === "ja"
                       ? "お問い合わせを送信"
                       : "Gửi yêu cầu"}
+
                   </Button>
 
-                </div>
+                </div>              
 
-                            </form>
+                                          </form>
 
             )}
 
