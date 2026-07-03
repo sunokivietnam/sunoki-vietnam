@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[880px] overflow-hidden bg-[#120E0B]"
+      className="relative min-h-[680px] overflow-hidden bg-[#120E0B]"
     >
       {/* Background */}
       <Image
@@ -45,7 +45,7 @@ export default function Hero() {
               {t.hero.brand}
             </p>
 
-            <h1 className="text-[56px] font-bold leading-[1.02] tracking-[-0.03em] text-white md:text-[72px] lg:text-[76px]">
+            <h1 className="text-[46px] font-bold leading-[1.08] tracking-[-0.03em] text-white md:text-[58px] lg:text-[64px]">
               {t.hero.title.split("\n").map((line, index) => (
                 <span key={index}>
                   {line}
@@ -54,7 +54,7 @@ export default function Hero() {
               ))}
             </h1>
 
-            <p className="mt-10 max-w-[600px] text-lg leading-9 text-white/90">
+            <p className="mt-8 max-w-[520px] text-[16px] leading-8 text-white/90">
               {t.hero.description.split("\n").map((line, index) => (
                 <span key={index}>
                   {line}
