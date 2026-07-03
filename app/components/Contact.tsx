@@ -122,9 +122,7 @@ Vui lòng nhập thêm yêu cầu của bạn。
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
-console.log("SERVICE", process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
-console.log("TEMPLATE", process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
-console.log("PUBLIC", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+
 
     if (!form.current) return;
 
@@ -141,8 +139,12 @@ console.log("PUBLIC", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
         localStorage.removeItem("estimateData");
       })
            .catch((error) => {
-  console.log(error);
-  alert(JSON.stringify(error, null, 2));
+  console.error("EmailJS Error:", error);
+  alert(
+    language === "ja"
+      ? "送信に失敗しました。時間をおいてもう一度お試しください。"
+      : "Gửi thất bại. Vui lòng thử lại sau."
+  );
 });
 
 };
