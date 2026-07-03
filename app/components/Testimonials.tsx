@@ -8,52 +8,44 @@ export default function Testimonials() {
   const reviews = t.reviews.items;
 
   return (
-  <section
-    id="testimonials"
-    className="max-w-7xl mx-auto px-8 py-24"
-  >
-
-      <h2 className="text-4xl font-bold text-center mb-3">
+    <section
+      id="testimonials"
+      className="mx-auto max-w-7xl px-6 py-14 md:py-16"
+    >
+      <h2 className="text-center text-[30px] font-bold text-[#2B2520] md:text-[36px]">
         {t.reviews.title}
       </h2>
 
-      <p className="text-center text-gray-500 mb-16">
-       {t.reviews.description}
+      <p className="mx-auto mt-3 max-w-2xl text-center text-[15px] text-[#666]">
+        {t.reviews.description}
       </p>
 
-      <div className="grid md:grid-cols-3 gap-8">
-
+      <div className="mt-10 grid gap-6 md:grid-cols-3">
         {reviews.map((review) => (
-          <div
+          <article
             key={review.name}
-            className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition duration-300"
+            className="rounded-[18px] bg-white p-6 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
-
-            <div className="text-amber-500 text-2xl mb-4">
+            <div className="mb-3 text-[20px] tracking-[2px] text-[#D89A2B]">
               ★★★★★
             </div>
 
-            <p className="text-gray-600 leading-8 mb-6">
+            <p className="min-h-[110px] text-[15px] leading-8 text-[#555]">
               「{review.comment}」
             </p>
 
-            <div className="border-t pt-4">
-
-              <p className="font-bold">
+            <div className="mt-5 border-t border-[#E8E1D7] pt-4">
+              <p className="text-[16px] font-bold text-[#2B2520]">
                 {review.name}
               </p>
 
-              <p className="text-sm text-gray-500">
+              <p className="mt-1 text-[13px] text-[#888]">
                 {review.area}
               </p>
-
             </div>
-
-          </div>
+          </article>
         ))}
-
       </div>
-
     </section>
   );
 }

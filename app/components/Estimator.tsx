@@ -75,23 +75,23 @@ export default function Estimator() {
   return (
     <section
       id="estimator"
-      className="bg-[#FAF7F3] py-16 md:py-20"
+      className="bg-[#FAF7F3] py-10 md:py-12"
     >
-      <div className="mx-auto max-w-5xl px-6">
+      <div className="mx-auto max-w-[1050px] px-6">
 
         <div className="text-center">
 
-          <p className="text-xs font-semibold tracking-[0.35em] text-[#B8895A]">
+          <p className="text-[10px] font-semibold tracking-[0.34em] text-[#B8895A]">
             ESTIMATOR
           </p>
 
-          <h2 className="mt-4 text-4xl font-bold text-[#2B2520] md:text-5xl">
+          <h2 className="mt-2 text-[28px] font-bold text-[#2B2520] md:text-[36px]">
             {language === "ja"
               ? "仕様シミュレーター"
               : "Trình mô phỏng công trình"}
           </h2>
 
-          <p className="mx-auto mt-6 max-w-2xl leading-8 text-[#666]">
+          <p className="mx-auto mt-3 max-w-lg text-[14px] leading-6 text-[#666]">
             {language === "ja"
               ? "ご希望の仕様を選択して、そのまま無料相談へ進めます。"
               : "Chọn thông tin mong muốn và gửi yêu cầu tư vấn miễn phí."}
@@ -99,180 +99,198 @@ export default function Estimator() {
 
         </div>
 
-        <div className="mt-16 rounded-[32px] bg-white p-8 shadow-[0_20px_60px_rgba(43,37,32,0.08)] md:p-14">          {/* 建物タイプ */}
+        <div className="mt-8 rounded-[18px] bg-white p-5 shadow-md md:p-7">
 
-          <div>
+          {/* ===== 上段 ===== */}
 
-            <h3 className="mb-6 text-xl font-bold text-[#2B2520]">
-              {language === "ja" ? "建物タイプ" : "Loại công trình"}
-            </h3>
+          <div className="grid gap-8 lg:grid-cols-2">            {/* 建物タイプ */}
 
-            <div className="grid gap-4 md:grid-cols-3">
+            <div>
 
-              {buildingTypes.map((item) => {
-
-                const active = building === item.value;
-
-                return (
-
-                  <button
-                    key={item.value}
-                    type="button"
-                    onClick={() => setBuilding(item.value)}
-                    className={`rounded-2xl border p-6 transition ${
-                      active
-                        ? "border-[#B8895A] bg-[#B8895A] text-white"
-                        : "border-[#E6DED2] bg-white hover:border-[#B8895A]"
-                    }`}
-                  >
-
-                    <p className="text-lg font-bold">
-                      {language === "ja" ? item.ja : item.vi}
-                    </p>
-
-                  </button>
-
-                );
-
-              })}
-
-            </div>
-
-          </div>
-
-          {/* 建築面積 */}
-
-          <div className="mt-16">
-
-            <div className="flex items-center justify-between">
-
-              <h3 className="text-xl font-bold text-[#2B2520]">
-                {language === "ja" ? "建築面積" : "Diện tích"}
+              <h3 className="mb-4 text-base font-bold text-[#2B2520]">
+                {language === "ja" ? "建物タイプ" : "Loại công trình"}
               </h3>
 
-              <span className="text-3xl font-bold text-[#B8895A]">
-                {area}㎡
-              </span>
+              <div className="grid gap-2 grid-cols-3">
+
+                {buildingTypes.map((item) => {
+
+                  const active = building === item.value;
+
+                  return (
+
+                    <button
+                      key={item.value}
+                      type="button"
+                      onClick={() => setBuilding(item.value)}
+                      className={`rounded-[14px] border px-3 py-3 transition-all duration-300 ${
+                        active
+                          ? "border-[#B8895A] bg-[#B8895A] text-white shadow-md"
+                          : "border-[#E6DED2] bg-white hover:border-[#B8895A]"
+                      }`}
+                    >
+
+                      <p className="text-[15px] font-semibold">
+                        {language === "ja" ? item.ja : item.vi}
+                      </p>
+
+                    </button>
+
+                  );
+
+                })}
+
+              </div>
 
             </div>
 
-            <input
-              type="range"
-              min={30}
-              max={500}
-              step={5}
-              value={area}
-              onChange={(e) => setArea(Number(e.target.value))}
-              className="mt-8 w-full accent-[#B8895A]"
-            />
+            {/* 建築面積 */}
 
-          </div>
+            <div>
 
-          {/* グレード */}
+              <div className="flex items-center justify-between">
 
-          <div className="mt-16">
+                <h3 className="text-base font-bold text-[#2B2520]">
+                  {language === "ja" ? "建築面積" : "Diện tích"}
+                </h3>
 
-            <h3 className="mb-6 text-xl font-bold text-[#2B2520]">
-              {language === "ja" ? "グレード" : "Cấp độ hoàn thiện"}
-            </h3>
+                <span className="text-xl font-bold text-[#B8895A]">
+                  {area}㎡
+                </span>
 
-            <div className="grid gap-4 md:grid-cols-4">
+              </div>
 
-              {grades.map((item) => {
-
-                const active = grade === item;
-
-                return (
-
-                  <button
-                    key={item}
-                    type="button"
-                    onClick={() => setGrade(item)}
-                    className={`rounded-2xl border p-6 transition ${
-                      active
-                        ? "border-[#B8895A] bg-[#B8895A] text-white"
-                        : "border-[#E6DED2] bg-white hover:border-[#B8895A]"
-                    }`}
-                  >
-
-                    <p className="text-lg font-bold tracking-[0.08em]">
-                      {item}
-                    </p>
-
-                  </button>
-
-                );
-
-              })}
-
-            </div>
-
-          </div>          {/* オプション */}
-
-          <div className="mt-16">
-
-            <h3 className="mb-6 text-xl font-bold text-[#2B2520]">
-              {language === "ja" ? "オプション" : "Tùy chọn"}
-            </h3>
-
-            <div className="grid gap-4 md:grid-cols-2">
-
-              {options.map((item) => {
-
-                const active = selectedOptions.includes(item.value);
-
-                return (
-
-                  <button
-                    key={item.value}
-                    type="button"
-                    onClick={() => toggleOption(item.value)}
-                    className={`flex items-center justify-between rounded-2xl border p-5 transition ${
-                      active
-                        ? "border-[#B8895A] bg-[#B8895A] text-white"
-                        : "border-[#E6DED2] bg-white hover:border-[#B8895A]"
-                    }`}
-                  >
-
-                    <span className="font-semibold">
-                      {language === "ja" ? item.ja : item.vi}
-                    </span>
-
-                    <span className="text-2xl font-bold">
-                      {active ? "✓" : "+"}
-                    </span>
-
-                  </button>
-
-                );
-
-              })}
+              <input
+                type="range"
+                min={30}
+                max={500}
+                step={5}
+                value={area}
+                onChange={(e) => setArea(Number(e.target.value))}
+                className="mt-4 w-full accent-[#B8895A]"
+              />
 
             </div>
 
           </div>
 
-          {/* 選択内容 */}
+          {/* ===== 下段 ===== */}
 
-          <div className="mt-20 rounded-[28px] bg-[#2B2520] p-10 text-white">
+          <div className="mt-8 grid gap-8 lg:grid-cols-2">            {/* グレード */}
 
-            <p className="text-sm font-semibold tracking-[0.35em] text-[#D8B07A]">
+            <div>
+
+              <h3 className="mb-4 text-base font-bold text-[#2B2520]">
+                {language === "ja"
+                  ? "グレード"
+                  : "Cấp độ hoàn thiện"}
+              </h3>
+
+              <div className="grid gap-2 grid-cols-2">
+
+                {grades.map((item) => {
+
+                  const active = grade === item;
+
+                  return (
+
+                    <button
+                      key={item}
+                      type="button"
+                      onClick={() => setGrade(item)}
+                      className={`rounded-[14px] border px-3 py-3 transition-all duration-300 ${
+                        active
+                          ? "border-[#B8895A] bg-[#B8895A] text-white shadow-md"
+                          : "border-[#E6DED2] bg-white hover:border-[#B8895A]"
+                      }`}
+                    >
+
+                      <p className="text-[14px] font-semibold tracking-[0.04em]">
+                        {item}
+                      </p>
+
+                    </button>
+
+                  );
+
+                })}
+
+              </div>
+
+            </div>
+
+            {/* オプション */}
+
+            <div>
+
+              <h3 className="mb-4 text-base font-bold text-[#2B2520]">
+                {language === "ja"
+                  ? "オプション"
+                  : "Tùy chọn"}
+              </h3>
+
+              <div className="grid gap-2 grid-cols-2">
+
+                {options.map((item) => {
+
+                  const active = selectedOptions.includes(item.value);
+
+                  return (
+
+                    <button
+                      key={item.value}
+                      type="button"
+                      onClick={() => toggleOption(item.value)}
+                      className={`flex items-center justify-between rounded-[14px] border px-3 py-3 transition-all duration-300 ${
+                        active
+                          ? "border-[#B8895A] bg-[#B8895A] text-white shadow-md"
+                          : "border-[#E6DED2] bg-white hover:border-[#B8895A]"
+                      }`}
+                    >
+
+                      <span className="text-[14px] font-semibold">
+                        {language === "ja"
+                          ? item.ja
+                          : item.vi}
+                      </span>
+
+                      <span className="text-base font-bold">
+                        {active ? "✓" : "+"}
+                      </span>
+
+                    </button>
+
+                  );
+
+                })}
+
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* ===== 選択内容 ===== */}
+
+          <div className="mt-8 rounded-[16px] bg-[#2B2520] p-5 text-white">
+
+            <p className="text-[11px] font-semibold tracking-[0.30em] text-[#D8B07A]">
               {language === "ja"
                 ? "SELECTED CONTENT"
                 : "THÔNG TIN ĐÃ CHỌN"}
             </p>
 
-            <div className="mx-auto mt-10 max-w-2xl rounded-2xl border border-white/10 bg-white/5 p-6">
+            <div className="mt-4 rounded-[12px] border border-white/10 bg-white/5 p-4">
 
               <div className="flex items-center justify-between">
 
-                <span className="text-white/70">
+                <span className="text-[14px] text-white/70">
                   {language === "ja"
                     ? "建物タイプ"
                     : "Loại công trình"}
                 </span>
 
-                <span className="font-semibold">
+                <span className="text-[14px] font-semibold">
                   {
                     buildingTypes.find(
                       (item) => item.value === building
@@ -282,35 +300,35 @@ export default function Estimator() {
 
               </div>
 
-              <div className="mt-4 flex items-center justify-between">
+              <div className="mt-3 flex items-center justify-between">
 
-                <span className="text-white/70">
+                <span className="text-[14px] text-white/70">
                   {language === "ja"
                     ? "建築面積"
                     : "Diện tích"}
                 </span>
 
-                <span className="font-semibold">
+                <span className="text-[14px] font-semibold">
                   {area}㎡
                 </span>
 
               </div>
 
-              <div className="mt-4 flex items-center justify-between">
+              <div className="mt-3 flex items-center justify-between">
 
-                <span className="text-white/70">
+                <span className="text-[14px] text-white/70">
                   {language === "ja"
                     ? "グレード"
                     : "Cấp độ"}
                 </span>
 
-                <span className="font-semibold">
+                <span className="text-[14px] font-semibold">
                   {grade}
                 </span>
 
-              </div>              <div className="mt-6">
+              </div>              <div className="mt-4">
 
-                <p className="mb-3 text-white/70">
+                <p className="mb-2 text-[14px] text-white/70">
                   {language === "ja"
                     ? "選択したオプション"
                     : "Tùy chọn đã chọn"}
@@ -320,7 +338,7 @@ export default function Estimator() {
 
                   {selectedOptions.length === 0 ? (
 
-                    <span className="rounded-full border border-white/20 px-4 py-2 text-sm text-white/60">
+                    <span className="rounded-full border border-white/20 px-3 py-1 text-[12px] text-white/60">
 
                       {language === "ja"
                         ? "選択なし"
@@ -335,14 +353,16 @@ export default function Estimator() {
                         selectedOptions.includes(item.value)
                       )
                       .map((item) => (
+
                         <span
                           key={item.value}
-                          className="rounded-full bg-[#B8895A] px-4 py-2 text-sm font-semibold"
+                          className="rounded-full bg-[#B8895A] px-3 py-1 text-[12px] font-semibold"
                         >
                           {language === "ja"
                             ? item.ja
                             : item.vi}
                         </span>
+
                       ))
 
                   )}
@@ -357,9 +377,9 @@ export default function Estimator() {
 
           {/* 注意書き */}
 
-          <div className="mt-10 rounded-2xl bg-[#FAF7F3] p-6">
+          <div className="mt-5 rounded-[12px] bg-[#FAF7F3] p-4">
 
-            <p className="whitespace-pre-line text-sm leading-8 text-[#666]">
+            <p className="whitespace-pre-line text-[13px] leading-6 text-[#666]">
 
               {language === "ja"
                 ? `このシミュレーターはご希望の仕様を整理するためのものです。
@@ -375,11 +395,12 @@ Báo giá chính thức sẽ được gửi sau khi khảo sát và tư vấn ch
 
           {/* CTA */}
 
-          <div className="mt-12 flex justify-center">
+          <div className="mt-6 flex justify-center">
 
             <button
               type="button"
               onClick={() => {
+
                 const estimate = {
                   building,
                   area,
@@ -393,15 +414,18 @@ Báo giá chính thức sẽ được gửi sau khi khảo sát và tư vấn ch
                 );
 
                 window.location.href = "#contact";
+
               }}
-              className="rounded-full bg-[#B8895A] px-10 py-4 text-base font-semibold text-white transition hover:bg-[#A97A4C]"
+              className="rounded-full bg-[#B8895A] px-6 py-2 text-[14px] font-semibold text-white transition duration-300 hover:bg-[#A97A4C]"
             >
               {language === "ja"
                 ? "この内容で無料相談する"
                 : "Tư vấn miễn phí với nội dung này"}
             </button>
 
-          </div>        </div>
+          </div>
+
+        </div>
 
       </div>
 

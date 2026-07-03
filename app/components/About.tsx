@@ -39,7 +39,7 @@ export default function About() {
 
           {/* Right */}
 
-          <div className="relative overflow-hidden rounded-[18px] shadow-[0_18px_50px_rgba(43,37,32,0.12)]">
+          <div className="relative mx-auto w-[88%] overflow-hidden rounded-[18px] shadow-[0_18px_50px_rgba(43,37,32,0.12)]">
 
             <Image
               src="/images/about.jpg"

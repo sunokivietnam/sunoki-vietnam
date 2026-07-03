@@ -72,7 +72,11 @@ export default function Contact() {
 グレード：${estimate.grade}
 
 オプション
-${estimate.options.length > 0 ? estimate.options.map((v: string) => `✓ ${v}`).join("\n") : "なし"}
+${
+  estimate.options.length > 0
+    ? estimate.options.map((v: string) => `✓ ${v}`).join("\n")
+    : "なし"
+}
 
 ----------------------------
 
@@ -104,9 +108,7 @@ ${
             }`
         )
         .join("\n")
-    : language === "vi"
-      ? "なし"
-      : "Không có"
+    : "Không có"
 }
 
 ----------------------------
@@ -116,10 +118,7 @@ Vui lòng nhập thêm yêu cầu của bạn.
 `;
 
     setMessage(text);
-
-  }, [language]);
-
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+  }, [language]);  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!form.current) return;
@@ -138,32 +137,42 @@ Vui lòng nhập thêm yêu cầu của bạn.
       })
       .catch((error) => {
         console.error(error);
-        alert(language === "ja" ? "送信に失敗しました。" : "Gửi thất bại.");
+        alert(
+          language === "ja"
+            ? "送信に失敗しました。"
+            : "Gửi thất bại."
+        );
       });
   };
 
   return (
     <section
       id="contact"
-      className="bg-[#FAF7F3] py-16 md:py-20"
+      className="bg-[#FAF7F3] py-10 md:py-12"
     >
       <Container>
 
         <SectionTitle
-          subtitle={language === "ja" ? "CONTACT" : "CONTACT"}
-          title={language === "ja" ? "お問い合わせ" : "Liên hệ"}
+          subtitle="CONTACT"
+          title={
+            language === "ja"
+              ? "お問い合わせ"
+              : "Liên hệ"
+          }
           description={
             language === "ja"
               ? "住まいづくりのご相談からお見積りまで、お気軽にお問い合わせください。"
               : "Liên hệ với chúng tôi để được tư vấn và báo giá."
           }
-        />        <div className="mt-20 grid gap-16 lg:grid-cols-[0.9fr_1.1fr]">
+        />
+
+        <div className="mt-10 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
 
           {/* Left */}
 
           <div>
 
-            <h3 className="text-4xl font-bold leading-tight text-[#2B2520]">
+            <h3 className="text-[22px] md:text-[30px] font-bold leading-tight whitespace-pre-line text-[#2B2520]">
 
               {language === "ja"
                 ? "理想の空間づくりを、\n一緒にはじめませんか。"
@@ -171,7 +180,7 @@ Vui lòng nhập thêm yêu cầu của bạn.
 
             </h3>
 
-            <p className="mt-8 whitespace-pre-line leading-9 text-[#666]">
+            <p className="mt-4 whitespace-pre-line text-[14px] leading-7 text-[#666]">
 
               {language === "ja"
                 ? `新築・リフォーム・店舗設計・水まわりなど、
@@ -187,15 +196,15 @@ ngay tại Việt Nam.`}
 
             </p>
 
-            <div className="mt-14 space-y-8">
+            <div className="mt-8 space-y-4">
 
               <div>
 
-                <p className="text-xs font-semibold tracking-[0.3em] text-[#B8895A]">
+                <p className="text-[11px] font-semibold tracking-[0.30em] text-[#B8895A]">
                   PHONE
                 </p>
 
-                <p className="mt-2 text-2xl font-semibold text-[#2B2520]">
+                <p className="mt-2 text-lg font-semibold text-[#2B2520]">
                   0909888243
                 </p>
 
@@ -203,11 +212,11 @@ ngay tại Việt Nam.`}
 
               <div>
 
-                <p className="text-xs font-semibold tracking-[0.3em] text-[#B8895A]">
+                <p className="text-[11px] font-semibold tracking-[0.30em] text-[#B8895A]">
                   EMAIL
                 </p>
 
-                <p className="mt-2 text-xl text-[#2B2520]">
+                <p className="mt-2 text-base text-[#2B2520] break-all">
                   sunoki.vietnam@gmail.com
                 </p>
 
@@ -219,15 +228,17 @@ ngay tại Việt Nam.`}
 
           {/* Right */}
 
-          <div className="rounded-[28px] bg-white p-8 shadow-[0_20px_60px_rgba(43,37,32,0.08)] md:p-12">
+          <div className="rounded-[18px] bg-white p-5 shadow-md md:p-6">
 
-            {sent ? (              <div className="flex min-h-[520px] flex-col items-center justify-center text-center">
+            {sent ? (            
 
-                <div className="mb-8 flex h-20 w-20 items-center justify-center rounded-full bg-[#B8895A]/10 text-5xl text-[#B8895A]">
+              <div className="flex min-h-[320px] flex-col items-center justify-center text-center">
+
+                <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-[#B8895A]/10 text-4xl text-[#B8895A]">
                   ✓
                 </div>
 
-                <h3 className="text-3xl font-bold text-[#2B2520]">
+                <h3 className="text-[22px] font-bold text-[#2B2520]">
 
                   {language === "ja"
                     ? "お問い合わせありがとうございます"
@@ -235,7 +246,7 @@ ngay tại Việt Nam.`}
 
                 </h3>
 
-                <p className="mt-6 max-w-md whitespace-pre-line leading-8 text-[#666]">
+                <p className="mt-5 max-w-md whitespace-pre-line text-[15px] leading-7 text-[#666]">
 
                   {language === "ja"
                     ? `内容を確認のうえ、
@@ -259,69 +270,71 @@ xin vui lòng liên hệ qua điện thoại.`}
               <form
                 ref={form}
                 onSubmit={sendEmail}
-                className="space-y-8"
-              >
+                className="space-y-3"
+              >               <div className="grid gap-4 md:grid-cols-2">
+
+  <div>
+
+    <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
+      {language === "ja" ? "お名前" : "Họ và tên"}
+    </label>
+
+    <input
+      name="user_name"
+      type="text"
+      required
+      className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
+    />
+
+  </div>
+
+  <div>
+
+    <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
+      {language === "ja" ? "メールアドレス" : "Email"}
+    </label>
+
+    <input
+      name="user_email"
+      type="email"
+      required
+      className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
+    />
+
+  </div>
+
+</div>
 
                 <div>
 
-                  <label className="mb-3 block text-sm font-medium text-[#2B2520]">
-                    {language === "ja" ? "お名前" : "Họ và tên"}
-                  </label>
+  <label className="mb-2 block text-[13px] font-medium text-[#2B2520]">
+    {language === "ja" ? "電話番号" : "Số điện thoại"}
+  </label>
 
-                  <input
-                    name="user_name"
-                    type="text"
-                    required
-                    className="w-full rounded-xl border border-[#DDD] px-5 py-4 outline-none transition focus:border-[#B8895A]"
-                  />
+  <input
+    name="user_phone"
+    type="tel"
+    className="w-full rounded-xl border border-[#DDD] px-4 py-2 text-[14px] outline-none transition focus:border-[#B8895A]"
+  />
 
-                </div>
-
+</div>
                 <div>
 
-                  <label className="mb-3 block text-sm font-medium text-[#2B2520]">
-                    {language === "ja" ? "メールアドレス" : "Email"}
-                  </label>
-
-                  <input
-                    name="user_email"
-                    type="email"
-                    required
-                    className="w-full rounded-xl border border-[#DDD] px-5 py-4 outline-none transition focus:border-[#B8895A]"
-                  />
-
-                </div>
-
-                <div>
-
-                  <label className="mb-3 block text-sm font-medium text-[#2B2520]">
-                    {language === "ja" ? "電話番号" : "Số điện thoại"}
-                  </label>
-
-                  <input
-                    name="user_phone"
-                    type="tel"
-                    className="w-full rounded-xl border border-[#DDD] px-5 py-4 outline-none transition focus:border-[#B8895A]"
-                  />
-
-                </div>                <div>
-
-                  <label className="mb-3 block text-sm font-medium text-[#2B2520]">
+                  <label className="mb-2 block text-[14px] font-medium text-[#2B2520]">
                     {language === "ja" ? "ご相談内容" : "Nội dung"}
                   </label>
 
                   <textarea
-                    name="message"
-                    rows={10}
-                    required
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    className="w-full resize-none rounded-xl border border-[#DDD] px-5 py-4 outline-none transition focus:border-[#B8895A]"
-                  />
+  rows={6}
+  required
+  value={message}
+  onChange={(e) => setMessage(e.target.value)}
+  className="w-full resize-none rounded-xl border border-[#DDD] px-4 py-2 text-[14px] leading-6 outline-none transition focus:border-[#B8895A]"
+/>
 
                 </div>
 
-                <div className="pt-4">
+                <div className="pt-2">
 
                   <Button type="submit">
                     {language === "ja"
@@ -331,7 +344,7 @@ xin vui lòng liên hệ qua điện thoại.`}
 
                 </div>
 
-              </form>
+                            </form>
 
             )}
 

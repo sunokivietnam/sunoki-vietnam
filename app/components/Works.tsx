@@ -47,7 +47,7 @@ function WorkCard({
   return (
     <article className="group overflow-hidden rounded-[16px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
 
-      <div className="relative aspect-[16/9] overflow-hidden rounded-t-[16px]">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-t-[18px]">
 
         <Image
           src={image}

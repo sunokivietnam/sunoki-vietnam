@@ -10,7 +10,7 @@ export default function Process() {
   return (
     <section
       id="process"
-      className="bg-[#FAF7F3] py-16 md:py-20"
+      className="bg-[#FAF7F3] py-14 md:py-16"
     >
       <style>{`
         @keyframes lineGrow {
@@ -25,7 +25,7 @@ export default function Process() {
         @keyframes fadeUp {
           from {
             opacity: 0;
-            transform: translateY(40px);
+            transform: translateY(30px);
           }
           to {
             opacity: 1;
@@ -42,7 +42,7 @@ export default function Process() {
 
         .process-item {
           opacity: 0;
-          animation: fadeUp .8s ease forwards;
+          animation: fadeUp .7s ease forwards;
           animation-timeline: view();
           animation-range: entry 10% cover 30%;
         }
@@ -54,19 +54,21 @@ export default function Process() {
         .delay5 { animation-delay: .5s; }
       `}</style>
 
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-[1200px] px-6">
+
+        {/* Title */}
 
         <div className="mx-auto max-w-3xl text-center">
 
-          <p className="text-xs font-semibold tracking-[0.38em] text-[#B8895A]">
+          <p className="text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
             {t.process.subtitle}
           </p>
 
-          <h2 className="mt-4 text-4xl font-bold text-[#2B2520] md:text-5xl">
+          <h2 className="mt-3 text-[32px] font-bold text-[#2B2520] md:text-[42px]">
             {t.process.title}
           </h2>
 
-          <p className="mt-6 whitespace-pre-line leading-8 text-[#666]">
+          <p className="mt-4 whitespace-pre-line text-[15px] leading-7 text-[#666]">
             {t.process.description}
           </p>
 
@@ -74,13 +76,13 @@ export default function Process() {
 
         {/* Desktop */}
 
-        <div className="relative mt-20 hidden lg:block">
+        <div className="relative mt-14 hidden lg:block">
 
-          <div className="absolute left-[8%] right-[8%] top-11 h-[2px] bg-[#E8D8C7]" />
+          <div className="absolute left-[8%] right-[8%] top-9 h-[2px] bg-[#E8D8C7]" />
 
-          <div className="process-line absolute left-[8%] right-[8%] top-11 h-[2px] bg-[#B8895A]" />
+          <div className="process-line absolute left-[8%] right-[8%] top-9 h-[2px] bg-[#B8895A]" />
 
-          <div className="grid grid-cols-5 gap-6">
+          <div className="grid grid-cols-5 gap-5">
 
             {steps.map((step, index) => (
 
@@ -89,17 +91,17 @@ export default function Process() {
                 className={`process-item delay${index + 1} text-center`}
               >
 
-                <div className="mx-auto flex h-22 w-22 items-center justify-center rounded-full border-[3px] border-[#B8895A] bg-white text-2xl font-bold text-[#B8895A] shadow-[0_10px_30px_rgba(184,137,90,0.15)] transition-all duration-500 hover:-translate-y-2 hover:scale-110 hover:bg-[#B8895A] hover:text-white hover:shadow-[0_20px_45px_rgba(184,137,90,0.35)]">
+                <div className="mx-auto flex h-18 w-18 items-center justify-center rounded-full border-[2px] border-[#B8895A] bg-white text-xl font-bold text-[#B8895A] shadow-md transition-all duration-500 hover:-translate-y-1 hover:scale-105 hover:bg-[#B8895A] hover:text-white hover:shadow-xl">
 
                   {step.number}
 
                 </div>
 
-                <h3 className="mt-8 text-3xl font-bold text-[#2B2520]">
+                <h3 className="mt-6 text-[24px] font-bold text-[#2B2520]">
                   {step.title}
                 </h3>
 
-                <p className="mx-auto mt-4 max-w-[210px] text-base leading-8 text-[#666]">
+                <p className="mx-auto mt-3 max-w-[180px] text-[14px] leading-7 text-[#666]">
                   {step.description}
                 </p>
 
@@ -109,20 +111,22 @@ export default function Process() {
 
           </div>
 
-        </div>        {/* Mobile */}
+        </div>
 
-        <div className="mt-16 space-y-10 lg:hidden">
+        {/* Mobile */}
+
+        <div className="mt-12 space-y-8 lg:hidden">
 
           {steps.map((step) => (
 
             <div
               key={step.number}
-              className="relative flex gap-6"
+              className="relative flex gap-5"
             >
 
               <div className="flex flex-col items-center">
 
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#B8895A] text-lg font-bold text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#B8895A] text-base font-bold text-white">
 
                   {step.number}
 
@@ -134,13 +138,13 @@ export default function Process() {
 
               </div>
 
-              <div className="pb-10">
+              <div className="pb-8">
 
-                <h3 className="text-2xl font-bold text-[#2B2520]">
+                <h3 className="text-[20px] font-bold text-[#2B2520]">
                   {step.title}
                 </h3>
 
-                <p className="mt-3 leading-8 text-[#666]">
+                <p className="mt-2 text-[14px] leading-7 text-[#666]">
                   {step.description}
                 </p>
 
