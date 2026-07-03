@@ -29,7 +29,7 @@ const commercialImages = [
   "/images/gf-seating.jpg",
   "/images/engawa.jpg",
   "/images/drink-bar.jpg",
-  "/images/sake-display.jpg",
+  "/images/sake-display-new.jpg",
   "/images/kamakura-seat.jpg",
   "/images/private-room.jpg",
   "/images/sushi-counter.jpg",
