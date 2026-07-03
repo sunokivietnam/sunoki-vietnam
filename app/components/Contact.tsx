@@ -131,19 +131,19 @@ Vui lòng nhập thêm yêu cầu của bạn.
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
       .then(() => {
-        setSent(true);
-        form.current?.reset();
-        localStorage.removeItem("estimateData");
-      })
-      .catch((error) => {
-        console.error(error);
-        alert(
-          language === "ja"
-            ? "送信に失敗しました。"
-            : "Gửi thất bại."
-        );
-      });
-  };
+  setSent(true);
+  form.current?.reset();
+  localStorage.removeItem("estimateData");
+})
+.catch((error) => {
+  console.log("EmailJS Error:", error);
+  console.log("Status:", error?.status);
+  console.log("Text:", error?.text);
+
+  alert(
+    `Status: ${error?.status}\nText: ${error?.text}`
+  );
+});
 
   return (
     <section
