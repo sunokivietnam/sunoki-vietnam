@@ -45,28 +45,28 @@ function WorkCard({
   subtitle: string;
 }) {
   return (
-    <article className="group overflow-hidden rounded-[24px] bg-white shadow-lg">
+    <article className="group overflow-hidden rounded-[16px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
 
-      <div className="relative aspect-[4/3] overflow-hidden rounded-t-[24px]">
+      <div className="relative aspect-[16/9] overflow-hidden rounded-t-[16px]">
 
         <Image
           src={image}
           alt={title}
           fill
-          className="object-cover brightness-105 contrast-105 transition-all duration-700 group-hover:scale-110"
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
 
-        <div className="absolute inset-0 bg-black/10 transition duration-500 group-hover:bg-black/30" />
+        <div className="absolute inset-0 bg-black/10 transition duration-500 group-hover:bg-black/20" />
 
       </div>
 
-      <div className="p-6">
+      <div className="p-3">
 
-        <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-[#B8895A]">
+        <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#B8895A]">
           {subtitle}
         </p>
 
-        <h3 className="mt-3 text-2xl font-bold text-[#2B2520]">
+        <h3 className="mt-2 text-[18px] font-bold text-[#2B2520]">
           {title}
         </h3>
 
@@ -78,219 +78,213 @@ function WorkCard({
 
 export default function Works() {
   const { t } = useLanguage();
- console.log("t =", t);
-console.log("keys =", Object.keys(t));
-console.log("works =", t.works);
 
-const [open, setOpen] = useState(false);
-const [index, setIndex] = useState(0);
-const [slides, setSlides] = useState<{ src: string }[]>([]);
-
-  return (
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
+  const [slides, setSlides] = useState<{ src: string }[]>([]);  return (
     <section
-  id="works"
-  className="bg-[#FAF7F3] py-16 md:py-20"
->
+      id="works"
+      className="bg-[#FAF7F3] py-12 md:py-14"
+    >
       <Container>
 
-       <SectionTitle
-  subtitle={t.works.subtitle}
-  title={t.works.title}
-  description={t.works.description}
-/>{/* =========================
-    住宅
-========================= */}
+        <SectionTitle
+          subtitle={t.works.subtitle}
+          title={t.works.title}
+          description={t.works.description}
+        />
 
-<div className="mt-20">
+        {/* =========================
+            Residence
+        ========================= */}
 
-  <div className="mb-10 flex items-end justify-between">
+        <div className="mt-12">
 
-    <div>
+          <div className="mb-8">
 
-      <p className="text-xs font-semibold tracking-[0.35em] text-[#B8895A]">
-  {t.works.residence.subtitle}
-</p>
+            <p className="text-[11px] font-semibold tracking-[0.32em] text-[#B8895A]">
+              {t.works.residence.subtitle}
+            </p>
 
-<h3 className="mt-3 text-4xl font-bold text-[#2B2520]">
-  {t.works.residence.title}
-</h3>
+            <h3 className="mt-2 text-[30px] font-bold text-[#2B2520] md:text-[34px]">
+              {t.works.residence.title}
+            </h3>
 
-<p className="mt-4 max-w-xl leading-8 whitespace-pre-line text-[#666]">
-  {t.works.residence.description}
-</p>
+            <p className="mt-3 max-w-lg text-[15px] leading-7 whitespace-pre-line text-[#666]">
+              {t.works.residence.description}
+            </p>
 
-    </div>
+          </div>
 
-  </div>
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
+            loop
+            spaceBetween={24}
+            breakpoints={{
+              0: {
+                slidesPerView: 1.1,
+              },
+              640: {
+                slidesPerView: 2.1,
+              },
+              1024: {
+                slidesPerView: 3.25,
+              },
+            }}
+            className="pb-8"
+          >
 
-  <Swiper
-    modules={[Navigation, Pagination, Autoplay]}
-    navigation
-    pagination={{ clickable: true }}
-    autoplay={{
-      delay: 3500,
-      disableOnInteraction: false,
-    }}
-    loop
-    spaceBetween={24}
-    breakpoints={{
-      0: {
-        slidesPerView: 1.2,
-      },
-      640: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-    }}
-    className="pb-14"
-  >
+            {t.works.residence.items.map((work, i) => (
 
-    {t.works.residence.items.map((work, i) => (
+              <SwiperSlide
+                key={work.title}
+                className="py-2"
+              >
 
-      <SwiperSlide key={work.title}>
+                <div
+                  className="cursor-pointer"
+                  onClick={() => {
+                    setSlides(
+                      residenceImages.map((image) => ({
+                        src: image,
+                      }))
+                    );
+                    setIndex(i);
+                    setOpen(true);
+                  }}
+                >
+                  <WorkCard
+                    image={residenceImages[i]}
+                    title={work.title}
+                    subtitle={work.subtitle}
+                  />
+                </div>
 
-       <div
-  onClick={() => {
-  setSlides(
-  residenceImages.map((image) => ({
-    src: image,
-  }))
-);
-  setIndex(i);
-  setOpen(true);
-}}
-  className="cursor-pointer"
->
-  <WorkCard
-    image={residenceImages[i]}
-    title={work.title}
-    subtitle={work.subtitle}
-  />
-</div>
+              </SwiperSlide>
 
-      </SwiperSlide>
+            ))}
 
-    ))}
+          </Swiper>
 
-  </Swiper>
+        </div>        {/* =========================
+            Commercial
+        ========================= */}
 
-</div>{/* =========================
-    店舗
-========================= */}
+        <div className="mt-16">
 
-<div className="mt-28">
+          <div className="mb-8">
 
-  <div className="mb-10 flex items-end justify-between">
+            <p className="text-[11px] font-semibold tracking-[0.32em] text-[#B8895A]">
+              {t.works.commercial.subtitle}
+            </p>
 
-    <div>
+            <h3 className="mt-2 text-[30px] font-bold text-[#2B2520] md:text-[34px]">
+              {t.works.commercial.title}
+            </h3>
 
-      <p className="text-xs font-semibold tracking-[0.35em] text-[#B8895A]">
-  {t.works.commercial.subtitle}
-</p>
+            <p className="mt-3 max-w-lg text-[15px] leading-7 whitespace-pre-line text-[#666]">
+              {t.works.commercial.description}
+            </p>
 
-<h3 className="mt-3 text-4xl font-bold text-[#2B2520]">
-  {t.works.commercial.title}
-</h3>
+          </div>
 
-<p className="mt-4 max-w-xl leading-8 whitespace-pre-line text-[#666]">
-  {t.works.commercial.description}
-</p>
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            navigation
+            pagination={{ clickable: true }}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
+            loop
+            spaceBetween={24}
+            breakpoints={{
+              0: {
+                slidesPerView: 1.1,
+              },
+              640: {
+                slidesPerView: 2.1,
+              },
+              1024: {
+                slidesPerView: 3.25,
+              },
+            }}
+            className="pb-8"
+          >
 
-    </div>
+            {t.works.commercial.items.map((work, i) => (
 
-  </div>
+              <SwiperSlide
+                key={work.title}
+                className="py-2"
+              >
 
-  <Swiper
-    modules={[Navigation, Pagination, Autoplay]}
-    navigation
-    pagination={{ clickable: true }}
-    autoplay={{
-      delay: 3500,
-      disableOnInteraction: false,
-    }}
-    loop
-    spaceBetween={24}
-    breakpoints={{
-      0: {
-        slidesPerView: 1.2,
-      },
-      640: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-    }}
-    className="pb-14"
-  >
+                <div
+                  className="cursor-pointer"
+                  onClick={() => {
+                    setSlides(
+                      commercialImages.map((image) => ({
+                        src: image,
+                      }))
+                    );
+                    setIndex(i);
+                    setOpen(true);
+                  }}
+                >
+                  <WorkCard
+                    image={commercialImages[i]}
+                    title={work.title}
+                    subtitle={work.subtitle}
+                  />
+                </div>
 
-   {t.works.commercial.items.map((work, i) => (
+              </SwiperSlide>
 
-      <SwiperSlide key={work.title}>
+            ))}
 
-        <div
-  onClick={() => {
-  setSlides(
-  commercialImages.map((image) => ({
-    src: image,
-  }))
-);
-  setIndex(i);
-  setOpen(true);
-}}
-  className="cursor-pointer"
->
-  <WorkCard
-  image={commercialImages[i]}
-    title={work.title}
-    subtitle={work.subtitle}
-  />
-</div>
+          </Swiper>
 
-      </SwiperSlide>
+        </div>
 
-    ))}
+        {/* =========================
+            3D MODEL ROOM
+        ========================= */}
 
-  </Swiper>
+        <section className="mt-16">
 
-</div>
+          <h3 className="text-center text-[28px] font-bold text-[#2B2520] md:text-[32px]">
+            {t.works.model.title}
+          </h3>
 
-{/* =========================
-    3D MODEL ROOM
-========================= */}
+          <p className="mt-3 text-center text-[15px] leading-7 text-[#666]">
+            {t.works.model.description}
+          </p>
 
-<section className="mt-28">
+          <div className="mx-auto mt-6 max-w-[700px] overflow-hidden rounded-[18px] shadow-[0_12px_36px_rgba(43,37,32,0.12)]">
 
- <h3 className="text-center text-3xl font-bold text-[#2B2520]">
-  {t.works.model.title}
-</h3>
+            <video
+              src="/videos/kokoro.mp4"
+              controls
+              autoPlay
+              muted
+              loop
+              className="w-full"
+            />
 
-<p className="mt-4 text-center text-[#666]">
-  {t.works.model.description}
-</p>
+          </div>
 
-  <div className="mx-auto mt-10 max-w-3xl overflow-hidden rounded-[28px] shadow-[0_20px_60px_rgba(43,37,32,0.12)]">
-
-    <video
-  src="/videos/kokoro.mp4"
-  controls
-  autoPlay
-  muted
-  loop
-  className="w-full"
-/>
-
-  </div>
-
-</section>
-<Lightbox
-  open={open}
-  close={() => setOpen(false)}
-  index={index}
-  slides={slides}
-/>
+        </section>        <Lightbox
+          open={open}
+          close={() => setOpen(false)}
+          index={index}
+          slides={slides}
+        />
 
       </Container>
     </section>

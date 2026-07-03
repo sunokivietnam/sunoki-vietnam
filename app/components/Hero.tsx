@@ -24,28 +24,28 @@ export default function Hero() {
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/45" />
 
       {/* SUNOKI Logo */}
-<div className="absolute right-[80px] top-1/2 z-[1] hidden -translate-y-1/2 lg:block">
-  <Image
-    src="/images/SUNOKI LOGO.png"
-    alt="SUNOKI VIETNAM"
-    width={850}
-    height={320}
-    className="w-[780px] opacity-[0.20]"
-  />
-</div>
+      <div className="absolute right-[60px] top-1/2 z-[1] hidden -translate-y-1/2 lg:block">
+        <Image
+          src="/images/SUNOKI LOGO.png"
+          alt="SUNOKI VIETNAM"
+          width={760}
+          height={280}
+          className="w-[650px] opacity-[0.16]"
+        />
+      </div>
 
       {/* Content */}
-      <div className="relative z-10 flex min-h-[880px] items-center">
+      <div className="relative z-10 flex min-h-[680px] items-center">
         <Container>
-          <div className="max-w-[640px]">
-            <p className="mb-6 text-[13px] font-semibold uppercase tracking-[0.42em] text-[#D8B07A]">
+          <div className="max-w-[520px]">
+            <p className="mb-5 text-[12px] font-semibold uppercase tracking-[0.38em] text-[#D8B07A]">
               {t.hero.brand}
             </p>
 
-            <h1 className="text-[46px] font-bold leading-[1.08] tracking-[-0.03em] text-white md:text-[58px] lg:text-[64px]">
+            <h1 className="text-[36px] font-bold leading-[1.08] tracking-[-0.03em] text-white md:text-[46px] lg:text-[52px]">
               {t.hero.title.split("\n").map((line, index) => (
                 <span key={index}>
                   {line}
@@ -54,7 +54,7 @@ export default function Hero() {
               ))}
             </h1>
 
-            <p className="mt-8 max-w-[520px] text-[16px] leading-8 text-white/90">
+            <p className="mt-6 max-w-[460px] text-[15px] leading-7 text-white/90">
               {t.hero.description.split("\n").map((line, index) => (
                 <span key={index}>
                   {line}
@@ -65,7 +65,7 @@ export default function Hero() {
               ))}
             </p>
 
-            <div className="mt-12 flex flex-col gap-4 sm:flex-row">
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <Button href="#works">
                 {t.hero.works}
               </Button>
@@ -79,22 +79,24 @@ export default function Hero() {
             </div>
           </div>
         </Container>
-      </div>      {/* Scroll */}
-      <div className="absolute bottom-10 left-1/2 z-10 hidden -translate-x-1/2 md:flex flex-col items-center text-white/70">
-        <span className="mb-3 text-[10px] font-semibold tracking-[0.45em]">
+      </div>
+
+      {/* Scroll */}
+      <div className="absolute bottom-8 left-1/2 z-10 hidden -translate-x-1/2 md:flex flex-col items-center text-white/70">
+        <span className="mb-2 text-[10px] font-semibold tracking-[0.42em]">
           {t.hero.scroll}
         </span>
 
-        <span className="h-16 w-px bg-gradient-to-b from-white/80 to-transparent" />
+        <span className="h-14 w-px bg-gradient-to-b from-white/80 to-transparent" />
       </div>
 
       {/* Copyright */}
-      <div className="absolute bottom-8 right-8 z-10 hidden text-right text-white/60 lg:block">
-        <p className="text-xs font-semibold tracking-[0.28em]">
+      <div className="absolute bottom-6 right-6 z-10 hidden text-right text-white/55 lg:block">
+        <p className="text-[11px] font-semibold tracking-[0.25em]">
           {t.hero.brand}
         </p>
 
-        <p className="mt-2 text-[10px] uppercase tracking-[0.32em]">
+        <p className="mt-1 text-[9px] uppercase tracking-[0.28em]">
           {t.hero.copyright}
         </p>
       </div>
