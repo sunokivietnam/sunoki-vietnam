@@ -325,11 +325,12 @@ xin vui lòng liên hệ qua điện thoại.`}
                   </label>
 
                   <textarea
+  name="message"
   rows={6}
   required
   value={message}
   onChange={(e) => setMessage(e.target.value)}
-  className="w-full resize-none rounded-xl border border-[#DDD] px-4 py-2 text-[14px] leading-6 outline-none transition focus:border-[#B8895A]"
+  className="min-h-[180px] w-full resize-none rounded-xl border border-[#DDD] px-4 py-2 text-[14px] leading-6 outline-none transition focus:border-[#B8895A]"
 />
 
                 </div>
