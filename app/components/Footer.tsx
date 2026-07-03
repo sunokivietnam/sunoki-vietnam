@@ -15,17 +15,17 @@ export default function Footer() {
     { label: t.reviews.title, href: "#testimonials" },
     { label: t.nav.contact, href: "#contact" },
   ];
-  return (
-    <footer className="bg-[#120E0B] text-white">
 
-      <Container>
+  return (
+    <footer className="bg-gradient-to-b from-[#2A1F18] to-[#1A120E] text-white">
+
+      {/* Footerだけ少し狭くして全体バランスを合わせる */}
+      <Container className="max-w-[1180px]">
 
         {/* Top */}
-
-        <div className="grid gap-20 border-b border-white/10 py-12 lg:grid-cols-[2fr_1fr]">
+        <div className="grid gap-16 border-b border-white/10 py-12 lg:grid-cols-[1.8fr_1fr]">
 
           {/* Left */}
-
           <div>
 
             <Image
@@ -33,22 +33,21 @@ export default function Footer() {
               alt="KOKORO Living"
               width={220}
               height={80}
-              className="w-[220px] h-auto"
+              className="h-auto w-[220px]"
             />
 
-            <h2 className="mt-10 text-5xl font-bold leading-tight">
+            <h2 className="mt-10 text-4xl font-bold leading-tight md:text-5xl">
               {t.footer.title}
             </h2>
 
             <p className="mt-8 max-w-[560px] whitespace-pre-line text-lg leading-9 text-white/70">
-  {t.footer.description}
-</p>
+              {t.footer.description}
+            </p>
 
           </div>
 
           {/* Right */}
-
-         <div className="lg:pl-24 lg:pt-20">
+          <div className="lg:pl-16 lg:pt-20">
 
             <p className="text-sm font-semibold tracking-[0.35em] text-[#B8895A]">
               {t.footer.menu}
@@ -57,7 +56,6 @@ export default function Footer() {
             <nav className="mt-8 flex flex-col gap-5">
 
               {navigation.map((item) => (
-
                 <a
                   key={item.href}
                   href={item.href}
@@ -65,7 +63,6 @@ export default function Footer() {
                 >
                   {item.label}
                 </a>
-
               ))}
 
             </nav>
@@ -75,12 +72,14 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-
         <div className="flex flex-col gap-8 py-10 lg:flex-row lg:items-center lg:justify-between">
 
           <div className="flex flex-col gap-3 text-sm text-white/60 lg:flex-row lg:gap-10">
 
-            <p>📍 Số 146/19 Võ Thị Sáu, Phường Xuân Hòa, TP Hồ Chí Minh, Việt Nam</p>
+            <p>
+              📍 Số 146/19 Võ Thị Sáu, Phường Xuân Hòa,
+              TP Hồ Chí Minh, Việt Nam
+            </p>
 
             <p>✉ sunoki.vietnam@gmail.com</p>
 
