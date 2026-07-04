@@ -17,7 +17,7 @@ export default function Service() {
   return (
     <section
       id="service"
-      className="bg-[#FAF7F3] py-14 md:py-16"
+      className="bg-[#FAF7F3] py-12 md:py-16"
     >
       <Container>
 
@@ -27,7 +27,7 @@ export default function Service() {
           description={t.service.description}
         />
 
-        <div className="mt-14 grid gap-8 md:grid-cols-2">
+        <div className="mt-10 grid gap-6 md:mt-14 md:gap-8 md:grid-cols-2">
 
           {t.service.items.map((service, index) => (
 
@@ -122,9 +122,9 @@ export default function Service() {
                   {service.category}
                 </p>
 
-                <h3 className="mt-2 text-[24px] font-bold text-[#2B2520]">
+                <h3 className="mt-2 text-[22px] md:text-[24px] font-bold text-[#2B2520]">
                   {service.title}
-                </h3>                <p className="mt-3 whitespace-pre-line text-[15px] leading-7 text-[#555]">
+                </h3>                <p className="mt-2 whitespace-pre-line text-[14px] leading-7 md:text-[15px] text-[#555]">
                   {service.description}
                 </p>
 
@@ -136,8 +136,8 @@ export default function Service() {
 
         </div>
 
-        <div className="mt-16 flex justify-center">
-
+        <div className="mt-12 md:mt-16 flex justify-center">
+          
           <Button href="#works">
             {t.service.worksButton}
           </Button>
