@@ -45,11 +45,11 @@ export default function WhyKokoro() {
             {t.why.subtitle}
           </p>
 
-          <h2 className="whitespace-pre-line text-[32px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
+          <h2 className="whitespace-pre-line text-[30px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
             {t.why.title}
           </h2>
 
-          <p className="mt-6 max-w-lg whitespace-pre-line text-[15px] leading-7 tracking-[0.03em] text-[#2B2520]/75 md:text-base">
+          <p className="mt-5 max-w-lg whitespace-pre-line text-[15px] leading-7 tracking-[0.03em] text-[#2B2520]/75 md:text-base">
             {t.why.description}
           </p>
 
@@ -66,7 +66,7 @@ export default function WhyKokoro() {
             return (
               <article
                 key={feature.title}
-                className="group flex h-full flex-col rounded-[18px] bg-white px-6 py-8 shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
+                className="group flex h-full flex-col rounded-[18px] bg-white px-6 py-7 shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
               >
 
                 <Icon
