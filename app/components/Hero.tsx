@@ -33,15 +33,15 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/45" />
 
       {/* SUNOKI Logo */}
-     <div className="absolute right-[12%] top-1/2 z-[1] hidden -translate-y-1/2 lg:block">
+     <div className="absolute right-3 top-[52%] z-[1] -translate-y-1/2 md:right-[8%] lg:right-[12%]">
   <Image
     src="/images/SUNOKI LOGO.png"
     alt="SUNOKI VIETNAM"
     width={1100}
     height={400}
-    className={`w-[780px] transition-all duration-[4000ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
+   className={`w-[140px] md:w-[420px] lg:w-[780px] transition-all duration-[4000ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
   showLogo
-    ? "translate-y-0 scale-100 opacity-30"
+    ? "translate-y-0 scale-100 opacity-15 md:opacity-20 lg:opacity-30"
     : "translate-y-10 scale-75 opacity-0"
 }`}
   />
