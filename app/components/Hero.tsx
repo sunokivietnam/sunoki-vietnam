@@ -41,7 +41,7 @@ export default function Hero() {
     height={400}
     className={`w-[780px] transition-all duration-[4000ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
   showLogo
-    ? "translate-y-0 scale-100 opacity-40"
+    ? "translate-y-0 scale-100 opacity-30"
     : "translate-y-10 scale-75 opacity-0"
 }`}
   />
@@ -53,7 +53,7 @@ export default function Hero() {
           <div
   className={`max-w-[520px] transition-all duration-[1800ms] delay-[1200ms] ease-out ${
     showLogo
-      ? "translate-y-0 opacity-70"
+      ? "translate-y-0 opacity-100"
       : "translate-y-6 opacity-0"
   }`}
 >
