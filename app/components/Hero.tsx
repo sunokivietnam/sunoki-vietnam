@@ -33,7 +33,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/45" />
 
       {/* SUNOKI Logo */}
-     <div className="absolute right-3 top-[52%] z-[1] -translate-y-1/2 md:right-[8%] lg:right-[12%]">
+     <div className="absolute right-[12%] top-1/2 z-[1] hidden lg:block -translate-y-1/2">
   <Image
     src="/images/SUNOKI LOGO.png"
     alt="SUNOKI VIETNAM"
@@ -56,7 +56,17 @@ export default function Hero() {
       ? "translate-y-0 opacity-100"
       : "translate-y-6 opacity-0"
   }`}
->
+  
+>{/* Mobile Logo */}
+<div className="mb-4 flex lg:hidden">
+  <Image
+    src="/images/SUNOKI LOGO.png"
+    alt="SUNOKI VIETNAM"
+    width={120}
+    height={44}
+    className="h-auto w-[110px]"
+  />
+</div>
             <p className="mb-5 text-[12px] font-semibold uppercase tracking-[0.38em] text-[#D8B07A]">
               {t.hero.brand}
             </p>
