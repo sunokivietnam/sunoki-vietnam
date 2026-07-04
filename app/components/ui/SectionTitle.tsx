@@ -10,7 +10,7 @@ export default function SectionTitle({
   description,
 }: Props) {
   return (
-    <div className="mx-auto mb-16 max-w-3xl text-center">
+    <div className="mx-auto mb-10 md:mb-16 max-w-3xl text-center">
       {subtitle && (
         <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.35em] text-[#B8895A]">
           {subtitle}

@@ -98,7 +98,7 @@ export default function Works() {
             Residence
         ========================= */}
 
-        <div className="mt-10 md:mt-12">
+        <div className="mt-6 md:mt-8">
 
           <div className="mb-8">
 
