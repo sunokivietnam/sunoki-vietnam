@@ -10,7 +10,7 @@ export default function Process() {
   return (
     <section
       id="process"
-      className="bg-[#FAF7F3] py-14 md:py-16"
+      className="bg-[#FAF7F3] py-12 md:py-16"
     >
       <style>{`
         @keyframes lineGrow {
@@ -64,11 +64,11 @@ export default function Process() {
             {t.process.subtitle}
           </p>
 
-          <h2 className="mt-3 text-[32px] font-bold text-[#2B2520] md:text-[42px]">
+          <h2 className="mt-3 text-[28px] leading-[1.15] font-bold text-[#2B2520] md:text-[42px]">
             {t.process.title}
           </h2>
 
-          <p className="mt-4 whitespace-pre-line text-[15px] leading-7 text-[#666]">
+          <p className="mt-3 whitespace-pre-line text-[14px] leading-7 md:text-[15px] text-[#666]">
             {t.process.description}
           </p>
 
@@ -115,7 +115,7 @@ export default function Process() {
 
         {/* Mobile */}
 
-        <div className="mt-12 space-y-8 lg:hidden">
+        <div className="mt-10 space-y-6 lg:hidden">
 
           {steps.map((step) => (
 
@@ -126,7 +126,7 @@ export default function Process() {
 
               <div className="flex flex-col items-center">
 
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#B8895A] text-base font-bold text-white">
+                <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#B8895A] text-[15px] font-bold text-white">
 
                   {step.number}
 
@@ -140,11 +140,11 @@ export default function Process() {
 
               <div className="pb-8">
 
-                <h3 className="text-[20px] font-bold text-[#2B2520]">
+               <h3 className="text-[18px] md:text-[20px] font-bold text-[#2B2520]">
                   {step.title}
                 </h3>
 
-                <p className="mt-2 text-[14px] leading-7 text-[#666]">
+                <p className="mt-1 text-[14px] leading-6 text-[#666]">
                   {step.description}
                 </p>
 
