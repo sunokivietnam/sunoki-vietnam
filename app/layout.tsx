@@ -75,12 +75,6 @@ export const metadata: Metadata = {
       "日本品質の住宅・店舗・オフィス設計施工",
     images: ["/images/ogp.jpg"],
   },
-
-  icons: {
-  icon: "/favicon.ico",
-  shortcut: "/favicon.ico",
-  apple: "/apple-touch-icon.png",
-},
 };
 
 export default function RootLayout({
