@@ -35,11 +35,11 @@ export default function WhyKokoro() {
       id="service"
       className="bg-[#FAF7F3] py-14 md:py-16"
     >
-      <div className="mx-auto max-w-[1200px]">
+      <div className="mx-auto max-w-[1200px] px-6 md:px-8">
 
         {/* Title */}
 
-        <div className="mb-14 max-w-3xl">
+        <div className="mb-10 max-w-3xl">
 
           <p className="mb-4 text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
             {t.why.subtitle}
