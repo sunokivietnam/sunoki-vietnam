@@ -20,10 +20,10 @@ export default function Footer() {
     <footer className="bg-gradient-to-b from-[#2A1F18] to-[#1A120E] text-white">
 
       {/* Footerだけ少し狭くして全体バランスを合わせる */}
-      <Container className="max-w-[1180px]">
+      <Container className="max-w-[1080px]">
 
         {/* Top */}
-        <div className="grid gap-16 border-b border-white/10 py-12 lg:grid-cols-[1.8fr_1fr]">
+       <div className="grid gap-12 border-b border-white/10 py-10 lg:grid-cols-[1.8fr_1fr]">
 
           {/* Left */}
           <div>
@@ -31,29 +31,29 @@ export default function Footer() {
             <Image
               src="/images/logo-kokoro.png"
               alt="KOKORO Living"
-              width={220}
-              height={80}
-              className="h-auto w-[220px]"
+             width={180}
+height={65}
+className="h-auto w-[180px]"
             />
 
-            <h2 className="mt-10 text-4xl font-bold leading-tight md:text-5xl">
+            <h2 className="mt-8 text-3xl font-bold leading-tight md:text-4xl">
               {t.footer.title}
             </h2>
 
-            <p className="mt-8 max-w-[560px] whitespace-pre-line text-lg leading-9 text-white/70">
+            <p className="mt-6 max-w-[500px] whitespace-pre-line text-lg leading-8 text-white/70">
               {t.footer.description}
             </p>
 
           </div>
 
           {/* Right */}
-          <div className="lg:pl-16 lg:pt-20">
+          <div className="lg:pl-10 lg:pt-14">
 
             <p className="text-sm font-semibold tracking-[0.35em] text-[#B8895A]">
               {t.footer.menu}
             </p>
 
-            <nav className="mt-8 flex flex-col gap-5">
+            <nav className="mt-6 flex flex-col gap-4">
 
               {navigation.map((item) => (
                 <a
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="flex flex-col gap-8 py-10 lg:flex-row lg:items-center lg:justify-between">
+        <div className="flex flex-col gap-6 py-8 lg:flex-row lg:items-center lg:justify-between">
 
           <div className="flex flex-col gap-3 text-sm text-white/60 lg:flex-row lg:gap-10">
 

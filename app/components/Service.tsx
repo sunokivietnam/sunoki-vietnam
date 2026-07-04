@@ -9,8 +9,6 @@ import { useLanguage } from "./LanguageContext";
 const serviceImages = [
   "/images/about.jpg",
   "/images/work2.jpg",
-  "/images/bathroom.jpg",
-  "/images/work3.jpg",
 ];
 
 export default function Service() {
@@ -38,17 +36,77 @@ export default function Service() {
               className="group"
             >
 
-              <div className="overflow-hidden rounded-[18px] bg-white shadow-md transition-all duration-500 group-hover:-translate-y-1 group-hover:shadow-xl">
+              <div className="overflow-hidden rounded-[18px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
 
-                <div className="relative aspect-[16/10] bg-[#F5F3EF]">
+                <div className="relative aspect-[16/10] overflow-hidden rounded-[18px] bg-[#F5F3EF]">
 
-                  <Image
-                    src={serviceImages[index]}
-                    alt={service.title}
-                    fill
-                    sizes="(min-width:768px) 50vw,100vw"
-                    className="object-contain p-5 transition duration-700 group-hover:scale-105"
-                  />
+                  {index === 2 ? (
+
+                    <div className="grid h-full grid-cols-2 gap-3 p-4">
+
+                      <div className="relative h-full overflow-hidden rounded-[14px]">
+
+                        <Image
+                          src="/images/bathroom.jpg"
+                          alt="Bathroom"
+                          fill
+                          className="object-cover transition duration-700 group-hover:scale-105"
+                        />
+
+                      </div>
+
+                      <div className="relative h-full overflow-hidden rounded-[14px]">
+
+                        <Image
+                          src="/images/toilet.jpg"
+                          alt="Toilet"
+                          fill
+                          className="object-cover transition duration-700 group-hover:scale-105"
+                        />
+
+                      </div>
+
+                    </div>
+
+                  ) : index === 3 ? (
+
+                    <div className="grid h-full grid-cols-2 gap-3 p-4">
+
+                      <div className="relative h-full overflow-hidden rounded-[14px]">
+
+                        <Image
+                          src="/images/work3.jpg"
+                          alt="Japanese Garden"
+                          fill
+                          className="object-cover transition duration-700 group-hover:scale-105"
+                        />
+
+                      </div>
+
+                      <div className="relative h-full overflow-hidden rounded-[14px]">
+
+                        <Image
+  src="/images/zen.jpg"
+  alt="Zen Space"
+  fill
+  className="object-cover object-[50%_55%] transition duration-700 group-hover:scale-105"
+/>
+
+                      </div>
+
+                    </div>
+
+                  ) : (
+
+                    <Image
+                      src={serviceImages[index]}
+                      alt={service.title}
+                      fill
+                      sizes="(min-width:768px) 50vw,100vw"
+                      className="object-cover transition duration-700 group-hover:scale-105"
+                    />
+
+                  )}
 
                 </div>
 
@@ -62,9 +120,7 @@ export default function Service() {
 
                 <h3 className="mt-2 text-[24px] font-bold text-[#2B2520]">
                   {service.title}
-                </h3>
-
-                <p className="mt-3 whitespace-pre-line text-[15px] leading-7 text-[#555]">
+                </h3>                <p className="mt-3 whitespace-pre-line text-[15px] leading-7 text-[#555]">
                   {service.description}
                 </p>
 
@@ -77,12 +133,15 @@ export default function Service() {
         </div>
 
         <div className="mt-16 flex justify-center">
+
           <Button href="#works">
             {t.service.worksButton}
           </Button>
+
         </div>
 
       </Container>
+
     </section>
   );
 }

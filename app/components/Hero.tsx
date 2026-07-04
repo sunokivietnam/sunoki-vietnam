@@ -1,5 +1,5 @@
 "use client";
-
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Button from "./ui/Button";
 import Container from "./ui/Container";
@@ -7,6 +7,12 @@ import { useLanguage } from "./LanguageContext";
 
 export default function Hero() {
   const { t } = useLanguage();
+  const [showLogo, setShowLogo] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowLogo(true), 200);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <section
@@ -27,15 +33,19 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/45" />
 
       {/* SUNOKI Logo */}
-      <div className="absolute right-[60px] top-1/2 z-[1] hidden -translate-y-1/2 lg:block">
-        <Image
-          src="/images/SUNOKI LOGO.png"
-          alt="SUNOKI VIETNAM"
-          width={760}
-          height={280}
-          className="w-[650px] opacity-[0.16]"
-        />
-      </div>
+     <div className="absolute right-[12%] top-1/2 z-[1] hidden -translate-y-1/2 lg:block">
+  <Image
+    src="/images/SUNOKI LOGO.png"
+    alt="SUNOKI VIETNAM"
+    width={1100}
+    height={400}
+    className={`w-[780px] transition-all duration-[4000ms] ease-[cubic-bezier(0.22,1,0.36,1)] ${
+  showLogo
+    ? "translate-y-0 scale-100 opacity-40"
+    : "translate-y-10 scale-75 opacity-0"
+}`}
+  />
+</div>
 
       {/* Content */}
       <div className="relative z-10 flex min-h-[680px] items-center">
