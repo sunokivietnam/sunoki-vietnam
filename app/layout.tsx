@@ -3,21 +3,31 @@ import "./globals.css";
 import { LanguageProvider } from "./components/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "SUNOKI VIETNAM | 日本品質の設計・施工会社",
+  metadataBase: new URL("https://sunoki-vietnam.vercel.app"),
+
+  title: {
+    default: "SUNOKI VIETNAM | 日本品質の設計・施工会社",
+    template: "%s | SUNOKI VIETNAM",
+  },
 
   description:
-    "SUNOKI VIETNAMは、日本品質の設計・施工をベトナムで提供する建築・内装会社です。住宅・店舗・オフィスの設計から施工までワンストップで対応します。",
+    "SUNOKI VIETNAMは、日本品質の設計・施工をベトナムで提供する建築・内装会社です。住宅・店舗・オフィス・リフォーム・家具・和空間までワンストップで対応します。",
 
   keywords: [
     "SUNOKI",
     "SUNOKI VIETNAM",
     "ベトナム 建築",
     "ベトナム 内装",
+    "ホーチミン 建築",
     "ホーチミン 内装",
     "日本品質",
     "住宅設計",
     "店舗設計",
+    "オフィス設計",
     "リフォーム",
+    "家具",
+    "和室",
+    "日本庭園",
   ],
 
   authors: [
@@ -26,14 +36,51 @@ export const metadata: Metadata = {
     },
   ],
 
+  creator: "SUNOKI VIETNAM",
+
+  publisher: "SUNOKI VIETNAM",
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: "https://sunoki-vietnam.vercel.app",
+  },
+
   openGraph: {
-    title: "SUNOKI VIETNAM",
-    description: "日本品質の設計・施工会社",
+    title: "SUNOKI VIETNAM | 日本品質の設計・施工会社",
+    description:
+      "住宅・店舗・オフィス・リフォーム・家具まで、日本品質の空間づくりをベトナムで。",
     url: "https://sunoki-vietnam.vercel.app",
     siteName: "SUNOKI VIETNAM",
     locale: "ja_JP",
     type: "website",
+
+    images: [
+      {
+        url: "/images/ogp.jpg",
+        width: 1200,
+        height: 630,
+        alt: "SUNOKI VIETNAM",
+      },
+    ],
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "SUNOKI VIETNAM",
+    description:
+      "日本品質の住宅・店舗・オフィス設計施工",
+    images: ["/images/ogp.jpg"],
+  },
+
+  icons: {
+  icon: "/favicon.ico",
+  shortcut: "/favicon.ico",
+  apple: "/apple-touch-icon.png",
+},
 };
 
 export default function RootLayout({
