@@ -56,17 +56,17 @@ export default function Header() {
               width={180}
               height={70}
               priority
-              className="h-auto w-[120px] -translate-y-1 md:w-[150px] md:-translate-y-1"
+              className="h-auto w-[130px] -translate-y-1 md:w-[150px] md:-translate-y-1"
             />
           </a>
           {/* Mobile SUNOKI Logo */}
-<div className="ml-auto mr-4 md:hidden">
+<div className="ml-auto mr-6 md:hidden">
   <Image
     src="/images/SUNOKI LOGO.png"
     alt="SUNOKI VIETNAM"
     width={70}
     height={25}
-    className="h-auto w-[70px]"
+    className="h-auto w-[60px]"
   />
 </div>
 
