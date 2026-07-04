@@ -57,16 +57,7 @@ export default function Hero() {
       : "translate-y-6 opacity-0"
   }`}
   
->{/* Mobile Logo */}
-<div className="mb-4 flex lg:hidden">
-  <Image
-    src="/images/SUNOKI LOGO.png"
-    alt="SUNOKI VIETNAM"
-    width={120}
-    height={44}
-    className="h-auto w-[110px]"
-  />
-</div>
+>
             <p className="mb-5 text-[12px] font-semibold uppercase tracking-[0.38em] text-[#D8B07A]">
               {t.hero.brand}
             </p>

@@ -59,6 +59,16 @@ export default function Header() {
               className="h-auto w-[120px] -translate-y-1 md:w-[150px] md:-translate-y-1"
             />
           </a>
+          {/* Mobile SUNOKI Logo */}
+<div className="ml-auto mr-4 md:hidden">
+  <Image
+    src="/images/SUNOKI LOGO.png"
+    alt="SUNOKI VIETNAM"
+    width={70}
+    height={25}
+    className="h-auto w-[70px]"
+  />
+</div>
 
           <div className="hidden items-center gap-12 md:flex">
 
