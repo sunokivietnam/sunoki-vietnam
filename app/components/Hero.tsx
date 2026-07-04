@@ -50,7 +50,13 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 flex min-h-[680px] items-center">
         <Container>
-          <div className="max-w-[520px]">
+          <div
+  className={`max-w-[520px] transition-all duration-[1800ms] delay-[1200ms] ease-out ${
+    showLogo
+      ? "translate-y-0 opacity-70"
+      : "translate-y-6 opacity-0"
+  }`}
+>
             <p className="mb-5 text-[12px] font-semibold uppercase tracking-[0.38em] text-[#D8B07A]">
               {t.hero.brand}
             </p>
