@@ -7,8 +7,8 @@ import Button from "./ui/Button";
 import { useLanguage } from "./LanguageContext";
 
 const serviceImages = [
-  "/images/about.jpg",
-  "/images/work2.jpg",
+  "/images/home.png",
+  "/images/toki2.jpg",
 ];
 
 export default function Service() {
@@ -99,12 +99,16 @@ export default function Service() {
                   ) : (
 
                     <Image
-                      src={serviceImages[index]}
-                      alt={service.title}
-                      fill
-                      sizes="(min-width:768px) 50vw,100vw"
-                      className="object-cover transition duration-700 group-hover:scale-105"
-                    />
+  src={serviceImages[index]}
+  alt={service.title}
+  fill
+  sizes="(min-width:768px) 50vw,100vw"
+  className={
+    index === 1
+      ? "object-cover object-[50%_25%] transition duration-700 group-hover:scale-105"
+      : "object-cover transition duration-700 group-hover:scale-105"
+  }
+/>
 
                   )}
 
