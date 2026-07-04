@@ -84,7 +84,7 @@ export default function Works() {
   const [slides, setSlides] = useState<{ src: string }[]>([]);  return (
     <section
       id="works"
-      className="bg-[#FAF7F3] py-12 md:py-14"
+      className="bg-[#FAF7F3] py-10 md:py-14"
     >
       <Container>
 
@@ -98,7 +98,7 @@ export default function Works() {
             Residence
         ========================= */}
 
-        <div className="mt-12">
+        <div className="mt-10 md:mt-12">
 
           <div className="mb-8">
 
@@ -106,7 +106,7 @@ export default function Works() {
               {t.works.residence.subtitle}
             </p>
 
-            <h3 className="mt-2 text-[30px] font-bold text-[#2B2520] md:text-[34px]">
+            <h3 className="mt-2 text-[26px] md:text-[34px] font-bold text-[#2B2520]">
               {t.works.residence.title}
             </h3>
 
@@ -128,16 +128,16 @@ export default function Works() {
             spaceBetween={24}
             breakpoints={{
               0: {
-                slidesPerView: 1.1,
-              },
+  slidesPerView: 1.15,
+},
               640: {
                 slidesPerView: 2.1,
               },
               1024: {
-                slidesPerView: 3.25,
+                slidesPerView: 2.5,
               },
             }}
-            className="pb-8"
+            className="pb-6 md:pb-8"
           >
 
             {t.works.residence.items.map((work, i) => (
@@ -176,7 +176,7 @@ export default function Works() {
             Commercial
         ========================= */}
 
-        <div className="mt-16">
+        <div className="mt-12 md:mt-16">
 
           <div className="mb-8">
 
@@ -184,7 +184,7 @@ export default function Works() {
               {t.works.commercial.subtitle}
             </p>
 
-            <h3 className="mt-2 text-[30px] font-bold text-[#2B2520] md:text-[34px]">
+            <h3 className="mt-2 text-[26px] md:text-[34px] font-bold text-[#2B2520]">
               {t.works.commercial.title}
             </h3>
 
@@ -206,16 +206,16 @@ export default function Works() {
             spaceBetween={24}
             breakpoints={{
               0: {
-                slidesPerView: 1.1,
-              },
+  slidesPerView: 1.15,
+},
               640: {
                 slidesPerView: 2.1,
               },
               1024: {
-                slidesPerView: 3.25,
+                slidesPerView: 2.5,
               },
             }}
-            className="pb-8"
+            className="pb-6 md:pb-8"
           >
 
             {t.works.commercial.items.map((work, i) => (
@@ -256,7 +256,7 @@ export default function Works() {
             3D MODEL ROOM
         ========================= */}
 
-        <section className="mt-16">
+        <section className="mt-12 md:mt-16">
 
           <h3 className="text-center text-[28px] font-bold text-[#2B2520] md:text-[32px]">
             {t.works.model.title}
