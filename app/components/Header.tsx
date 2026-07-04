@@ -66,7 +66,7 @@ export default function Header() {
     alt="SUNOKI VIETNAM"
     width={70}
     height={25}
-    className="h-auto w-[60px] brightness-75 saturate-75"
+    className="h-auto w-[60px] brightness-75 saturate-60"
   />
 </div>
 
