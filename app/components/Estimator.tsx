@@ -88,7 +88,7 @@ export default function Estimator() {
           <h2 className="mt-2 text-[28px] font-bold text-[#2B2520] md:text-[36px]">
             {language === "ja"
               ? "仕様シミュレーター"
-              : "Trình mô phỏng công trình"}
+              : "Công cụ mô phỏng công trình"}
           </h2>
 
           <p className="mx-auto mt-3 max-w-lg text-[14px] leading-6 text-[#666]">

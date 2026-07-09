@@ -7,7 +7,7 @@ const vi = {
   nav: {
     company: "Giới thiệu",
     service: "Dịch vụ",
-    works: "Dự án",
+    works: "Dự án tiêu biểu",
     process: "Quy trình",
     contact: "Liên hệ",
   },
@@ -24,7 +24,7 @@ const vi = {
     title: "Kiến tạo\nkhông gian bằng cả tâm huyết.",
 
     description:
-      "Thiết kế và thi công theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi tại Việt Nam.\nTừ nhà ở, cửa hàng đến khu vực nước, chúng tôi chăm chút từng chi tiết.",
+      "Thiết kế và thi công theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi tại Việt Nam.\nTừ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh, chúng tôi chăm chút từng chi tiết.",
 
     works: "Xem dự án",
 
@@ -51,7 +51,7 @@ những không gian sống như vậy tại Việt Nam.`,
     collection: "KOKORO COLLECTION",
 
     collectionTitle:
-      "Vật liệu và thiết kế tinh tế mang đậm chất Nhật Bản.",
+      "Tuyển chọn vật liệu và thiết kế tinh tế mang đậm chất Nhật Bản.",
 
     collectionDescription:
       "Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản, tạo nên từng không gian với sự chăm chút đến từng chi tiết.",
@@ -81,7 +81,7 @@ những không gian sống như vậy tại Việt Nam.`,
     title: "Dịch vụ",
 
     description:
-      "Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản cho nhà ở, cửa hàng, khu vực nước và nội thất.",
+      "Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản cho nhà ở, cửa hàng, phòng tắm và nhà vệ sinh và nội thất.",
 
     worksButton: "Xem dự án",
 
@@ -122,7 +122,7 @@ những không gian sống như vậy tại Việt Nam.`,
   },  works: {
     subtitle: "WORKS",
 
-    title: "Dự án",
+    title: "Dự án tiêu biểu",
 
     description:
       "Giới thiệu các công trình nhà ở và cửa hàng do SUNOKI VIETNAM thực hiện.",
@@ -353,7 +353,7 @@ những không gian sống như vậy tại Việt Nam.`,
     title: "Mang chất lượng Nhật Bản\nđến Việt Nam.",
 
     description:
-      "Từ nhà ở, cửa hàng đến khu vực nước và nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi tại Việt Nam bằng thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
+      "Từ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh và nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi tại Việt Nam bằng thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
   },
 };
 
