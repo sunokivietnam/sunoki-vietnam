@@ -34,7 +34,7 @@ const vi = {
 
     copyright: "Designed by SUNOKI VIETNAM",
   },  about: {
-    philosophy: "TRIẾT LÝ",
+    philosophy: "PHILOSOPHY",
 
     title: "KOKORO Living là gì?",
 
@@ -97,7 +97,7 @@ những không gian sống như vậy tại Việt Nam.`,
       {
         category: "RESTAURANT",
 
-        title: "Cửa hàng & Văn phòng",
+        title: "Nhà hàng & Văn phòng",
 
         description:
           "Thiết kế và thi công cửa hàng, văn phòng với sự cân bằng giữa tính thẩm mỹ và công năng.",
@@ -169,7 +169,7 @@ những không gian sống như vậy tại Việt Nam.`,
       title: "Cửa hàng",
 
       description:
-        "Thiết kế không gian cho nhà hàng, cơ sở thương mại và văn phòng,\nđảm bảo sự cân bằng giữa thu hút khách hàng và cảm giác thoải mái.",
+        "Thiết kế và thi công nhà hàng, văn phòng cùng các không gian thương mại,\nđảm bảo sự cân bằng giữa tính thẩm mỹ, công năng và trải nghiệm của khách hàng.",
 
       items: [
         {
