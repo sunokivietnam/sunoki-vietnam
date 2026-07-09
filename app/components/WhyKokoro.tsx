@@ -79,17 +79,16 @@ export default function WhyKokoro() {
               >
 
                 <Icon
-                  size={30}
-                  strokeWidth={1.7}
-                  className="mb-6 text-[#B8895A]"
-                  aria-hidden="true"
-                />
+  className="mb-5 h-6 w-6 md:h-[30px] md:w-[30px] text-[#B8895A]"
+  strokeWidth={1.7}
+  aria-hidden="true"
+/>
 
-                <h3 className="mb-3 text-lg font-bold tracking-[0.03em] text-[#2B2520]">
+                <h3 className="mb-3 text-base md:text-lg font-bold tracking-[0.03em] text-[#2B2520]">
                   {feature.title}
                 </h3>
 
-                <p className="whitespace-pre-line text-[14px] leading-7 text-[#2B2520]/70">
+                <p className="whitespace-pre-line text-[13px] md:text-[14px] leading-6 md:leading-7 text-[#2B2520]/70">
                   {feature.description}
                 </p>
 
