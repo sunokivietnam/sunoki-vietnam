@@ -47,16 +47,9 @@ export default function SunokiGroup() {
 
           {/* Arrow */}
 
-          <div className="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 lg:flex">
-
-            <ArrowRight
-              size={42}
-              strokeWidth={1.6}
-              className="text-[#B8895A]/80"
-            />
-
-          </div>
-
+          <div className="absolute left-1/2 top-1/2 hidden w-16 -translate-x-1/2 -translate-y-1/2 lg:block">
+  <div className="h-px w-full bg-gradient-to-r from-transparent via-[#B8895A] to-transparent opacity-70" />
+</div>
           {/* =========================
               JAPAN
           ========================= */}
