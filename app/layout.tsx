@@ -28,6 +28,12 @@ export const metadata: Metadata = {
     "家具",
     "和室",
     "日本庭園",
+    "ホーチミン リフォーム",
+"ベトナム リフォーム",
+"日本建築",
+"Japanese Interior",
+"Japanese Renovation",
+"Ho Chi Minh Interior",
   ],
 
   authors: [
@@ -41,9 +47,13 @@ export const metadata: Metadata = {
   publisher: "SUNOKI VIETNAM",
 
   robots: {
+  index: true,
+  follow: true,
+  googleBot: {
     index: true,
     follow: true,
   },
+},
 
   alternates: {
     canonical: "https://sunoki-vietnam.vercel.app",
@@ -55,12 +65,12 @@ export const metadata: Metadata = {
       "住宅・店舗・オフィス・リフォーム・家具まで、日本品質の空間づくりをベトナムで。",
     url: "https://sunoki-vietnam.vercel.app",
     siteName: "SUNOKI VIETNAM",
-    locale: "ja_JP",
+    locale: "vi_VN",
     type: "website",
 
     images: [
       {
-        url: "/images/ogp.jpg",
+        url: "/images/ogp.png",
         width: 1200,
         height: 630,
         alt: "SUNOKI VIETNAM",
@@ -73,7 +83,7 @@ export const metadata: Metadata = {
     title: "SUNOKI VIETNAM",
     description:
       "日本品質の住宅・店舗・オフィス設計施工",
-    images: ["/images/ogp.jpg"],
+    images: ["/images/ogp.png"],
   },
 };
 
