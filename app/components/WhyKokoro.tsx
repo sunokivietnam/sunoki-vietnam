@@ -68,13 +68,13 @@ export default function WhyKokoro() {
         {/* Cards */}
 
         <div className="grid grid-cols-2 gap-5 lg:grid-cols-3">
-          {features.map((feature) => {
+          {features.map((feature, index) => {
 
             const Icon = feature.icon;
 
             return (
               <article
-                key={feature.title}
+                key={index}
                 className="group flex h-full flex-col rounded-[18px] bg-white px-6 py-7 shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
               >
 
