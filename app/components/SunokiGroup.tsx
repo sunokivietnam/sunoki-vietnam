@@ -7,8 +7,11 @@ import {
   ArrowRight,
   ExternalLink,
 } from "lucide-react";
+import { useLanguage } from "./LanguageContext";
 
 export default function SunokiGroup() {
+  const { t } = useLanguage();
+
   return (
     <section
       id="group"
@@ -23,18 +26,15 @@ export default function SunokiGroup() {
         <div className="mx-auto mb-14 max-w-3xl text-center">
 
           <p className="text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
-            SUNOKI GROUP
+            {t.group.subtitle}
           </p>
 
-          <h2 className="mt-3 text-[30px] font-bold leading-tight text-[#2B2520] md:text-[42px]">
-            1963年から受け継ぐ
-            <br />
-            技術と品質を、ベトナムへ。
+          <h2 className="mt-3 whitespace-pre-line text-[30px] font-bold leading-tight text-[#2B2520] md:text-[42px]">
+            {t.group.title}
           </h2>
 
           <p className="mt-5 text-[15px] leading-7 text-[#666]">
-            日本で60年以上培ってきた施工技術と品質管理を受け継ぎ、
-            ベトナムでも安心して任せられる空間づくりをご提供します。
+            {t.group.description}
           </p>
 
         </div>
@@ -45,11 +45,12 @@ export default function SunokiGroup() {
 
         <div className="relative grid gap-6 lg:grid-cols-2">
 
-          {/* Arrow */}
+          {/* Line */}
 
           <div className="absolute left-1/2 top-1/2 hidden w-20 -translate-x-1/2 -translate-y-1/2 lg:block">
-  <div className="h-px w-full bg-gradient-to-r from-transparent via-[#B8895A] to-transparent opacity-70" />
-</div>
+            <div className="h-px w-full bg-gradient-to-r from-transparent via-[#B8895A] to-transparent opacity-70" />
+          </div>
+
           {/* =========================
               JAPAN
           ========================= */}
@@ -84,22 +85,18 @@ export default function SunokiGroup() {
               </div>
 
               <h3 className="mt-3 text-[30px] font-bold text-[#2B2520]">
-                SUNOKI JAPAN
+                {t.group.japan.title}
               </h3>
 
               <p className="mt-2 text-[12px] font-semibold tracking-[0.18em] text-[#B8895A]">
-                SINCE 1963
+                {t.group.japan.since}
               </p>
 
               <ul className="mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
 
-                <li>✓ 軽鉄・ボード工事専門</li>
-
-                <li>✓ 日本全国で豊富な施工実績</li>
-
-                <li>✓ 60年以上の技術と品質管理</li>
-
-                <li>✓ 日本品質をベトナムへ継承</li>
+                {t.group.japan.items.map((item: string) => (
+                  <li key={item}>✓ {item}</li>
+                ))}
 
               </ul>
 
@@ -141,22 +138,18 @@ export default function SunokiGroup() {
               </div>
 
               <h3 className="mt-3 text-[30px] font-bold text-[#2B2520]">
-                SUNOKI VIETNAM
+                {t.group.vietnam.title}
               </h3>
 
               <p className="mt-2 text-[12px] font-semibold tracking-[0.18em] text-[#B8895A]">
-                SINCE 2018
+                {t.group.vietnam.since}
               </p>
 
               <ul className="mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
 
-                <li>✓ 住宅・店舗・オフィス内装</li>
-
-                <li>✓ 設計・施工をワンストップ対応</li>
-
-                <li>✓ 日本品質の空間づくり</li>
-
-                <li>✓ ベトナムで安心の施工体制</li>
+                {t.group.vietnam.items.map((item: string) => (
+                  <li key={item}>✓ {item}</li>
+                ))}
 
               </ul>
 
@@ -171,13 +164,11 @@ export default function SunokiGroup() {
         <div className="mt-12 rounded-[22px] border border-[#E8DED2] bg-white px-8 py-8 text-center shadow-sm">
 
           <p className="text-[18px] font-bold text-[#2B2520]">
-            日本本社について
+            {t.group.websiteTitle}
           </p>
 
           <p className="mx-auto mt-3 max-w-xl text-[14px] leading-7 text-[#666]">
-            1963年創業。
-            軽鉄・ボード工事を専門とし、日本全国で豊富な施工実績を
-            積み重ねてきたSUNOKI JAPANの詳細をご覧いただけます。
+            {t.group.websiteDescription}
           </p>
 
           <a
@@ -186,7 +177,7 @@ export default function SunokiGroup() {
             rel="noopener noreferrer"
             className="mt-8 inline-flex h-12 items-center justify-center gap-2 rounded-[14px] bg-[#B8895A] px-8 text-sm font-semibold tracking-[0.08em] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#A77749] hover:shadow-lg"
           >
-            日本本社サイトを見る
+            {t.group.button}
 
             <ExternalLink
               size={18}

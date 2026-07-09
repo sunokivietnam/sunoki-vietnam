@@ -318,6 +318,43 @@ những không gian sống như vậy tại Việt Nam.`,
           "Không gian hoàn thiện vừa đẹp vừa tiện dụng, đúng như mong đợi. Chắc chắn chúng tôi sẽ tiếp tục hợp tác trong tương lai.",
       },
     ],
+    group: {
+  subtitle: "SUNOKI GROUP",
+
+  title: "1963年から受け継ぐ\n技術と品質を、ベトナムへ。",
+
+  description:
+    "日本で60年以上培ってきた施工技術と品質管理を受け継ぎ、ベトナムでも安心して任せられる空間づくりをご提供します。",
+
+  japan: {
+    title: "SUNOKI JAPAN",
+    since: "SINCE 1963",
+    items: [
+      "軽鉄・ボード工事専門",
+      "日本全国で豊富な施工実績",
+      "60年以上の技術と品質管理",
+      "日本品質をベトナムへ継承",
+    ],
+  },
+
+  vietnam: {
+    title: "SUNOKI VIETNAM",
+    since: "SINCE 2018",
+    items: [
+      "住宅・店舗・オフィス内装",
+      "設計・施工をワンストップ対応",
+      "日本品質の空間づくり",
+      "ベトナムで安心の施工体制",
+    ],
+  },
+
+  websiteTitle: "日本本社について",
+
+  websiteDescription:
+    "1963年創業。軽鉄・ボード工事を専門とし、日本全国で豊富な施工実績を積み重ねてきたSUNOKI JAPANの詳細をご覧いただけます。",
+
+  button: "日本本社サイトを見る",
+},
   },
 
   contact: {
