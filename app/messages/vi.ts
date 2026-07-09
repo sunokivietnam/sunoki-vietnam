@@ -258,47 +258,37 @@ những không gian sống như vậy tại Việt Nam.`,
       "Chúng tôi sẽ hỗ trợ cẩn thận từ khi tiếp nhận yêu cầu đến khi hoàn thành công trình.",
 
     steps: [
-      {
-        number: "01",
-
-        title: "Liên hệ",
-
-        description:
-          "Liên hệ với chúng tôi qua biểu mẫu, điện thoại hoặc email.",
-      },
-      {
-        number: "02",
-
-        title: "Khảo sát & Tư vấn",
-
-        description:
-          "Lắng nghe yêu cầu, ngân sách và khảo sát hiện trạng.",
-      },
-      {
-        number: "03",
-
-        title: "Đề xuất & Báo giá",
-
-        description:
-          "Đề xuất phương án phù hợp và gửi báo giá chi tiết.",
-      },
-      {
-        number: "04",
-
-        title: "Thi công",
-
-        description:
-          "Thi công cẩn thận theo tiêu chuẩn chất lượng Nhật Bản.",
-      },
-      {
-        number: "05",
-
-        title: "Hoàn thành & Bàn giao",
-
-        description:
-          "Kiểm tra lần cuối và bàn giao công trình cho khách hàng.",
-      },
-    ],
+  {
+    number: "01",
+    title: "Liên hệ",
+    description:
+      "Liên hệ với chúng tôi qua biểu mẫu, điện thoại hoặc email.",
+  },
+  {
+    number: "02",
+    title: "Tư vấn & Khảo sát",
+    description:
+      "Lắng nghe nhu cầu, ngân sách và khảo sát hiện trạng công trình.",
+  },
+  {
+    number: "03",
+    title: "Đề xuất thiết kế 3D",
+    description:
+      "Trình bày phối cảnh 3D giúp bạn hình dung không gian hoàn thiện cùng báo giá chi tiết.",
+  },
+  {
+    number: "04",
+    title: "Thi công & Quản lý chất lượng",
+    description:
+      "Thi công theo tiêu chuẩn Nhật Bản với quy trình kiểm soát chất lượng nghiêm ngặt.",
+  },
+  {
+    number: "05",
+    title: "Hoàn thiện & Bàn giao",
+    description:
+      "Kiểm tra lần cuối và bàn giao công trình hoàn chỉnh cho khách hàng.",
+  },
+],
   }, 
     reviews: {
     subtitle: "VOICE",
