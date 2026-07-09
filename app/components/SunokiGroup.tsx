@@ -47,7 +47,7 @@ export default function SunokiGroup() {
 
           {/* Arrow */}
 
-          <div className="absolute left-1/2 top-1/2 hidden w-16 -translate-x-1/2 -translate-y-1/2 lg:block">
+          <div className="absolute left-1/2 top-1/2 hidden w-20 -translate-x-1/2 -translate-y-1/2 lg:block">
   <div className="h-px w-full bg-gradient-to-r from-transparent via-[#B8895A] to-transparent opacity-70" />
 </div>
           {/* =========================
