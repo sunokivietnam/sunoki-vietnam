@@ -12,7 +12,7 @@ const buildingTypes = [
   {
     value: "shop",
     ja: "店舗",
-    vi: "Cửa hàng",
+    vi: "Nhà hàng",
   },
   {
     value: "office",
