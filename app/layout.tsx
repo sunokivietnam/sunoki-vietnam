@@ -69,13 +69,13 @@ export const metadata: Metadata = {
     type: "website",
 
     images: [
-      {
-        url: "/images/ogp-v2.png",
-        width: 1200,
-        height: 630,
-        alt: "SUNOKI VIETNAM",
-      },
-    ],
+  {
+    url: "/images/ogp-v2.png",
+    width: 1200,
+    height: 630,
+    alt: "SUNOKI VIETNAM",
+  },
+],
   },
 
   twitter: {
