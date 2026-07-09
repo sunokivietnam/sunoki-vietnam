@@ -70,7 +70,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/images/ogp.png",
+        url: "/images/ogp-v2.png",
         width: 1200,
         height: 630,
         alt: "SUNOKI VIETNAM",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     title: "SUNOKI VIETNAM",
     description:
       "日本品質の住宅・店舗・オフィス設計施工",
-    images: ["/images/ogp.png"],
+    images: ["/images/ogp-v2.png"],
   },
 };
 
