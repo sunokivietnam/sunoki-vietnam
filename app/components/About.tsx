@@ -39,53 +39,17 @@ export default function About() {
 
           {/* Right */}
 
-<div className="mx-auto w-[88%]">
+          <div className="relative mx-auto w-[88%] overflow-hidden rounded-[18px] shadow-[0_18px_50px_rgba(43,37,32,0.12)]">
 
-  <div className="overflow-hidden rounded-[18px] shadow-[0_18px_50px_rgba(43,37,32,0.12)]">
-    <Image
-      src="/images/about.jpg"
-      alt="KOKORO Living brand philosophy"
-      width={680}
-      height={500}
-      className="h-auto w-full object-cover"
-    />
-  </div>
+            <Image
+              src="/images/about.jpg"
+              alt="KOKORO Living brand philosophy"
+              width={680}
+              height={500}
+              className="h-auto w-full object-cover"
+            />
 
-  <div className="mt-6 grid grid-cols-3 gap-4">
-
-    <div className="rounded-xl bg-white p-4 text-center shadow-sm">
-      <div className="text-2xl">👷</div>
-      <p className="mt-2 text-sm font-bold text-[#2B2520]">
-        日本人一級建築士
-      </p>
-      <p className="mt-1 text-xs text-[#777]">
-        First-Class Architect
-      </p>
-    </div>
-
-    <div className="rounded-xl bg-white p-4 text-center shadow-sm">
-      <div className="text-2xl">🇯🇵</div>
-      <p className="mt-2 text-sm font-bold text-[#2B2520]">
-        日本で3年間研修
-      </p>
-      <p className="mt-1 text-xs text-[#777]">
-        Trained in Japan
-      </p>
-    </div>
-
-    <div className="rounded-xl bg-white p-4 text-center shadow-sm">
-      <div className="text-2xl">💬</div>
-      <p className="mt-2 text-sm font-bold text-[#2B2520]">
-        日・越対応
-      </p>
-      <p className="mt-1 text-xs text-[#777]">
-        Bilingual Support
-      </p>
-    </div>
-
-  </div>
-
-</div>
+          </div>
 
         </div>
 

@@ -3,32 +3,42 @@
 import { useLanguage } from "./LanguageContext";
 import {
   BadgeCheck,
+  HardHat,
+  GraduationCap,
+  Languages,
   Hammer,
   HeartHandshake,
-  PencilRuler,
 } from "lucide-react";
 
 export default function WhyKokoro() {
   const { t } = useLanguage();
 
-  const features = [
-    {
-      icon: BadgeCheck,
-      ...t.why.features[0],
-    },
-    {
-      icon: PencilRuler,
-      ...t.why.features[1],
-    },
-    {
-      icon: Hammer,
-      ...t.why.features[2],
-    },
-    {
-      icon: HeartHandshake,
-      ...t.why.features[3],
-    },
-  ];
+ const features = [
+  {
+    icon: BadgeCheck,
+    ...t.why.features[0],
+  },
+  {
+    icon: HardHat,
+    ...t.why.features[1],
+  },
+  {
+    icon: GraduationCap,
+    ...t.why.features[2],
+  },
+  {
+    icon: Languages,
+    ...t.why.features[3],
+  },
+  {
+    icon: Hammer,
+    ...t.why.features[4],
+  },
+  {
+    icon: HeartHandshake,
+    ...t.why.features[5],
+  },
+];
 
   return (
     <section
@@ -57,7 +67,7 @@ export default function WhyKokoro() {
 
         {/* Cards */}
 
-        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
 
           {features.map((feature) => {
 

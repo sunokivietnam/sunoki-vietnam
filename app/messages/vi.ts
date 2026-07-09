@@ -218,31 +218,37 @@ những không gian sống như vậy tại Việt Nam.`,
       "Với sự tỉ mỉ trong từng chi tiết,\nthiết kế và thi công theo tiêu chuẩn Nhật Bản,\nchúng tôi tạo nên những không gian mà bạn có thể hoàn toàn yên tâm.",
 
     features: [
-      {
-        title: "Tiêu chuẩn chất lượng Nhật Bản",
-
-        description:
-          "Từ quản lý chất lượng đến hoàn thiện,\nchúng tôi thi công cẩn thận theo tiêu chuẩn Nhật Bản.",
-      },
-      {
-        title: "Tư vấn thiết kế",
-
-        description:
-          "Đề xuất không gian đẹp,\ntiện nghi và phù hợp với phong cách sống của bạn.",
-      },
-      {
-        title: "Thiết kế & Thi công trọn gói",
-
-        description:
-          "Đảm nhận toàn bộ quy trình từ thiết kế đến thi công\nvới tinh thần trách nhiệm cao.",
-      },
-      {
-        title: "Hỗ trợ sau bàn giao",
-
-        description:
-          "Ngay cả sau khi công trình hoàn thành,\nchúng tôi vẫn luôn đồng hành và hỗ trợ lâu dài.",
-      },
-    ],
+  {
+    title: "Chất lượng Nhật Bản",
+    description:
+      "Quản lý chất lượng nghiêm ngặt và thi công tỉ mỉ theo tiêu chuẩn Nhật Bản.",
+  },
+  {
+    title: "Kiến trúc sư hạng nhất Nhật Bản",
+    description:
+      "Thiết kế và chất lượng công trình được giám sát bởi kiến trúc sư hạng nhất người Nhật.",
+  },
+  {
+    title: "Đội ngũ đào tạo tại Nhật",
+    description:
+      "Nhân viên Việt Nam đã trải qua 3 năm đào tạo và làm việc tại Nhật Bản trực tiếp tham gia thi công.",
+  },
+  {
+    title: "Hỗ trợ tiếng Nhật & tiếng Việt",
+    description:
+      "Trao đổi thuận tiện bằng cả tiếng Nhật và tiếng Việt trong suốt quá trình thực hiện.",
+  },
+  {
+    title: "Thiết kế & thi công trọn gói",
+    description:
+      "Đảm nhận toàn bộ quy trình từ thiết kế đến thi công với một đầu mối duy nhất.",
+  },
+  {
+    title: "Hỗ trợ sau bàn giao",
+    description:
+      "Luôn đồng hành và hỗ trợ để khách hàng yên tâm ngay cả sau khi công trình hoàn thành.",
+  },
+],
   },  process: {
     subtitle: "PROCESS",
 
