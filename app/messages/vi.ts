@@ -105,7 +105,7 @@ những không gian sống như vậy tại Việt Nam.`,
       {
         category: "BATHROOM",
 
-        title: "Khu vực nước",
+        title: "Phòng tắm & Nhà vệ sinh",
 
         description:
           "Cải tạo bếp, phòng tắm và nhà vệ sinh với thiết kế đẹp và tiện dụng.",
@@ -166,7 +166,7 @@ những không gian sống như vậy tại Việt Nam.`,
     commercial: {
       subtitle: "COMMERCIAL",
 
-      title: "Cửa hàng",
+      title: "Nhà hàng",
 
       description:
         "Thiết kế và thi công nhà hàng, văn phòng cùng các không gian thương mại,\nđảm bảo sự cân bằng giữa tính thẩm mỹ, công năng và trải nghiệm của khách hàng.",
@@ -204,7 +204,7 @@ những không gian sống như vậy tại Việt Nam.`,
     },
 
     model: {
-      title: "Phòng mẫu 3D",
+      title: "Nhà mẫu 3D",
 
       description:
         "Trải nghiệm không gian hoàn thiện bằng mô hình 3D Walkthrough.",
@@ -297,7 +297,7 @@ những không gian sống như vậy tại Việt Nam.`,
     reviews: {
     subtitle: "VOICE",
 
-    title: "Ý kiến khách hàng",
+    title: "Review khách hàng",
 
     description:
       "Giới thiệu những chia sẻ từ các khách hàng đã sử dụng dịch vụ của chúng tôi.",
