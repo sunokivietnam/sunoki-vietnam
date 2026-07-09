@@ -152,7 +152,7 @@ Vui lòng nhập thêm yêu cầu của bạn。
   return (
     <section
       id="contact"
-      className="bg-[#FAF7F3] py-10 md:py-12"
+      className="bg-[#F3EEE8] py-10 md:py-12"
     >
       <Container>
 

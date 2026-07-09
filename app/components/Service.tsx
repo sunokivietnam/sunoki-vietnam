@@ -17,7 +17,7 @@ export default function Service() {
   return (
     <section
       id="service"
-      className="bg-[#FAF7F3] py-12 md:py-16"
+      className="bg-[#F3EEE8] py-12 md:py-16"
     >
       <Container>
 

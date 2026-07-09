@@ -84,7 +84,7 @@ export default function Works() {
   const [slides, setSlides] = useState<{ src: string }[]>([]);  return (
     <section
       id="works"
-      className="bg-[#FAF7F3] py-10 md:py-14"
+      className="bg-white py-10 md:py-14"
     >
       <Container>
 

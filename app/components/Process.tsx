@@ -10,7 +10,7 @@ export default function Process() {
   return (
     <section
       id="process"
-      className="bg-[#FAF7F3] py-12 md:py-16"
+      className="bg-[#F8F5F1] py-12 md:py-16"
     >
       <style>{`
         @keyframes lineGrow {
