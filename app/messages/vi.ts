@@ -173,7 +173,7 @@ những không gian sống như vậy tại Việt Nam.`,
 
       items: [
         {
-          title: "Khu ghế GF",
+          title: "Khu vực GF",
           subtitle: "GROUND FLOOR",
         },
         {
