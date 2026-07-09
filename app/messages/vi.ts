@@ -157,7 +157,7 @@ những không gian sống như vậy tại Việt Nam.`,
           subtitle: "WASHBASIN",
         },
         {
-          title: "Không gian Nhật hiện đại",
+          title: "Không gian thư giãn",
           subtitle: "JAPANESE MODERN",
         },
       ],
@@ -173,15 +173,15 @@ những không gian sống như vậy tại Việt Nam.`,
 
       items: [
         {
-          title: "Khu ghế tầng trệt",
+          title: "Khu ghế GF",
           subtitle: "GROUND FLOOR",
         },
         {
-          title: "Hành lang Engawa",
+          title: "Khu ngồi bệt Engawa",
           subtitle: "ENGAWA",
         },
         {
-          title: "Quầy đồ uống",
+          title: "Quầy Bar",
           subtitle: "DRINK BAR",
         },
         {
@@ -193,7 +193,7 @@ những không gian sống như vậy tại Việt Nam.`,
           subtitle: "KAMAKURA SEAT",
         },
         {
-          title: "Phòng riêng tầng 2",
+          title: "Phòng riêng F2",
           subtitle: "PRIVATE ROOM",
         },
         {
