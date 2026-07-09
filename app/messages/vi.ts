@@ -21,7 +21,7 @@ const vi = {
   hero: {
     brand: "KOKORO LIVING",
 
-    title: "Kiến tạo\nkhông gian bằng cả trái tim.",
+    title: "Kiến tạo\nkhông gian bằng cả tâm huyết.",
 
     description:
       "Thiết kế và thi công theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi tại Việt Nam.\nTừ nhà ở, cửa hàng đến khu vực nước, chúng tôi chăm chút từng chi tiết.",
@@ -219,7 +219,7 @@ những không gian sống như vậy tại Việt Nam.`,
 
     features: [
       {
-        title: "Chất lượng Nhật Bản",
+        title: "Tiêu chuẩn chất lượng Nhật Bản",
 
         description:
           "Từ quản lý chất lượng đến hoàn thiện,\nchúng tôi thi công cẩn thận theo tiêu chuẩn Nhật Bản.",
