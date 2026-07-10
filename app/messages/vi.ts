@@ -23,9 +23,11 @@ const vi = {
 
     title: "Kiến tạo\nkhông gian bằng cả tâm huyết.",
 
-    description:
-      "Thiết kế và thi công theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi tại Việt Nam.\nTừ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh, chúng tôi chăm chút từng chi tiết.",
+   description:
+  "Thiết kế và thi công theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi tại Việt Nam.\nTừ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh, chúng tôi chăm chút từng chi tiết.",
+
 descriptionMobile:
+  "Thiết kế và thi công theo tiêu chuẩn Nhật Bản,\nmang đến không gian sống tiện nghi tại Việt Nam.\n\nTừ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh,\nchúng tôi chăm chút từng chi tiết.",
 
     works: "Xem dự án",
 
