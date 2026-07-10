@@ -103,7 +103,7 @@ export default function Estimator() {
 
           {/* ===== 上段 ===== */}
 
-          <div className="grid gap-8 lg:grid-cols-2">            {/* 建物タイプ */}
+          <div className="grid gap-6 lg:grid-cols-2">            {/* 建物タイプ */}
 
             <div>
 
@@ -176,7 +176,7 @@ export default function Estimator() {
 
           {/* ===== 下段 ===== */}
 
-          <div className="mt-8 grid gap-8 lg:grid-cols-2">            {/* グレード */}
+          <div className="mt-8 grid gap-6 lg:grid-cols-2">            {/* グレード */}
 
             <div>
 

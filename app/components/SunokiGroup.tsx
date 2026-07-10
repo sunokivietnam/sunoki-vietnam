@@ -67,7 +67,7 @@ export default function SunokiGroup() {
 
             </div>
 
-            <div className="p-8">
+            <div className="p-6">
 
               <div className="flex items-center gap-2">
 
@@ -120,7 +120,7 @@ export default function SunokiGroup() {
 
             </div>
 
-            <div className="p-8">
+            <div className="p-6">
 
               <div className="flex items-center gap-2">
 

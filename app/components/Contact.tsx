@@ -15,7 +15,7 @@ const buildingLabels = {
   },
   shop: {
     ja: "店舗",
-    vi: "Cửa hàng",
+    vi: "Nhà hàng",
   },
   office: {
     ja: "オフィス",
@@ -170,7 +170,7 @@ Vui lòng nhập thêm yêu cầu của bạn。
           }
         />
 
-        <div className="mt-10 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="mt-10 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
 
           {/* Left */}
 

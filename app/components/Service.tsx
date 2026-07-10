@@ -27,7 +27,7 @@ export default function Service() {
           description={t.service.description}
         />
 
-        <div className="mt-10 grid gap-6 md:mt-14 md:gap-8 md:grid-cols-2">
+        <div className="mt-10 grid gap-6 md:mt-14 md:gap-6 md:grid-cols-2">
 
           {t.service.items.map((service, index) => (
 

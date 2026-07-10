@@ -113,7 +113,7 @@ export default function HouseWorkPage() {
           Gallery
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-6">
 
           <Image
             src="/images/work1.jpg"
