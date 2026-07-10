@@ -318,45 +318,44 @@ những không gian sống như vậy tại Việt Nam.`,
           "Không gian hoàn thiện vừa đẹp vừa tiện dụng, đúng như mong đợi. Chắc chắn chúng tôi sẽ tiếp tục hợp tác trong tương lai.",
       },
     ],
-    group: {
-  subtitle: "SUNOKI GROUP",
+     },
+  group: {
+    subtitle: "SUNOKI GROUP",
 
-  title: "1963年から受け継ぐ\n技術と品質を、ベトナムへ。",
+    title: "Kế thừa kỹ thuật và chất lượng\nNhật Bản từ năm 1963.",
 
-  description:
-    "日本で60年以上培ってきた施工技術と品質管理を受け継ぎ、ベトナムでも安心して任せられる空間づくりをご提供します。",
+    description:
+      "Kế thừa hơn 60 năm kinh nghiệm thi công và quản lý chất lượng từ Nhật Bản, chúng tôi mang đến những không gian sống và kinh doanh đáng tin cậy tại Việt Nam.",
 
-  japan: {
-    title: "SUNOKI JAPAN",
-    since: "SINCE 1963",
-    items: [
-      "軽鉄・ボード工事専門",
-      "日本全国で豊富な施工実績",
-      "60年以上の技術と品質管理",
-      "日本品質をベトナムへ継承",
-    ],
+    japan: {
+      title: "SUNOKI JAPAN",
+      since: "SINCE 1963",
+      items: [
+        "Chuyên thi công khung thép nhẹ & thạch cao",
+        "Nhiều công trình trên khắp Nhật Bản",
+        "Hơn 60 năm kinh nghiệm và quản lý chất lượng",
+        "Mang chất lượng Nhật Bản đến Việt Nam",
+      ],
+    },
+
+    vietnam: {
+      title: "SUNOKI VIETNAM",
+      since: "SINCE 2018",
+      items: [
+        "Thiết kế & thi công nhà ở, cửa hàng, văn phòng",
+        "Dịch vụ trọn gói từ thiết kế đến thi công",
+        "Không gian chuẩn chất lượng Nhật Bản",
+        "Đội ngũ thi công uy tín tại Việt Nam",
+      ],
+    },
+
+    websiteTitle: "Về SUNOKI JAPAN",
+
+    websiteDescription:
+      "Được thành lập từ năm 1963. Tìm hiểu thêm về SUNOKI JAPAN – đơn vị chuyên thi công khung thép nhẹ và thạch cao với nhiều công trình trên khắp Nhật Bản.",
+
+    button: "Trang web SUNOKI JAPAN",
   },
-
-  vietnam: {
-    title: "SUNOKI VIETNAM",
-    since: "SINCE 2018",
-    items: [
-      "住宅・店舗・オフィス内装",
-      "設計・施工をワンストップ対応",
-      "日本品質の空間づくり",
-      "ベトナムで安心の施工体制",
-    ],
-  },
-
-  websiteTitle: "日本本社について",
-
-  websiteDescription:
-    "1963年創業。軽鉄・ボード工事を専門とし、日本全国で豊富な施工実績を積み重ねてきたSUNOKI JAPANの詳細をご覧いただけます。",
-
-  button: "日本本社サイトを見る",
-},
-  },
-
   contact: {
     subtitle: "CONTACT",
 
