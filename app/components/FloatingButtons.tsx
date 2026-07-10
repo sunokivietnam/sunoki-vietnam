@@ -30,7 +30,7 @@ export default function FloatingButtons() {
       <a
         href="tel:+84909888243"
         aria-label="Call"
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-[#8B6B4A] text-white shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl active:scale-95"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-[#8B6B4A] text-white shadow-lg transition-all duration-300 ease-out hover:scale-110 hover:shadow-xl active:scale-95 focus:outline-none focus:ring-0"
       >
         <Phone size={26} strokeWidth={2.3} />
       </a>
@@ -41,7 +41,7 @@ export default function FloatingButtons() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Zalo"
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-[#0180F7] text-white shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl active:scale-95"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-[#0180F7] text-white shadow-lg transition-all duration-300 ease-out hover:scale-110 hover:shadow-xl active:scale-95 focus:outline-none focus:ring-0"
       >
         <span className="text-sm font-bold tracking-tight">
           Zalo
