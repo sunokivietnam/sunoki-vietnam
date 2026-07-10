@@ -87,12 +87,19 @@ collectionDescriptionMobile:
     lightingTitle: "Đèn trang trí",
 
     lightingDescription:
-      "Ánh sáng dịu nhẹ tạo nên không gian sang trọng và thư thái.",
+  "Ánh sáng dịu nhẹ tạo nên không gian sang trọng và thư thái.",
+
+lightingDescriptionMobile:
+  "Ánh sáng dịu nhẹ,\ntạo nên không gian sang trọng và thư thái.",
 
     bonsaiTitle: "Bonsai & Đồ trang trí Nhật",
 
     bonsaiDescription:
-      "Bonsai và các vật dụng trang trí Nhật Bản mang lại cảm giác yên bình và đậm chất Nhật.",
+  "Cây bonsai và đồ trang trí mang đến nét đẹp và sự thư giãn đậm chất Nhật Bản.",
+
+bonsaiDescriptionMobile:
+  "Cây bonsai và đồ trang trí,\nmang đến nét đẹp Nhật Bản\nvà cảm giác thư giãn.",
+  
   },  service: {
     subtitle: "SERVICE",
 
