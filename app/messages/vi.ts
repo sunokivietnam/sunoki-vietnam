@@ -51,16 +51,28 @@ Thông qua thiết kế và thi công theo tiêu chuẩn Nhật Bản,
 chúng tôi tỉ mỉ tạo nên
 những không gian sống như vậy tại Việt Nam.`,
 
-descriptionMobile:"",
+descriptionMobile: `Ngôi nhà không chỉ là nơi để ở.
+
+Đó là nơi mang lại sự bình yên,
+nơi gia đình quây quần,
+và là nơi bạn luôn muốn trở về mỗi ngày.
+
+Với thiết kế và thi công tiêu chuẩn Nhật Bản,
+chúng tôi tạo nên
+không gian sống tiện nghi tại Việt Nam.`,
 
     collection: "KOKORO COLLECTION",
 
     collectionTitle:
       "Tuyển chọn vật liệu và thiết kế tinh tế mang đậm chất Nhật Bản.",
+collectionTitleMobile:
+  "Tuyển chọn vật liệu\nvà thiết kế tinh tế\nmang đậm chất Nhật Bản.",
 
     collectionDescription:
-      "Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản, tạo nên từng không gian với sự chăm chút đến từng chi tiết.",
-collectionDescriptionMobile:"",
+  "Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản, tạo nên từng không gian với sự chăm chút đến từng chi tiết.",
+
+collectionDescriptionMobile:
+  "Chúng tôi trân trọng vẻ đẹp của gỗ,\nánh sáng và phong cách Nhật Bản,\ntạo nên từng không gian\nvới sự chăm chút đến từng chi tiết.",
 
     woodTitle: "Gỗ tự nhiên",
 
