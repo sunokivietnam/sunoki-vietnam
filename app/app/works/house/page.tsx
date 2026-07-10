@@ -35,7 +35,7 @@ export default function HouseWorkPage() {
       </section>
 
       {/* Content */}
-      <section className="max-w-6xl mx-auto px-8 py-20">
+      <section className="max-w-6xl mx-auto px-8 py-16">
 
         <div className="grid md:grid-cols-2 gap-16">
 
@@ -124,7 +124,7 @@ export default function HouseWorkPage() {
           />
 
           <Image
-            src="/images/work2.jpg"
+            src="/images/work2.png"
             alt=""
             width={500}
             height={350}

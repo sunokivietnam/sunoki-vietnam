@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-[#FBF8F2] px-6 py-16 md:px-8 md:py-20"
+      className="bg-[#FBF8F2] px-6 py-16 md:px-8 md:py-16"
     >
       <div className="mx-auto max-w-[1200px]">
 
