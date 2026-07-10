@@ -98,7 +98,7 @@ export default function About() {
                   {t.about.woodTitle}
                 </h4>
 
-                <p className="mt-2 text-[14px] leading-6 text-[#666]">
+                <p className="mt-2 text-[13px] leading-6 text-[#666]">
                   {t.about.woodDescription}
                 </p>
 
@@ -133,7 +133,7 @@ export default function About() {
                   {t.about.latticeTitle}
                 </h4>
 
-                <p className="mt-2 text-[14px] leading-6 text-[#666]">
+                <p className="mt-2 text-[13px] leading-6 text-[#666]">
                   {t.about.latticeDescription}
                 </p>
 
@@ -166,7 +166,7 @@ export default function About() {
                   {t.about.lightingTitle}
                 </h4>
 
-                <p className="mt-2 text-[14px] leading-6 text-[#666]">
+                <p className="mt-2 text-[13px] leading-6 text-[#666]">
                   {t.about.lightingDescription}
                 </p>
 
@@ -201,7 +201,7 @@ export default function About() {
                   {t.about.bonsaiTitle}
                 </h4>
 
-                <p className="mt-2 text-[14px] leading-6 text-[#666]">
+                <p className="mt-2 text-[13px] leading-6 text-[#666]">
                   {t.about.bonsaiDescription}
                 </p>
 
