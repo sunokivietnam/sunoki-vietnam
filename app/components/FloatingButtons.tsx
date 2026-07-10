@@ -1,10 +1,31 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { Phone } from "lucide-react";
 
 export default function FloatingButtons() {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setVisible(window.scrollY > 120);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="fixed right-6 bottom-6 z-50 flex flex-col gap-4">
+    <div
+      className={`fixed right-5 bottom-8 z-50 flex flex-col gap-4 transition-all duration-500 ${
+        visible
+          ? "opacity-100 translate-y-0"
+          : "opacity-0 translate-y-5 pointer-events-none"
+      }`}
+    >
       {/* TEL */}
       <a
         href="tel:+84901234567"
