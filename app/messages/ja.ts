@@ -90,12 +90,18 @@ collectionTitleMobile: "日本品質を彩る、\nこだわりの素材と意匠
     lightingTitle: "照明器具",
 
     lightingDescription:
-      "やわらかな光で、上質で落ち着いた空間を演出します。",
+  "やわらかな光で、上質で落ち着いた空間を演出します。",
+
+lightingDescriptionMobile:
+  "やわらかな光で、\n上質で落ち着いた空間を演出します。",
 
     bonsaiTitle: "盆栽・和小物",
 
     bonsaiDescription:
-      "盆栽や和小物が、日本らしい趣と癒やしを空間に添えます。",
+  "盆栽や和小物が、日本らしい趣と癒やしを空間に添えます。",
+
+bonsaiDescriptionMobile:
+  "盆栽や和小物で、\n和の趣と癒やしを添えます。",
   },
 
   service: {
