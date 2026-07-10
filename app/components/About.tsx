@@ -69,8 +69,13 @@ export default function About() {
             {t.about.collection}
           </p>
 
-          <h3 className="mt-3 max-w-[320px] text-[30px] font-bold leading-[1.15] tracking-[-0.02em] text-[#2B2520] md:max-w-none md:text-[42px]">
-  {t.about.collectionTitle}
+         <h3 className="mt-3 text-[30px] md:text-[42px] font-bold leading-[1.15] text-[#2B2520] whitespace-pre-line">
+  <span className="hidden md:inline">
+    {t.about.collectionTitle}
+  </span>
+  <span className="md:hidden">
+    {t.about.collectionTitleMobile}
+  </span>
 </h3>
 
           <p className="mt-4 max-w-2xl text-[15px] leading-7 text-[#666]">
