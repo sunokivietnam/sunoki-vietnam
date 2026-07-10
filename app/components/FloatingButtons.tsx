@@ -28,7 +28,7 @@ export default function FloatingButtons() {
     >
       {/* TEL */}
       <a
-        href="tel:+84901234567"
+        href="tel:+84909888243"
         className="flex h-14 w-14 items-center justify-center rounded-full bg-[#8B6B4A] text-white shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
         aria-label="Call"
       >
@@ -37,7 +37,7 @@ export default function FloatingButtons() {
 
       {/* Zalo */}
       <a
-        href="https://zalo.me/xxxxxxxx"
+        href="https://zalo.me/0909888243"
         target="_blank"
         rel="noopener noreferrer"
         className="flex h-14 w-14 items-center justify-center rounded-full bg-[#0180F7] text-white shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl"
