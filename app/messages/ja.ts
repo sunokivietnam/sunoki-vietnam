@@ -68,9 +68,13 @@ descriptionMobile: `住まいは、
     collection: "KOKORO COLLECTION",
 
     collectionTitle: "日本品質を彩る、こだわりの素材と意匠。",
+collectionTitleMobile: "日本品質を彩る、\nこだわりの素材と意匠。",
 
     collectionDescription:
       "木・光・和の美しさを大切にし、細部まで心を込めた空間づくりを行っています。",
+      collectionDescriptionMobile:
+`木・光・和の美しさを大切にし、
+細部まで\n心を込めた空間づくりを行っています。`,
 
     woodTitle: "天然木材",
 
