@@ -71,16 +71,15 @@ export default function Hero() {
               ))}
             </h1>
 
-            <p className="mt-6 max-w-[460px] text-[15px] leading-7 text-white/90">
-              {t.hero.description.split("\n").map((line, index) => (
-                <span key={index}>
-                  {line}
-                  {index !== t.hero.description.split("\n").length - 1 && (
-                    <br />
-                  )}
-                </span>
-              ))}
-            </p>
+            {/* PC */}
+<p className="hidden md:block mt-6 max-w-[520px] whitespace-pre-line text-[15px] leading-7 text-white/90">
+  {t.hero.description}
+</p>
+
+{/* Mobile */}
+<p className="block md:hidden mt-6 whitespace-pre-line text-[15px] leading-7 text-white/90">
+  {t.hero.descriptionMobile}
+</p>
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <Button href="#works">
