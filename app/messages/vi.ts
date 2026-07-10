@@ -60,6 +60,7 @@ descriptionMobile:"",
 
     collectionDescription:
       "Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản, tạo nên từng không gian với sự chăm chút đến từng chi tiết.",
+collectionDescriptionMobile:"",
 
     woodTitle: "Gỗ tự nhiên",
 
