@@ -1,3 +1,4 @@
+import FloatingButtons from "@/components/FloatingButtons";
 import SunokiGroup from "./components/SunokiGroup";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -35,6 +36,7 @@ export default function Home() {
   <Contact />
 
   <Footer />
+  <FloatingButtons />
 </main>
   );
 }
