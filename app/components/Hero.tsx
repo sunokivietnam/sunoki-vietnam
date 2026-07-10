@@ -48,7 +48,7 @@ export default function Hero() {
 </div>
 
       {/* Content */}
-      <div className="relative z-10 flex min-h-[680px] items-center">
+      <div className="relative z-10 flex min-h-[680px] items-start md:items-center pt-28 md:pt-0">
         <Container>
           <div
   className={`max-w-[520px] transition-all duration-[1800ms] delay-[1200ms] ease-out ${
