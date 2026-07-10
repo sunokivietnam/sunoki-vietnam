@@ -27,7 +27,7 @@ export default function About() {
               {t.about.philosophy}
             </p>
 
-            <h2 className="mb-6 text-[32px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
+            <h2 className="mb-6 text-[30px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
               {t.about.title}
             </h2>
 

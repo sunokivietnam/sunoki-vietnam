@@ -45,7 +45,7 @@ function WorkCard({
   subtitle: string;
 }) {
   return (
-    <article className="group overflow-hidden rounded-[16px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
+    <article className="group overflow-hidden rounded-[18px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
 
       <div className="relative aspect-[4/3] overflow-hidden rounded-t-[18px]">
 
@@ -106,7 +106,7 @@ export default function Works() {
               {t.works.residence.subtitle}
             </p>
 
-            <h3 className="mt-2 text-[26px] md:text-[34px] font-bold text-[#2B2520]">
+            <h3 className="mt-2 text-[30px] md:text-[42px] font-bold text-[#2B2520]">
               {t.works.residence.title}
             </h3>
 
@@ -184,7 +184,7 @@ export default function Works() {
               {t.works.commercial.subtitle}
             </p>
 
-            <h3 className="mt-2 text-[26px] md:text-[34px] font-bold text-[#2B2520]">
+            <h3 className="mt-2 text-[30px] md:text-[42px] font-bold text-[#2B2520]">
               {t.works.commercial.title}
             </h3>
 
