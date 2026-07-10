@@ -78,9 +78,15 @@ export default function About() {
   </span>
 </h3>
 
-          <p className="mt-4 max-w-2xl text-[15px] leading-7 text-[#666]">
-            {t.about.collectionDescription}
-          </p>
+          <p className="mt-4 max-w-2xl whitespace-pre-line text-[15px] leading-7 text-[#666]">
+  <span className="hidden md:inline">
+    {t.about.collectionDescription}
+  </span>
+
+  <span className="md:hidden">
+    {t.about.collectionDescriptionMobile}
+  </span>
+</p>
 
           <div className="mt-10 grid gap-5 md:grid-cols-4">            {/* =========================
                 WOOD
