@@ -130,7 +130,7 @@ const ja = {
     title: "施工事例",
 
     description:
-      "SUNOKI VIETNAMが手掛けた住宅・店舗の施工事例をご紹介します。",
+      "SUNOKI VIETNAMが手掛けた住宅・店舗の\n施工事例をご紹介します。",
 
     residence: {
       subtitle: "RESIDENCE",
