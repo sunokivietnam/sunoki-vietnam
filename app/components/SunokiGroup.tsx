@@ -28,13 +28,13 @@ export default function SunokiGroup() {
             {t.group.subtitle}
           </p>
 
-          <h2 className="mt-3 whitespace-pre-line text-[30px] font-bold leading-[1.15] text-[#2B2520] md:text-[38px]">
+          <h2 className="mt-3 text-[28px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[36px]">
             {t.group.title}
           </h2>
 
-          <p className="mt-5 text-[15px] leading-7 text-[#666]">
-            {t.group.description}
-          </p>
+          <p className="mx-auto mt-5 max-w-[720px] whitespace-pre-line text-[15px] leading-8 text-[#666]">
+  {t.group.description}
+</p>
 
         </div>
 
