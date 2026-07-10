@@ -97,11 +97,16 @@ export default function Process() {
 
                 </div>
 
-                <h3 className="mt-6 text-[24px] font-bold text-[#2B2520]">
-                  {step.title}
-                </h3>
+                <h3 className="mt-6 min-h-[72px] whitespace-pre-line text-[24px] font-bold leading-tight text-[#2B2520]">
+  {step.title.split("\n").map((line, index) => (
+    <span key={index}>
+      {line}
+      {index !== step.title.split("\n").length - 1 && <br />}
+    </span>
+  ))}
+</h3>
 
-                <p className="mx-auto mt-3 max-w-[180px] text-[14px] leading-7 text-[#666]">
+                <p className="mx-auto mt-3 min-h-[96px] max-w-[190px] whitespace-pre-line text-[14px] leading-7 text-[#666]">
                   {step.description}
                 </p>
 
@@ -140,9 +145,14 @@ export default function Process() {
 
               <div className="pb-8">
 
-               <h3 className="text-[18px] md:text-[20px] font-bold text-[#2B2520]">
-                  {step.title}
-                </h3>
+              <h3 className="whitespace-pre-line text-[18px] md:text-[20px] font-bold leading-tight text-[#2B2520]">
+  {step.title.split("\n").map((line, index) => (
+    <span key={index}>
+      {line}
+      {index !== step.title.split("\n").length - 1 && <br />}
+    </span>
+  ))}
+</h3>
 
                 <p className="mt-1 text-[14px] leading-6 text-[#666]">
                   {step.description}
