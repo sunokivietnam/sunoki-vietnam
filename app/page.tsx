@@ -11,34 +11,36 @@ import Process from "./components/Process";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#FAF7F3]">
-      <Header />
-  <Hero />
+    <>
+      <main className="min-h-screen bg-[#FAF7F3]">
+        <Header />
+        <Hero />
 
-  <About />
-  
-  <SunokiGroup />
+        <About />
 
-  <Service />
+        <SunokiGroup />
 
-  <WhyKokoro />
+        <Service />
 
-  <Works />
+        <WhyKokoro />
 
-  <Estimator />
+        <Works />
 
-  <Process />
+        <Estimator />
 
-  <Testimonials />
+        <Process />
 
-  <Contact />
+        <Testimonials />
 
-  <Footer />
+        <Contact />
 
-  <FloatingButtons />
+        <Footer />
+      </main>
 
-</main>
+      <FloatingButtons />
+    </>
   );
 }
