@@ -1,11 +1,26 @@
 "use client";
 
 import { useLanguage } from "./LanguageContext";
+import {
+  PhoneCall,
+  ClipboardList,
+  FileCheck,
+  Hammer,
+  KeyRound,
+} from "lucide-react";
 
 export default function Process() {
   const { t } = useLanguage();
 
   const steps = t.process.steps;
+
+  const icons = [
+    PhoneCall,
+    ClipboardList,
+    FileCheck,
+    Hammer,
+    KeyRound,
+  ];
 
   return (
     <section
@@ -64,11 +79,11 @@ export default function Process() {
             {t.process.subtitle}
           </p>
 
-          <h2 className="mt-3 text-[28px] leading-[1.15] font-bold text-[#2B2520] md:text-[42px]">
+          <h2 className="mt-3 text-[30px] font-bold leading-tight text-[#2B2520] md:text-[40px]">
             {t.process.title}
           </h2>
 
-          <p className="mt-3 whitespace-pre-line text-[14px] leading-7 md:text-[15px] text-[#666]">
+          <p className="mt-4 whitespace-pre-line text-[15px] leading-7 text-[#666]">
             {t.process.description}
           </p>
 
@@ -76,58 +91,97 @@ export default function Process() {
 
         {/* Desktop */}
 
-        <div className="relative mt-14 hidden lg:block">
+        <div className="relative mt-16 hidden lg:block">
 
           <div className="absolute left-[8%] right-[8%] top-9 h-[2px] bg-[#E8D8C7]" />
 
           <div className="process-line absolute left-[8%] right-[8%] top-9 h-[2px] bg-[#B8895A]" />
 
-          <div className="grid grid-cols-5 gap-5">
+          <div className="grid grid-cols-5 gap-5">{steps.map((step, index) => {
 
-            {steps.map((step, index) => (
+  const Icon = icons[index];
 
-              <div
-                key={step.number}
-                className={`process-item delay${index + 1} text-center`}
-              >
+  return (
 
-                <div className="mx-auto flex h-18 w-18 items-center justify-center rounded-full border-[2px] border-[#B8895A] bg-white text-xl font-bold text-[#B8895A] shadow-md transition-all duration-500 hover:-translate-y-1 hover:scale-105 hover:bg-[#B8895A] hover:text-white hover:shadow-xl">
+    <div
+      key={step.number}
+      className={`process-item delay${index + 1} text-center`}
+    >
 
-                  {step.number}
+      {/* Number */}
 
-                </div>
+      <div className="mx-auto flex h-[72px] w-[72px] items-center justify-center rounded-full border-2 border-[#B8895A] bg-white text-[22px] font-bold text-[#B8895A] shadow-md transition-all duration-500 hover:-translate-y-1 hover:scale-105 hover:bg-[#B8895A] hover:text-white hover:shadow-xl">
 
-                <h3 className="mt-6 min-h-[72px] whitespace-pre-line text-[24px] font-bold leading-tight text-[#2B2520]">
-  {step.title.split("\n").map((line, index) => (
-    <span key={index}>
-      {line}
-      {index !== step.title.split("\n").length - 1 && <br />}
-    </span>
-  ))}
-</h3>
+        {step.number}
 
-                <p className="mx-auto mt-3 min-h-[96px] max-w-[190px] whitespace-pre-line text-[14px] leading-7 text-[#666]">
-                  {step.description}
-                </p>
+      </div>
 
-              </div>
+      {/* Icon */}
 
-            ))}
+      <div className="mt-6 flex justify-center">
 
-          </div>
+        <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#F7F2EC] shadow-sm transition-all duration-300 group-hover:scale-110">
+
+          <Icon
+            size={28}
+            strokeWidth={1.8}
+            className="text-[#B8895A]"
+          />
 
         </div>
 
-        {/* Mobile */}
+      </div>
 
-        <div className="mt-10 space-y-6 lg:hidden">
+      {/* Title */}
 
-          {steps.map((step) => (
+      <h3 className="mt-5 min-h-[64px] whitespace-pre-line text-[22px] font-bold leading-tight text-[#2B2520]">
+
+        {step.title.split("\n").map((line, i) => (
+          <span key={i}>
+            {line}
+            {i !== step.title.split("\n").length - 1 && <br />}
+          </span>
+        ))}
+
+      </h3>
+
+      {/* Description */}
+
+      <p className="mx-auto mt-3 min-h-[96px] max-w-[190px] whitespace-pre-line text-[14px] leading-7 text-[#666]">
+
+        {step.description.split("\n").map((line, i) => (
+          <span key={i}>
+            {line}
+            {i !== step.description.split("\n").length - 1 && <br />}
+          </span>
+        ))}
+
+      </p>
+
+    </div>
+
+  );
+
+})}        </div>
+
+      </div>
+
+      {/* Mobile */}
+
+      <div className="mt-10 space-y-7 lg:hidden">
+
+        {steps.map((step, index) => {
+
+          const Icon = icons[index];
+
+          return (
 
             <div
               key={step.number}
               className="relative flex gap-5"
             >
+
+              {/* Number & Line */}
 
               <div className="flex flex-col items-center">
 
@@ -143,31 +197,52 @@ export default function Process() {
 
               </div>
 
-              <div className="pb-8">
+              {/* Content */}
 
-              <h3 className="whitespace-pre-line text-[18px] md:text-[20px] font-bold leading-tight text-[#2B2520]">
-  {step.title.split("\n").map((line, index) => (
-    <span key={index}>
-      {line}
-      {index !== step.title.split("\n").length - 1 && <br />}
-    </span>
-  ))}
-</h3>
+              <div className="flex-1 pb-8">
 
-                <p className="mt-1 text-[14px] leading-6 text-[#666]">
-                  {step.description}
+                <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
+
+                  <Icon
+                    size={22}
+                    strokeWidth={1.8}
+                    className="text-[#B8895A]"
+                  />
+
+                </div>
+
+                <h3 className="whitespace-pre-line text-[19px] font-bold leading-tight text-[#2B2520]">
+
+                  {step.title.split("\n").map((line, i) => (
+                    <span key={i}>
+                      {line}
+                      {i !== step.title.split("\n").length - 1 && <br />}
+                    </span>
+                  ))}
+
+                </h3>
+
+                <p className="mt-2 whitespace-pre-line text-[14px] leading-7 text-[#666]">
+
+                  {step.description.split("\n").map((line, i) => (
+                    <span key={i}>
+                      {line}
+                      {i !== step.description.split("\n").length - 1 && <br />}
+                    </span>
+                  ))}
+
                 </p>
 
               </div>
 
             </div>
 
-          ))}
+          );
 
-        </div>
+        })}
 
-      </div>
+      </div>    </div>
 
-    </section>
-  );
+  </section>
+);
 }
