@@ -30,8 +30,6 @@ export default function About() {
             <h2 className="mb-5 text-[30px] font-bold leading-[1.15] tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
   {t.about.title}
 </h2>
-              {t.about.title}
-            </h2>
 
             {/* PC */}
 <p className="hidden md:block whitespace-pre-line text-[15px] leading-8 tracking-[0.03em] text-[#2B2520]/85 md:text-base">
