@@ -21,13 +21,15 @@ export default function About() {
 
           {/* Left */}
 
-          <div className="max-w-lg">
+          <div className="max-w-[340px] md:max-w-lg">
 
             <p className="mb-4 text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
               {t.about.philosophy}
             </p>
 
-            <h2 className="mb-6 text-[30px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
+            <h2 className="mb-5 text-[30px] font-bold leading-[1.15] tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
+  {t.about.title}
+</h2>
               {t.about.title}
             </h2>
 
@@ -37,7 +39,7 @@ export default function About() {
 </p>
 
 {/* Mobile */}
-<p className="block md:hidden whitespace-pre-line text-[15px] leading-8 tracking-[0.03em] text-[#2B2520]/85">
+<p className="block md:hidden max-w-[330px] whitespace-pre-line text-[15px] leading-8 tracking-[0.03em] text-[#2B2520]/85">
   {t.about.descriptionMobile}
 </p>
 
