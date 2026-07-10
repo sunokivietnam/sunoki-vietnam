@@ -17,14 +17,14 @@ export default function SectionTitle({
         </p>
       )}
 
-      <h2 className="text-[30px] font-bold leading-tight text-[#2B2520] md:text-[38px] lg:text-[48px]">
+      <h2 className="text-[30px] font-bold leading-tight text-[#2B2520] md:text-[42px]">
         {title}
       </h2>
 
       {description && (
-  <p className="mx-auto mt-6 max-w-[820px] text-[15px] leading-7 text-[#555555] md:text-base">
-    {description}
-  </p>
+  <p className="mx-auto mt-4 md:mt-6 max-w-[560px] whitespace-pre-line text-[15px] leading-7 text-[#555555] md:text-base">
+  {description}
+</p>
 )}
     </div>
   );
