@@ -44,7 +44,7 @@ export default function Service() {
 
                     <div className="grid h-full grid-cols-2 gap-3 p-4">
 
-                      <div className="relative h-full overflow-hidden rounded-[14px]">
+                      <div className="relative h-full overflow-hidden rounded-[12px]">
 
                         <Image
                           src="/images/bathroom.jpg"
@@ -55,7 +55,7 @@ export default function Service() {
 
                       </div>
 
-                      <div className="relative h-full overflow-hidden rounded-[14px]">
+                      <div className="relative h-full overflow-hidden rounded-[12px]">
 
                         <Image
                           src="/images/toilet.jpg"
@@ -72,7 +72,7 @@ export default function Service() {
 
                     <div className="grid h-full grid-cols-2 gap-3 p-4">
 
-                      <div className="relative h-full overflow-hidden rounded-[14px]">
+                      <div className="relative h-full overflow-hidden rounded-[12px]">
 
                         <Image
                           src="/images/work3.jpg"
@@ -83,7 +83,7 @@ export default function Service() {
 
                       </div>
 
-                      <div className="relative h-full overflow-hidden rounded-[14px]">
+                      <div className="relative h-full overflow-hidden rounded-[12px]">
 
                         <Image
   src="/images/zen.jpg"

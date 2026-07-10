@@ -28,7 +28,7 @@ export default function SunokiGroup() {
             {t.group.subtitle}
           </p>
 
-          <h2 className="mt-3 whitespace-pre-line text-[30px] font-bold leading-tight text-[#2B2520] md:text-[42px]">
+          <h2 className="mt-3 whitespace-pre-line text-[30px] font-bold leading-[1.15] text-[#2B2520] md:text-[38px]">
             {t.group.title}
           </h2>
 
@@ -60,7 +60,7 @@ export default function SunokiGroup() {
 
               <Image
                 src="/images/sunoki-japan.jpg"
-                alt="SUNOKI JAPAN"
+                alt="サンオキ株式会社"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-105"
               />

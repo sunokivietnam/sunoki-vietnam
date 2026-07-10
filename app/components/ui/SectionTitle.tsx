@@ -22,10 +22,10 @@ export default function SectionTitle({
       </h2>
 
       {description && (
-        <p className="mx-auto mt-6 max-w-xl text-[15px] leading-7 text-[#555555] md:text-base">
-          {description}
-        </p>
-      )}
+  <p className="mx-auto mt-6 max-w-[820px] text-[15px] leading-7 text-[#555555] md:text-base">
+    {description}
+  </p>
+)}
     </div>
   );
 }
