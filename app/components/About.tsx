@@ -31,9 +31,15 @@ export default function About() {
               {t.about.title}
             </h2>
 
-            <p className="whitespace-pre-line text-[15px] leading-8 tracking-[0.03em] text-[#2B2520]/85 md:text-base">
-              {t.about.description}
-            </p>
+            {/* PC */}
+<p className="hidden md:block whitespace-pre-line text-[15px] leading-8 tracking-[0.03em] text-[#2B2520]/85 md:text-base">
+  {t.about.description}
+</p>
+
+{/* Mobile */}
+<p className="block md:hidden whitespace-pre-line text-[15px] leading-8 tracking-[0.03em] text-[#2B2520]/85">
+  {t.about.descriptionMobile}
+</p>
 
           </div>
 
@@ -63,7 +69,7 @@ export default function About() {
             {t.about.collection}
           </p>
 
-          <h3 className="mt-3 text-[32px] font-bold text-[#2B2520]">
+          <h3 className="mt-3 text-[30px] font-bold leading-tight text-[#2B2520] md:text-[42px]">
             {t.about.collectionTitle}
           </h3>
 

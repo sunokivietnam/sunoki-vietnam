@@ -51,6 +51,8 @@ Thông qua thiết kế và thi công theo tiêu chuẩn Nhật Bản,
 chúng tôi tỉ mỉ tạo nên
 những không gian sống như vậy tại Việt Nam.`,
 
+descriptionMobile:
+
     collection: "KOKORO COLLECTION",
 
     collectionTitle:
