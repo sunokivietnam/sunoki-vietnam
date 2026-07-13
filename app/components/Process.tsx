@@ -168,7 +168,7 @@ export default function Process() {
 
       {/* Mobile */}
 
-      <div className="mt-10 space-y-7 lg:hidden">
+      <div className="mt-10 space-y-3 lg:hidden">
 
         {steps.map((step, index) => {
 
@@ -199,7 +199,7 @@ export default function Process() {
 
               {/* Content */}
 
-              <div className="flex-1 pb-8">
+              <div className="flex-1 pb-4">
 
                 <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
 
@@ -223,15 +223,14 @@ export default function Process() {
                 </h3>
 
                 <p className="mt-2 whitespace-pre-line text-[14px] leading-7 text-[#666]">
+  <span className="hidden md:inline">
+    {step.description}
+  </span>
 
-                  {step.description.split("\n").map((line, i) => (
-                    <span key={i}>
-                      {line}
-                      {i !== step.description.split("\n").length - 1 && <br />}
-                    </span>
-                  ))}
-
-                </p>
+  <span className="md:hidden">
+    {step.descriptionMobile}
+  </span>
+</p>
 
               </div>
 
