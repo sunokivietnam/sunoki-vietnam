@@ -178,9 +178,15 @@ export default function SunokiGroup() {
             {t.group.websiteTitle}
           </p>
 
-          <p className="mx-auto mt-3 max-w-xl text-[14px] leading-7 text-[#666]">
-            {t.group.websiteDescription}
-          </p>
+          <p className="mx-auto mt-3 max-w-xl whitespace-pre-line text-[14px] leading-7 text-[#666]">
+  <span className="hidden md:inline">
+    {t.group.websiteDescription}
+  </span>
+
+  <span className="md:hidden">
+    {t.group.websiteDescriptionMobile}
+  </span>
+</p>
 
           <a
             href="https://www.sun-oki.co.jp/"

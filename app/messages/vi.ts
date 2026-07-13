@@ -396,7 +396,15 @@ tại Việt Nam.`,
     websiteTitle: "Về SUNOKI JAPAN",
 
     websiteDescription:
-      "Được thành lập từ năm 1963. Tìm hiểu thêm về SUNOKI JAPAN – đơn vị chuyên thi công khung thép nhẹ và thạch cao với nhiều công trình trên khắp Nhật Bản.",
+"Được thành lập từ năm 1963. Tìm hiểu thêm về SUNOKI JAPAN – đơn vị chuyên thi công khung thép nhẹ và thạch cao với nhiều công trình trên khắp Nhật Bản.",
+
+websiteDescriptionMobile:
+`Thành lập năm 1963.
+
+Tìm hiểu thêm về
+SUNOKI JAPAN
+và các công trình
+trên khắp Nhật Bản.`,
 
     button: "Trang web SUNOKI JAPAN",
   },
