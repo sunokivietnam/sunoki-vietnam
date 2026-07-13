@@ -262,7 +262,7 @@ export default function Works() {
             {t.works.model.title}
           </h3>
 
-          <p className="whitespace-pre-line">
+          <p className="mx-auto mt-3 max-w-lg whitespace-pre-line text-center text-[15px] leading-7 text-[#666]">
   <span className="hidden md:inline">
     {t.works.model.description}
   </span>
