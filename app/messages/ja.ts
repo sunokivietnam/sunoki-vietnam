@@ -112,40 +112,79 @@ bonsaiDescriptionMobile:
     description:
       "住宅から店舗・水まわり・内装まで、日本品質の設計・施工をご提供します。",
 
+      descriptionMobile:
+`住宅から店舗・水まわり・内装まで、
+
+日本品質の設計・施工を
+ご提供します。`,
+
     worksButton: "施工事例を見る",
 
     items: [
+     {
+  category: "RESIDENCE",
+
+  title: "住宅内装",
+
+  description:
+    "新築・リフォーム・リノベーションまで、日本品質で快適な住まいをご提案します。",
+
+  descriptionMobile:
+`新築・リフォーム・
+リノベーションまで、
+
+日本品質で快適な住まいを
+ご提案します。`,
+},      {
+  category: "RESTAURANT",
+
+  title: "店舗・オフィス",
+
+  description:
+    "店舗デザインからオフィス施工まで、集客と使いやすさを両立した空間を実現します。",
+
+  descriptionMobile:
+`店舗デザインから
+オフィス施工まで、
+
+集客と使いやすさを
+両立した空間を
+実現します。`,
+},
       {
-        category: "RESIDENCE",
+  category: "BATHROOM",
 
-        title: "住宅内装",
+  title: "水まわり",
 
-        description:
-          "新築・リフォーム・リノベーションまで、日本品質で快適な住まいをご提案します。",
-      },      {
-        category: "RESTAURANT",
+  description:
+    "キッチン・浴室・トイレなど、水まわりを美しく機能的にリフォームします。",
 
-        title: "店舗・オフィス",
+  descriptionMobile:
+`キッチン・浴室・
+トイレなど、
 
-        description:
-          "店舗デザインからオフィス施工まで、集客と使いやすさを両立した空間を実現\nします。",
-      },
+水まわりを
+美しく機能的に
+リフォームします。`,
+},
       {
-        category: "BATHROOM",
+  category: "ZEN SPACE",
 
-        title: "水まわり",
+  title: "庭園・和空間",
 
-        description:
-          "キッチン・浴室・トイレなど、水まわりを美しく機能的にリフォームします。",
-      },
-      {
-        category: "ZEN SPACE",
+  description:
+    "日本の美意識を感じる和空間をデザイン。\n光・素材・陰影を活かし、心が落ち着く上質な空間をご提案します。",
 
-        title: "庭園・和空間",
+  descriptionMobile:
+`日本の美意識を感じる
+和空間をデザイン。
 
-        description:
-          "日本の美意識を感じる和空間をデザイン。\n光・素材・陰影を活かし、心が落ち着く上質な空間をご提案します。",
-      },
+光・素材・陰影を活かし、
+
+心が落ち着く
+上質な空間を
+ご提案します。`,
+},
     ],
   },
 

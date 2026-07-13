@@ -108,42 +108,89 @@ bonsaiDescriptionMobile:
     description:
       "Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản cho nhà ở, cửa hàng, phòng tắm và nhà vệ sinh và nội thất.",
 
+descriptionMobile:
+`Nhà ở, cửa hàng,
+không gian nội thất
+và khu vực nước.
+
+Thiết kế & thi công
+theo tiêu chuẩn
+chất lượng Nhật Bản.`,
+
     worksButton: "Xem dự án",
 
     items: [
-      {
-        category: "RESIDENCE",
+  {
+    category: "RESIDENCE",
 
-        title: "Nội thất nhà ở",
+    title: "Nhà ở",
 
-        description:
-          "Từ nhà mới, cải tạo đến nâng cấp, chúng tôi mang đến không gian sống tiện nghi theo tiêu chuẩn Nhật Bản.",
-      },
-      {
-        category: "RESTAURANT",
+    description:
+      "Nhà mới, cải tạo và nâng cấp theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi và thoải mái.",
 
-        title: "Nhà hàng & Văn phòng",
+    descriptionMobile:
+`Nhà mới,
+cải tạo,
+nâng cấp.
 
-        description:
-          "Thiết kế và thi công cửa hàng, văn phòng với sự cân bằng giữa tính thẩm mỹ và công năng.",
-      },
-      {
-        category: "BATHROOM",
+Mang đến không gian
+sống tiện nghi
+chuẩn Nhật Bản.`,
+  },
 
-        title: "Phòng tắm & Nhà vệ sinh",
+  {
+    category: "RESTAURANT",
 
-        description:
-          "Cải tạo bếp, phòng tắm và nhà vệ sinh với thiết kế đẹp và tiện dụng.",
-      },
-      {
-        category: "ZEN SPACE",
+    title: "Cửa hàng & Văn phòng",
 
-        title: "Sân vườn & Không gian Nhật",
+    description:
+      "Thiết kế và thi công cửa hàng, văn phòng với không gian đẹp, tiện dụng và thu hút khách hàng.",
 
-        description:
-          "Thiết kế không gian mang đậm tinh thần Nhật Bản.\nTận dụng ánh sáng, vật liệu và chiều sâu để tạo nên không gian thư giãn và tinh tế.",
-      },
-    ],
+    descriptionMobile:
+`Thiết kế cửa hàng
+và văn phòng.
+
+Không gian đẹp,
+thu hút khách
+và tiện sử dụng.`,
+  },
+
+  {
+    category: "BATHROOM",
+
+    title: "Khu vực nước",
+
+    description:
+      "Cải tạo bếp, phòng tắm và nhà vệ sinh đẹp, tiện nghi và hiện đại.",
+
+    descriptionMobile:
+`Bếp,
+phòng tắm,
+nhà vệ sinh.
+
+Cải tạo đẹp,
+tiện nghi
+và hiện đại.`,
+  },
+
+  {
+    category: "ZEN SPACE",
+
+    title: "Không gian Nhật",
+
+    description:
+      "Thiết kế không gian mang đậm tinh thần Nhật Bản.\nTận dụng ánh sáng, vật liệu và bóng đổ để tạo nên không gian thư thái và tinh tế.",
+
+    descriptionMobile:
+`Thiết kế
+không gian Nhật.
+
+Tận dụng ánh sáng,
+vật liệu và bóng đổ
+để tạo cảm giác
+thư thái.`,
+  },
+],
   },  works: {
     subtitle: "WORKS",
 

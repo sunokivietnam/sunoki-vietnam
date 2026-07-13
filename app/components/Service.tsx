@@ -21,11 +21,25 @@ export default function Service() {
     >
       <Container>
 
-        <SectionTitle
-          subtitle={t.service.subtitle}
-          title={t.service.title}
-          description={t.service.description}
-        />
+        <div className="mx-auto max-w-3xl text-center">
+  <p className="text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
+    {t.service.subtitle}
+  </p>
+
+  <h2 className="mt-3 text-[28px] md:text-[36px] font-bold leading-[1.15] text-[#2B2520]">
+    {t.service.title}
+  </h2>
+
+  <p className="mx-auto mt-5 max-w-[720px] whitespace-pre-line text-[15px] leading-8 text-[#666]">
+    <span className="hidden md:inline">
+      {t.service.description}
+    </span>
+
+    <span className="md:hidden">
+      {t.service.descriptionMobile}
+    </span>
+  </p>
+</div>
 
         <div className="mt-10 grid gap-6 md:mt-14 md:gap-6 md:grid-cols-2">
 
@@ -125,8 +139,14 @@ export default function Service() {
                 <h3 className="mt-2 text-[22px] md:text-[24px] font-bold text-[#2B2520]">
                   {service.title}
                 </h3>                <p className="mt-2 whitespace-pre-line text-[14px] leading-7 md:text-[15px] text-[#555]">
-                  {service.description}
-                </p>
+  <span className="hidden md:inline">
+    {service.description}
+  </span>
+
+  <span className="md:hidden">
+    {service.descriptionMobile}
+  </span>
+</p>
 
               </div>
 
