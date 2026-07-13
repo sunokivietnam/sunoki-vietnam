@@ -291,35 +291,89 @@ thư thái.`,
 
     features: [
   {
-    title: "Chất lượng Nhật Bản",
-    description:
-      "Quản lý chất lượng nghiêm ngặt và thi công tỉ mỉ theo tiêu chuẩn Nhật Bản.",
-  },
+  title: "Chất lượng Nhật Bản",
+
+  description:
+    "Quản lý chất lượng đến hoàn thiện theo tiêu chuẩn Nhật Bản.",
+
+  descriptionMobile:
+`Quản lý chất lượng
+và hoàn thiện.
+
+Thi công cẩn thận
+theo tiêu chuẩn
+Nhật Bản.`,
+},
   {
-    title: "Kiến trúc sư hạng nhất Nhật Bản",
-    description:
-      "Thiết kế và chất lượng công trình được giám sát bởi kiến trúc sư hạng nhất người Nhật.",
-  },
+  title: "Kiến trúc sư Nhật Bản",
+
+  description:
+    "Kiến trúc sư Nhật Bản giám sát thiết kế và chất lượng.",
+
+  descriptionMobile:
+`Kiến trúc sư
+Nhật Bản.
+
+Giám sát thiết kế
+và chất lượng
+công trình.`,
+},
   {
-    title: "Đội ngũ đào tạo tại Nhật",
-    description:
-      "Nhân viên Việt Nam đã trải qua 3 năm đào tạo và làm việc tại Nhật Bản trực tiếp tham gia thi công.",
-  },
+  title: "Đội ngũ được đào tạo tại Nhật",
+
+  description:
+    "Nhân viên được đào tạo và có kinh nghiệm tại Nhật Bản.",
+
+  descriptionMobile:
+`Đội ngũ đã học tập
+và làm việc
+tại Nhật.
+
+Đảm bảo chất lượng
+thi công.`,
+},
   {
-    title: "Hỗ trợ tiếng Nhật & tiếng Việt",
-    description:
-      "Trao đổi thuận tiện bằng cả tiếng Nhật và tiếng Việt trong suốt quá trình thực hiện.",
-  },
+  title: "Hỗ trợ tiếng Nhật & Việt",
+
+  description:
+    "Tư vấn bằng cả tiếng Nhật và tiếng Việt.",
+
+  descriptionMobile:
+`Hỗ trợ
+tiếng Nhật
+và tiếng Việt.
+
+Trao đổi dễ dàng
+và thuận tiện.`,
+},
   {
-    title: "Thiết kế & thi công trọn gói",
-    description:
-      "Đảm nhận toàn bộ quy trình từ thiết kế đến thi công với một đầu mối duy nhất.",
-  },
+  title: "Thiết kế & Thi công trọn gói",
+
+  description:
+    "Một đơn vị phụ trách từ thiết kế đến thi công.",
+
+  descriptionMobile:
+`Từ thiết kế
+đến thi công.
+
+Một đơn vị
+phụ trách
+toàn bộ.`,
+},
   {
-    title: "Hỗ trợ sau bàn giao",
-    description:
-      "Luôn đồng hành và hỗ trợ để khách hàng yên tâm ngay cả sau khi công trình hoàn thành.",
-  },
+  title: "Hỗ trợ sau thi công",
+
+  description:
+    "Tiếp tục hỗ trợ sau khi công trình hoàn thành.",
+
+  descriptionMobile:
+`Hỗ trợ
+sau khi
+bàn giao.
+
+An tâm sử dụng
+lâu dài.`,
+},
 ],
   },  process: {
     subtitle: "PROCESS",

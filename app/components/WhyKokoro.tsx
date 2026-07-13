@@ -43,7 +43,7 @@ export default function WhyKokoro() {
   return (
     <section
       id="service"
-      className="bg-[#FAF7F3] py-14 md:py-16"
+      className="bg-[#FAF7F3] py-16 md:py-16"
     >
       <div className="mx-auto max-w-[1200px] px-6 md:px-8">
 
@@ -88,9 +88,15 @@ export default function WhyKokoro() {
                   {feature.title}
                 </h3>
 
-                <p className="whitespace-pre-line text-[13px] md:text-[14px] leading-6 md:leading-7 text-[#2B2520]/70">
-                  {feature.description}
-                </p>
+               <p className="whitespace-pre-line text-[13px] md:text-[14px] leading-6 md:leading-7 text-[#2B2520]/70">
+  <span className="hidden md:inline">
+    {feature.description}
+  </span>
+
+  <span className="md:hidden">
+    {feature.descriptionMobile}
+  </span>
+</p>
 
               </article>
             );
