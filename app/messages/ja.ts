@@ -152,8 +152,7 @@ bonsaiDescriptionMobile:
 
   descriptionMobile:
 `キッチン・浴室・トイレなど、
-水まわりを美しく機能的に
-リフォームします。`,
+水まわりを美しく機能的にリフォームします。`,
 },
       {
   category: "ZEN SPACE",
@@ -165,8 +164,7 @@ bonsaiDescriptionMobile:
 
   descriptionMobile:
 `日本の美意識を感じる和空間をデザイン。
-光・素材・陰影を活かし、
-心が落ち着く上質な空間を
+光・素材・陰影を活かし、心が落ち着く上質な空間を
 ご提案します。`,
 },
     ],
