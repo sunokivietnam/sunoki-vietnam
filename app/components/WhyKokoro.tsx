@@ -67,7 +67,7 @@ export default function WhyKokoro() {
 
         {/* Cards */}
 
-        <div className="grid grid-cols-2 gap-5 lg:grid-cols-3">
+        <div className="grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-3">
           {features.map((feature, index) => {
 
             const Icon = feature.icon;
@@ -75,7 +75,7 @@ export default function WhyKokoro() {
             return (
               <article
                 key={index}
-                className="group flex h-full flex-col rounded-[18px] bg-white px-6 py-7 shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
+                className="group flex h-full flex-col rounded-[18px] bg-white px-6 py-5 md:py-7 shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
               >
 
                 <Icon
