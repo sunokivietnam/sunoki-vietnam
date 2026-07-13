@@ -259,7 +259,6 @@ bonsaiDescriptionMobile:
 
   descriptionMobile:
 `完成後の空間を
-
 3Dウォークスルーでご体感ください。`,
 },
   },
