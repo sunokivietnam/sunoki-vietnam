@@ -327,7 +327,6 @@ bonsaiDescriptionMobile:
   descriptionMobile:
 `設計から施工まで
 一貫対応。
-
 安心して
 お任せいただけます。`,
 },
@@ -341,7 +340,6 @@ bonsaiDescriptionMobile:
 `完成後も
 長く安心して
 暮らせるよう、
-
 継続して
 サポートいたします。`,
 },
