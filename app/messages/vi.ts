@@ -498,7 +498,9 @@ công trình.`,
 
     description:
       "Giới thiệu những chia sẻ từ các khách hàng đã sử dụng dịch vụ của chúng tôi.",
-
+descriptionMobile:
+`Giới thiệu những chia sẻ từ các khách hàng
+đã sử dụng dịch vụ của chúng tôi.`,
     items: [
       {
         name: "Nguyen Van A",
