@@ -390,37 +390,105 @@ lâu dài.`,
     description:
       "Chúng tôi sẽ hỗ trợ cẩn thận từ khi tiếp nhận yêu cầu đến khi hoàn thành công trình.",
 
+descriptionMobile:
+`Chúng tôi sẽ hỗ trợ cẩn thận 
+từ khi tiếp nhận yêu cầu đến khi 
+hoàn thành công trình`,
     steps: [
   {
-    number: "01",
-    title: "Liên hệ",
-    description:
-      "Liên hệ với chúng tôi qua biểu mẫu, điện thoại hoặc email.",
-  },
+  number: "01",
+
+  title: "Liên hệ",
+
+  titleMobile: "Liên hệ",
+
+  description:
+    "Liên hệ với chúng tôi qua biểu mẫu, điện thoại hoặc email.",
+
+  descriptionMobile: `Liên hệ với chúng tôi
+
+qua biểu mẫu,
+điện thoại
+hoặc email.`,
+},
   {
-    number: "02",
-    title: "Tư vấn & Khảo sát",
-    description:
-      "Lắng nghe nhu cầu, ngân sách và khảo sát hiện trạng công trình.",
-  },
+  number: "02",
+
+  title: "Tư vấn & Khảo sát",
+
+  titleMobile:
+`Tư vấn &
+Khảo sát`,
+
+  description:
+    "Lắng nghe nhu cầu, ngân sách và khảo sát hiện trạng công trình.",
+
+  descriptionMobile:
+`Lắng nghe nhu cầu
+và ngân sách.
+
+Khảo sát
+hiện trạng
+công trình.`,
+},
+ {
+  number: "03",
+
+  title: "Đề xuất thiết kế 3D",
+
+  titleMobile:
+`Thiết kế 3D &
+Báo giá`,
+
+  description:
+    "Trình bày phối cảnh 3D giúp bạn hình dung không gian hoàn thiện cùng báo giá chi tiết.",
+
+  descriptionMobile:
+`Đề xuất
+thiết kế 3D.
+
+Gửi báo giá
+chi tiết.`,
+},
   {
-    number: "03",
-    title: "Đề xuất thiết kế 3D",
-    description:
-      "Trình bày phối cảnh 3D giúp bạn hình dung không gian hoàn thiện cùng báo giá chi tiết.",
-  },
+  number: "04",
+
+  title: "Thi công & Quản lý chất lượng",
+
+  titleMobile:
+`Thi công &
+Quản lý`,
+
+  description:
+    "Thi công theo tiêu chuẩn Nhật Bản với quy trình kiểm soát chất lượng nghiêm ngặt.",
+
+  descriptionMobile:
+`Thi công
+theo tiêu chuẩn
+Nhật Bản.
+
+Kiểm soát
+chất lượng.`,
+},
   {
-    number: "04",
-    title: "Thi công & Quản lý chất lượng",
-    description:
-      "Thi công theo tiêu chuẩn Nhật Bản với quy trình kiểm soát chất lượng nghiêm ngặt.",
-  },
-  {
-    number: "05",
-    title: "Hoàn thiện & Bàn giao",
-    description:
-      "Kiểm tra lần cuối và bàn giao công trình hoàn chỉnh cho khách hàng.",
-  },
+  number: "05",
+
+  title: "Hoàn thiện & Bàn giao",
+
+  titleMobile:
+`Hoàn thiện &
+Bàn giao`,
+
+  description:
+    "Kiểm tra lần cuối và bàn giao công trình hoàn chỉnh cho khách hàng.",
+
+  descriptionMobile:
+`Kiểm tra
+lần cuối.
+
+Bàn giao
+công trình.`,
+},
 ],
   }, 
     reviews: {

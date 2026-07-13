@@ -338,39 +338,102 @@ bonsaiDescriptionMobile:
 
     title: "施工の流れ",
 
-    description:
-      "お問い合わせから施工完了まで、一つひとつ丁寧にサポートいたします。",
+   description:
+  "お問い合わせから施工完了まで、一つひとつ丁寧にサポートいたします。",
+
+descriptionMobile:
+`お問い合わせから施工完了まで、
+一つひとつ丁寧に
+サポートいたします。`,
 
     steps: [
       {
-        number: "01",
-        title: "お問い合わせ",
-        description:
-          "フォーム・電話・メールからお気軽にご相談ください。",
-      },
+  number: "01",
+
+  title: "お問い合わせ",
+
+  titleMobile: "お問い合わせ",
+
+  description:
+    "フォーム・電話・メールからお気軽にご相談ください。",
+
+  descriptionMobile:
+`フォーム・電話・メールから
+
+お気軽に
+ご相談ください。`,
+},
       {
-        number: "02",
-        title: "ヒアリング・\n現地調査",
-        description:
-          "ご要望やご予算を伺い、現地調査を行います。",
-      },
+  number: "02",
+
+  title: "ヒアリング・\n現地調査",
+
+  titleMobile:
+`ヒアリング・
+現地調査`,
+
+  description:
+    "ご要望やご予算を伺い、現地調査を行います。",
+
+  descriptionMobile:
+`ご要望やご予算を伺い、
+
+現地調査を
+行います。`,
+},
       {
-        number: "03",
-        title: "3Dデザイン・\nお見積り",
-        description:
-          "最適なプランとお見積りを\nご提案いたします。",
-      },
+  number: "03",
+
+  title: "3Dデザイン・\nお見積り",
+
+  titleMobile:
+`3Dデザイン・
+お見積り`,
+
+  description:
+    "最適なプランとお見積りをご提案いたします。",
+
+  descriptionMobile:
+`最適なプランと
+お見積りを
+
+ご提案いたします。`,
+},
       {
-        number: "04",
-        title: "管理・施工開始",
-        description:
-          "日本品質の施工管理で丁寧に工事を進めます。",
-      },      {
-        number: "05",
-        title: "完成・お引渡し",
-        description:
-          "最終確認後、お客様へお引渡しいたします。",
-      },
+  number: "04",
+
+  title: "管理・施工開始",
+
+  titleMobile:
+`管理・
+施工開始`,
+
+  description:
+    "日本品質の施工管理で丁寧に工事を進めます。",
+
+  descriptionMobile:
+`日本品質の施工管理で
+
+丁寧に工事を
+進めます。`,
+},      {
+  number: "05",
+
+  title: "完成・お引渡し",
+
+  titleMobile:
+`完成・
+お引渡し`,
+
+  description:
+    "最終確認後、お客様へお引渡しいたします。",
+
+  descriptionMobile:
+`最終確認後、
+
+お客様へ
+お引渡しいたします。`,
+},
     ],
   },
    reviews: {

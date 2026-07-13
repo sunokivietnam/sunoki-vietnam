@@ -134,16 +134,9 @@ export default function Process() {
 
       {/* Title */}
 
-      <h3 className="mt-5 min-h-[64px] whitespace-pre-line text-[22px] font-bold leading-tight text-[#2B2520]">
-
-        {step.title.split("\n").map((line, i) => (
-          <span key={i}>
-            {line}
-            {i !== step.title.split("\n").length - 1 && <br />}
-          </span>
-        ))}
-
-      </h3>
+     <h3 className="mt-5 min-h-[64px] whitespace-pre-line text-[22px] font-bold leading-tight text-[#2B2520]">
+  {step.title}
+</h3>
 
       {/* Description */}
 
@@ -201,38 +194,23 @@ export default function Process() {
 
               <div className="flex-1 pb-4">
 
-                <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
+  <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
+    <Icon
+      size={22}
+      strokeWidth={1.8}
+      className="text-[#B8895A]"
+    />
+  </div>
 
-                  <Icon
-                    size={22}
-                    strokeWidth={1.8}
-                    className="text-[#B8895A]"
-                  />
+  <h3 className="whitespace-pre-line text-[19px] font-bold leading-tight text-[#2B2520]">
+    {step.titleMobile ?? step.title}
+  </h3>
 
-                </div>
+  <p className="mt-2 whitespace-pre-line text-[14px] leading-7 text-[#666]">
+    {step.descriptionMobile ?? step.description}
+  </p>
 
-                <h3 className="whitespace-pre-line text-[19px] font-bold leading-tight text-[#2B2520]">
-
-                  {step.title.split("\n").map((line, i) => (
-                    <span key={i}>
-                      {line}
-                      {i !== step.title.split("\n").length - 1 && <br />}
-                    </span>
-                  ))}
-
-                </h3>
-
-                <p className="mt-2 whitespace-pre-line text-[14px] leading-7 text-[#666]">
-  <span className="hidden md:inline">
-    {step.description}
-  </span>
-
-  <span className="md:hidden">
-    {step.descriptionMobile}
-  </span>
-</p>
-
-              </div>
+</div>
 
             </div>
 
