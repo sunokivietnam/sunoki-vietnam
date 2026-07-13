@@ -359,8 +359,7 @@ descriptionMobile:
 
   descriptionMobile:
 `フォーム・電話・メールから
-お気軽に
-ご相談ください。`,
+お気軽にご相談ください。`,
 },
       {
   number: "02",
@@ -376,8 +375,7 @@ descriptionMobile:
 
   descriptionMobile:
 `ご要望やご予算を伺い、
-現地調査を
-行います。`,
+現地調査を行います。`,
 },
       {
   number: "03",
@@ -392,8 +390,7 @@ descriptionMobile:
     "最適なプランとお見積りをご提案いたします。",
 
   descriptionMobile:
-`最適なプランと
-お見積りを
+`最適なプランとお見積りを
 ご提案いたします。`,
 },
       {
@@ -410,8 +407,7 @@ descriptionMobile:
 
   descriptionMobile:
 `日本品質の施工管理で
-丁寧に工事を
-進めます。`,
+丁寧に工事を進めます。`,
 },      {
   number: "05",
 
@@ -426,8 +422,7 @@ descriptionMobile:
 
   descriptionMobile:
 `最終確認後、
-お客様へ
-お引渡しいたします。`,
+お客様へお引渡しいたします。`,
 },
     ],
   },
