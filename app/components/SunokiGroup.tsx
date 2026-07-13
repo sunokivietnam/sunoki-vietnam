@@ -28,12 +28,24 @@ export default function SunokiGroup() {
             {t.group.subtitle}
           </p>
 
-          <h2 className="mt-3 text-[28px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[36px]">
-            {t.group.title}
-          </h2>
+         <h2 className="mt-3 text-[28px] md:text-[36px] font-bold leading-[1.15] tracking-[-0.02em] text-[#2B2520] whitespace-pre-line">
+  <span className="hidden md:inline">
+    PC VERSION
+  </span>
+
+  <span className="md:hidden">
+    MOBILE VERSION
+  </span>
+</h2>
 
           <p className="mx-auto mt-5 max-w-[720px] whitespace-pre-line text-[15px] leading-8 text-[#666]">
-  {t.group.description}
+  <span className="hidden md:inline">
+    {t.group.description}
+  </span>
+
+  <span className="md:hidden">
+    {t.group.descriptionMobile}
+  </span>
 </p>
 
         </div>
