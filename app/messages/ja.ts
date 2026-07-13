@@ -114,7 +114,6 @@ bonsaiDescriptionMobile:
 
       descriptionMobile:
 `住宅から店舗・水まわり・内装まで、
-
 日本品質の設計・施工を
 ご提供します。`,
 
