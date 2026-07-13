@@ -84,8 +84,14 @@ export default function Process() {
           </h2>
 
           <p className="mt-4 whitespace-pre-line text-[15px] leading-7 text-[#666]">
-            {t.process.description}
-          </p>
+  <span className="hidden md:inline">
+    {t.process.description}
+  </span>
+
+  <span className="md:hidden">
+    {t.process.descriptionMobile}
+  </span>
+</p>
 
         </div>
 
@@ -161,8 +167,7 @@ export default function Process() {
 
       {/* Mobile */}
 
-      <div className="mt-10 space-y-3 lg:hidden">
-
+      <div className="mt-10 space-y-1 lg:hidden">
         {steps.map((step, index) => {
 
           const Icon = icons[index];
@@ -185,16 +190,16 @@ export default function Process() {
                 </div>
 
                 {step.number !== "05" && (
-                  <div className="mt-2 h-full w-px bg-[#D9C6B1]" />
-                )}
+  <div className="mt-2 h-36 w-px bg-[#D9C6B1] md:h-full" />
+)}
 
               </div>
 
               {/* Content */}
 
-              <div className="flex-1 pb-4">
+              <div className="flex-1 pb-1">
 
-  <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
+  <div className="mb-2 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
     <Icon
       size={22}
       strokeWidth={1.8}
@@ -206,7 +211,7 @@ export default function Process() {
     {step.titleMobile ?? step.title}
   </h3>
 
-  <p className="mt-2 whitespace-pre-line text-[14px] leading-7 text-[#666]">
+  <p className="mt-1 whitespace-pre-line text-[14px] leading-7 text-[#666]">
     {step.descriptionMobile ?? step.description}
   </p>
 
