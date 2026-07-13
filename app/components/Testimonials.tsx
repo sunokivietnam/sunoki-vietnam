@@ -17,9 +17,15 @@ export default function Testimonials() {
         {t.reviews.title}
       </h2>
 
-      <p className="mx-auto mt-3 max-w-2xl text-center text-[14px] leading-7 md:text-[15px] text-[#666]">
-        {t.reviews.description}
-      </p>
+      <p className="mx-auto mt-3 max-w-2xl text-center whitespace-pre-line text-[14px] leading-7 md:text-[15px] text-[#666]">
+  <span className="hidden md:inline">
+    {t.reviews.description}
+  </span>
+
+  <span className="md:hidden">
+    {t.reviews.descriptionMobile}
+  </span>
+</p>
 
       <div className="mt-8 grid gap-5 md:mt-10 md:gap-6 md:grid-cols-3">
         {reviews.map((review) => (

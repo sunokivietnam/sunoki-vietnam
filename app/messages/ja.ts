@@ -433,6 +433,9 @@ descriptionMobile:
 
     description:
       "実際に施工をご依頼いただいたお客様の声をご紹介します。",
+descriptionMobile:
+`実際に施工をご依頼いただいた
+お客様の声をご紹介します。`,
 
     items: [
       {
