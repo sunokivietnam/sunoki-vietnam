@@ -276,7 +276,6 @@ bonsaiDescriptionMobile:
   descriptionMobile:
 `品質管理から
 仕上げまで、
-
 日本基準の
 丁寧な施工を
 行います。`,
@@ -288,9 +287,8 @@ bonsaiDescriptionMobile:
     "日本人一級建築士が設計・品質を監修し、\n安心できる空間づくりをご提案します。",
 
   descriptionMobile:
-`日本人一級建築士が
-設計・品質を監修。
-
+`日本人一級建築士
+が設計・品質を監修。
 安心できる
 空間づくりを
 ご提案します。`,
@@ -305,7 +303,6 @@ bonsaiDescriptionMobile:
 `日本で学び
 経験を積んだ
 スタッフが、
-
 現場で品質を
 支えます。`,
 },
@@ -316,10 +313,8 @@ bonsaiDescriptionMobile:
     "日本語・ベトナム語の両方で、\nスムーズにご相談いただけます。",
 
   descriptionMobile:
-`日本語・
-ベトナム語の
+`日本語・ベトナム語の
 両方で、
-
 スムーズに
 ご相談いただけます。`,
 },
