@@ -91,11 +91,16 @@ export default function Estimator() {
               : "Công cụ mô phỏng công trình"}
           </h2>
 
-          <p className="mx-auto mt-3 max-w-lg text-[14px] leading-6 text-[#666]">
-            {language === "ja"
-              ? "ご希望の仕様を選択して、そのまま無料相談へ進めます。"
-              : "Chọn thông tin mong muốn và gửi yêu cầu tư vấn miễn phí."}
-          </p>
+          <p className="mx-auto mt-3 max-w-lg whitespace-pre-line text-[14px] leading-6 text-[#666]">
+  {language === "ja"
+    ? `ご希望の仕様を選択して、
+
+そのまま無料相談へ進めます。`
+    : `Chọn thông tin mong muốn.
+
+Gửi yêu cầu
+tư vấn miễn phí.`}
+</p>
 
         </div>
 
