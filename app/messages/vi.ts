@@ -276,11 +276,18 @@ thư thái.`,
     },
 
     model: {
-      title: "Nhà mẫu 3D",
+  title: "Phòng mẫu 3D",
 
-      description:
-        "Trải nghiệm không gian hoàn thiện bằng mô hình 3D Walkthrough.",
-    },
+  description:
+    "Trải nghiệm không gian hoàn thiện bằng mô phỏng 3D.",
+
+  descriptionMobile:
+`Trải nghiệm không gian
+
+hoàn thiện bằng
+mô phỏng 3D.`,
+},
+
   },  why: {
     subtitle: "WHY SUNOKI VIETNAM",
 

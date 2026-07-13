@@ -94,7 +94,6 @@ export default function Estimator() {
           <p className="mx-auto mt-3 max-w-lg whitespace-pre-line text-[14px] leading-6 text-[#666]">
   {language === "ja"
     ? `ご希望の仕様を選択して、
-
 そのまま無料相談へ進めます。`
     : `Chọn thông tin mong muốn.
 

@@ -251,12 +251,17 @@ bonsaiDescriptionMobile:
           subtitle: "SUSHI COUNTER",
         },
       ],
-    },    model: {
-      title: "3Dモデルルーム",
+    },   model: {
+  title: "3Dモデルルーム",
 
-      description:
-        "完成後の空間を3Dウォークスルーでご体感ください。",
-    },
+  description:
+    "完成後の空間を3Dウォークスルーでご体感ください。",
+
+  descriptionMobile:
+`完成後の空間を
+
+3Dウォークスルーでご体感ください。`,
+},
   },
   why: {
     subtitle: "WHY SUNOKI VIETNAM",

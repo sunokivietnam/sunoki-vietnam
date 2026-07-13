@@ -98,9 +98,9 @@ export default function Works() {
             Residence
         ========================= */}
 
-        <div className="mt-6 md:mt-8">
+        <div className="mt-4 md:mt-8">
 
-          <div className="mb-8">
+          <div className="mb-6 md:mb-8">
 
             <p className="text-[11px] font-semibold tracking-[0.32em] text-[#B8895A]">
               {t.works.residence.subtitle}
@@ -178,7 +178,7 @@ export default function Works() {
 
         <div className="mt-12 md:mt-16">
 
-          <div className="mb-8">
+          <div className="mb-6 md:mb-8">
 
             <p className="text-[11px] font-semibold tracking-[0.32em] text-[#B8895A]">
               {t.works.commercial.subtitle}
@@ -256,15 +256,21 @@ export default function Works() {
             3D MODEL ROOM
         ========================= */}
 
-        <section className="mt-12 md:mt-16">
+        <section className="mt-10 md:mt-16">
 
           <h3 className="text-center text-[28px] font-bold text-[#2B2520] md:text-[32px]">
             {t.works.model.title}
           </h3>
 
-          <p className="mt-3 text-center text-[15px] leading-7 text-[#666]">
-            {t.works.model.description}
-          </p>
+          <p className="whitespace-pre-line">
+  <span className="hidden md:inline">
+    {t.works.model.description}
+  </span>
+
+  <span className="md:hidden">
+    {t.works.model.descriptionMobile}
+  </span>
+</p>
 
           <div className="mx-auto mt-6 max-w-[700px] overflow-hidden rounded-[18px] shadow-[0_12px_36px_rgba(43,37,32,0.12)]">
 
