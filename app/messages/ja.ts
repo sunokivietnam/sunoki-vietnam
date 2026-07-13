@@ -359,7 +359,6 @@ descriptionMobile:
 
   descriptionMobile:
 `フォーム・電話・メールから
-
 お気軽に
 ご相談ください。`,
 },
@@ -377,7 +376,6 @@ descriptionMobile:
 
   descriptionMobile:
 `ご要望やご予算を伺い、
-
 現地調査を
 行います。`,
 },
@@ -396,7 +394,6 @@ descriptionMobile:
   descriptionMobile:
 `最適なプランと
 お見積りを
-
 ご提案いたします。`,
 },
       {
@@ -413,7 +410,6 @@ descriptionMobile:
 
   descriptionMobile:
 `日本品質の施工管理で
-
 丁寧に工事を
 進めます。`,
 },      {
@@ -430,7 +426,6 @@ descriptionMobile:
 
   descriptionMobile:
 `最終確認後、
-
 お客様へ
 お引渡しいたします。`,
 },
