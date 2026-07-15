@@ -22,7 +22,7 @@ const vi = {
   brand: "KOKORO LIVING",
 
   title: `Kiến tạo
-không gian bằng cả tâm huyết.`,
+không gian bằng\ncả tâm huyết.`,
 
   titleMobile: `Kiến tạo
 không gian bằng
