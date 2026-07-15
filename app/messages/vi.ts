@@ -614,6 +614,9 @@ trên khắp Nhật Bản.`,
 
   title: "Mang chất lượng Nhật Bản\nđến Việt Nam.",
 
+  titleMobile: `Mang chất lượng Nhật Bản
+đến Việt Nam.`,
+
   description:
     "Từ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh và nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi tại Việt Nam bằng thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
 
