@@ -156,19 +156,31 @@ Vui lòng nhập thêm yêu cầu của bạn。
     >
       <Container>
 
-        <SectionTitle
-          subtitle="CONTACT"
-          title={
-            language === "ja"
-              ? "お問い合わせ"
-              : "Liên hệ"
-          }
-          description={
-            language === "ja"
-              ? "住まいづくりのご相談からお見積りまで、お気軽にお問い合わせください。"
-              : "Liên hệ với chúng tôi để được tư vấn và báo giá."
-          }
-        />
+        <div className="text-center">
+  <p className="text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
+    CONTACT
+  </p>
+
+  <h2 className="mt-3 text-[30px] md:text-[42px] font-bold text-[#2B2520]">
+    {language === "ja" ? "お問い合わせ" : "Liên hệ"}
+  </h2>
+
+  <p className="mt-4 whitespace-pre-line text-[14px] leading-7 md:text-[15px] text-[#666]">
+    <span className="hidden md:inline">
+      {language === "ja"
+        ? "住まいづくりのご相談からお見積りまで、お気軽にお問い合わせください。"
+        : "Liên hệ với chúng tôi để được tư vấn và báo giá."}
+    </span>
+
+    <span className="md:hidden">
+      {language === "ja"
+        ? `住まいづくりのご相談からお見積りまで、
+お気軽にお問い合わせください。`
+        : `Liên hệ với chúng tôi
+để được tư vấn và báo giá.`}
+    </span>
+  </p>
+</div>
 
         <div className="mt-10 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
 
