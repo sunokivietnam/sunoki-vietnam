@@ -23,7 +23,7 @@ export default function Footer() {
       <Container className="max-w-[1080px]">
 
         {/* Top */}
-       <div className="grid gap-12 border-b border-white/10 py-7 lg:grid-cols-[1.8fr_1fr]">
+       <div className="grid gap-8 border-b border-white/10 py-5 lg:grid-cols-[1.8fr_1fr]">
 
           {/* Left */}
           <div>
@@ -31,12 +31,12 @@ export default function Footer() {
             <Image
               src="/images/logo-kokoro.png"
               alt="KOKORO Living"
-             width={180}
-height={65}
-className="h-auto w-[180px]"
+             width={160}
+height={58}
+className="h-auto w-[160px]"
             />
 
-            <h2 className="mt-5 whitespace-pre-line text-[28px] font-bold leading-tight md:text-4xl">
+            <h2 className="mt-2 whitespace-pre-line text-[28px] font-bold leading-tight md:text-4xl">
   <span className="hidden md:inline">
     {t.footer.title}
   </span>
@@ -46,7 +46,7 @@ className="h-auto w-[180px]"
   </span>
 </h2>
 
-            <p className="mt-6 max-w-[500px] whitespace-pre-line text-[15px] leading-7 md:text-lg md:leading-8 text-white/70">
+            <p className="mt-4 max-w-[500px] whitespace-pre-line text-[15px] leading-7 md:text-lg md:leading-8 text-white/70">
   <span className="hidden md:inline">
   {t.footer.description}
 </span>
