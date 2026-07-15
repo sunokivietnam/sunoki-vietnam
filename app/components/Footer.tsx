@@ -36,9 +36,15 @@ height={65}
 className="h-auto w-[180px]"
             />
 
-            <h2 className="mt-8 text-3xl font-bold leading-tight md:text-4xl">
-              {t.footer.title}
-            </h2>
+            <h2 className="mt-8 text-3xl font-bold leading-tight md:text-4xl whitespace-pre-line">
+  <span className="hidden md:inline">
+    {t.footer.title}
+  </span>
+
+  <span className="md:hidden">
+    {t.footer.titleMobile}
+  </span>
+</h2>
 
             <p className="mt-6 max-w-[500px] whitespace-pre-line text-[15px] leading-7 md:text-lg md:leading-8 text-white/70">
   <span className="hidden md:inline">
