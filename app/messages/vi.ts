@@ -52,29 +52,33 @@ chúng tôi chăm chút từng chi tiết.`,
   copyright: "Designed by SUNOKI VIETNAM",
 },
  about: {
-    philosophy: "PHILOSOPHY",
+  philosophy: "PHILOSOPHY",
 
-    title: "KOKORO Living là gì?",
+  title: "KOKORO Living là gì?",
 
-    description: `Ngôi nhà không chỉ là nơi để ở.
+  description: `Ngôi nhà không chỉ là nơi để ở.
+
 
 Đó là nơi mang lại sự bình yên,
 nơi gia đình quây quần,
 và là nơi bạn luôn muốn trở về mỗi ngày.
+
 
 Thông qua thiết kế và thi công theo tiêu chuẩn Nhật Bản,
 chúng tôi tỉ mỉ tạo nên
 những không gian sống như vậy tại Việt Nam.`,
 
-descriptionMobile: `Ngôi nhà không chỉ là nơi để ở.
+  descriptionMobile: `Ngôi nhà không chỉ là nơi để ở.
 
 Đó là nơi mang lại sự bình yên,
 nơi gia đình quây quần,
 và là nơi bạn luôn muốn trở về mỗi ngày.
 
-Với thiết kế và thi công tiêu chuẩn Nhật Bản,
-chúng tôi tạo nên
-không gian sống tiện nghi tại Việt Nam.`,
+Thông qua thiết kế & thi công
+theo tiêu chuẩn Nhật Bản,
+chúng tôi tỉ mỉ tạo nên
+những không gian sống
+như vậy tại Việt Nam.`,
 
     collection: "KOKORO COLLECTION",
 
