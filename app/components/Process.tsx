@@ -190,16 +190,16 @@ export default function Process() {
                 </div>
 
                 {step.number !== "05" && (
-  <div className="mt-2 h-28 w-px bg-[#D9C6B1] md:h-full" />
+  <div className="mt-2 h-24 w-px bg-[#D9C6B1] md:h-full" />
 )}
 
               </div>
 
               {/* Content */}
 
-              <div className="flex-1 pb-1">
+              <div className="flex-1">
 
-  <div className="mb-1 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
+  <div className="mb-0.5 flex h-11 w-11 items-center justify-center rounded-full bg-[#F7F2EC]">
     <Icon
       size={22}
       strokeWidth={1.8}
