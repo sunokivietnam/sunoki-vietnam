@@ -40,9 +40,15 @@ className="h-auto w-[180px]"
               {t.footer.title}
             </h2>
 
-            <p className="mt-6 max-w-[500px] whitespace-pre-line text-lg leading-8 text-white/70">
-              {t.footer.description}
-            </p>
+            <p className="mt-6 max-w-[500px] whitespace-pre-line text-[15px] leading-7 md:text-lg md:leading-8 text-white/70">
+  <span className="hidden md:inline">
+    {t.footer.description}
+  </span>
+
+  <span className="md:hidden">
+    {t.footer.descriptionMobile}
+  </span>
+</p>
 
           </div>
 

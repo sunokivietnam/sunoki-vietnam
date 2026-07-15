@@ -537,6 +537,8 @@ websiteDescriptionMobile:
 
     title: "日本品質を、\nベトナムへ。",
 
+titleMobile: "日本品質を、ベトナムへ。",
+
     description:
       "住宅・店舗・水まわり・内装まで。\n日本品質の設計・施工で、ベトナムに安心と快適な空間をお届けします。",
       descriptionMobile: `住宅・店舗・水まわり・内装まで。
