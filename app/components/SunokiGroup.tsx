@@ -30,11 +30,11 @@ export default function SunokiGroup() {
 
          <h2 className="mt-3 text-[28px] md:text-[36px] font-bold leading-[1.15] tracking-[-0.02em] text-[#2B2520] whitespace-pre-line">
   <span className="hidden md:inline">
-    PC VERSION
+    {t.group.title}
   </span>
 
   <span className="md:hidden">
-    MOBILE VERSION
+    {t.group.titleMobile}
   </span>
 </h2>
 
