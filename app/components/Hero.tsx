@@ -51,12 +51,11 @@ export default function Hero() {
       <div className="relative z-10 flex min-h-[680px] items-start md:items-center pt-28 md:pt-0">
         <Container>
           <div
-  className={`max-w-[520px] transition-all duration-[1800ms] delay-[1200ms] ease-out ${
+  className={`max-w-[520px] mt-8 md:mt-12 transition-all duration-[1800ms] delay-[1200ms] ease-out ${
     showLogo
       ? "translate-y-0 opacity-100"
       : "translate-y-6 opacity-0"
   }`}
-  
 >
             <p className="mb-5 text-[12px] font-semibold uppercase tracking-[0.38em] text-[#D8B07A]">
               {t.hero.brand}
