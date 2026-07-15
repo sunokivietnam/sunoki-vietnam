@@ -610,13 +610,20 @@ trên khắp Nhật Bản.`,
   },
 
   footer: {
-    menu: "MENU",
+  menu: "MENU",
 
-    title: "Mang chất lượng Nhật Bản\nđến Việt Nam.",
+  title: "Mang chất lượng Nhật Bản\nđến Việt Nam.",
 
-    description:
-      "Từ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh và nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi tại Việt Nam bằng thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
-  },
+  description:
+    "Từ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh và nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi tại Việt Nam bằng thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
+
+  descriptionMobile: `Từ nhà ở, cửa hàng,
+phòng tắm và nội thất.
+Chúng tôi mang đến không gian sống
+an toàn và tiện nghi tại Việt Nam
+bằng thiết kế và thi công
+theo tiêu chuẩn Nhật Bản.`,
+},
 };
 
 export default vi;
