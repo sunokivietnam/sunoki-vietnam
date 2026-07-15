@@ -19,25 +19,28 @@ const ja = {
   },
 
   hero: {
-    brand: "KOKORO LIVING",
+  brand: "KOKORO LIVING",
 
-    title: "心を込めた、\n空間づくり。",
+  title: `心を込めた、
+空間づくり。`,
 
-    description:
-  "日本品質の設計・施工で、\nベトナムの暮らしに心地よさという価値を。\n住宅・店舗・水まわりまで、一つひとつ丁寧に創ります。",
+  titleMobile: `心を込めた、
+空間づくり。`,
 
-descriptionMobile:
-  "日本品質の設計・施工で、\nベトナムの暮らしに\n心地よさという価値を。\n\n住宅・店舗・水まわりまで、\n一つひとつ丁寧に創ります。",
-    
+  description:
+    "日本品質の設計・施工で、\nベトナムの暮らしに心地よさという価値を。\n住宅・店舗・水まわりまで、一つひとつ丁寧に創ります。",
+
+  descriptionMobile:
+    "日本品質の設計・施工で、\nベトナムの暮らしに\n心地よさという価値を。\n\n住宅・店舗・水まわりまで、\n一つひとつ丁寧に創ります。",
+
   works: "施工事例を見る",
 
-    consultation: "無料相談する",
+  consultation: "無料相談する",
 
-    scroll: "SCROLL",
+  scroll: "SCROLL",
 
-    copyright: "Designed by SUNOKI VIETNAM",
-  },
-
+  copyright: "Designed by SUNOKI VIETNAM",
+},
   about: {
     philosophy: "PHILOSOPHY",
 
