@@ -23,7 +23,7 @@ export default function Footer() {
       <Container className="max-w-[1080px]">
 
         {/* Top */}
-       <div className="grid gap-12 border-b border-white/10 py-8 lg:grid-cols-[1.8fr_1fr]">
+       <div className="grid gap-12 border-b border-white/10 py-7 lg:grid-cols-[1.8fr_1fr]">
 
           {/* Left */}
           <div>
@@ -36,7 +36,7 @@ height={65}
 className="h-auto w-[180px]"
             />
 
-            <h2 className="mt-8 whitespace-pre-line text-[28px] font-bold leading-tight md:text-4xl">
+            <h2 className="mt-5 whitespace-pre-line text-[28px] font-bold leading-tight md:text-4xl">
   <span className="hidden md:inline">
     {t.footer.title}
   </span>
