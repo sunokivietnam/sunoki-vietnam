@@ -61,7 +61,7 @@ export default function Hero() {
               {t.hero.brand}
             </p>
 
-            <h1 className="text-[36px] font-bold leading-[1.08] tracking-[-0.03em] text-white md:text-[46px] lg:text-[44px]">
+            <h1 className="text-[36px] font-bold leading-[1.08] tracking-[-0.03em] text-white md:text-[42px] lg:text-[40px]">
               {t.hero.title.split("\n").map((line, index) => (
                 <span key={index}>
                   {line}
@@ -71,7 +71,7 @@ export default function Hero() {
             </h1>
 
             {/* PC */}
-<p className="hidden md:block mt-6 max-w-[520px] whitespace-pre-line text-[15px] leading-7 text-white/90">
+<p className="hidden md:block mt-6 max-w-[480px] whitespace-pre-line text-[15px] leading-8 text-white/90">
   {t.hero.description}
 </p>
 
