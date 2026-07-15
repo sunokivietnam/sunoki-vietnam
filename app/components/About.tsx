@@ -21,7 +21,7 @@ export default function About() {
 
           {/* Left */}
 
-          <div className="max-w-[340px] md:max-w-lg">
+          <div className="max-w-full md:max-w-lg">
 
             <p className="mb-4 text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
               {t.about.philosophy}
