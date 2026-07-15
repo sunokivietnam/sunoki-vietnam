@@ -68,20 +68,18 @@ export default function SunokiGroup() {
 
           <article className="overflow-hidden rounded-[22px] border border-[#E8DED2] bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
 
-  <div className="flex flex-row lg:flex-col">
+            <div className="relative aspect-[16/10]">
 
-    <div className="relative w-[42%] lg:w-full aspect-square lg:aspect-[16/10] flex-shrink-0">
+              <Image
+                src="/images/sunoki-japan.jpg"
+                alt="サンオキ株式会社"
+                fill
+                className="object-cover transition-transform duration-700 hover:scale-105"
+              />
 
-      <Image
-        src="/images/sunoki-japan.jpg"
-        alt="サンオキ株式会社"
-        fill
-        className="object-cover transition-transform duration-700 hover:scale-105"
-      />
+            </div>
 
-    </div>
-
-    <div className="flex-1 p-5 md:p-6">
+            <div className="p-5 md:p-6">
 
               <div className="flex items-center gap-2">
 
@@ -113,9 +111,9 @@ export default function SunokiGroup() {
 
               </ul>
 
-           </div>
-</div>
-</article>
+            </div>
+
+          </article>
 
           {/* =========================
               VIETNAM
@@ -123,9 +121,7 @@ export default function SunokiGroup() {
 
           <article className="overflow-hidden rounded-[22px] border border-[#E8DED2] bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
 
-            <div className="flex flex-row lg:flex-col">
-
-  <div className="relative w-[42%] lg:w-full aspect-square lg:aspect-[16/10] flex-shrink-0">
+            <div className="relative aspect-[16/10]">
 
               <Image
                 src="/images/sunoki-vietnam.jpg"
@@ -134,9 +130,9 @@ export default function SunokiGroup() {
                 className="object-cover transition-transform duration-700 hover:scale-105"
               />
 
-           </div>
+            </div>
 
-<div className="flex-1 p-5 md:p-6">
+            <div className="p-5 md:p-6">
 
               <div className="flex items-center gap-2">
 
@@ -169,8 +165,8 @@ export default function SunokiGroup() {
               </ul>
 
             </div>
-</div>
-</article>
+
+          </article>
 
         </div>        {/* =========================
             Official Website
