@@ -79,7 +79,7 @@ export default function SunokiGroup() {
 
             </div>
 
-            <div className="p-6">
+            <div className="p-5 md:p-6">
 
               <div className="flex items-center gap-2">
 
@@ -95,15 +95,15 @@ export default function SunokiGroup() {
 
               </div>
 
-              <h3 className="mt-3 text-[30px] font-bold text-[#2B2520]">
-                {t.group.japan.title}
-              </h3>
+              <h3 className="mt-2 text-[24px] md:mt-3 md:text-[30px] font-bold text-[#2B2520]">
+  {t.group.japan.title}
+</h3>
 
-              <p className="mt-2 text-[12px] font-semibold tracking-[0.18em] text-[#B8895A]">
+              <p className="mt-1 text-[11px] md:text-[12px] font-semibold tracking-[0.18em] text-[#B8895A]">
                 {t.group.japan.since}
               </p>
 
-              <ul className="mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
+              <ul className="mt-5 md:mt-8 space-y-3 md:space-y-4 text-[14px] md:text-[15px] leading-6 md:leading-7 text-[#555]">
 
                 {t.group.japan.items.map((item: string) => (
                   <li key={item}>✓ {item}</li>
@@ -132,7 +132,7 @@ export default function SunokiGroup() {
 
             </div>
 
-            <div className="p-6">
+            <div className="p-5 md:p-6">
 
               <div className="flex items-center gap-2">
 
@@ -148,15 +148,15 @@ export default function SunokiGroup() {
 
               </div>
 
-              <h3 className="mt-3 text-[30px] font-bold text-[#2B2520]">
+              <h3 className="mt-2 text-[24px] md:mt-3 md:text-[30px] font-bold text-[#2B2520]">
                 {t.group.vietnam.title}
               </h3>
 
-              <p className="mt-2 text-[12px] font-semibold tracking-[0.18em] text-[#B8895A]">
+              <p className="mt-1 text-[11px] md:text-[12px] font-semibold tracking-[0.18em] text-[#B8895A]">
                 {t.group.vietnam.since}
               </p>
 
-              <ul className="mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
+              <ul className="mt-5 md:mt-8 space-y-3 md:space-y-4 text-[14px] md:text-[15px] leading-6 md:leading-7 text-[#555]">
 
                 {t.group.vietnam.items.map((item: string) => (
                   <li key={item}>✓ {item}</li>
