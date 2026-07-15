@@ -72,8 +72,7 @@ những không gian sống như vậy tại Việt Nam.`,
 nơi gia đình quây quần,
 và là nơi bạn luôn muốn trở về mỗi ngày.
 
-Thông qua thiết kế & thi công
-theo tiêu chuẩn Nhật Bản,
+Thông qua thiết kế & thi công theo tiêu chuẩn Nhật Bản,
 chúng tôi tỉ mỉ tạo nên
 những không gian sống như vậy
 tại Việt Nam.`,

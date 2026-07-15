@@ -37,7 +37,7 @@ export default function About() {
 </p>
 
 {/* Mobile */}
-<p className="block md:hidden whitespace-pre-line text-[15px] leading-[1.9] text-[#333]">
+<p className="block md:hidden whitespace-pre-line text-[15px] leading-[2] text-[#333]">
   {t.about.descriptionMobile}
 </p>
 
