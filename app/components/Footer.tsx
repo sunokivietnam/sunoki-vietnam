@@ -46,7 +46,7 @@ className="h-auto w-[160px]"
   </span>
 </h2>
 
-            <p className="mt-4 max-w-[500px] whitespace-pre-line text-[15px] leading-7 md:text-lg md:leading-8 text-white/70">
+            <p className="mt-4 max-w-[500px] whitespace-pre-line text-[15px] leading-7 md:text-[16px] md:leading-7 text-white/70">
   <span className="hidden md:inline">
   {t.footer.description}
 </span>
@@ -59,7 +59,7 @@ className="h-auto w-[160px]"
           </div>
 
           {/* Right */}
-          <div className="lg:pl-10 lg:pt-14">
+          <div className="lg:pl-10 lg:pt-8">
 
             <p className="text-sm font-semibold tracking-[0.35em] text-[#B8895A]">
               {t.footer.menu}
