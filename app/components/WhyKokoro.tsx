@@ -75,20 +75,20 @@ export default function WhyKokoro() {
             return (
               <article
                 key={index}
-                className="group flex h-full flex-col rounded-[18px] bg-white px-6 py-5 md:py-7 shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
+                className="group flex h-full flex-col rounded-[18px] bg-white px-5 py-4 md:px-6 md:py-7 shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
               >
 
                 <Icon
-  className="mb-5 h-6 w-6 md:h-[30px] md:w-[30px] text-[#B8895A]"
+  className="mb-3 h-6 w-6 md:mb-5 md:h-[30px] md:w-[30px] text-[#B8895A]"
   strokeWidth={1.7}
   aria-hidden="true"
 />
 
-                <h3 className="mb-3 text-base md:text-lg font-bold tracking-[0.03em] text-[#2B2520]">
+                <h3 className="mb-2 text-base md:text-lg font-bold tracking-[0.03em] text-[#2B2520]">
                   {feature.title}
                 </h3>
 
-               <p className="whitespace-pre-line text-[13px] md:text-[14px] leading-6 md:leading-7 text-[#2B2520]/70">
+               <p className="whitespace-pre-line text-[13px] md:text-[14px] leading-[1.7] md:leading-7 text-[#2B2520]/70">
   <span className="hidden md:inline">
     {feature.description}
   </span>
