@@ -366,8 +366,7 @@ descriptionMobile:
   title: "ヒアリング・\n現地調査",
 
   titleMobile:
-`ヒアリング・
-現地調査`,
+`ヒアリング・現地調査`,
 
   description:
     "ご要望やご予算を伺い、現地調査を行います。",
@@ -382,8 +381,7 @@ descriptionMobile:
   title: "3Dデザイン・\nお見積り",
 
   titleMobile:
-`3Dデザイン・
-お見積り`,
+`3Dデザイン・お見積り`,
 
   description:
     "最適なプランとお見積りをご提案いたします。",
@@ -398,8 +396,7 @@ descriptionMobile:
   title: "管理・施工開始",
 
   titleMobile:
-`管理・
-施工開始`,
+`管理・施工開始`,
 
   description:
     "日本品質の施工管理で丁寧に工事を進めます。",
@@ -413,8 +410,7 @@ descriptionMobile:
   title: "完成・お引渡し",
 
   titleMobile:
-`完成・
-お引渡し`,
+`完成・お引渡し`,
 
   description:
     "最終確認後、お客様へお引渡しいたします。",
