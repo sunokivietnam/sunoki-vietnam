@@ -343,8 +343,7 @@ bonsaiDescriptionMobile:
 
 descriptionMobile:
 `お問い合わせから施工完了まで、
-一つひとつ丁寧に
-サポートいたします。`,
+一つひとつ丁寧にサポートいたします。`,
 
     steps: [
       {
