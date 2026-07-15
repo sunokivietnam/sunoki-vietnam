@@ -46,7 +46,7 @@ className="h-auto w-[160px]"
   </span>
 </h2>
 
-            <p className="mt-4 max-w-[500px] whitespace-pre-line text-[15px] leading-7 md:text-[16px] md:leading-7 text-white/70">
+            <p className="mt-4 max-w-[560px] whitespace-pre-line text-[15px] leading-7 md:text-[16px] md:leading-7 text-white/70">
   <span className="hidden md:inline">
   {t.footer.description}
 </span>
