@@ -23,7 +23,7 @@ export default function Footer() {
       <Container className="max-w-[1080px]">
 
         {/* Top */}
-       <div className="grid gap-12 border-b border-white/10 py-10 lg:grid-cols-[1.8fr_1fr]">
+       <div className="grid gap-12 border-b border-white/10 py-8 lg:grid-cols-[1.8fr_1fr]">
 
           {/* Left */}
           <div>
