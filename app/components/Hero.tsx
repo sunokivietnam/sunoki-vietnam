@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[680px] overflow-hidden bg-[#120E0B]"
+      className="relative min-h-[620px] md:min-h-[680px] overflow-hidden bg-[#120E0B]"
     >
       {/* Background */}
       <Image
@@ -48,7 +48,7 @@ export default function Hero() {
 </div>
 
       {/* Content */}
-      <div className="relative z-10 flex min-h-[680px] items-start md:items-center pt-28 md:pt-0">
+      <div className="relative z-10 flex min-h-[620px] md:min-h-[680px] items-start md:items-center pt-24 md:pt-0">
         <Container>
           <div
   className={`max-w-[520px] transition-all duration-[1800ms] delay-[1200ms] ease-out ${
@@ -62,7 +62,7 @@ export default function Hero() {
               {t.hero.brand}
             </p>
 
-            <h1 className="text-[36px] font-bold leading-[1.08] tracking-[-0.03em] text-white md:text-[46px] lg:text-[52px]">
+            <h1 className="text-[34px] md:text-[46px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.03em] text-white">
               {t.hero.title.split("\n").map((line, index) => (
                 <span key={index}>
                   {line}
@@ -72,16 +72,16 @@ export default function Hero() {
             </h1>
 
             {/* PC */}
-<p className="hidden md:block mt-6 max-w-[520px] whitespace-pre-line text-[15px] leading-7 text-white/90">
+<p className="hidden md:block mt-6 max-w-[520px] whitespace-pre-line text-[14px] leading-[1.9] text-white/90">
   {t.hero.description}
 </p>
 
 {/* Mobile */}
-<p className="block md:hidden mt-6 whitespace-pre-line text-[15px] leading-7 text-white/90">
+<p className="block md:hidden mt-6 whitespace-pre-line text-[14px] leading-[1.9] text-white/90">
   {t.hero.descriptionMobile}
 </p>
 
-            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-8 md:mt-10 flex flex-col gap-3 sm:flex-row">
               <Button href="#works">
                 {t.hero.works}
               </Button>
