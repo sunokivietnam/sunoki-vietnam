@@ -58,11 +58,9 @@ chúng tôi chăm chút từng chi tiết.`,
 
   description: `Ngôi nhà không chỉ là nơi để ở.
 
-
 Đó là nơi mang lại sự bình yên,
 nơi gia đình quây quần,
 và là nơi bạn luôn muốn trở về mỗi ngày.
-
 
 Thông qua thiết kế và thi công theo tiêu chuẩn Nhật Bản,
 chúng tôi tỉ mỉ tạo nên
