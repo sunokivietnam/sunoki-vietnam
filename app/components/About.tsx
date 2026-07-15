@@ -32,12 +32,12 @@ export default function About() {
 </h2>
 
             {/* PC */}
-<p className="hidden md:block whitespace-pre-line ...">
+<p className="hidden md:block whitespace-pre-line text-[16px] leading-9 text-[#333]">
   {t.about.description}
 </p>
 
 {/* Mobile */}
-<p className="block md:hidden whitespace-pre-line ...">
+<p className="block md:hidden whitespace-pre-line text-[15px] leading-8 text-[#333]">
   {t.about.descriptionMobile}
 </p>
 
