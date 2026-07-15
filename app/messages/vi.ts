@@ -19,24 +19,40 @@ const vi = {
   },
 
   hero: {
-    brand: "KOKORO LIVING",
+  brand: "KOKORO LIVING",
 
-    title: "Kiến tạo\nkhông gian bằng cả tâm huyết.",
+  title: `Kiến tạo
+không gian bằng cả tâm huyết.`,
 
-   description:
-  "Thiết kế và thi công theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi tại Việt Nam.\nTừ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh, chúng tôi chăm chút từng chi tiết.",
+  titleMobile: `Kiến tạo
+không gian bằng
+cả tâm huyết.`,
 
-descriptionMobile:
-  "Thiết kế và thi công theo tiêu chuẩn Nhật Bản,\nmang đến không gian sống tiện nghi tại Việt Nam.\n\nTừ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh,\nchúng tôi chăm chút từng chi tiết.",
+  description:
+`Thiết kế và thi công theo tiêu chuẩn Nhật Bản,
+mang đến không gian sống tiện nghi tại Việt Nam.
 
-    works: "Xem dự án",
+Từ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh,
+chúng tôi chăm chút từng chi tiết.`,
 
-    consultation: "Tư vấn miễn phí",
+  descriptionMobile:
+`Thiết kế và thi công theo tiêu chuẩn Nhật Bản,
+mang đến không gian sống tiện nghi
+tại Việt Nam.
 
-    scroll: "SCROLL",
+Từ nhà ở, cửa hàng đến
+phòng tắm và nhà vệ sinh,
+chúng tôi chăm chút từng chi tiết.`,
 
-    copyright: "Designed by SUNOKI VIETNAM",
-  },  about: {
+  works: "Xem dự án",
+
+  consultation: "Tư vấn miễn phí",
+
+  scroll: "SCROLL",
+
+  copyright: "Designed by SUNOKI VIETNAM",
+},
+ about: {
     philosophy: "PHILOSOPHY",
 
     title: "KOKORO Living là gì?",
