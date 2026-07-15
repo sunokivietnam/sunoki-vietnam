@@ -62,13 +62,26 @@ export default function Hero() {
             </p>
 
             <h1 className="text-[36px] font-bold leading-[1.08] tracking-[-0.03em] text-white md:text-[42px] lg:text-[40px]">
-              {t.hero.title.split("\n").map((line, index) => (
-                <span key={index}>
-                  {line}
-                  {index !== t.hero.title.split("\n").length - 1 && <br />}
-                </span>
-              ))}
-            </h1>
+
+  <span className="hidden md:block">
+    {t.hero.title.split("\n").map((line, index) => (
+      <span key={index}>
+        {line}
+        {index !== t.hero.title.split("\n").length - 1 && <br />}
+      </span>
+    ))}
+  </span>
+
+  <span className="block md:hidden">
+    {t.hero.titleMobile.split("\n").map((line, index) => (
+      <span key={index}>
+        {line}
+        {index !== t.hero.titleMobile.split("\n").length - 1 && <br />}
+      </span>
+    ))}
+  </span>
+
+</h1>
 
             {/* PC */}
 <p className="hidden md:block mt-6 max-w-[480px] whitespace-pre-line text-[15px] leading-8 text-white/90">
