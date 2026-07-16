@@ -76,7 +76,7 @@ export default function About() {
     font-bold
     leading-[1.15]
     text-[#2B2520]
-    max-w-[760px]
+    max-w-[620px] md:max-w-[760px]
   "
 >
   {t.about.collectionTitle}
