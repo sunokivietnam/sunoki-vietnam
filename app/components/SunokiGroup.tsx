@@ -38,14 +38,14 @@ export default function SunokiGroup() {
   </span>
 </h2>
 
-          <p className="mx-auto mt-5 max-w-[720px] whitespace-pre-line text-[15px] leading-8 text-[#666]">
-  <span className="hidden md:inline">
-    {t.group.description}
-  </span>
+          {/* PC */}
+<p className="hidden md:block mx-auto mt-5 max-w-[720px] whitespace-pre-line text-[15px] leading-8 text-[#666]">
+  {t.group.description}
+</p>
 
-  <span className="md:hidden">
-    {t.group.descriptionMobile}
-  </span>
+{/* Mobile */}
+<p className="block md:hidden mx-auto mt-5 whitespace-pre-line text-[15px] leading-[1.9] text-[#666]">
+  {t.group.descriptionMobile}
 </p>
 
         </div>
