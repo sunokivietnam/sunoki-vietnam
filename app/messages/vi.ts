@@ -556,10 +556,8 @@ kinh doanh đáng tin cậy tại Việt Nam.`,
 
 websiteDescriptionMobile:
 `Thành lập năm 1963.
-Tìm hiểu thêm về
-SUNOKI JAPAN
-và các công trình
-trên khắp Nhật Bản.`,
+Tìm hiểu thêm về SUNOKI JAPAN
+và các công trình trên khắp Nhật Bản.`,
 
     button: "Trang web SUNOKI JAPAN",
   },
