@@ -78,8 +78,8 @@ sống tiện nghi tại Việt Nam.`,
 
     collection: "KOKORO COLLECTION",
 
-collectionTitle:
-  "Tuyển chọn vật liệu và thiết kế tinh tế mang đậm chất Nhật Bản.",
+collectionTitle: `Tuyển chọn vật liệu
+và thiết kế tinh tế mang đậm chất Nhật Bản.`,
 
 collectionTitleMobile: `Tuyển chọn vật liệu
 và thiết kế tinh tế
