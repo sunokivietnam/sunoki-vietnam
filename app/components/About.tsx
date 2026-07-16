@@ -76,6 +76,7 @@ export default function About() {
              text-[42px]
              font-bold
              leading-[1.15]
+             whitespace-pre-line
              text-[#2B2520]"
 >
   {t.about.collectionTitle}
