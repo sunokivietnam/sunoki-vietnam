@@ -138,7 +138,6 @@ bonsaiDescriptionMobile:
 descriptionMobile:
 `Nhà ở, cửa hàng, không gian nội thất
 và khu vực nước.
-
 Thiết kế & thi công theo tiêu chuẩn
 chất lượng Nhật Bản.`,
 
