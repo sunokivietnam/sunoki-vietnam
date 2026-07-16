@@ -88,8 +88,10 @@ mang đậm chất Nhật Bản.`,
    collectionDescription:
   "Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản, tạo nên những không gian được chăm chút đến từng chi tiết.",
 
-collectionDescriptionMobile:
-  "Chúng tôi trân trọng vẻ đẹp của gỗ,\nánh sáng và phong cách Nhật Bản,\ntạo nên những không gian\nđược chăm chút đến từng chi tiết.",
+collectionDescriptionMobile: `Chúng tôi trân trọng vẻ đẹp của gỗ,
+ánh sáng và phong cách Nhật Bản,
+tạo nên không gian được chăm chút
+đến từng chi tiết.`,
 
     woodTitle: "Gỗ tự nhiên",
 
