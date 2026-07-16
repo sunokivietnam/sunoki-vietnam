@@ -136,9 +136,11 @@ bonsaiDescriptionMobile:
       "Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản cho nhà ở, cửa hàng, phòng tắm và nhà vệ sinh và nội thất.",
 
 descriptionMobile:
-`Nhà ở, cửa hàng, không gian nội thất và khu vực nước.
+`Nhà ở, cửa hàng, không gian nội thất
+và khu vực nước.
 
-Thiết kế & thi công theo tiêu chuẩn chất lượng Nhật Bản.`,
+Thiết kế & thi công theo tiêu chuẩn
+chất lượng Nhật Bản.`,
 
     worksButton: "Xem dự án",
 
