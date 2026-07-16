@@ -126,9 +126,15 @@ export default function About() {
                   {t.about.woodTitle}
                 </h4>
 
-                <p className="mt-2 text-[13px] leading-6 text-[#666]">
-                  {t.about.woodDescription}
-                </p>
+                {/* PC */}
+<p className="hidden md:block mt-2 text-[13px] leading-6 text-[#666]">
+  {t.about.woodDescription}
+</p>
+
+{/* Mobile */}
+<p className="block md:hidden mt-2 text-[13px] leading-6 whitespace-pre-line text-[#666]">
+  {t.about.woodDescriptionMobile}
+</p>
 
               </div>
 

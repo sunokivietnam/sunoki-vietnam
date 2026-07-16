@@ -96,7 +96,11 @@ tạo nên những không gian
     woodTitle: "Gỗ tự nhiên",
 
     woodDescription:
-      "Mang đến không gian ấm áp với vẻ đẹp tự nhiên của gỗ.",
+  "Mang đến không gian ấm áp với vẻ đẹp tự nhiên của gỗ.",
+
+woodDescriptionMobile:
+`Mang đến không gian ấm áp
+với vẻ đẹp tự nhiên của gỗ.`,
 
     latticeTitle: "Cửa & Nan gỗ",
 
