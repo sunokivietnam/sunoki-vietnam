@@ -76,13 +76,10 @@ Thông qua thiết kế & thi công theo tiêu chuẩn
 Nhật Bản, chúng tôi tỉ mỉ tạo nên không gian 
 sống tiện nghi tại Việt Nam.`,
 
-    collection: "KOKORO COLLECTION",
+    collection: "",
 
 collectionTitle:
   "Tuyển chọn vật liệu và thiết kế tinh tế mang đậm chất Nhật Bản.",
-
-collectionTitleMobile:
-  "Tuyển chọn vật liệu\nvà thiết kế tinh tế\nmang đậm chất Nhật Bản.",
 
    collectionDescription:
   "Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản, tạo nên những không gian được chăm chút đến từng chi tiết.",
