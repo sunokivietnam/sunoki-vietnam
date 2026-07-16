@@ -69,24 +69,29 @@ export default function About() {
             {t.about.collection}
           </p>
 
-         <h3
-  className="
-    mt-3
-    font-bold
-    leading-[1.2]
-    text-[#2B2520]
-    max-w-[760px]
-    whitespace-pre-line
-    text-[22px] sm:text-[26px] md:text-[42px]
-  "
+         {/* PC */}
+<h3
+  className="hidden md:block
+             mt-3
+             text-[42px]
+             font-bold
+             leading-[1.15]
+             text-[#2B2520]"
 >
-  <span className="hidden md:inline">
-    {t.about.collectionTitle}
-  </span>
+  {t.about.collectionTitle}
+</h3>
 
-  <span className="md:hidden">
-    {t.about.collectionTitleMobile}
-  </span>
+{/* Mobile */}
+<h3
+  className="block md:hidden
+             mt-3
+             text-[30px]
+             font-bold
+             leading-[1.2]
+             text-[#2B2520]
+             whitespace-pre-line"
+>
+  {t.about.collectionTitleMobile}
 </h3>
 
           <p className="mt-4 max-w-2xl whitespace-pre-line text-[15px] leading-7 text-[#666]">
