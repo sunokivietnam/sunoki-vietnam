@@ -162,9 +162,9 @@ export default function About() {
                   {t.about.latticeTitle}
                 </h4>
 
-                <p className="mt-2 text-[13px] leading-6 text-[#666]">
-                  {t.about.latticeDescription}
-                </p>
+                <p className="mt-2 whitespace-pre-line text-[13px] leading-6 text-[#666]">
+  {t.about.latticeDescription}
+</p>
 
               </div>
 

@@ -102,7 +102,9 @@ với vẻ đẹp tự nhiên của gỗ.`,
     latticeTitle: "Cửa & Nan gỗ",
 
     latticeDescription:
-      "Đưa nét đẹp đặc trưng của kiến trúc Nhật Bản vào không gian.",
+`Đưa nét đẹp đặc trưng
+của kiến trúc Nhật Bản
+vào không gian.`,
 
     lightingTitle: "Đèn trang trí",
 
