@@ -111,14 +111,16 @@ export default function WhyKokoro() {
                   {feature.title}
                 </h3>
 
-               <p className="whitespace-pre-line text-[13px] md:text-[14px] leading-[1.7] md:leading-7 text-[#2B2520]/70">
-  <span className="hidden md:inline">
-    {feature.description}
-  </span>
-
-  <span className="md:hidden">
-    {feature.descriptionMobile}
-  </span>
+               <p
+  className="
+    text-[13px]
+    md:text-[14px]
+    leading-6
+    md:leading-7
+    text-[#2B2520]/70
+  "
+>
+  {feature.description}
 </p>
 
               </article>
