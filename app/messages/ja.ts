@@ -88,7 +88,8 @@ collectionTitleMobile: "日本品質を彩る、\nこだわりの素材と意匠
     latticeTitle: "建具・格子",
 
     latticeDescription:
-      "日本建築ならではの美しい意匠を取り入れます。",
+`日本建築ならではの
+美しい意匠を取り入れます。`,
 
     lightingTitle: "照明器具",
 
