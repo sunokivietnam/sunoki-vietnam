@@ -56,12 +56,35 @@ export default function WhyKokoro() {
           </p>
 
           <h2 className="whitespace-pre-line text-[30px] font-bold leading-tight tracking-[-0.02em] text-[#2B2520] md:text-[42px]">
-            {t.why.title}
-          </h2>
+  {t.why.title}
+</h2><h2
+  className="
+    text-[30px] md:text-[42px]
+    font-bold
+    leading-[1.15]
+    tracking-[-0.02em]
+    text-[#2B2520]
+    max-w-[760px]
+    md:max-w-[760px]
+  "
+>
+  {t.why.title}
+</h2>
 
-          <p className="mt-5 max-w-lg whitespace-pre-line text-[15px] leading-7 tracking-[0.03em] text-[#2B2520]/75 md:text-base">
-            {t.why.description}
-          </p>
+          <p
+  className="
+    mt-5
+    max-w-[620px]
+    text-[15px]
+    leading-8
+    tracking-[0.03em]
+    text-[#2B2520]/75
+    md:text-base
+    md:leading-8
+  "
+>
+  {t.why.description}
+</p>
 
         </div>
 
