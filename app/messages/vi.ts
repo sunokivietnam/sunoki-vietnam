@@ -154,7 +154,6 @@ chất lượng Nhật Bản.`,
 
     descriptionMobile:
 `Nhà mới, cải tạo, nâng cấp.
-
 Mang đến không gian
 sống tiện nghi chuẩn Nhật Bản.`,
   },
@@ -169,7 +168,6 @@ sống tiện nghi chuẩn Nhật Bản.`,
 
     descriptionMobile:
 `Thiết kế nhà hàng và văn phòng.
-
 Không gian đẹp, thu hút khách 
 và tiện sử dụng.`,
   },
@@ -184,7 +182,6 @@ và tiện sử dụng.`,
 
     descriptionMobile:
 `Bếp, phòng tắm, nhà vệ sinh.
-
 Cải tạo đẹp, tiện nghi và hiện đại.`,
   },
 
@@ -198,7 +195,6 @@ Cải tạo đẹp, tiện nghi và hiện đại.`,
 
     descriptionMobile:
 `Thiết kế không gian Nhật.
-
 Tận dụng ánh sáng,
 vật liệu và bóng đổ để tạo cảm giác thư thái.`,
   },
