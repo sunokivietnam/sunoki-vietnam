@@ -74,7 +74,7 @@ export default function WhyKokoro() {
     mt-5
     max-w-[620px]
     text-[15px]
-    leading-8
+    leading-7
     tracking-[0.03em]
     text-[#2B2520]/75
     md:text-base
@@ -88,7 +88,7 @@ export default function WhyKokoro() {
 
         {/* Cards */}
 
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
           {features.map((feature, index) => {
 
             const Icon = feature.icon;
@@ -100,7 +100,7 @@ export default function WhyKokoro() {
               >
 
                 <Icon
-  className="mb-2 h-5 w-5 md:mb-4 md:h-7 md:w-7 md:h-[30px] md:w-[30px] text-[#B8895A]"
+  className="mb-2 h-5 w-5 md:mb-4 md:h-[30px] md:w-[30px] text-[#B8895A]"
   strokeWidth={1.7}
   aria-hidden="true"
 />
@@ -113,7 +113,7 @@ export default function WhyKokoro() {
   className="
     text-[13px]
     md:text-[14px]
-    leading-6
+    leading-[1.7]
     md:leading-7
     text-[#2B2520]/70
   "
