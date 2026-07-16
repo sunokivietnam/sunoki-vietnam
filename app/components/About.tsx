@@ -195,12 +195,8 @@ export default function About() {
                   {t.about.lightingTitle}
                 </h4>
 
-                <p className="hidden md:block mt-2 text-[13px] leading-6 text-[#666]">
+                <p className="mt-2 whitespace-pre-line text-[13px] leading-6 text-[#666]">
   {t.about.lightingDescription}
-</p>
-
-<p className="block md:hidden mt-2 text-[13px] leading-6 whitespace-pre-line text-[#666]">
-  {t.about.lightingDescriptionMobile}
 </p>
 
               </div>

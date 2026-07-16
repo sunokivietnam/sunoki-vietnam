@@ -111,9 +111,6 @@ vào không gian.`,
     lightingDescription:
   "Ánh sáng dịu nhẹ tạo nên không gian sang trọng và thư thái.",
 
-lightingDescriptionMobile:
-  "Ánh sáng dịu nhẹ,\ntạo nên không gian sang trọng và thư thái.",
-
     bonsaiTitle: "Bonsai & Đồ trang trí Nhật",
 
     bonsaiDescription:
