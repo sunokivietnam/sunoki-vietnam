@@ -69,12 +69,22 @@ export default function About() {
             {t.about.collection}
           </p>
 
-         <h3 className="...">
+         <h3
+  className="
+    mt-3
+    text-[30px] md:text-[42px]
+    font-bold
+    leading-[1.15]
+    text-[#2B2520]
+    max-w-[760px]
+    whitespace-pre-line
+  "
+>
   <span className="hidden md:inline">
     {t.about.collectionTitle}
   </span>
 
-  <span className="md:hidden whitespace-pre-line">
+  <span className="md:hidden">
     {t.about.collectionTitleMobile}
   </span>
 </h3>
