@@ -109,7 +109,8 @@ vào không gian.`,
     lightingTitle: "Đèn trang trí",
 
     lightingDescription:
-  "Ánh sáng dịu nhẹ tạo nên không gian sang trọng\nvà thư thái.",
+`Ánh sáng dịu nhẹ tạo nên không gian
+sang trọng và thư thái.`,
 
     bonsaiTitle: "Bonsai & Đồ trang trí Nhật",
 
