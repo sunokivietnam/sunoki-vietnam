@@ -153,13 +153,10 @@ chất lượng Nhật Bản.`,
       "Nhà mới, cải tạo và nâng cấp theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi và thoải mái.",
 
     descriptionMobile:
-`Nhà mới,
-cải tạo,
-nâng cấp.
+`Nhà mới, cải tạo, nâng cấp.
 
 Mang đến không gian
-sống tiện nghi
-chuẩn Nhật Bản.`,
+sống tiện nghi chuẩn Nhật Bản.`,
   },
 
   {
@@ -171,11 +168,9 @@ chuẩn Nhật Bản.`,
       "Thiết kế và thi công cửa hàng, văn phòng với không gian đẹp, tiện dụng và thu hút khách hàng.",
 
     descriptionMobile:
-`Thiết kế cửa hàng
-và văn phòng.
+`Thiết kế nhà hàng và văn phòng.
 
-Không gian đẹp,
-thu hút khách
+Không gian đẹp, thu hút khách 
 và tiện sử dụng.`,
   },
 
@@ -188,13 +183,9 @@ và tiện sử dụng.`,
       "Cải tạo bếp, phòng tắm và nhà vệ sinh đẹp, tiện nghi và hiện đại.",
 
     descriptionMobile:
-`Bếp,
-phòng tắm,
-nhà vệ sinh.
+`Bếp, phòng tắm, nhà vệ sinh.
 
-Cải tạo đẹp,
-tiện nghi
-và hiện đại.`,
+Cải tạo đẹp, tiện nghi và hiện đại.`,
   },
 
   {
@@ -206,13 +197,10 @@ và hiện đại.`,
       "Thiết kế không gian mang đậm tinh thần Nhật Bản.\nTận dụng ánh sáng, vật liệu và bóng đổ để tạo nên không gian thư thái và tinh tế.",
 
     descriptionMobile:
-`Thiết kế
-không gian Nhật.
+`Thiết kế không gian Nhật.
 
 Tận dụng ánh sáng,
-vật liệu và bóng đổ
-để tạo cảm giác
-thư thái.`,
+vật liệu và bóng đổ để tạo cảm giác thư thái.`,
   },
 ],
   },  works: {
