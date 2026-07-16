@@ -119,8 +119,8 @@ sang trọng và thư thái.`,
 
     bonsaiTitle: "Bonsai & Đồ trang trí Nhật",
 
-    bonsaiDescription:
-  "Cây bonsai và đồ trang trí mang đến nét đẹp và sự thư giãn đậm chất Nhật Bản.",
+   bonsaiDescription:
+"Cây bonsai và đồ trang trí mang đến nét đẹp thư giãn đậm chất Nhật Bản.",
 
 bonsaiDescriptionMobile:
   "Cây bonsai và đồ trang trí,\nmang đến nét đẹp Nhật Bản\nvà cảm giác thư giãn.",
