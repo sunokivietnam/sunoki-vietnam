@@ -512,12 +512,11 @@ descriptionMobile:
   group: {
     subtitle: "SUNOKI GROUP",
 
-    title:
-  "Kế thừa kỹ thuật và chất lượng\nNhật Bản từ năm 1963.",
+   title: "Kế thừa kỹ thuật và chất lượng Nhật Bản từ năm 1963.",
 
-titleMobile:
-`Kế thừa kỹ thuật và
-chất lượng Nhật Bản
+titleMobile: `Kế thừa kỹ thuật
+và chất lượng
+Nhật Bản
 từ năm 1963.`,
 
 description:
