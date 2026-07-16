@@ -51,7 +51,7 @@ export default function SunokiGroup() {
     mt-3
     text-[26px]
     font-bold
-    leading-[1.15]
+    leading-[1.25]
     tracking-[-0.02em]
     text-[#2B2520]
     whitespace-pre-line

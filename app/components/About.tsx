@@ -88,7 +88,7 @@ export default function About() {
              mt-3
              text-[26px]
              font-bold
-             leading-[1.2]
+             leading-[1.25]
              text-[#2B2520]
              whitespace-pre-line"
 >
