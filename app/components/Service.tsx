@@ -21,7 +21,7 @@ export default function Service() {
     >
       <Container>
 
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-5xl text-center">
   <p className="text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
     {t.service.subtitle}
   </p>
@@ -30,15 +30,15 @@ export default function Service() {
     {t.service.title}
   </h2>
 
-  <p className="mx-auto mt-5 max-w-[720px] whitespace-pre-line text-[15px] leading-8 text-[#666]">
-    <span className="hidden md:inline">
-      {t.service.description}
-    </span>
+  {/* PC */}
+<p className="hidden md:block mx-auto mt-5 max-w-[900px] text-[15px] leading-8 text-[#666]">
+  {t.service.description}
+</p>
 
-    <span className="md:hidden">
-      {t.service.descriptionMobile}
-    </span>
-  </p>
+{/* Mobile */}
+<p className="block md:hidden mt-5 whitespace-pre-line text-[15px] leading-8 text-[#666]">
+  {t.service.descriptionMobile}
+</p>
 </div>
 
         <div className="mt-10 grid gap-6 md:mt-14 md:gap-6 md:grid-cols-2">
