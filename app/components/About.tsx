@@ -86,7 +86,7 @@ export default function About() {
 <h3
   className="block md:hidden
              mt-3
-             text-[30px]
+             text-[26px]
              font-bold
              leading-[1.2]
              text-[#2B2520]

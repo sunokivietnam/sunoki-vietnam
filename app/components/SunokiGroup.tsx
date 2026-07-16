@@ -49,7 +49,7 @@ export default function SunokiGroup() {
   className="
     block md:hidden
     mt-3
-    text-[28px]
+    text-[26px]
     font-bold
     leading-[1.15]
     tracking-[-0.02em]
