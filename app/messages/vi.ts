@@ -524,7 +524,6 @@ description:
 descriptionMobile:
 `Kế thừa hơn 60 năm kinh nghiệm thi công
 và quản lý chất lượng từ Nhật Bản.
-
 Mang đến những không gian sống và
 kinh doanh đáng tin cậy tại Việt Nam.`,
 
@@ -557,7 +556,6 @@ kinh doanh đáng tin cậy tại Việt Nam.`,
 
 websiteDescriptionMobile:
 `Thành lập năm 1963.
-
 Tìm hiểu thêm về
 SUNOKI JAPAN
 và các công trình
