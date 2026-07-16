@@ -297,100 +297,79 @@ mô phỏng 3D.`,
 },
 
   },  why: {
-    subtitle: "WHY SUNOKI VIETNAM",
+  subtitle: "WHY SUNOKI VIETNAM",
 
-    title: "Vì sao\nchọn chất lượng Nhật Bản?",
-
-    description:
-      "Với sự tỉ mỉ trong từng chi tiết,\nthiết kế và thi công theo tiêu chuẩn Nhật Bản,\nchúng tôi tạo nên những không gian mà bạn có thể hoàn toàn yên tâm.",
-
-    features: [
-  {
-  title: "Chất lượng Nhật Bản",
+  title: "Vì sao\nchọn chất lượng Nhật Bản?",
 
   description:
-    "Quản lý chất lượng đến hoàn thiện theo tiêu chuẩn Nhật Bản.",
+    "Với sự tỉ mỉ trong từng chi tiết,\nthiết kế và thi công theo tiêu chuẩn Nhật Bản,\nchúng tôi tạo nên không gian sống đáng tin cậy.",
 
-  descriptionMobile:
+  features: [
+    {
+      title: "Chất lượng Nhật Bản",
+      description:
+        "Quản lý chất lượng theo tiêu chuẩn Nhật Bản.",
+
+      descriptionMobile:
 `Quản lý chất lượng
-và hoàn thiện.
-
-Thi công cẩn thận
 theo tiêu chuẩn
 Nhật Bản.`,
-},
-  {
-  title: "Kiến trúc sư Nhật Bản",
+    },
 
-  description:
-    "Kiến trúc sư Nhật Bản giám sát thiết kế và chất lượng.",
+    {
+      title: "Kiến trúc sư Nhật Bản",
+      description:
+        "Kiến trúc sư Nhật Bản giám sát thiết kế.",
 
-  descriptionMobile:
-`Kiến trúc sư
-Nhật Bản.
+      descriptionMobile:
+`Kiến trúc sư Nhật Bản
+giám sát thiết kế.`,
+    },
 
-Giám sát thiết kế
-và chất lượng
-công trình.`,
-},
-  {
-  title: "Đội ngũ được đào tạo tại Nhật",
+    {
+      title: "Đội ngũ đào tạo tại Nhật",
+      description:
+        "Nhân viên được đào tạo và có kinh nghiệm tại Nhật.",
 
-  description:
-    "Nhân viên được đào tạo và có kinh nghiệm tại Nhật Bản.",
+      descriptionMobile:
+`Đào tạo và
+kinh nghiệm
+tại Nhật.`,
+    },
 
-  descriptionMobile:
-`Đội ngũ đã học tập
-và làm việc
-tại Nhật.
+    {
+      title: "Hỗ trợ Nhật & Việt",
+      description:
+        "Tư vấn bằng tiếng Nhật và tiếng Việt.",
 
-Đảm bảo chất lượng
-thi công.`,
-},
-  {
-  title: "Hỗ trợ tiếng Nhật & Việt",
+      descriptionMobile:
+`Tư vấn bằng
+tiếng Nhật &
+tiếng Việt.`,
+    },
 
-  description:
-    "Tư vấn bằng cả tiếng Nhật và tiếng Việt.",
+    {
+      title: "Thiết kế & Thi công",
+      description:
+        "Một đơn vị phụ trách toàn bộ công trình.",
 
-  descriptionMobile:
-`Hỗ trợ
-tiếng Nhật
-và tiếng Việt.
+      descriptionMobile:
+`Thiết kế đến
+thi công
+trọn gói.`,
+    },
 
-Trao đổi dễ dàng
-và thuận tiện.`,
-},
-  {
-  title: "Thiết kế & Thi công trọn gói",
+    {
+      title: "Hỗ trợ sau thi công",
+      description:
+        "Đồng hành sau khi công trình hoàn thành.",
 
-  description:
-    "Một đơn vị phụ trách từ thiết kế đến thi công.",
-
-  descriptionMobile:
-`Từ thiết kế
-đến thi công.
-
-Một đơn vị
-phụ trách
-toàn bộ.`,
-},
-  {
-  title: "Hỗ trợ sau thi công",
-
-  description:
-    "Tiếp tục hỗ trợ sau khi công trình hoàn thành.",
-
-  descriptionMobile:
-`Hỗ trợ
-sau khi
-bàn giao.
-
-An tâm sử dụng
-lâu dài.`,
-},
-],
-  },  process: {
+      descriptionMobile:
+`Hỗ trợ sau
+khi bàn giao.`,
+    },
+  ],
+},  process: {
     subtitle: "PROCESS",
 
     title: "Quy trình thi công",
