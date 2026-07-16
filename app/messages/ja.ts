@@ -85,10 +85,6 @@ collectionTitleMobile: "日本品質を彩る、\nこだわりの素材と意匠
     woodDescription:
   "木の温もりが心地よい空間を演出します。",
 
-woodDescriptionMobile:
-`木の温もりが心地よい
-空間を演出します。`,
-
     latticeTitle: "建具・格子",
 
     latticeDescription:
