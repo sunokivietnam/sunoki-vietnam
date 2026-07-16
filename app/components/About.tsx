@@ -72,12 +72,12 @@ export default function About() {
          <h3
   className="
     mt-3
-    text-[30px] md:text-[42px]
     font-bold
-    leading-[1.15]
+    leading-[1.2]
     text-[#2B2520]
     max-w-[760px]
     whitespace-pre-line
+    text-[22px] sm:text-[26px] md:text-[42px]
   "
 >
   <span className="hidden md:inline">
