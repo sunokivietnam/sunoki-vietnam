@@ -515,8 +515,7 @@ descriptionMobile:
    title: "Kế thừa kỹ thuật và chất lượng Nhật Bản từ năm 1963.",
 
 titleMobile: `Kế thừa kỹ thuật
-và chất lượng
-Nhật Bản
+và chất lượng Nhật Bản
 từ năm 1963.`,
 
 description:
