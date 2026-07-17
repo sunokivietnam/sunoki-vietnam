@@ -297,7 +297,7 @@ trải nghiệm khách hàng.`,
     },
 
     model: {
-  title: "Phòng mẫu 3D",
+  title: "Nhà mẫu 3D",
 
   description:
     "Khám phá không gian 3D và cảm nhận thiết kế như ngoài đời thực.",
@@ -305,7 +305,6 @@ trải nghiệm khách hàng.`,
   descriptionMobile:
 `Khám phá
 không gian 3D
-
 và cảm nhận thiết kế
 như ngoài đời thực.`,
 },
