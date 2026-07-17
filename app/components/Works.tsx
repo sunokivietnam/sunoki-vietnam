@@ -110,9 +110,15 @@ export default function Works() {
               {t.works.residence.title}
             </h3>
 
-            <p className="mt-3 max-w-lg text-[15px] leading-7 whitespace-pre-line text-[#666]">
-              {t.works.residence.description}
-            </p>
+           {/* PC */}
+<p className="hidden md:block mt-3 max-w-lg text-[15px] leading-7 whitespace-pre-line text-[#666]">
+  {t.works.residence.description}
+</p>
+
+{/* Mobile */}
+<p className="block md:hidden mt-3 text-[15px] leading-[1.9] whitespace-pre-line text-[#666]">
+  {t.works.residence.descriptionMobile}
+</p>
 
           </div>
 
@@ -188,9 +194,15 @@ export default function Works() {
               {t.works.commercial.title}
             </h3>
 
-            <p className="mt-3 max-w-lg text-[15px] leading-7 whitespace-pre-line text-[#666]">
-              {t.works.commercial.description}
-            </p>
+            {/* PC */}
+<p className="hidden md:block mt-3 max-w-lg text-[15px] leading-7 whitespace-pre-line text-[#666]">
+  {t.works.commercial.description}
+</p>
+
+{/* Mobile */}
+<p className="block md:hidden mt-3 text-[15px] leading-[1.9] whitespace-pre-line text-[#666]">
+  {t.works.commercial.descriptionMobile}
+</p>
 
           </div>
 

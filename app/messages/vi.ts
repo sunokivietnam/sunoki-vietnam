@@ -161,10 +161,10 @@ sống tiện nghi chuẩn Nhật Bản.`,
   {
     category: "RESTAURANT",
 
-    title: "Cửa hàng & Văn phòng",
+    title: "Nhà hàng & Văn phòng",
 
     description:
-      "Thiết kế và thi công cửa hàng, văn phòng với không gian đẹp, tiện dụng và thu hút khách hàng.",
+      "Thiết kế và thi công nhà hàng, văn phòng với không gian đẹp, tiện dụng và thu hút khách hàng.",
 
     descriptionMobile:
 `Thiết kế nhà hàng và văn phòng.
@@ -214,6 +214,12 @@ vật liệu và bóng đổ để tạo cảm giác thư thái.`,
 
       description:
         "Không gian sống đạt tiêu chuẩn Nhật Bản.\nMang đến sự tiện nghi, công năng và vẻ đẹp hài hòa.",
+descriptionMobile: `Không gian sống
+đạt tiêu chuẩn Nhật Bản.
+
+Mang đến sự tiện nghi,
+công năng
+và vẻ đẹp hài hòa.`,
 
       items: [
         {
@@ -250,6 +256,15 @@ vật liệu và bóng đổ để tạo cảm giác thư thái.`,
 
       description:
         "Thiết kế và thi công nhà hàng, văn phòng cùng các không gian thương mại,\nđảm bảo sự cân bằng giữa tính thẩm mỹ, công năng và trải nghiệm của khách hàng.",
+
+        descriptionMobile: `Thiết kế và thi công
+nhà hàng, văn phòng
+và các không gian thương mại.
+
+Đảm bảo sự cân bằng
+giữa tính thẩm mỹ,
+công năng và trải nghiệm
+của khách hàng.`,
 
       items: [
         {
