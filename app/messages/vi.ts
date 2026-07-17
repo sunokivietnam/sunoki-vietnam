@@ -540,17 +540,14 @@ kinh doanh đáng tin cậy tại Việt Nam.`,
 
   itemsMobile: [
     `Chuyên thi công
-khung thép nhẹ
-& thạch cao`,
+khung thép nhẹ & thạch cao`,
 
-    `Nhiều công trình
-trên khắp Nhật Bản`,
+    `Nhiều công trình trên khắp Nhật Bản`,
 
     `Hơn 60 năm kinh nghiệm
 và quản lý chất lượng`,
 
-    `Mang chất lượng Nhật Bản
-đến Việt Nam`,
+    `Mang chất lượng Nhật Bản đến Việt Nam`,
   ],
 },
 
@@ -569,18 +566,14 @@ và quản lý chất lượng`,
   // スマホ用
   itemsMobile: [
     `Thiết kế & thi công
-nhà ở, cửa hàng,
-văn phòng`,
+nhà ở, cửa hàng, văn phòng`,
 
     `Dịch vụ trọn gói
-từ thiết kế
-đến thi công`,
+từ thiết kế đến thi công`,
 
-    `Không gian chuẩn
-chất lượng Nhật Bản`,
+    `Không gian chuẩn chất lượng Nhật Bản`,
 
-    `Đội ngũ thi công
-uy tín tại Việt Nam`,
+    `Đội ngũ thi công uy tín tại Việt Nam`,
   ],
 },
 
