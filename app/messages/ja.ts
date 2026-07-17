@@ -471,7 +471,7 @@ descriptionMobile:
         name: "Tran Thi B",
         area: "Thu Duc City",
         comment:
-          "打ち合わせから完成まで安心して任せられま\n\nした。予定通りに工事が終わり感謝しています。",
+          "打ち合わせから完成まで安心して任せられました。予定通りに工事が終わり感謝しています。",
       },
       {
         name: "Yamada",
