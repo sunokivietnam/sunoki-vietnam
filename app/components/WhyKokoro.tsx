@@ -69,20 +69,39 @@ export default function WhyKokoro() {
   {t.why.title}
 </h2>
 
-          <p
-  className="
-    mt-5
-    max-w-[620px]
-    text-[15px]
-    leading-7
-    tracking-[0.03em]
-    text-[#2B2520]/75
-    md:text-base
-    md:leading-8
-  "
->
-  {t.why.description}
-</p>
+          <>
+  {/* PC */}
+  <p
+    className="
+      hidden md:block
+      mt-5
+      max-w-[620px]
+      whitespace-pre-line
+      text-base
+      leading-8
+      tracking-[0.03em]
+      text-[#2B2520]/75
+    "
+  >
+    {t.why.description}
+  </p>
+
+  {/* Mobile */}
+  <p
+    className="
+      md:hidden
+      mt-5
+      max-w-[620px]
+      whitespace-pre-line
+      text-[15px]
+      leading-7
+      tracking-[0.03em]
+      text-[#2B2520]/75
+    "
+  >
+    {t.why.descriptionMobile}
+  </p>
+</>
 
         </div>
 
