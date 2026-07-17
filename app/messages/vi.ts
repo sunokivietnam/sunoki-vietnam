@@ -432,9 +432,10 @@ Khảo sát hiện trạng công trình.`,
 `Thiết kế 3D & Báo giá`,
 
   description:
-    `Trình bày phối cảnh 3D 
-    giúp bạn hình dung không gian 
-    hoàn thiện cùng báo giá chi tiết.`,
+    `Trình bày phối cảnh 3D.
+Giúp bạn hình dung
+không gian hoàn thiện.
+Kèm báo giá chi tiết.`,
 
   descriptionMobile:
 `Đề xuất thiết kế 3D.

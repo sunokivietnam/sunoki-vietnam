@@ -146,7 +146,7 @@ export default function Process() {
 
       {/* Description */}
 
-      <p className="mx-auto mt-3 min-h-[96px] max-w-[190px] whitespace-pre-line text-[14px] leading-7 text-[#666]">
+      <p className="mx-auto mt-3 min-h-[96px] max-w-[220px] whitespace-pre-line text-[14px] leading-7 text-[#666]">
 
         {step.description.split("\n").map((line, i) => (
           <span key={i}>
