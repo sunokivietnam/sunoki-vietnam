@@ -10,7 +10,7 @@ export default function Testimonials() {
   return (
     <section
   id="testimonials"
-  className="bg-white py-12 md:py-16"
+  className="bg-white py-10 md:py-14"
 >
   <div className="mx-auto max-w-7xl px-6">
       <h2 className="text-center text-[28px] leading-[1.15] font-bold text-[#2B2520] md:text-[36px]">
@@ -27,7 +27,7 @@ export default function Testimonials() {
   </span>
 </p>
 
-      <div className="mt-8 grid gap-5 md:mt-10 md:gap-6 md:grid-cols-3">
+      <div className="mt-6 grid gap-4 md:mt-8 md:gap-5 md:grid-cols-3">
         {reviews.map((review) => (
           <article
             key={review.name}
@@ -37,11 +37,11 @@ export default function Testimonials() {
               ★★★★★
             </div>
 
-            <p className="min-h-[72px] md:min-h-[110px] text-[14px] leading-7 md:text-[15px] text-[#555]">
+            <p className="min-h-[72px] md:min-h-[84px] text-[14px] leading-7 md:text-[15px] text-[#555]">
               「{review.comment}」
             </p>
 
-            <div className="mt-3 md:mt-5 border-t border-[#E8E1D7] pt-3 md:pt-4">
+            <div className="mt-3 md:mt-4 border-t border-[#E8E1D7] pt-3 md:pt-4">
               <p className="text-[15px] md:text-[16px] font-bold text-[#2B2520]">
                 {review.name}
               </p>
