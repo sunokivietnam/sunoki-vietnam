@@ -301,7 +301,7 @@ descriptionMobile:
 
   description:
     `日本人一級建築士が設計・品質を監修。
-安心できる空間づくりをご提案します。`,
+    安心できる空間づくりをご提案します。`,
 
   descriptionMobile:
 `日本人一級建築士が設計・品質を監修。
@@ -312,7 +312,7 @@ descriptionMobile:
 
   description:
     `日本で学び経験を積んだスタッフが、
-現場で品質を支えます。`,
+    現場で品質を支えます。`,
 
   descriptionMobile:
 `日本で学び経験を積んだスタッフが、
@@ -322,8 +322,8 @@ descriptionMobile:
   title: "日本語・ベトナム語対応",
 
   description:
-    `日本語・ベトナム語の両方で、
-スムーズにご相談いただけます。`,
+    `日本語・ベトナム語の両方で、スムーズに
+    ご相談いただけます。`,
 
   descriptionMobile:
 `日本語・ベトナム語の両方で、
@@ -334,7 +334,7 @@ descriptionMobile:
 
   description:
     `設計から施工まで一貫対応。
-安心してお任せいただけます。`,
+    安心してお任せいただけます。`,
 
   descriptionMobile:
 `設計から施工まで一貫対応。
@@ -345,7 +345,7 @@ descriptionMobile:
 
   description:
     `完成後も長く安心して暮らせるよう、
-継続してサポートいたします。`,
+    継続してサポートいたします。`,
 
   descriptionMobile:
 `完成後も長く安心して暮らせるよう、
