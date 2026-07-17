@@ -317,6 +317,9 @@ như ngoài đời thực.`,
   description:
     "Với sự tỉ mỉ trong từng chi tiết,\nthiết kế và thi công theo tiêu chuẩn Nhật Bản,\nchúng tôi tạo nên không gian sống đáng tin cậy.",
 
+  descriptionMobile:
+    "Với sự tỉ mỉ trong từng chi tiết,\nthiết kế và thi công theo tiêu chuẩn Nhật Bản,\nchúng tôi tạo nên\nkhông gian sống đáng tin cậy.",
+
   features: [
     {
       title: "Chất lượng Nhật Bản",

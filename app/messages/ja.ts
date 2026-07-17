@@ -284,6 +284,9 @@ descriptionMobile:
     description:
       "細部へのこだわりと、\n日本品質の設計・施工で、\n安心して任せられる空間づくりを実現します。",
 
+       descriptionMobile:
+    "細部へのこだわりと、\n日本品質の設計・施工で、\n安心して任せられる\n空間づくりを実現します。",
+    
    features: [
   {
   title: "日本品質",
