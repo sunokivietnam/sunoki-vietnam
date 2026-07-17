@@ -289,7 +289,8 @@ descriptionMobile:
   title: "日本品質",
 
   description:
-    "品質管理から仕上げまで、\n日本基準の丁寧な施工を行います。",
+    `品質管理から仕上げまで、
+日本基準の丁寧な施工を行います。`,
 
   descriptionMobile:
 `品質管理から仕上げまで、
@@ -299,7 +300,8 @@ descriptionMobile:
   title: "日本人一級建築士",
 
   description:
-    "日本人一級建築士が設計・品質を監修し、\n安心できる空間づくりをご提案します。",
+    `日本人一級建築士が設計・品質を監修。
+安心できる空間づくりをご提案します。`,
 
   descriptionMobile:
 `日本人一級建築士が設計・品質を監修。
@@ -309,7 +311,8 @@ descriptionMobile:
   title: "日本で教育を受けたスタッフ",
 
   description:
-    "日本で学び経験を積んだスタッフが、\n現場で品質を支えます。",
+    `日本で学び経験を積んだスタッフが、
+現場で品質を支えます。`,
 
   descriptionMobile:
 `日本で学び経験を積んだスタッフが、
@@ -319,7 +322,8 @@ descriptionMobile:
   title: "日本語・ベトナム語対応",
 
   description:
-    "日本語・ベトナム語の両方で、\nスムーズにご相談いただけます。",
+    `日本語・ベトナム語の両方で、
+スムーズにご相談いただけます。`,
 
   descriptionMobile:
 `日本語・ベトナム語の両方で、
@@ -329,7 +333,8 @@ descriptionMobile:
   title: "設計・施工ワンストップ",
 
   description:
-    "設計から施工まで一貫対応。\n安心してお任せいただけます。",
+    `設計から施工まで一貫対応。
+安心してお任せいただけます。`,
 
   descriptionMobile:
 `設計から施工まで一貫対応。
@@ -339,7 +344,8 @@ descriptionMobile:
   title: "アフターサポート",
 
   description:
-    "完成後も長く安心して暮らせるよう、\n継続してサポートいたします。",
+    `完成後も長く安心して暮らせるよう、
+継続してサポートいたします。`,
 
   descriptionMobile:
 `完成後も長く安心して暮らせるよう、
