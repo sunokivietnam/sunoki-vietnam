@@ -258,7 +258,9 @@ export default function SunokiGroup() {
             rel="noopener noreferrer"
             className="mt-8 inline-flex h-12 items-center justify-center gap-2 rounded-[14px] bg-[#B8895A] px-8 text-sm font-semibold tracking-[0.08em] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#A77749] hover:shadow-lg"
           >
-            {t.group.button}
+           <span className="whitespace-pre-line">
+  {t.group.button}
+</span>
 
             <ExternalLink
               size={18}

@@ -583,7 +583,8 @@ websiteDescriptionMobile:
 Tìm hiểu thêm về SUNOKI JAPAN
 và các công trình trên khắp Nhật Bản.`,
 
-    button: "Trang web SUNOKI JAPAN",
+    button: `Trang web
+SUNOKI JAPAN`,
   },
   contact: {
     subtitle: "CONTACT",
