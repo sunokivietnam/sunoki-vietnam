@@ -403,9 +403,10 @@ hoàn thành công trình`,
   titleMobile: "Liên hệ",
 
   description:
-    "Liên hệ với chúng tôi qua biểu mẫu, điện thoại hoặc email.",
+    `Liên hệ với chúng tôi qua biểu mẫu,
+điện thoại hoặc email.`,
 
-  descriptionMobile: `Liên hệ với chúng tôi qua biểu mẫu,
+descriptionMobile: `Liên hệ với chúng tôi qua biểu mẫu,
 điện thoại hoặc email.`,
 },
   {
@@ -417,10 +418,11 @@ hoàn thành công trình`,
 `Tư vấn & Khảo sát`,
 
   description:
-    "Lắng nghe nhu cầu, ngân sách và khảo sát hiện trạng công trình.",
+    `Tư vấn nhu cầu và ngân sách.
+Khảo sát hiện trạng công trình.`,
 
   descriptionMobile:
-`Lắng nghe nhu cầu và ngân sách.
+`Tư vấn nhu cầu và ngân sách.
 Khảo sát hiện trạng công trình.`,
 },
  {
@@ -432,10 +434,8 @@ Khảo sát hiện trạng công trình.`,
 `Thiết kế 3D & Báo giá`,
 
   description:
-    `Trình bày phối cảnh 3D.
-Giúp bạn hình dung
-không gian hoàn thiện.
-Kèm báo giá chi tiết.`,
+    `Đề xuất phối cảnh 3D
+kèm báo giá chi tiết.`,
 
   descriptionMobile:
 `Đề xuất thiết kế 3D.
@@ -451,7 +451,7 @@ Gửi báo giá chi tiết.`,
 `Thi công & Quản lý`,
 
   description:
-    "Thi công theo tiêu chuẩn Nhật Bản với quy trình kiểm soát chất lượng nghiêm ngặt.",
+    `Thi công theo tiêu chuẩn Nhật Bản với quy trình kiểm soát chất lượng nghiêm ngặt.`,
 
   descriptionMobile:
 `Thi công theo tiêu chuẩn Nhật Bản.
@@ -467,7 +467,8 @@ Kiểm soát chất lượng.`,
 `Hoàn thiện & Bàn giao`,
 
   description:
-    "Kiểm tra lần cuối và bàn giao công trình hoàn chỉnh cho khách hàng.",
+   `Kiểm tra lần cuối.
+Bàn giao công trình.`,
 
   descriptionMobile:
 `Kiểm tra lần cuối.
