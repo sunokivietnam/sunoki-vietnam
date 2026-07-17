@@ -287,7 +287,7 @@ export default function Works() {
           <div className="mx-auto mt-6 max-w-[700px] overflow-hidden rounded-[18px] shadow-[0_12px_36px_rgba(43,37,32,0.12)]">
 
             <video
-  src="/videos/kokoro.mp4"
+  src="/videos/kokoro-new.mp4"
   controls
   preload="metadata"
   playsInline
