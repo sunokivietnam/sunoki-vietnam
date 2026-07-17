@@ -300,10 +300,10 @@ trải nghiệm khách hàng.`,
   title: "Phòng mẫu 3D",
 
   description:
-    "Di chuyển trong không gian 3D và cảm nhận thiết kế như ngoài đời thực.",
+    "Khám phá không gian 3D và cảm nhận thiết kế như ngoài đời thực.",
 
   descriptionMobile:
-`Di chuyển trong
+`Khám phá
 không gian 3D
 
 và cảm nhận thiết kế
