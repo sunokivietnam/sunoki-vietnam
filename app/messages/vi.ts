@@ -539,16 +539,14 @@ kinh doanh đáng tin cậy tại Việt Nam.`,
   ],
 
   itemsMobile: [
-    `Chuyên thi công
-khung thép nhẹ & thạch cao`,
+  "Chuyên thi công khung thép nhẹ\n& thạch cao",
 
-    `Nhiều công trình trên khắp Nhật Bản`,
+  "Nhiều công trình\ntrên khắp Nhật Bản",
 
-    `Hơn 60 năm kinh nghiệm
-và quản lý chất lượng`,
+  "Hơn 60 năm kinh nghiệm\nvề quản lý chất lượng",
 
-    `Mang chất lượng Nhật Bản đến Việt Nam`,
-  ],
+  "Mang chất lượng Nhật Bản\nđến Việt Nam",
+],
 },
 
     vietnam: {
@@ -565,16 +563,14 @@ và quản lý chất lượng`,
 
   // スマホ用
   itemsMobile: [
-    `Thiết kế & thi công
-nhà ở, cửa hàng, văn phòng`,
+  "Thiết kế & thi công\nnhà ở, cửa hàng, văn phòng",
 
-    `Dịch vụ trọn gói
-từ thiết kế đến thi công`,
+  "Dịch vụ trọn gói\ntừ thiết kế đến thi công",
 
-    `Không gian chuẩn chất lượng Nhật Bản`,
+  "Không gian\nchuẩn chất lượng Nhật Bản",
 
-    `Đội ngũ thi công uy tín tại Việt Nam`,
-  ],
+  "Đội ngũ thi công\nuy tín tại Việt Nam",
+],
 },
 
     websiteTitle: "Về SUNOKI JAPAN",
