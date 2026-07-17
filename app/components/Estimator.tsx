@@ -381,17 +381,37 @@ export default function Estimator() {
 
           <div className="mt-5 rounded-[12px] bg-[#FAF7F3] p-4">
 
-            <p className="mx-auto max-w-[300px] md:max-w-none whitespace-pre-line text-[13px] leading-7 text-center md:text-left text-[#666]">
+            <>
+  {/* PC */}
+  <p className="hidden md:block whitespace-pre-line text-[13px] leading-7 text-left text-[#666]">
 
-              {language === "ja"
-                ? `このシミュレーターはご希望の仕様を整理するためのものです。
+    {language === "ja"
+      ? `このシミュレーターはご希望の仕様を整理するためのものです。
 正式なお見積りは、現地調査・ご要望・仕様を確認したうえでご案内いたします。`
-                : `Công cụ này chỉ mang tính tham khảo.
+      : `Công cụ này chỉ mang tính tham khảo.
+Báo giá chính thức sẽ được gửi sau khi khảo sát thực tế
+và tư vấn chi tiết.`}
+
+  </p>
+
+  {/* スマホ */}
+  <p className="mx-auto max-w-[300px] md:hidden whitespace-pre-line text-[13px] leading-7 text-center text-[#666]">
+
+    {language === "ja"
+      ? `このシミュレーターはご希望の仕様を
+      整理するためのものです。
+
+正式なお見積りは
+現地調査・ご要望・仕様を確認したうえで
+ご案内いたします。`
+      : `Công cụ này chỉ mang tính tham khảo.
+
 Báo giá chính thức sẽ được gửi
 sau khi khảo sát thực tế
 và tư vấn chi tiết.`}
 
-            </p>
+  </p>
+</>
 
           </div>
 
