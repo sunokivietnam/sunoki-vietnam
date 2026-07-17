@@ -36,7 +36,7 @@ height={58}
 className="h-auto w-[160px]"
             />
 
-            <h2 className="mt-2 whitespace-pre-line text-[28px] font-bold leading-tight md:text-4xl">
+            <h2 className="mt-2 whitespace-pre-line text-[24px] md:text-4xl font-bold leading-tight">
   <span className="hidden md:inline">
     {t.footer.title}
   </span>
