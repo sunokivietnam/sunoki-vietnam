@@ -236,13 +236,13 @@ export default function SunokiGroup() {
             Official Website
         ========================= */}
 
-        <div className="mt-12 rounded-[22px] border border-[#E8DED2] bg-white px-8 py-8 text-center shadow-sm">
+        <div className="mt-10 rounded-[22px] border border-[#E8DED2] bg-white px-6 py-6 text-center shadow-sm">
 
           <p className="text-[18px] font-bold text-[#2B2520]">
             {t.group.websiteTitle}
           </p>
 
-          <p className="mx-auto mt-3 max-w-xl whitespace-pre-line text-[14px] leading-7 text-[#666]">
+          <p className="mx-auto mt-2 max-w-xl whitespace-pre-line text-[14px] leading-6 text-[#666]">
   <span className="hidden md:inline">
     {t.group.websiteDescription}
   </span>
@@ -256,9 +256,9 @@ export default function SunokiGroup() {
             href="https://www.sun-oki.co.jp/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 inline-flex h-12 items-center justify-center gap-2 rounded-[14px] bg-[#B8895A] px-8 text-sm font-semibold tracking-[0.08em] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#A77749] hover:shadow-lg"
+            className="mt-6 inline-flex h-11 items-center justify-center gap-2 rounded-[14px] bg-[#B8895A] px-8 text-sm font-semibold tracking-[0.08em] text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#A77749] hover:shadow-lg"
           >
-           <span className="whitespace-pre-line">
+           <span className="whitespace-pre-line leading-5">
   {t.group.button}
 </span>
 
