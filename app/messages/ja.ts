@@ -440,8 +440,8 @@ descriptionMobile:
 `完成・お引渡し`,
 
   description:
-    `最終確認後、お客様へお引渡し
-    いたします。`,
+    `最終確認後、
+    お客様へお引渡しいたします。`,
 
   descriptionMobile:
 `最終確認後、
