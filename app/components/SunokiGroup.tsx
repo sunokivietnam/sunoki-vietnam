@@ -125,13 +125,21 @@ export default function SunokiGroup() {
                 {t.group.japan.since}
               </p>
 
-              <ul className="mt-5 md:mt-8 space-y-3 md:space-y-4 text-[14px] md:text-[15px] leading-6 md:leading-7 text-[#555]">
+              {/* PC */}
+<ul className="hidden md:block mt-5 md:mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
+  {t.group.japan.items.map((item: string) => (
+    <li key={item}>✓ {item}</li>
+  ))}
+</ul>
 
-                {t.group.japan.items.map((item: string) => (
-                  <li key={item}>✓ {item}</li>
-                ))}
-
-              </ul>
+{/* Mobile */}
+<ul className="block md:hidden mt-5 space-y-3 text-[14px] leading-6 text-[#555]">
+  {t.group.japan.itemsMobile.map((item: string) => (
+    <li key={item} className="whitespace-pre-line">
+      ✓ {item}
+    </li>
+  ))}
+</ul>
 
             </div>
 
@@ -178,13 +186,21 @@ export default function SunokiGroup() {
                 {t.group.vietnam.since}
               </p>
 
-              <ul className="mt-5 md:mt-8 space-y-3 md:space-y-4 text-[14px] md:text-[15px] leading-6 md:leading-7 text-[#555]">
+              {/* PC */}
+<ul className="hidden md:block mt-5 md:mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
+  {t.group.vietnam.items.map((item: string) => (
+    <li key={item}>✓ {item}</li>
+  ))}
+</ul>
 
-                {t.group.vietnam.items.map((item: string) => (
-                  <li key={item}>✓ {item}</li>
-                ))}
-
-              </ul>
+{/* Mobile */}
+<ul className="block md:hidden mt-5 space-y-3 text-[14px] leading-6 text-[#555]">
+  {t.group.vietnam.itemsMobile.map((item: string) => (
+    <li key={item} className="whitespace-pre-line">
+      ✓ {item}
+    </li>
+  ))}
+</ul>
 
             </div>
 

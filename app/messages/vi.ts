@@ -516,7 +516,7 @@ descriptionMobile:
 
 titleMobile: `Kế thừa kỹ thuật và
 chất lượng Nhật Bản
-từ năm 1963.`,
+từ năm 1963`,
 
 description:
   "Kế thừa hơn 60 năm kinh nghiệm thi công và quản lý chất lượng từ Nhật Bản, chúng tôi mang đến những không gian sống và kinh doanh đáng tin cậy tại Việt Nam.",
@@ -528,26 +528,61 @@ Mang đến những không gian sống và
 kinh doanh đáng tin cậy tại Việt Nam.`,
 
     japan: {
-      title: "SUNOKI JAPAN",
-      since: "SINCE 1963",
-      items: [
-        "Chuyên thi công khung thép nhẹ & thạch cao",
-        "Nhiều công trình trên khắp Nhật Bản",
-        "Hơn 60 năm kinh nghiệm và quản lý chất lượng",
-        "Mang chất lượng Nhật Bản đến Việt Nam",
-      ],
-    },
+  title: "SUNOKI JAPAN",
+  since: "SINCE 1963",
+
+  items: [
+    "Chuyên thi công khung thép nhẹ & thạch cao",
+    "Nhiều công trình trên khắp Nhật Bản",
+    "Hơn 60 năm kinh nghiệm và quản lý chất lượng",
+    "Mang chất lượng Nhật Bản đến Việt Nam",
+  ],
+
+  itemsMobile: [
+    `Chuyên thi công
+khung thép nhẹ
+& thạch cao`,
+
+    `Nhiều công trình
+trên khắp Nhật Bản`,
+
+    `Hơn 60 năm kinh nghiệm
+và quản lý chất lượng`,
+
+    `Mang chất lượng Nhật Bản
+đến Việt Nam`,
+  ],
+},
 
     vietnam: {
-      title: "SUNOKI VIETNAM",
-      since: "SINCE 2018",
-      items: [
-        "Thiết kế & thi công nhà ở, cửa hàng, văn phòng",
-        "Dịch vụ trọn gói từ thiết kế đến thi công",
-        "Không gian chuẩn chất lượng Nhật Bản",
-        "Đội ngũ thi công uy tín tại Việt Nam",
-      ],
-    },
+  title: "SUNOKI VIETNAM",
+  since: "SINCE 2018",
+
+  // PC用
+  items: [
+    "Thiết kế & thi công nhà ở, cửa hàng, văn phòng",
+    "Dịch vụ trọn gói từ thiết kế đến thi công",
+    "Không gian chuẩn chất lượng Nhật Bản",
+    "Đội ngũ thi công uy tín tại Việt Nam",
+  ],
+
+  // スマホ用
+  itemsMobile: [
+    `Thiết kế & thi công
+nhà ở, cửa hàng,
+văn phòng`,
+
+    `Dịch vụ trọn gói
+từ thiết kế
+đến thi công`,
+
+    `Không gian chuẩn
+chất lượng Nhật Bản`,
+
+    `Đội ngũ thi công
+uy tín tại Việt Nam`,
+  ],
+},
 
     websiteTitle: "Về SUNOKI JAPAN",
 
