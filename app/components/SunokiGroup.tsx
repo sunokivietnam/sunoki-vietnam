@@ -132,11 +132,11 @@ export default function SunokiGroup() {
   ))}
 </ul>
 
-{/* Mobile */}
-<ul className="block md:hidden mt-5 space-y-3 text-[14px] leading-6 text-[#555]">
+<ul className="block md:hidden mt-5 space-y-5 text-[14px] leading-6 text-[#555]">
   {t.group.japan.itemsMobile.map((item: string) => (
-    <li key={item} className="whitespace-pre-line">
-      ✓ {item}
+    <li key={item} className="flex items-start gap-3">
+      <span className="mt-[2px] shrink-0 text-[#555]">✓</span>
+      <span className="whitespace-pre-line">{item}</span>
     </li>
   ))}
 </ul>
@@ -194,10 +194,11 @@ export default function SunokiGroup() {
 </ul>
 
 {/* Mobile */}
-<ul className="block md:hidden mt-5 space-y-3 text-[14px] leading-6 text-[#555]">
+<ul className="block md:hidden mt-5 space-y-5 text-[14px] leading-6 text-[#555]">
   {t.group.vietnam.itemsMobile.map((item: string) => (
-    <li key={item} className="whitespace-pre-line">
-      ✓ {item}
+    <li key={item} className="flex items-start gap-3">
+      <span className="mt-[2px] shrink-0 text-[#555]">✓</span>
+      <span className="whitespace-pre-line">{item}</span>
     </li>
   ))}
 </ul>
