@@ -261,8 +261,8 @@ nhà hàng, văn phòng
 và các không gian thương mại.
 Đảm bảo sự cân bằng
 giữa tính thẩm mỹ,
-công năng
-và trải nghiệm khách hàng.`,
+công năng và
+trải nghiệm khách hàng.`,
 
       items: [
         {
