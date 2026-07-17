@@ -216,7 +216,6 @@ vật liệu và bóng đổ để tạo cảm giác thư thái.`,
         "Không gian sống đạt tiêu chuẩn Nhật Bản.\nMang đến sự tiện nghi, công năng và vẻ đẹp hài hòa.",
 descriptionMobile: `Không gian sống
 đạt tiêu chuẩn Nhật Bản.
-
 Mang đến sự tiện nghi,
 công năng
 và vẻ đẹp hài hòa.`,
@@ -257,14 +256,13 @@ và vẻ đẹp hài hòa.`,
       description:
         "Thiết kế và thi công nhà hàng, văn phòng cùng các không gian thương mại,\nđảm bảo sự cân bằng giữa tính thẩm mỹ, công năng và trải nghiệm của khách hàng.",
 
-        descriptionMobile: `Thiết kế và thi công
+       descriptionMobile: `Thiết kế và thi công
 nhà hàng, văn phòng
 và các không gian thương mại.
-
 Đảm bảo sự cân bằng
 giữa tính thẩm mỹ,
-công năng và trải nghiệm
-của khách hàng.`,
+công năng
+và trải nghiệm khách hàng.`,
 
       items: [
         {
