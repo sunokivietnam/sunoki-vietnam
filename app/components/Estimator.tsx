@@ -95,10 +95,8 @@ export default function Estimator() {
   {language === "ja"
     ? `ご希望の仕様を選択して、
 そのまま無料相談へ進めます。`
-    : `Vui lòng lựa chọn các thông tin bên dưới.
-
-Nhận báo giá
-miễn phí.`}
+    : `Vui lòng lựa chọn các thông tin bên dưới
+để nhận báo giá miễn phí.`}
 </p>
 
         </div>
@@ -281,7 +279,7 @@ miễn phí.`}
             <p className="text-[11px] font-semibold tracking-[0.30em] text-[#D8B07A]">
               {language === "ja"
                 ? "SELECTED CONTENT"
-                : "THÔNG TIN ĐÃ LỰa CHỌN"}
+                : "THÔNG TIN ĐÃ LỰA CHỌN"}
             </p>
 
             <div className="mt-4 rounded-[12px] border border-white/10 bg-white/5 p-4">
