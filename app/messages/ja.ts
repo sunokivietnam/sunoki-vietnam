@@ -286,7 +286,7 @@ descriptionMobile:
 
        descriptionMobile:
     "細部へのこだわりと、\n日本品質の設計・施工で、\n安心して任せられる\n空間づくりを実現します。",
-    
+
    features: [
   {
   title: "日本品質",
@@ -377,7 +377,8 @@ descriptionMobile:
   titleMobile: "お問い合わせ",
 
   description:
-    "フォーム・電話・メールからお気軽にご相談ください。",
+    `フォーム・電話・メールから
+お気軽にご相談ください。`,
 
   descriptionMobile:
 `フォーム・電話・メールから
@@ -392,7 +393,8 @@ descriptionMobile:
 `ヒアリング・現地調査`,
 
   description:
-    "ご要望やご予算を伺い、現地調査を行います。",
+   `ご要望やご予算を伺い、
+現地調査を行います。`,
 
   descriptionMobile:
 `ご要望やご予算を伺い、
@@ -407,7 +409,8 @@ descriptionMobile:
 `3Dデザイン・お見積り`,
 
   description:
-    "最適なプランとお見積りをご提案いたします。",
+    `最適なプランとお見積りを
+ご提案いたします。`,
 
   descriptionMobile:
 `最適なプランとお見積りを
@@ -422,7 +425,8 @@ descriptionMobile:
 `管理・施工開始`,
 
   description:
-    "日本品質の施工管理で丁寧に工事を進めます。",
+    `日本品質の施工管理で丁寧に
+    工事を進めます。`,
 
   descriptionMobile:
 `日本品質の施工管理で
@@ -436,7 +440,8 @@ descriptionMobile:
 `完成・お引渡し`,
 
   description:
-    "最終確認後、お客様へお引渡しいたします。",
+    `最終確認後、お客様へお引渡し
+    いたします。`,
 
   descriptionMobile:
 `最終確認後、
