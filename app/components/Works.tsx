@@ -291,7 +291,7 @@ export default function Works() {
   controls
   preload="metadata"
   playsInline
-  poster="/images/video-thumbnail.jpg"
+  poster="/images/video-thumbnail.png"
   className="w-full rounded-[18px]"
 />
 
