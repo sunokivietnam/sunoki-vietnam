@@ -130,6 +130,7 @@ export default function WhyKokoro() {
 
                <p
   className="
+    whitespace-pre-line
     text-[13px]
     md:text-[14px]
     leading-[1.7]
