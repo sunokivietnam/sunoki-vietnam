@@ -77,7 +77,7 @@ export default function Estimator() {
       id="estimator"
       className="bg-[#FAF7F3] py-10 md:py-12"
     >
-      <div className="mx-auto max-w-[1050px] px-6">
+      <div className="mx-auto max-w-[1050px] px-5">
 
         <div className="text-center">
 
@@ -276,7 +276,7 @@ export default function Estimator() {
 
           <div className="mt-8 rounded-[16px] bg-[#2B2520] p-5 text-white">
 
-            <p className="text-[11px] font-semibold tracking-[0.30em] text-[#D8B07A]">
+            <p className="text-[11px] font-semibold tracking-[0.18em] md:tracking-[0.30em] text-[#D8B07A]">
               {language === "ja"
                 ? "SELECTED CONTENT"
                 : "THÔNG TIN ĐÃ LỰA CHỌN"}
@@ -381,12 +381,16 @@ export default function Estimator() {
 
           <div className="mt-5 rounded-[12px] bg-[#FAF7F3] p-4">
 
-            <p className="whitespace-pre-line text-[13px] leading-6 text-[#666]">
+            <p className="mx-auto max-w-[300px] md:max-w-none whitespace-pre-line text-[13px] leading-7 text-center md:text-left text-[#666]">
 
               {language === "ja"
                 ? `このシミュレーターはご希望の仕様を整理するためのものです。
 正式なお見積りは、現地調査・ご要望・仕様を確認したうえでご案内いたします。`
-                : `Công cụ này chỉ mang tính tham khảo. Báo giá chính thức sẽ được gửi sau khi khảo sát thực tế và trao đổi chi tiết về yêu cầu của bạn.`}
+                : `Công cụ này chỉ mang tính tham khảo.
+
+Báo giá chính thức sẽ được gửi
+sau khi khảo sát thực tế
+và tư vấn chi tiết.`}
 
             </p>
 
