@@ -5,6 +5,7 @@ import {
   Building2,
   Globe2,
   ExternalLink,
+  Check,
 } from "lucide-react";
 import { useLanguage } from "./LanguageContext";
 
@@ -128,14 +129,25 @@ export default function SunokiGroup() {
               {/* PC */}
 <ul className="hidden md:block mt-5 md:mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
   {t.group.japan.items.map((item: string) => (
-    <li key={item}>✓ {item}</li>
+    <li key={item} className="flex items-start gap-3">
+      <Check
+        size={16}
+        strokeWidth={2.8}
+        className="mt-[4px] shrink-0 text-[#B8895A]"
+      />
+      <span>{item}</span>
+    </li>
   ))}
 </ul>
 
 <ul className="block md:hidden mt-5 space-y-5 text-[14px] leading-6 text-[#555]">
   {t.group.japan.itemsMobile.map((item: string) => (
     <li key={item} className="flex items-start gap-3">
-      <span className="mt-[2px] shrink-0 text-[#555]">✓</span>
+      <Check
+  size={16}
+  strokeWidth={2.8}
+  className="mt-[3px] shrink-0 text-[#B8895A]"
+/>
       <span className="whitespace-pre-line">{item}</span>
     </li>
   ))}
@@ -189,7 +201,14 @@ export default function SunokiGroup() {
               {/* PC */}
 <ul className="hidden md:block mt-5 md:mt-8 space-y-4 text-[15px] leading-7 text-[#555]">
   {t.group.vietnam.items.map((item: string) => (
-    <li key={item}>✓ {item}</li>
+    <li key={item} className="flex items-start gap-3">
+      <Check
+        size={16}
+        strokeWidth={2.8}
+        className="mt-[4px] shrink-0 text-[#B8895A]"
+      />
+      <span>{item}</span>
+    </li>
   ))}
 </ul>
 
@@ -197,8 +216,14 @@ export default function SunokiGroup() {
 <ul className="block md:hidden mt-5 space-y-5 text-[14px] leading-6 text-[#555]">
   {t.group.vietnam.itemsMobile.map((item: string) => (
     <li key={item} className="flex items-start gap-3">
-      <span className="mt-[2px] shrink-0 text-[#555]">✓</span>
-      <span className="whitespace-pre-line">{item}</span>
+      <Check
+  size={16}
+  strokeWidth={2.8}
+  className="mt-[3px] shrink-0 text-[#B8895A]"
+/>
+      <span className="flex-1 whitespace-pre-line">
+  {item}
+</span>
     </li>
   ))}
 </ul>
