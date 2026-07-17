@@ -88,17 +88,17 @@ export default function Estimator() {
           <h2 className="mt-2 text-[28px] font-bold text-[#2B2520] md:text-[36px]">
             {language === "ja"
               ? "仕様シミュレーター"
-              : "Công cụ mô phỏng công trình"}
+              : "Ước tính chi phí thi công"}
           </h2>
 
           <p className="mx-auto mt-3 max-w-lg whitespace-pre-line text-[14px] leading-6 text-[#666]">
   {language === "ja"
     ? `ご希望の仕様を選択して、
 そのまま無料相談へ進めます。`
-    : `Chọn thông tin mong muốn.
+    : `Vui lòng lựa chọn các thông tin bên dưới.
 
-Gửi yêu cầu
-tư vấn miễn phí.`}
+Nhận báo giá
+miễn phí.`}
 </p>
 
         </div>
@@ -281,7 +281,7 @@ tư vấn miễn phí.`}
             <p className="text-[11px] font-semibold tracking-[0.30em] text-[#D8B07A]">
               {language === "ja"
                 ? "SELECTED CONTENT"
-                : "THÔNG TIN ĐÃ CHỌN"}
+                : "THÔNG TIN ĐÃ LỰa CHỌN"}
             </p>
 
             <div className="mt-4 rounded-[12px] border border-white/10 bg-white/5 p-4">
@@ -388,9 +388,9 @@ tư vấn miễn phí.`}
               {language === "ja"
                 ? `このシミュレーターはご希望の仕様を整理するためのものです。
 正式なお見積りは、現地調査・ご要望・仕様を確認したうえでご案内いたします。`
-                : `Công cụ này giúp tổng hợp yêu cầu của bạn.
+                : `Công cụ này chỉ mang tính tham khảo.
 
-Báo giá chính thức sẽ được gửi sau khi khảo sát và tư vấn chi tiết.`}
+Báo giá chính thức sẽ được gửi sau khi khảo sát thực tế và trao đổi chi tiết về yêu cầu của bạn.`}
 
             </p>
 
@@ -423,7 +423,7 @@ Báo giá chính thức sẽ được gửi sau khi khảo sát và tư vấn ch
             >
               {language === "ja"
                 ? "この内容で無料相談する"
-                : "Tư vấn miễn phí với nội dung này"}
+                : "Gửi yêu cầu tư vấn miễn phí"}
             </button>
 
           </div>
