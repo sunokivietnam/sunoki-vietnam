@@ -441,7 +441,8 @@ Gửi báo giá chi tiết.`,
   {
   number: "04",
 
-  title: "Thi công & Quản lý chất lượng",
+  title: `Thi công & 
+  Quản lý chất lượng`,
 
   titleMobile:
 `Thi công & Quản lý`,
@@ -450,14 +451,14 @@ Gửi báo giá chi tiết.`,
     "Thi công theo tiêu chuẩn Nhật Bản với quy trình kiểm soát chất lượng nghiêm ngặt.",
 
   descriptionMobile:
-`Thi công theo tiêu chuẩn
-Nhật Bản.
+`Thi công theo tiêu chuẩn Nhật Bản.
 Kiểm soát chất lượng.`,
 },
   {
   number: "05",
 
-  title: "Hoàn thiện & Bàn giao",
+  title: `Hoàn thiện & 
+  Bàn giao`,
 
   titleMobile:
 `Hoàn thiện & Bàn giao`,
