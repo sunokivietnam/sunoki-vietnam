@@ -14,9 +14,9 @@ export default function SunokiGroup() {
 
   return (
     <section
-      id="group"
-      className="bg-[#FAF7F3] py-16 md:py-16"
-    >
+  id="group"
+  className="bg-[#FAF7F3] pt-8 pb-16 md:pt-10 md:pb-16"
+>
       <div className="mx-auto max-w-[1200px] px-6 md:px-8">
 
         {/* =========================
