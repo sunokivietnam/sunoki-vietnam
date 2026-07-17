@@ -619,7 +619,7 @@ SUNOKI JAPAN`,
 đến Việt Nam.`,
 
   description:
-    "Từ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh và nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi tại Việt Nam bằng thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
+    "Từ nhà ở,  nhà hàng đến nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi và bền vững với thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
 
   descriptionMobile: `Từ nhà ở, nhà hàng đến nội thất.
 Chúng tôi mang đến không gian sống an toàn,
