@@ -297,7 +297,7 @@ trải nghiệm khách hàng.`,
     },
 
     model: {
-  title: "Nhà mẫu 3D",
+  title: "3D MODEL ROOM",
 
   description:
     "Khám phá không gian 3D và cảm nhận thiết kế như ngoài đời thực.",

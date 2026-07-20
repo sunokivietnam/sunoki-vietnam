@@ -88,17 +88,19 @@ export default function Works() {
     >
       <Container>
 
-        <SectionTitle
-          subtitle={t.works.subtitle}
-          title={t.works.title}
-          description={t.works.description}
-        />
+  <div className="-mt-2 md:-mt-4">
+    <SectionTitle
+      subtitle={t.works.subtitle}
+      title={t.works.title}
+      description={t.works.description}
+    />
+  </div>
 
         {/* =========================
             Residence
         ========================= */}
 
-        <div className="mt-4 md:mt-8">
+        <div className="mt-2 md:mt-4">
 
           <div className="mb-6 md:mb-8">
 
@@ -182,7 +184,7 @@ export default function Works() {
             Commercial
         ========================= */}
 
-        <div className="mt-12 md:mt-16">
+        <div className="mt-10 md:mt-14">
 
           <div className="mb-6 md:mb-8">
 
@@ -268,7 +270,7 @@ export default function Works() {
             3D MODEL ROOM
         ========================= */}
 
-        <section className="mt-10 md:mt-16">
+        <section className="mt-8 md:mt-12">
 
           <h3 className="text-center text-[28px] font-bold text-[#2B2520] md:text-[32px]">
             {t.works.model.title}
