@@ -23,7 +23,7 @@ export default function SunokiGroup() {
             Title
         ========================= */}
 
-        <div className="mx-auto mb-14 max-w-3xl text-center">
+        <div className="mx-auto mb-14 max-w-5xl text-center">
 
           <p className="text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
             {t.group.subtitle}
