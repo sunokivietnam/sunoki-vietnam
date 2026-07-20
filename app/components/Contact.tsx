@@ -182,7 +182,7 @@ Vui lòng nhập thêm yêu cầu của bạn。
   </p>
 </div>
 
-        <div className="mt-10 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="mt-10 grid items-start gap-6 lg:grid-cols-[0.9fr_1.1fr]">
 
           {/* Left */}
 
@@ -212,7 +212,7 @@ ngay tại Việt Nam.`}
 
             </p>
 
-            <div className="mt-8 space-y-4">
+            <div className="mt-7 space-y-3">
 
               <div>
 
@@ -221,7 +221,7 @@ ngay tại Việt Nam.`}
                 </p>
 
                 <p className="mt-2 text-lg font-semibold text-[#2B2520]">
-                  0909888243
+                  +84 909 888 243
                 </p>
 
               </div>
@@ -351,13 +351,13 @@ xin vui lòng liên hệ qua điện thoại.`}
 
                   <textarea
                     name="message"
-                    rows={6}
+                    rows={5}
                     required
                     value={message}
                     onChange={(e) =>
                       setMessage(e.target.value)
                     }
-                    className="min-h-[180px] w-full resize-none rounded-xl border border-[#DDD] px-4 py-2 text-[14px] leading-6 outline-none transition focus:border-[#B8895A]"
+                    className="min-h-[160px] w-full resize-none rounded-xl border border-[#DDD] px-4 py-2 text-[14px] leading-6 outline-none transition focus:border-[#B8895A]"
                   />
 
                 </div>

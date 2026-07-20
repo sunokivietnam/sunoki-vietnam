@@ -389,8 +389,7 @@ export default function Estimator() {
       ? `このシミュレーターはご希望の仕様を整理するためのものです。
 正式なお見積りは、現地調査・ご要望・仕様を確認したうえでご案内いたします。`
       : `Công cụ này chỉ mang tính tham khảo.
-Báo giá chính thức sẽ được gửi sau khi khảo sát thực tế
-và tư vấn chi tiết.`}
+Báo giá chính thức sẽ được gửi sau khi khảo sát thực tế và tư vấn chi tiết.`}
 
   </p>
 
