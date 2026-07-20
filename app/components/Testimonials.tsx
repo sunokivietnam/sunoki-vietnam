@@ -12,7 +12,7 @@ export default function Testimonials() {
   id="testimonials"
   className="bg-white py-10 md:py-14"
 >
-  <div className="mx-auto max-w-7xl px-6">
+  <div className="mx-auto max-w-5xl px-6">
       <h2 className="text-center text-[28px] leading-[1.15] font-bold text-[#2B2520] md:text-[36px]">
         {t.reviews.title}
       </h2>
@@ -37,7 +37,7 @@ export default function Testimonials() {
               ★★★★★
             </div>
 
-            <p className="min-h-[72px] md:min-h-[84px] text-[14px] leading-7 md:text-[15px] text-[#555]">
+            <p className="min-h-[72px] md:min-h-[76px] text-[14px] leading-7 md:text-[15px] text-[#555]">
               「{review.comment}」
             </p>
 
