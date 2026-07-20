@@ -12,7 +12,7 @@ export default function Testimonials() {
   id="testimonials"
   className="bg-white py-10 md:py-14"
 >
-  <div className="mx-auto max-w-7xl px-6">
+  <div className="mx-auto max-w-6xl px-6">
       <h2 className="text-center text-[28px] leading-[1.15] font-bold text-[#2B2520] md:text-[36px]">
         {t.reviews.title}
       </h2>
