@@ -17,7 +17,7 @@ export default function Service() {
   return (
     <section
       id="service"
-      className="bg-[#F3EEE8] py-12 md:py-16"
+      className="bg-[#F3EEE8] py-10 md:py-14"
     >
       <Container>
 
@@ -26,7 +26,7 @@ export default function Service() {
     {t.service.subtitle}
   </p>
 
-  <h2 className="mt-3 text-[28px] md:text-[36px] font-bold leading-[1.15] text-[#2B2520]">
+  <h2 className="mt-3 text-[24px] md:text-[36px] font-bold leading-[1.15] text-[#2B2520]">
     {t.service.title}
   </h2>
 
@@ -41,7 +41,7 @@ export default function Service() {
 </p>
 </div>
 
-        <div className="mt-10 grid gap-6 md:mt-14 md:gap-6 md:grid-cols-2">
+        <div className="mt-8 grid gap-6 md:mt-12 md:gap-6 md:grid-cols-2">
 
           {t.service.items.map((service, index) => (
 

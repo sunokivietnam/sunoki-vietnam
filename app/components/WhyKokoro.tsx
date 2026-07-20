@@ -43,13 +43,13 @@ export default function WhyKokoro() {
   return (
     <section
       id="service"
-      className="bg-[#FAF7F3] py-16 md:py-16"
+      className="bg-[#FAF7F3] py-12 md:py-14"
     >
       <div className="mx-auto max-w-[1200px] px-6 md:px-8">
 
         {/* Title */}
 
-        <div className="mb-10 max-w-3xl">
+        <div className="mb-8 md:mb-9 max-w-3xl">
 
           <p className="mb-4 text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
             {t.why.subtitle}
