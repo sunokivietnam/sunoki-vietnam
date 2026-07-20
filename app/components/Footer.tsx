@@ -116,7 +116,16 @@ export default function Footer() {
           {/* Contact Info */}
          <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-white/60">
 
-  <p>📍 Số 146/19 Võ Thị Sáu, Phường Xuân Hòa, TP Hồ Chí Minh</p>
+  <p>
+  <span className="hidden md:inline">
+    📍 Số 146/19 Võ Thị Sáu, Phường Xuân Hòa, TP Hồ Chí Minh
+  </span>
+
+  <span className="md:hidden">
+    📍 Số 146/19 Võ Thị Sáu, Phường Xuân Hòa,<br />
+    TP Hồ Chí Minh
+  </span>
+</p>
 
   <p>✉ sunoki.vietnam@gmail.com</p>
 
