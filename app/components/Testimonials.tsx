@@ -31,7 +31,7 @@ export default function Testimonials() {
         {reviews.map((review) => (
           <article
             key={review.name}
-            className="rounded-[18px] bg-white p-4 md:p-6 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+            className="rounded-[18px] bg-white p-4 md:p-5 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
             <div className="mb-2 md:mb-3 text-[20px] tracking-[2px] text-[#D89A2B]">
               ★★★★★
