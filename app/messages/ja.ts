@@ -461,25 +461,25 @@ descriptionMobile:
 お客様の声をご紹介します。`,
 
     items: [
-      {
-        name: "Nguyen Van A",
-        area: "District 3, HCMC",
-        comment:
-          "日本品質の施工で、細かい部分まで\nとても丁寧でした。完成した家族全員が\n満足しています。",
-      },
-      {
-        name: "Tran Thi B",
-        area: "Thu Duc City",
-        comment:
-          "打ち合わせから完成まで安心して任せられました。予定通りに工事が終わり\n感謝しています。",
-      },
-      {
-        name: "Yamada",
-        area: "Binh Thanh",
-        comment:
-          "デザイン性と機能性の両方を兼ね備\nえた理想の空間になりました。またお願いしたいです。",
-      },
-    ],
+  {
+    name: "Nguyen Van A",
+    area: "District 3, HCMC",
+    comment:
+      "日本品質の施工で、細かい部分までとても丁寧でした。完成した家族全員が満足しています。",
+  },
+  {
+    name: "Tran Thi B",
+    area: "Thu Duc City",
+    comment:
+      "打ち合わせから完成まで安心して任せられました。予定通りに工事が終わり感謝しています。",
+  },
+  {
+    name: "Yamada",
+    area: "Binh Thanh",
+    comment:
+      "デザイン性と機能性の両方を兼ね備えた理想の空間になりました。またお願いしたいです。",
+  },
+]
    },
      group: {
     subtitle: "SUNOKI GROUP",

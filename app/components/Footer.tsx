@@ -114,7 +114,7 @@ export default function Footer() {
         <div className="mt-8 flex flex-col gap-6 border-t border-white/10 py-6 lg:flex-row lg:items-center lg:justify-between">
 
           {/* Contact Info */}
-         <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-white/60">
+         <div className="flex flex-wrap gap-x-10 gap-y-3 text-sm text-white/70">
 
   <p>
   <span className="hidden md:inline">
@@ -129,20 +129,18 @@ export default function Footer() {
 
   <p>✉ sunoki.vietnam@gmail.com</p>
 
-  <p>☎ 0909888243</p>
+  <p>☎ +84 909 888 243</p>
 
 </div>
 
           {/* Copyright */}
-          <div className="text-sm text-white/40 lg:text-right">
+          <div className="text-sm text-white/70 lg:text-right">
 
-            <p>
-              © 2026 KOKORO Living by SUNOKI VIETNAM
-            </p>
+            <p>© 2026 SUNOKI VIETNAM</p>
 
-            <p className="mt-2 text-white/25">
-              All Rights Reserved.
-            </p>
+<p className="mt-1 text-white/30">
+  KOKORO Living · All Rights Reserved.
+</p>
 
           </div>
 
