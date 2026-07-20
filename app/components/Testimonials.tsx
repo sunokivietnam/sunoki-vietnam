@@ -31,13 +31,13 @@ export default function Testimonials() {
         {reviews.map((review) => (
           <article
             key={review.name}
-            className="rounded-[18px] bg-white p-4 md:p-6 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+            className="rounded-[18px] bg-white p-4 md:p-5 shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl"
           >
             <div className="mb-2 md:mb-3 text-[20px] tracking-[2px] text-[#D89A2B]">
               ★★★★★
             </div>
 
-            <p className="min-h-[72px] md:min-h-[84px] text-[14px] leading-7 md:text-[15px] text-[#555]">
+            <p className="min-h-[72px] md:min-h-[76px] text-[14px] leading-7 md:text-[15px] text-[#555]">
               「{review.comment}」
             </p>
 
