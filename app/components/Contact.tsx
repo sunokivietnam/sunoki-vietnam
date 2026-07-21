@@ -157,13 +157,13 @@ Vui lòng nhập thêm yêu cầu của bạn。
       <Container>
 
         <div className="text-center">
-  <p className="text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
-    CONTACT
-  </p>
+  <p className="mb-2 text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
+  CONTACT
+</p>
 
-  <h2 className="mt-3 text-[30px] md:text-[42px] font-bold text-[#2B2520]">
-    {language === "ja" ? "お問い合わせ" : "Liên hệ"}
-  </h2>
+<h2 className="text-[30px] md:text-[42px] font-bold text-[#2B2520]">
+  {language === "ja" ? "お問い合わせ" : "Liên hệ"}
+</h2>
 
   <p className="mt-4 whitespace-pre-line text-[14px] leading-7 md:text-[15px] text-[#666]">
     <span className="hidden md:inline">
@@ -204,7 +204,7 @@ Vui lòng nhập thêm yêu cầu của bạn。
 
 日本品質の設計・施工で、
 ベトナムで安心して暮らせる空間をご提案します。`
-                : `Từ nhà ở, cải tạo, cửa hàng đến văn phòng,
+                : `Từ nhà ở, cải tạo, nhà hàng đến văn phòng,
 chúng tôi luôn sẵn sàng hỗ trợ.
 
 Mang đến không gian sống chất lượng Nhật Bản

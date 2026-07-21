@@ -32,14 +32,14 @@ cả tâm huyết.`,
 `Thiết kế và thi công theo tiêu chuẩn Nhật Bản,
 mang đến không gian sống tiện nghi tại Việt Nam.
 
-Từ nhà ở, cửa hàng đến phòng tắm và nhà vệ sinh,
+Từ nhà ở, nhà hàng đến phòng tắm và nhà vệ sinh,
 chúng tôi chăm chút từng chi tiết.`,
 
   descriptionMobile:
 `Thiết kế và thi công theo tiêu chuẩn Nhật Bản,
 mang đến không gian sống tiện nghi
 tại Việt Nam.
-Từ nhà ở, cửa hàng đến
+Từ nhà ở, nhà hàng đến
 phòng tắm và nhà vệ sinh,
 chúng tôi chăm chút từng chi tiết.`,
 
@@ -86,7 +86,8 @@ và thiết kế tinh tế
 mang đậm chất Nhật Bản.`,
 
    collectionDescription:
-  "Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản, tạo nên những không gian được chăm chút đến từng chi tiết.",
+  `Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản,
+  tạo nên những không gian được chăm chút đến từng chi tiết.`,
 
 collectionDescriptionMobile: `Chúng tôi trân trọng vẻ đẹp của gỗ,
 ánh sáng và phong cách Nhật Bản,
@@ -133,10 +134,10 @@ bonsaiDescriptionMobile:
     title: "Dịch vụ",
 
     description:
-      "Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản cho nhà ở, cửa hàng, phòng tắm và nhà vệ sinh và nội thất.",
+      "Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản cho nhà ở, nhà hàng, phòng tắm và nhà vệ sinh và nội thất.",
 
 descriptionMobile:
-`Nhà ở, cửa hàng, không gian nội thất
+`Nhà ở, nhà hàng, không gian nội thất
 và khu vực nước.
 Thiết kế & thi công theo tiêu chuẩn
 chất lượng Nhật Bản.`,
@@ -205,7 +206,7 @@ vật liệu và bóng đổ để tạo cảm giác thư thái.`,
     title: "Dự án tiêu biểu",
 
     description:
-      "Giới thiệu các công trình nhà ở và cửa hàng do SUNOKI VIETNAM thực hiện.",
+      "Giới thiệu các công trình nhà ở và nhà hàng do SUNOKI VIETNAM thực hiện.",
 
     residence: {
       subtitle: "RESIDENCE",
@@ -523,7 +524,8 @@ chất lượng Nhật Bản
 từ năm 1963`,
 
 description:
-  "Kế thừa hơn 60 năm kinh nghiệm thi công và quản lý chất lượng từ Nhật Bản, chúng tôi mang đến những không gian sống và kinh doanh đáng tin cậy tại Việt Nam.",
+  `Kế thừa hơn 60 năm kinh nghiệm thi công và quản lý chất lượng từ Nhật Bản.
+  Mang đến những không gian sống và kinh doanh đáng tin cậy tại Việt Nam.`,
 
 descriptionMobile:
 `Kế thừa hơn 60 năm kinh nghiệm thi công
@@ -559,7 +561,7 @@ kinh doanh đáng tin cậy tại Việt Nam.`,
 
   // PC用
   items: [
-    "Thiết kế & thi công nhà ở, cửa hàng, văn phòng",
+    "Thiết kế & thi công nhà ở, nhà hàng, văn phòng",
     "Dịch vụ trọn gói từ thiết kế đến thi công",
     "Không gian chuẩn chất lượng Nhật Bản",
     "Đội ngũ thi công uy tín tại Việt Nam",
@@ -567,7 +569,7 @@ kinh doanh đáng tin cậy tại Việt Nam.`,
 
   // スマホ用
   itemsMobile: [
-  "Thiết kế & thi công\nnhà ở, cửa hàng, văn phòng",
+  "Thiết kế & thi công\nnhà ở, nhà hàng, văn phòng",
 
   "Dịch vụ trọn gói\ntừ thiết kế đến thi công",
 
@@ -580,15 +582,16 @@ kinh doanh đáng tin cậy tại Việt Nam.`,
     websiteTitle: "Về SUNOKI JAPAN",
 
     websiteDescription:
-"Được thành lập từ năm 1963. Tìm hiểu thêm về SUNOKI JAPAN – đơn vị chuyên thi công khung thép nhẹ và thạch cao với nhiều công trình trên khắp Nhật Bản.",
+`Được thành lập từ năm 1963. Tìm hiểu thêm về SUNOKI JAPAN – 
+Chuyên thi công khung thép nhẹ và thạch cao với nhiều công trình trên khắp Nhật Bản.`,
 
 websiteDescriptionMobile:
 `Thành lập năm 1963.
 Tìm hiểu thêm về SUNOKI JAPAN
 và các công trình trên khắp Nhật Bản.`,
 
-    button: `Trang web
-SUNOKI JAPAN`,
+    button: `SUNOKI JAPAN's
+    WEBSITE`,
   },
   contact: {
     subtitle: "CONTACT",
@@ -596,7 +599,7 @@ SUNOKI JAPAN`,
     title: "Liên hệ",
 
     description:
-      "Nếu bạn cần tư vấn hoặc báo giá về nhà ở, cửa hàng hoặc văn phòng, vui lòng liên hệ với chúng tôi.",
+      "Nếu bạn cần tư vấn hoặc báo giá về nhà ở, nhà hàng hoặc văn phòng, vui lòng liên hệ với chúng tôi.",
 
     company: "Tên công ty",
 
