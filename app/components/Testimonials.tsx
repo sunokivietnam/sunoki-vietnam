@@ -13,9 +13,13 @@ export default function Testimonials() {
   className="bg-white py-10 md:py-14"
 >
   <div className="mx-auto max-w-6xl px-6">
-      <h2 className="text-center text-[28px] leading-[1.15] font-bold text-[#2B2520] md:text-[36px]">
-        {t.reviews.title}
-      </h2>
+      <p className="mb-3 text-center text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
+  {t.reviews.subtitle}
+</p>
+
+<h2 className="text-center text-[28px] leading-[1.15] font-bold text-[#2B2520] md:text-[36px]">
+  {t.reviews.title}
+</h2>
 
       <p className="mx-auto mt-3 max-w-2xl text-center whitespace-pre-line text-[14px] leading-8 md:text-[14px] text-[#666]">
   <span className="hidden md:inline">

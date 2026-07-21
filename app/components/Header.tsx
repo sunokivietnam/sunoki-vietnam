@@ -56,7 +56,7 @@ export default function Header() {
               width={180}
               height={70}
               priority
-              className="h-auto w-[130px] -translate-y-1 md:w-[150px] md:-translate-y-1"
+              className="h-auto w-[130px] -translate-y-1 brightness-150 md:w-[150px] md:-translate-y-1"
             />
           </a>
           {/* Mobile SUNOKI Logo */}

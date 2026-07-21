@@ -483,7 +483,7 @@ Bàn giao công trình.`,
 ],
   }, 
     reviews: {
-    subtitle: "VOICE",
+    subtitle: "TESTIMONIALS",
 
     title: "Review khách hàng",
 

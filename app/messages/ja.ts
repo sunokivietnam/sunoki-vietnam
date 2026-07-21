@@ -450,7 +450,7 @@ descriptionMobile:
     ],
   },
    reviews: {
-    subtitle: "VOICE",
+    subtitle: "TESTIMONIALS",
 
     title: "お客様の声",
 
