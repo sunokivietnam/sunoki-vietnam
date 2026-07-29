@@ -1,6 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
 import Container from "./ui/Container";
 import SectionTitle from "./ui/SectionTitle";
 import { useLanguage } from "./LanguageContext";
@@ -13,14 +17,23 @@ export default function ModelPlans() {
       ? require("../messages/ja").default
       : require("../messages/vi").default;
 
+  const [open, setOpen] = useState(false);
+
+  const [slides, setSlides] = useState<{ src: string }[]>([]);
+
+  const openGallery = (gallery: string[]) => {
+    setSlides(gallery.map((src) => ({ src })));
+    setOpen(true);
+  };
+
   return (
     <section className="bg-[#FAF7F3] py-12 md:py-16">
       <Container>
         <SectionTitle
-  subtitle={t.modelPlans.subtitle}
-  title={t.modelPlans.title}
-  description={t.modelPlans.description}
-/>
+          subtitle={t.modelPlans.subtitle}
+          title={t.modelPlans.title}
+          description={t.modelPlans.description}
+        />
 
         <div className="mt-10 grid gap-8 lg:grid-cols-3">
           {t.modelPlans.plans.map((plan: any, index: number) => (
@@ -61,8 +74,7 @@ export default function ModelPlans() {
                     <span>{t.modelPlans.grade}</span>
                     <span>{plan.grade}</span>
                   </div>
-
-                  <div>
+                                    <div>
                     <p className="mb-2 font-semibold text-[#2B2520]">
                       {t.modelPlans.specification}
                     </p>
@@ -80,7 +92,8 @@ export default function ModelPlans() {
                       )}
                     </div>
                   </div>
-                                    <div className="mt-6 rounded-xl bg-[#F7F3EE] p-5 text-center">
+
+                  <div className="mt-6 rounded-xl bg-[#F7F3EE] p-5 text-center">
                     <p className="text-[11px] font-semibold tracking-[0.28em] text-[#B8895A]">
                       {t.modelPlans.estimatedCost}
                     </p>
@@ -92,17 +105,18 @@ export default function ModelPlans() {
 
                   <button
                     type="button"
+                    onClick={() => openGallery(plan.gallery)}
                     className="mt-6 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
                   >
                     {t.modelPlans.viewGallery}
                   </button>
+
                 </div>
               </div>
             </article>
           ))}
         </div>
-
-        <p className="mt-8 text-center text-[12px] leading-relaxed text-[#777]">
+                <p className="mt-8 text-center text-[12px] leading-relaxed text-[#777]">
           <span className="hidden md:inline">
             {t.modelPlans.notice}
           </span>
@@ -111,6 +125,13 @@ export default function ModelPlans() {
             {t.modelPlans.noticeMobile}
           </span>
         </p>
+
+        <Lightbox
+          open={open}
+          close={() => setOpen(false)}
+          slides={slides}
+        />
+
       </Container>
     </section>
   );
