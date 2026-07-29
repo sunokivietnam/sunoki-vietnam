@@ -19,7 +19,9 @@ export default function ModelPlans() {
 
   const [open, setOpen] = useState(false);
 
-  const [slides, setSlides] = useState<{ src: string }[]>([]);
+const [slides, setSlides] = useState<{ src: string }[]>([]);
+const [showGallery, setShowGallery] = useState<number | null>(null);
+const [currentIndex, setCurrentIndex] = useState(0);
 
   const openGallery = (gallery: string[]) => {
     setSlides(gallery.map((src) => ({ src })));
@@ -103,14 +105,42 @@ export default function ModelPlans() {
                     </p>
                   </div>
 
-                  <button
-                    type="button"
-                    onClick={() => openGallery(plan.gallery)}
-                    className="mt-6 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
-                  >
+                 <button
+  type="button"
+  onClick={() =>
+    setShowGallery(showGallery === index ? null : index)
+  }
+  className="mt-6 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
+>
                     {t.modelPlans.viewGallery}
                   </button>
-
+{showGallery === index && (
+  <div className="mt-5 grid grid-cols-4 gap-2">
+    {plan.gallery.map((image: string, i: number) => (
+      <button
+        key={i}
+        type="button"
+        onClick={() => {
+  setSlides(
+    plan.gallery.map((src: string) => ({
+      src,
+    }))
+  );
+  setCurrentIndex(i);
+  setOpen(true);
+}}
+        className="relative aspect-square overflow-hidden rounded-lg"
+      >
+        <Image
+          src={image}
+          alt=""
+          fill
+          className="object-cover transition hover:scale-105"
+        />
+      </button>
+    ))}
+  </div>
+)}
                 </div>
               </div>
             </article>
@@ -127,10 +157,11 @@ export default function ModelPlans() {
         </p>
 
         <Lightbox
-          open={open}
-          close={() => setOpen(false)}
-          slides={slides}
-        />
+  open={open}
+  close={() => setOpen(false)}
+  slides={slides}
+  index={currentIndex}
+/>
 
       </Container>
     </section>
