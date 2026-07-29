@@ -553,9 +553,9 @@ descriptionMobile:
 
       area: "--㎡",
 
-      unitPrice: "-- USD /㎡",
+      unitPrice: "-- VNĐ /㎡",
 
-      grade: "--",
+      grade: "Luxury",
 
       specifications: [
         "Gỗ tự nhiên",
@@ -564,7 +564,7 @@ descriptionMobile:
         "Phong cách Nhật",
       ],
 
-      estimatedCost: "-- USD",
+      estimatedCost: "-- VNĐ",
     },
 
     {
@@ -575,9 +575,9 @@ descriptionMobile:
 
       area: "--㎡",
 
-      unitPrice: "-- USD /㎡",
+      unitPrice: "-- VNĐ /㎡",
 
-      grade: "--",
+      grade: "Standard",
 
       specifications: [
         "Gỗ sồi",
@@ -586,7 +586,7 @@ descriptionMobile:
         "Nội thất",
       ],
 
-      estimatedCost: "-- USD",
+      estimatedCost: "-- VNĐ",
     },
 
     {
@@ -597,9 +597,9 @@ descriptionMobile:
 
       area: "--㎡",
 
-      unitPrice: "-- USD /㎡",
+      unitPrice: "-- VNĐ /㎡",
 
-      grade: "--",
+      grade: "Premium",
 
       specifications: [
         "Gỗ óc chó",
@@ -608,7 +608,7 @@ descriptionMobile:
         "Nội thất",
       ],
 
-      estimatedCost: "-- USD",
+      estimatedCost: "-- VNĐ",
     },
   ],
 },

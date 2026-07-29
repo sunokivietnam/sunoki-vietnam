@@ -514,15 +514,15 @@ descriptionMobile:
   plans: [
     {
       label: "PLAN 01",
-      name: "Villa Residence",
+      name: "Villa",
 
       image: "/images/modelplans/villa/main.jpg",
 
       area: "--㎡",
 
-      unitPrice: "-- USD /㎡",
+      unitPrice: "-- VNĐ /㎡",
 
-      grade: "--",
+      grade: "Luxury",
 
       specifications: [
         "天然木",
@@ -531,7 +531,7 @@ descriptionMobile:
         "和モダン",
       ],
 
-      estimatedCost: "-- USD",
+      estimatedCost: "-- VNĐ",
     },
 
     {
@@ -542,9 +542,9 @@ descriptionMobile:
 
       area: "--㎡",
 
-      unitPrice: "-- USD /㎡",
+      unitPrice: "-- VNĐ /㎡",
 
-      grade: "--",
+      grade: "Standard",
 
       specifications: [
         "オーク材",
@@ -553,7 +553,7 @@ descriptionMobile:
         "家具",
       ],
 
-      estimatedCost: "-- USD",
+      estimatedCost: "-- VNĐ",
     },
 
     {
@@ -564,9 +564,9 @@ descriptionMobile:
 
       area: "--㎡",
 
-      unitPrice: "-- USD /㎡",
+      unitPrice: "-- VNĐ /㎡",
 
-      grade: "--",
+      grade: "Premium",
 
       specifications: [
         "ウォールナット",
@@ -575,7 +575,7 @@ descriptionMobile:
         "家具",
       ],
 
-      estimatedCost: "-- USD",
+      estimatedCost: "-- VNĐ",
     },
   ],
 },
