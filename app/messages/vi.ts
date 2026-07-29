@@ -514,6 +514,104 @@ descriptionMobile:
       },
     ],
      },
+     modelPlans: {
+  subtitle: "MODEL PLANS",
+
+  title: "Mẫu tham khảo",
+  titleMobile: "Mẫu tham khảo",
+
+  description:
+    "Giới thiệu các phương án thiết kế tham khảo dựa trên công trình thực tế cùng diện tích, vật liệu và chi phí dự kiến.",
+
+  descriptionMobile:
+    "Giới thiệu các phương án\ntham khảo dựa trên công trình thực tế\ncùng diện tích, vật liệu\nvà chi phí dự kiến.",
+
+  area: "Diện tích",
+
+  unitPrice: "Đơn giá /㎡",
+
+  grade: "Hạng",
+
+  specification: "Vật liệu",
+
+  estimatedCost: "Chi phí dự kiến",
+
+  viewGallery: "Xem hình ảnh",
+
+  notice:
+    "※ Chi phí chỉ mang tính tham khảo. Giá thực tế sẽ thay đổi tùy theo thiết kế, vật liệu và điều kiện thi công.",
+
+  noticeMobile:
+    "※ Chi phí chỉ mang tính tham khảo.\nGiá thực tế sẽ thay đổi\ntùy theo thiết kế, vật liệu\nvà điều kiện thi công.",
+
+  plans: [
+    {
+      label: "PLAN 01",
+      name: "Villa Residence",
+
+      image: "/images/modelplans/villa/main.jpg",
+
+      area: "--㎡",
+
+      unitPrice: "-- USD /㎡",
+
+      grade: "--",
+
+      specifications: [
+        "Gỗ tự nhiên",
+        "Nội thất đóng",
+        "Đèn hắt",
+        "Phong cách Nhật",
+      ],
+
+      estimatedCost: "-- USD",
+    },
+
+    {
+      label: "PLAN 02",
+      name: "Condo A",
+
+      image: "/images/modelplans/condo-a/main.jpg",
+
+      area: "--㎡",
+
+      unitPrice: "-- USD /㎡",
+
+      grade: "--",
+
+      specifications: [
+        "Gỗ sồi",
+        "Tủ lưu trữ",
+        "Chiếu sáng",
+        "Nội thất",
+      ],
+
+      estimatedCost: "-- USD",
+    },
+
+    {
+      label: "PLAN 03",
+      name: "Condo B",
+
+      image: "/images/modelplans/condo-b/main.jpg",
+
+      area: "--㎡",
+
+      unitPrice: "-- USD /㎡",
+
+      grade: "--",
+
+      specifications: [
+        "Gỗ óc chó",
+        "Bếp",
+        "Chiếu sáng",
+        "Nội thất",
+      ],
+
+      estimatedCost: "-- USD",
+    },
+  ],
+},
   group: {
     subtitle: "SUNOKI GROUP",
 

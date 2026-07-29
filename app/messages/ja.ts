@@ -481,6 +481,104 @@ descriptionMobile:
   },
 ]
    },
+   modelPlans: {
+  subtitle: "MODEL PLANS",
+
+  title: "参考プラン",
+  titleMobile: "参考プラン",
+
+  description:
+    "実際の設計プランをもとに、面積・仕様・概算金額の参考例をご紹介します。",
+
+  descriptionMobile:
+    "実際の設計プランをもとに、\n面積・仕様・概算金額の\n参考例をご紹介します。",
+
+  area: "面積",
+
+  unitPrice: "㎡単価",
+
+  grade: "グレード",
+
+  specification: "仕様・素材",
+
+  estimatedCost: "概算金額",
+
+  viewGallery: "写真を見る",
+
+  notice:
+    "※掲載価格は参考価格です。設計内容・仕様・施工条件により変動します。",
+
+  noticeMobile:
+    "※掲載価格は参考価格です。\n設計内容・仕様・施工条件により\n変動します。",
+
+  plans: [
+    {
+      label: "PLAN 01",
+      name: "Villa Residence",
+
+      image: "/images/modelplans/villa/main.jpg",
+
+      area: "--㎡",
+
+      unitPrice: "-- USD /㎡",
+
+      grade: "--",
+
+      specifications: [
+        "天然木",
+        "造作家具",
+        "間接照明",
+        "和モダン",
+      ],
+
+      estimatedCost: "-- USD",
+    },
+
+    {
+      label: "PLAN 02",
+      name: "Condo A",
+
+      image: "/images/modelplans/condo-a/main.jpg",
+
+      area: "--㎡",
+
+      unitPrice: "-- USD /㎡",
+
+      grade: "--",
+
+      specifications: [
+        "オーク材",
+        "収納",
+        "照明",
+        "家具",
+      ],
+
+      estimatedCost: "-- USD",
+    },
+
+    {
+      label: "PLAN 03",
+      name: "Condo B",
+
+      image: "/images/modelplans/condo-b/main.jpg",
+
+      area: "--㎡",
+
+      unitPrice: "-- USD /㎡",
+
+      grade: "--",
+
+      specifications: [
+        "ウォールナット",
+        "キッチン",
+        "照明",
+        "家具",
+      ],
+
+      estimatedCost: "-- USD",
+    },
+  ],
+},
      group: {
     subtitle: "SUNOKI GROUP",
 

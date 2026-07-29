@@ -7,6 +7,7 @@ import Service from "./components/Service";
 import WhyKokoro from "./components/WhyKokoro";
 import Works from "./components/Works";
 import Estimator from "./components/Estimator";
+import ModelPlans from "./components/ModelPlans";
 import Process from "./components/Process";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
@@ -30,6 +31,8 @@ export default function Home() {
         <Works />
 
         <Estimator />
+
+        <ModelPlans />
 
         <Process />
 
