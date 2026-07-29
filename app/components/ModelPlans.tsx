@@ -112,10 +112,17 @@ const [currentIndex, setCurrentIndex] = useState(0);
   }
   className="mt-6 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
 >
-                    {t.modelPlans.viewGallery}
+                   {showGallery === index
+  ? "写真を閉じる ▲"
+  : "写真を見る ▼"}
                   </button>
-{showGallery === index && (
-  <div className="mt-5 grid grid-cols-4 gap-2">
+<div
+  className={`grid grid-cols-4 gap-2 overflow-hidden transition-all duration-300 ${
+    showGallery === index
+      ? "mt-5 max-h-[500px] opacity-100"
+      : "max-h-0 opacity-0"
+  }`}
+>
     {plan.gallery.map((image: string, i: number) => (
       <button
         key={i}
@@ -129,18 +136,18 @@ const [currentIndex, setCurrentIndex] = useState(0);
   setCurrentIndex(i);
   setOpen(true);
 }}
-        className="relative aspect-square overflow-hidden rounded-lg"
+        className="group relative aspect-square overflow-hidden rounded-lg"
       >
         <Image
           src={image}
           alt=""
           fill
-          className="object-cover transition hover:scale-105"
+          className="object-cover transition duration-300 group-hover:scale-110"
         />
       </button>
     ))}
   </div>
-)}
+
                 </div>
               </div>
             </article>
