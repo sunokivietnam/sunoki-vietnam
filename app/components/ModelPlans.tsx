@@ -17,30 +17,10 @@ export default function ModelPlans() {
     <section className="bg-[#FAF7F3] py-12 md:py-16">
       <Container>
         <SectionTitle
-          subtitle={t.modelPlans.subtitle}
-          title={
-            <>
-              <span className="hidden md:inline">
-                {t.modelPlans.title}
-              </span>
-
-              <span className="md:hidden">
-                {t.modelPlans.titleMobile}
-              </span>
-            </>
-          }
-          description={
-            <>
-              <span className="hidden md:inline">
-                {t.modelPlans.description}
-              </span>
-
-              <span className="whitespace-pre-line md:hidden">
-                {t.modelPlans.descriptionMobile}
-              </span>
-            </>
-          }
-        />
+  subtitle={t.modelPlans.subtitle}
+  title={t.modelPlans.title}
+  description={t.modelPlans.description}
+/>
 
         <div className="mt-10 grid gap-8 lg:grid-cols-3">
           {t.modelPlans.plans.map((plan: any, index: number) => (
