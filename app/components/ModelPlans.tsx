@@ -151,30 +151,6 @@ const [currentIndex, setCurrentIndex] = useState(0);
     ))}
   </div>
 )}
-    {plan.gallery?.map((image: string, i: number) => (
-      <button
-        key={i}
-        type="button"
-        onClick={() => {
-  setSlides(
-    plan.gallery.map((src: string) => ({
-      src,
-    }))
-  );
-  setCurrentIndex(i);
-  setOpen(true);
-}}
-        className="group relative aspect-square overflow-hidden rounded-lg"
-      >
-        <Image
-          src={image}
-          alt=""
-          fill
-          className="object-cover transition duration-300 group-hover:scale-110"
-        />
-      </button>
-    ))}
-  </div>
 
                 </div>
               </div>
