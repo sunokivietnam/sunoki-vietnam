@@ -514,7 +514,7 @@ descriptionMobile:
   plans: [
     {
       label: "PLAN 01",
-      name: "Villa",
+      name: "Villa Residence",
 
       image: "/images/modelplans/villa/main.jpg",
 
