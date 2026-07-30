@@ -17,7 +17,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const residenceImages = [
-  "/images/work1.jpg",
+  "/images/work01.jpg",
   "/images/work4.jpg",
   "/images/work5.jpg",
   "/images/work6.jpg",
