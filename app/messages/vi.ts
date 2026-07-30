@@ -585,7 +585,14 @@ descriptionMobile:
       name: "Condo A",
 
       image: "/images/modelplans/condo-a/main.jpg",
-
+gallery: [
+  "/images/modelplans/condo-a/01.jpg",
+  "/images/modelplans/condo-a/02.jpg",
+  "/images/modelplans/condo-a/03.jpg",
+  "/images/modelplans/condo-a/04.jpg",
+  "/images/modelplans/condo-a/05.jpg",
+  "/images/modelplans/condo-a/06.jpg",
+],
       area: "--㎡",
 
       unitPrice: "-- VNĐ /㎡",
