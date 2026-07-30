@@ -28,7 +28,7 @@ const residenceImages = [
 const commercialImages = [
   "/images/gf-seating.jpg",
   "/images/engawa.jpg",
-  "/images/drink-bar.jpg",
+  "/images/drink-bar01.jpg",
   "/images/sake-display-new.jpg",
   "/images/kamakura-seat.jpg",
   "/images/private-room.jpg",
