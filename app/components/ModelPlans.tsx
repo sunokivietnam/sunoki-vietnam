@@ -114,8 +114,8 @@ const [currentIndex, setCurrentIndex] = useState(0);
     className="mt-6 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
   >
     {showGallery === index
-      ? "写真を閉じる ▲"
-      : "写真を見る ▼"}
+  ? t.modelPlans.closeGallery
+  : t.modelPlans.viewGallery}
   </button>
 )}
 {plan.gallery && (
