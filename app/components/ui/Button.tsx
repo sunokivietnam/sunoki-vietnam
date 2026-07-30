@@ -20,9 +20,9 @@ export default function Button({
     "inline-flex h-14 items-center justify-center rounded-[14px] px-9 text-sm font-semibold tracking-[0.12em] transition-all duration-300";
 
   const style =
-    variant === "primary"
-      ? "bg-[#B8895A] text-white hover:bg-[#A77647] hover:-translate-y-0.5 hover:shadow-lg"
-      : "border border-[#B8895A] text-[#B8895A] hover:bg-[#B8895A] hover:text-white";
+  variant === "primary"
+    ? "bg-[#B8895A] text-white hover:bg-[#A77647] hover:-translate-y-0.5 hover:shadow-lg"
+    : "border border-[#D8B07A] bg-[#D8B07A]/10 text-white backdrop-blur-sm hover:bg-[#D8B07A] hover:border-[#D8B07A] hover:text-white hover:-translate-y-0.5 hover:shadow-lg";
 
   if (href) {
     return (
