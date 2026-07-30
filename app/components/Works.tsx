@@ -22,7 +22,7 @@ const residenceImages = [
   "/images/work05.jpg",
   "/images/work06.jpg",
   "/images/work07.jpg",
-  "/images/work8.jpg",
+  "/images/work08.jpg",
 ];
 
 const commercialImages = [
