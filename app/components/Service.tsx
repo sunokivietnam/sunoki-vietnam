@@ -61,7 +61,7 @@ export default function Service() {
                       <div className="relative h-full overflow-hidden rounded-[12px]">
 
                         <Image
-                          src="/images/bathroom.jpg"
+                          src="/images/bathroom02.jpg"
                           alt="Bathroom"
                           fill
                           className="object-cover transition duration-700 group-hover:scale-105"
@@ -72,7 +72,7 @@ export default function Service() {
                       <div className="relative h-full overflow-hidden rounded-[12px]">
 
                         <Image
-                          src="/images/toilet.jpg"
+                          src="/images/toilet02.jpg"
                           alt="Toilet"
                           fill
                           className="object-cover transition duration-700 group-hover:scale-105"
@@ -156,7 +156,7 @@ export default function Service() {
 
         </div>
 
-        <div className="mt-12 md:mt-16 flex justify-center">
+        <div className="mt-10 md:mt-14 flex justify-center">
           
           <Button href="#works">
             {t.service.worksButton}
