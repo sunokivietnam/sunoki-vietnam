@@ -94,16 +94,19 @@ export default function Hero() {
 </p>
 
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-              <Button href="#works">
-                {t.hero.works}
-              </Button>
-
               <Button
-                href="#contact"
-                variant="secondary"
-              >
-                {t.hero.consultation}
-              </Button>
+  href="#works"
+  variant="primary"
+>
+  {t.hero.works}
+</Button>
+
+<Button
+  href="#contact"
+  variant="secondary"
+>
+  {t.hero.consultation}
+</Button>
             </div>
           </div>
         </Container>
