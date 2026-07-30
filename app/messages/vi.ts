@@ -25,7 +25,8 @@ const vi = {
 không gian chuẩn Nhật\nbằng cả tâm huyết.`,
 
   titleMobile: `Kiến tạo
-không gian chuẩn Nhật
+không gian 
+chuẩn Nhật
 bằng cả tâm huyết.`,
 
   description:
