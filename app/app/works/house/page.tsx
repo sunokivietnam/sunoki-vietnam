@@ -9,7 +9,7 @@ export default function HouseWorkPage() {
       <section className="relative h-[450px]">
 
         <Image
-          src="/images/work1.jpg"
+          src="/images/work01.jpg"
           alt="住宅施工"
           fill
           className="object-cover"
@@ -116,7 +116,7 @@ export default function HouseWorkPage() {
         <div className="grid md:grid-cols-3 gap-6">
 
           <Image
-            src="/images/work1.jpg"
+            src="/images/work01.jpg"
             alt=""
             width={500}
             height={350}
@@ -124,7 +124,7 @@ export default function HouseWorkPage() {
           />
 
           <Image
-            src="/images/work2.png"
+            src="/images/work02.png"
             alt=""
             width={500}
             height={350}

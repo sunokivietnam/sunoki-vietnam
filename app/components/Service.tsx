@@ -8,7 +8,7 @@ import { useLanguage } from "./LanguageContext";
 
 const serviceImages = [
   "/images/home.png",
-  "/images/work2.png",
+  "/images/work02.png",
 ];
 
 export default function Service() {
