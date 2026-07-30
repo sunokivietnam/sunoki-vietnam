@@ -38,7 +38,9 @@ chúng tôi chăm chút từng chi tiết.`,
 
   descriptionMobile:
 `Thiết kế và thi công theo tiêu chuẩn Nhật Bản.
-Mang đến không gian sống tiện nghi và tinh tế tại Việt Nam.
+Mang đến không gian sống tiện nghi và tinh tế
+tại Việt Nam.
+
 Từ nhà ở, nhà hàng đến
 phòng tắm và nhà vệ sinh,
 chúng tôi chăm chút từng chi tiết.`,
