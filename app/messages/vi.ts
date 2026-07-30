@@ -33,17 +33,16 @@ bằng cả tâm huyết`,
 `Thiết kế và thi công theo tiêu chuẩn Nhật Bản.
 Mang đến không gian sống tiện nghi và tinh tế tại Việt Nam.
 
-Từ nhà ở, nhà hàng đến phòng tắm và nhà vệ sinh,
-chúng tôi chăm chút từng chi tiết.`,
+Mỗi công trình đều được hoàn thiện 
+với sự tỉ mỉ trong từng chi tiết.`,
 
   descriptionMobile:
 `Thiết kế và thi công theo tiêu chuẩn Nhật Bản.
 Mang đến không gian sống tiện nghi và tinh tế
 tại Việt Nam.
 
-Từ nhà ở, nhà hàng đến
-phòng tắm và nhà vệ sinh,
-chúng tôi chăm chút từng chi tiết.`,
+Mỗi công trình đều được hoàn thiện 
+với sự tỉ mỉ trong từng chi tiết.`,
 
   works: "Xem dự án",
 
