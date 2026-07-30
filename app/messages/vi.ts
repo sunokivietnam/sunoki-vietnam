@@ -57,15 +57,20 @@ với sự tỉ mỉ trong từng chi tiết.`,
 
   title: "KOKORO Living là gì?",
 
-  description: `Ngôi nhà không chỉ là nơi để ở.
+  descriptionLead: "Mỗi không gian đều mang một giá trị riêng.",
 
-Đó là nơi mang lại sự bình yên,
-nơi gia đình quây quần,
-và là nơi bạn luôn muốn trở về mỗi ngày.
+description: `Dù là ngôi nhà để trở về,
+văn phòng khơi nguồn sáng tạo
+hay nhà hàng đón tiếp những vị khách,
+mỗi không gian đều kể một câu chuyện
+và lưu giữ những khoảnh khắc đáng nhớ.`,
 
-Thông qua thiết kế và thi công theo tiêu chuẩn Nhật Bản,
-chúng tôi tỉ mỉ tạo nên
-những không gian sống như vậy tại Việt Nam.`,
+description2: `Tại KOKORO Living,
+chúng tôi tin rằng một không gian đẹp không chỉ nằm ở thiết kế,
+mà còn ở cảm giác bình yên, tiện nghi và sự gắn kết mà nó mang lại.
+Với tiêu chuẩn thiết kế và thi công Nhật Bản,
+chúng tôi chăm chút từng chi tiết để tạo nên những công trình tinh tế,
+bền vững và mang đậm dấu ấn của mỗi khách hàng.`,
 
   descriptionMobile: `Ngôi nhà không chỉ là nơi để ở.
 

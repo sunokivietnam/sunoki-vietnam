@@ -32,9 +32,21 @@ export default function About() {
 </h2>
 
             {/* PC */}
-<p className="hidden md:block whitespace-pre-line text-[16px] leading-9 text-[#333]">
-  {t.about.description}
-</p>
+<div className="hidden md:block text-[16px] leading-9 text-[#333]">
+  <p className="font-bold">
+    {t.about.descriptionLead}
+  </p>
+
+  <p className="mt-2 whitespace-pre-line">
+    {t.about.description}
+  </p>
+
+  <p className="mt-8 whitespace-pre-line">
+    Tại <strong>KOKORO Living</strong>,
+    {"\n"}
+    {t.about.description2.replace(/^Tại KOKORO Living,\s*/, "")}
+  </p>
+</div>
 
 {/* Mobile */}
 <p className="block md:hidden whitespace-pre-line text-[15px] leading-[2] text-[#333]">
