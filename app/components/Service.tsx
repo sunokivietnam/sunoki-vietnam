@@ -100,7 +100,7 @@ export default function Service() {
                       <div className="relative h-full overflow-hidden rounded-[12px]">
 
                         <Image
-  src="/images/zen02.jpg"
+  src="/images/zen03.jpg"
   alt="Zen Space"
   fill
   className="object-cover object-[50%_55%] transition duration-700 group-hover:scale-105"
