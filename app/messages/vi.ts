@@ -22,11 +22,11 @@ const vi = {
   brand: "KOKORO LIVING",
 
   title: `Kiến tạo
-không gian bằng\ncả tâm huyết.`,
+không gian chuẩn Nhật\nbằng cả tâm huyết.`,
 
   titleMobile: `Kiến tạo
-không gian bằng
-cả tâm huyết.`,
+không gian chuẩn Nhật
+bằng cả tâm huyết.`,
 
   description:
 `Thiết kế và thi công theo tiêu chuẩn Nhật Bản,
