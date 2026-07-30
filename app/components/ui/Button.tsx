@@ -17,12 +17,12 @@ export default function Button({
   variant = "primary",
 }: ButtonProps) {
   const base =
-    "inline-flex h-14 items-center justify-center rounded-[14px] px-9 text-sm font-semibold tracking-[0.12em] transition-all duration-300";
+  "inline-flex h-14 min-w-[220px] items-center justify-center rounded-[14px] px-9 text-sm font-semibold tracking-[0.12em] transition-all duration-300";
 
-  const style =
+ const style =
   variant === "primary"
     ? "border border-[#D8B07A] bg-[#D8B07A]/10 text-white backdrop-blur-sm hover:bg-[#D8B07A] hover:border-[#D8B07A] hover:text-white hover:-translate-y-0.5 hover:shadow-lg"
-    : "bg-[#B8895A] text-white hover:bg-[#A77647] hover:-translate-y-0.5 hover:shadow-lg";
+    : "bg-[#C49562] text-white shadow-lg hover:bg-[#B8895A] hover:-translate-y-0.5 hover:shadow-xl";
   if (href) {
     return (
       <Link href={href} className={`${base} ${style}`}>
