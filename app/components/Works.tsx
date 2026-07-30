@@ -32,7 +32,7 @@ const commercialImages = [
   "/images/sake-display-new01.jpg",
   "/images/kamakura-seat01.jpg",
   "/images/private-room01.jpg",
-  "/images/sushi-counter.jpg",
+  "/images/sushi-counter01.jpg",
 ];
 
 function WorkCard({
