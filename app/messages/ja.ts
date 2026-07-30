@@ -553,6 +553,7 @@ descriptionMobile:
 
       image: "/images/modelplans/condo-a/main.jpg",
 gallery: [
+  "/images/modelplans/condo-a/07.jpg",
   "/images/modelplans/condo-a/01.jpg",
   "/images/modelplans/condo-a/02.jpg",
   "/images/modelplans/condo-a/03.jpg",
