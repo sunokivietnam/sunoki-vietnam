@@ -551,6 +551,7 @@ descriptionMobile:
 
       image: "/images/modelplans/villa/main.jpg",
       gallery: [
+        "/images/modelplans/villa/12.jpg",
         "/images/modelplans/villa/01.jpg",
         "/images/modelplans/villa/02.jpg",
         "/images/modelplans/villa/03.jpg",
@@ -586,6 +587,7 @@ descriptionMobile:
 
       image: "/images/modelplans/condo-a/main.jpg",
 gallery: [
+  "/images/modelplans/condo-a/07.jpg",
   "/images/modelplans/condo-a/01.jpg",
   "/images/modelplans/condo-a/02.jpg",
   "/images/modelplans/condo-a/03.jpg",
@@ -614,7 +616,15 @@ gallery: [
       name: "Condo B",
 
       image: "/images/modelplans/condo-b/main.jpg",
-
+gallery: [
+  "/images/modelplans/condo-b/01.jpg",
+  "/images/modelplans/condo-b/02.jpg",
+  "/images/modelplans/condo-b/03.jpg",
+  "/images/modelplans/condo-b/04.jpg",
+  "/images/modelplans/condo-b/05.jpg",
+  "/images/modelplans/condo-b/06.jpg",
+  "/images/modelplans/condo-b/07.jpg",
+],
       area: "--㎡",
 
       unitPrice: "-- VNĐ /㎡",
