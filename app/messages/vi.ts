@@ -532,7 +532,7 @@ descriptionMobile:
 
   grade: "Hạng",
 
-  specification: "Vật liệu",
+  specification: "Vật liệu & Thiết bị",
 
   estimatedCost: "Chi phí dự kiến",
 

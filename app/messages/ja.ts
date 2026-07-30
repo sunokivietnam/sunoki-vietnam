@@ -499,7 +499,7 @@ descriptionMobile:
 
   grade: "グレード",
 
-  specification: "仕様・素材",
+  specification: "仕様・設備",
 
   estimatedCost: "概算金額",
 
