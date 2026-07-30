@@ -32,7 +32,7 @@ export default function About() {
 </h2>
 
             {/* PC */}
-<div className="hidden md:block text-[20px] font-bold leading-9 text-[#333]">
+<div className="hidden md:block text-[16px] leading-9 text-[#333]">
   <p className="text-[18px] font-bold leading-9 text-[#2B2520]">
   {t.about.descriptionLead}
 </p>
