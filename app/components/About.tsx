@@ -53,9 +53,25 @@ export default function About() {
 </div>
 
 {/* Mobile */}
-<p className="block md:hidden whitespace-pre-line text-[15px] leading-[2] text-[#333]">
-  {t.about.descriptionMobile}
-</p>
+<div className="block md:hidden text-[15px] leading-[2] text-[#333]">
+  <p className="text-[17px] font-bold leading-8 text-[#2B2520]">
+    {t.about.descriptionLead}
+  </p>
+
+  <p className="mt-2 whitespace-pre-line">
+    {t.about.description}
+  </p>
+
+  <p className="mt-6 whitespace-pre-line">
+    Tại{" "}
+    <strong className="text-[17px] font-bold text-[#2B2520]">
+      KOKORO Living
+    </strong>
+    ,
+    {"\n"}
+    {t.about.description2.replace(/^Tại KOKORO Living,\s*/, "")}
+  </p>
+</div>
 
           </div>
 

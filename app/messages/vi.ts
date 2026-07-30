@@ -72,16 +72,6 @@ Với tiêu chuẩn thiết kế và thi công Nhật Bản,
 chúng tôi chăm chút từng chi tiết để tạo nên những công trình tinh tế,
 bền vững và mang đậm dấu ấn của mỗi khách hàng.`,
 
-  descriptionMobile: `Ngôi nhà không chỉ là nơi để ở.
-
-Đó là nơi mang lại sự bình yên,
-nơi gia đình quây quần,
-và là nơi bạn luôn muốn trở về mỗi ngày.
-
-Thông qua thiết kế & thi công theo tiêu chuẩn 
-Nhật Bản, chúng tôi tỉ mỉ tạo nên không gian 
-sống tiện nghi tại Việt Nam.`,
-
     collection: "KOKORO COLLECTION",
 
 collectionTitle: `Chất liệu chọn lọc. 

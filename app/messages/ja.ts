@@ -63,17 +63,6 @@ description2: `KOKORO Livingでは、
 細部まで丁寧にこだわり、
 一人ひとりに寄り添う空間づくりを行っています。`,
 
-descriptionMobile: `住まいは、
-ただ暮らすための場所ではありません。
-
-心が落ち着き、
-家族が集い、
-毎日帰りたくなる場所。
-
-日本品質の設計・施工で、
-ベトナムに心地よい空間を
-一つひとつ丁寧に創ります。`,
-
     collection: "KOKORO COLLECTION",
 
    collectionTitle:
