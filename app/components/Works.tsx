@@ -31,7 +31,7 @@ const commercialImages = [
   "/images/drink-bar01.jpg",
   "/images/sake-display-new.jpg",
   "/images/kamakura-seat01.jpg",
-  "/images/private-room.jpg",
+  "/images/private-room01.jpg",
   "/images/sushi-counter.jpg",
 ];
 
