@@ -26,7 +26,7 @@ const residenceImages = [
 ];
 
 const commercialImages = [
-  "/images/gf-seating.jpg",
+  "/images/gf-seating01.jpg",
   "/images/engawa01.jpg",
   "/images/drink-bar01.jpg",
   "/images/sake-display-new.jpg",
