@@ -84,12 +84,11 @@ sống tiện nghi tại Việt Nam.`,
 
     collection: "KOKORO COLLECTION",
 
-collectionTitle: `Tuyển chọn vật liệu
-và thiết kế tinh tế mang đậm chất Nhật Bản.`,
+collectionTitle: `Chất liệu chọn lọc. 
+Chuẩn Nhật trong từng đường nét.`,
 
-collectionTitleMobile: `Tuyển chọn vật liệu
-và thiết kế tinh tế
-mang đậm chất Nhật Bản.`,
+collectionTitleMobile: `Chất liệu chọn lọc. 
+Chuẩn Nhật trong từng đường nét`,
 
    collectionDescription:
   `Chúng tôi trân trọng vẻ đẹp của gỗ, ánh sáng và phong cách Nhật Bản,
