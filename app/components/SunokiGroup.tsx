@@ -166,7 +166,7 @@ export default function SunokiGroup() {
             <div className="relative aspect-[16/10]">
 
               <Image
-                src="/images/sunoki-vietnam.jpg"
+                src="/images/sunoki-vietnam01.jpg"
                 alt="SUNOKI VIETNAM"
                 fill
                 className="object-cover transition-transform duration-700 hover:scale-105"
