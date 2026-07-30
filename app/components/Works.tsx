@@ -21,7 +21,7 @@ const residenceImages = [
   "/images/work004.jpg",
   "/images/work05.jpg",
   "/images/work06.jpg",
-  "/images/work7.jpg",
+  "/images/work07.jpg",
   "/images/work8.jpg",
 ];
 
