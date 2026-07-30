@@ -48,7 +48,7 @@ export default function About() {
           <div className="relative mx-auto w-[88%] overflow-hidden rounded-[18px] shadow-[0_18px_50px_rgba(43,37,32,0.12)]">
 
             <Image
-              src="/images/about.jpg"
+              src="/images/about01.jpg"
               alt="KOKORO Living brand philosophy"
               width={680}
               height={500}
