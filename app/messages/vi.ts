@@ -676,14 +676,16 @@ kỹ thuật và chất lượng
 Nhật Bản từ năm 1963.`,
 
 description:
-  `Kế thừa hơn 60 năm kinh nghiệm thi công và quản lý chất lượng từ Nhật Bản.
-  Mang đến những không gian sống và kinh doanh đáng tin cậy tại Việt Nam.`,
+  `Với hơn 60 năm kinh nghiệm trong thi công và quản lý chất lượng, 
+  KOKORO Living mang đến những giải pháp không gian bền vững, 
+  tinh tế và đáng tin cậy tại Việt Nam..`,
 
 descriptionMobile:
-`Kế thừa hơn 60 năm kinh nghiệm thi công
-và quản lý chất lượng từ Nhật Bản.
-Mang đến những không gian sống và
-kinh doanh đáng tin cậy tại Việt Nam.`,
+`Với hơn 60 năm kinh nghiệm trong 
+thi công và quản lý chất lượng,
+KOKORO Living mang đến 
+những giải pháp không gian bền vững, 
+tinh tế và đáng tin cậy tại Việt Nam.`,
 
     japan: {
   title: "SUNOKI JAPAN",
