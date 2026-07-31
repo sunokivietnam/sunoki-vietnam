@@ -121,8 +121,9 @@ collectionDescriptionMobile: `Chúng tôi tôn vinh vẻ đẹp thuần khiết 
     woodTitle: "Gỗ tự nhiên",
 
    woodDescription:
-`Mang đến không gian ấm áp
-với vẻ đẹp tự nhiên của gỗ.`,
+`Mang đến sự ấm áp và 
+chiều sâu cho không gian sống 
+bằng nét đẹp nguyên bản.`,
 
     latticeTitle: "Cửa & Nan gỗ",
 
