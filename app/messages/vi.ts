@@ -128,9 +128,8 @@ bằng nét đẹp nguyên bản.`,
     latticeTitle: "Cửa & Nan gỗ",
 
     latticeDescription:
-`Đưa nét đẹp đặc trưng
-của kiến trúc Nhật Bản
-vào không gian.`,
+`Dấu ấn kiến trúc Nhật Bản đặc trưng, 
+kết nối không gian.`,
 
     lightingTitle: "Đèn trang trí",
 
