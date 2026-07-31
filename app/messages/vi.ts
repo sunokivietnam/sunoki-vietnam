@@ -134,13 +134,12 @@ kết nối không gian.`,
     lightingTitle: "Đèn trang trí",
 
     lightingDescription:
-`Ánh sáng dịu nhẹ tạo nên không gian
-sang trọng và thư thái.`,
+`Nghệ thuật sắp đặt ánh sáng dịu nhẹ, 
+tôn lên vẻ đẹp tinh tế và thư thái.`,
 
 lightingDescriptionMobile:
-`Ánh sáng dịu nhẹ
-tạo nên không gian
-sang trọng và thư thái.`,
+`Nghệ thuật sắp đặt ánh sáng dịu nhẹ, 
+tôn lên vẻ đẹp tinh tế và thư thái.`,
 
     bonsaiTitle: "Bonsai & Đồ trang trí Nhật",
 
