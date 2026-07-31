@@ -548,7 +548,9 @@ descriptionMobile:
     diện tích, vật liệu và chi phí dự kiến.`,
 
   descriptionMobile:
-    "Giới thiệu các phương án\ntham khảo dựa trên công trình thực tế\ncùng diện tích, vật liệu\nvà chi phí dự kiến.",
+    `Giới thiệu các phương án thiết kế tham khảo
+    dựa trên công trình thực tế cùng
+    diện tích, vật liệu và chi phí dự kiến.`,
 
   area: "Diện tích",
 
