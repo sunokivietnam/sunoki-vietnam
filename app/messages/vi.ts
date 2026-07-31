@@ -776,9 +776,12 @@ và các công trình trên khắp Nhật Bản.`,
   footer: {
   menu: "MENU",
 
-  title: "Mang chất lượng Nhật Bản\nđến Việt Nam.",
+  title: `Mang chất lượng
+  tiêu chuẩn Nhật Bản
+đến Việt Nam.`,
 
-  titleMobile: `Mang chất lượng Nhật Bản
+  titleMobile: `Mang chất lượng
+  tiêu chuẩn Nhật Bản
 đến Việt Nam.`,
 
   description:
