@@ -692,20 +692,20 @@ tinh tế và đáng tin cậy tại Việt Nam.`,
   since: "SINCE 1963",
 
   items: [
-    "Chuyên thi công khung thép nhẹ & thạch cao",
-    "Nhiều công trình trên khắp Nhật Bản",
     "Hơn 60 năm kinh nghiệm và quản lý chất lượng",
-    "Mang chất lượng Nhật Bản đến Việt Nam",
+    "Chuyên thi công khung thép nhẹ & thạch cao",
+    "Hàng loạt công trình được triển khai trên khắp Nhật Bản ",
+    "Mang tiêu chuẩn xây dựng Nhật Bản đến Việt Nam",
   ],
 
   itemsMobile: [
-  "Chuyên thi công khung thép nhẹ\n& thạch cao",
-
-  "Nhiều công trình\ntrên khắp Nhật Bản",
-
   "Hơn 60 năm kinh nghiệm\nvề quản lý chất lượng",
 
-  "Mang chất lượng Nhật Bản\nđến Việt Nam",
+  "Chuyên thi công khung thép nhẹ\n& thạch cao",
+
+  "Hàng loạt công trình được triển khai\ntrên khắp Nhật Bản ",
+
+  "Mang tiêu chuẩn xây dựng\nNhật Bản đến Việt Nam",
 ],
 },
 
