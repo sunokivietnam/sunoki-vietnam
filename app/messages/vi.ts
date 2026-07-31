@@ -540,8 +540,8 @@ descriptionMobile:
      modelPlans: {
   subtitle: "MODEL PLANS",
 
-  title: "Mẫu tham khảo",
-  titleMobile: "Mẫu tham khảo",
+  title: "Giá tham khảo",
+  titleMobile: "Giá tham khảo",
 
   description:
     "Giới thiệu các phương án thiết kế tham khảo dựa trên công trình thực tế cùng diện tích, vật liệu và chi phí dự kiến.",
