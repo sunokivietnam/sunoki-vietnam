@@ -51,7 +51,7 @@ export default function Header() {
             className="-ml-4 flex translate-y-1 items-center"
           >
             <Image
-              src="/images/logo-kokoro.png"
+              src="/images/logo-kokoro01.png"
               alt="KOKORO Living by SUNOKI VIETNAM"
               width={180}
               height={70}
