@@ -16,9 +16,9 @@ export default function Hero() {
 
   return (
     <section
-      id="home"
-      className="relative min-h-[680px] overflow-hidden bg-[#120E0B]"
-    >
+  id="home"
+  className="relative min-h-[740px] overflow-hidden bg-[#120E0B]"
+>
       {/* Background */}
       <Image
         src="/images/hero.jpg"
