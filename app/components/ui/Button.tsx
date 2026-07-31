@@ -22,7 +22,7 @@ export default function Button({
  const style =
   variant === "primary"
     ? "border border-[#D8B07A] bg-[#D8B07A]/10 text-white backdrop-blur-sm hover:bg-[#D8B07A] hover:border-[#D8B07A] hover:text-white hover:-translate-y-0.5 hover:shadow-lg"
-    : "bg-[#C49562] text-white shadow-lg hover:bg-[#B8895A] hover:-translate-y-0.5 hover:shadow-xl";
+    : "bg-[#B8895A] text-white shadow-lg hover:bg-[#A97949] hover:-translate-y-0.5 hover:shadow-xl";
   if (href) {
     return (
       <Link href={href} className={`${base} ${style}`}>
