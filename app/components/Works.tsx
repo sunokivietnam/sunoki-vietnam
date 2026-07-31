@@ -45,7 +45,7 @@ function WorkCard({
   subtitle: string;
 }) {
   return (
-    <article className="group w-[90%] mx-auto overflow-hidden rounded-[18px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
+    <article className="group overflow-hidden rounded-[18px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
 
       <div className="relative aspect-[4/3] overflow-hidden rounded-t-[18px]">
 
@@ -151,12 +151,12 @@ export default function Works() {
             {t.works.residence.items.map((work, i) => (
 
               <SwiperSlide
-  key={work.title}
-  className="py-2 px-3"
->
+                key={work.title}
+                className="py-2"
+              >
 
                 <div
-                  className="mx-auto max-w-[360px] cursor-pointer"
+                  className="cursor-pointer"
                   onClick={() => {
                     setSlides(
                       residenceImages.map((image) => ({
@@ -235,12 +235,12 @@ export default function Works() {
             {t.works.commercial.items.map((work, i) => (
 
               <SwiperSlide
-  key={work.title}
-  className="py-2 px-3"
->
+                key={work.title}
+                className="py-2"
+              >
 
                 <div
-                  className="mx-auto max-w-[360px] cursor-pointer"
+                  className="cursor-pointer"
                   onClick={() => {
                     setSlides(
                       commercialImages.map((image) => ({
