@@ -716,20 +716,20 @@ tinh tế và đáng tin cậy tại Việt Nam.`,
   // PC用
   items: [
     "Thiết kế & thi công nhà ở, nhà hàng, văn phòng",
-    "Dịch vụ trọn gói từ thiết kế đến thi công",
-    "Không gian chuẩn chất lượng Nhật Bản",
-    "Đội ngũ thi công uy tín tại Việt Nam",
+    "Giải pháp trọn gói từ thiết kế đến hoàn thiện",
+    "Ứng dụng tiêu chuẩn chất lượng Nhật Bản",
+    "Đội ngũ thi công chuyên nghiệp tại Việt Nam",
   ],
 
   // スマホ用
   itemsMobile: [
   "Thiết kế & thi công\nnhà ở, nhà hàng, văn phòng",
 
-  "Dịch vụ trọn gói\ntừ thiết kế đến thi công",
+  "Giải pháp trọn gói\ntừ thiết kế đến hoàn thiện ",
 
-  "Không gian\nchuẩn chất lượng Nhật Bản",
+  "Ứng dụng tiêu chuẩn\nchất lượng Nhật Bản",
 
-  "Đội ngũ thi công\nuy tín tại Việt Nam",
+  "Đội ngũ thi công\nchuyên nghiệp tại Việt Nam",
 ],
 },
 
