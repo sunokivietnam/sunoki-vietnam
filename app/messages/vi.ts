@@ -75,8 +75,8 @@ chúng tôi chăm chút từng chi tiết để tạo nên những công trình 
 bền vững và mang đậm dấu ấn của mỗi khách hàng.`,
 
 // Mobile
-descriptionLeadMobile: `Mỗi không gian đều mang 
-một giá trị riêng.`,
+descriptionLeadMobile: `Mỗi không gian đều
+mang một giá trị riêng.`,
 
 descriptionMobile: `Dù là ngôi nhà để trở về,
 văn phòng khơi nguồn sáng tạo,
@@ -89,15 +89,16 @@ description2Mobile: `Tại KOKORO Living,
 
 chúng tôi tin rằng một không gian đẹp
 không chỉ nằm ở thiết kế,
-
 mà còn ở cảm giác bình yên,
 tiện nghi và sự gắn kết mà nó mang lại.
 
-Với tiêu chuẩn thiết kế và thi công Nhật Bản,
+Với tiêu chuẩn thiết kế
+và thi công Nhật Bản,
 
-chúng tôi chăm chút từng chi tiết để tạo nên
-những công trình tinh tế, bền vững và 
-mang đậm dấu ấn của mỗi khách hàng.`,
+chúng tôi chăm chút từng chi tiết
+để tạo nên những công trình tinh tế,
+bền vững và mang đậm dấu ấn
+của mỗi khách hàng.`,
 
     collection: "KOKORO COLLECTION",
 
