@@ -434,8 +434,8 @@ hoàn thành công trình`,
     qua biểu mẫu, điện thoại
     hoặc email.`,
 
-descriptionMobile: `Liên hệ với chúng tôi qua biểu mẫu,
-điện thoại hoặc email.`,
+descriptionMobile: `Liên hệ với chúng tôi qua
+biểu mẫu, điện thoại hoặc email.`,
 },
   {
   number: "02",
