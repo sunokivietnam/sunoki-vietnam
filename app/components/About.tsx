@@ -74,7 +74,7 @@ export default function About() {
       </>
     ) : t.about.description2Mobile.startsWith("KOKORO Living") ? (
       <>
-        <strong className="text-[17px] font-bold text-[#2B2520]">
+        <strong className="text-[16px] font-bold text-[#2B2520]">
           KOKORO Living
         </strong>
         {"\n"}

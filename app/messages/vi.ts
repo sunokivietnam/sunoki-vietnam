@@ -75,8 +75,8 @@ chúng tôi chăm chút từng chi tiết để tạo nên những công trình 
 bền vững và mang đậm dấu ấn của mỗi khách hàng.`,
 
 // Mobile
-descriptionLeadMobile: `Mỗi không gian đều
-mang một giá trị riêng.`,
+descriptionLeadMobile: `Mỗi không gian 
+đềumang một giá trị riêng.`,
 
 descriptionMobile: `Dù là ngôi nhà để trở về,
 văn phòng khơi nguồn sáng tạo,
