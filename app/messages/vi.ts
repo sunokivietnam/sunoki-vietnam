@@ -144,12 +144,12 @@ tôn lên vẻ đẹp tinh tế và thư thái.`,
     bonsaiTitle: "Bonsai & Đồ trang trí Nhật",
 
    bonsaiDescription:
-`Cây bonsai và đồ trang trí
-mang đến nét đẹp và sự thư giãn
-đậm chất Nhật Bản.`,
+`Mang thiên nhiên tĩnh lặng và 
+nét đẹp giản dị vào ngôi nhà bạn.`,
 
 bonsaiDescriptionMobile:
-  "Cây bonsai và đồ trang trí,\nmang đến nét đẹp Nhật Bản\nvà cảm giác thư giãn.",
+  `Mang thiên nhiên tĩnh lặng và 
+nét đẹp giản dị vào ngôi nhà bạn.`,
   
   },  service: {
     subtitle: "SERVICE",
