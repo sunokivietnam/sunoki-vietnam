@@ -151,12 +151,12 @@ export default function Works() {
             {t.works.residence.items.map((work, i) => (
 
               <SwiperSlide
-                key={work.title}
-                className="py-2"
-              >
+  key={work.title}
+  className="py-2 px-3"
+>
 
                 <div
-                  className="cursor-pointer"
+                  className="mx-auto max-w-[360px] cursor-pointer"
                   onClick={() => {
                     setSlides(
                       residenceImages.map((image) => ({
@@ -235,12 +235,12 @@ export default function Works() {
             {t.works.commercial.items.map((work, i) => (
 
               <SwiperSlide
-                key={work.title}
-                className="py-2"
-              >
+  key={work.title}
+  className="py-2 px-3"
+>
 
                 <div
-                  className="cursor-pointer"
+                  className="mx-auto max-w-[360px] cursor-pointer"
                   onClick={() => {
                     setSlides(
                       commercialImages.map((image) => ({
