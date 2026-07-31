@@ -44,9 +44,10 @@ const ja = {
   about: {
     philosophy: "PHILOSOPHY",
 
-    title: "KOKORO Livingとは",
+   title: "KOKORO Livingとは",
 
-    descriptionLead: "それぞれの空間には、それぞれの価値があります。",
+// PC
+descriptionLead: "それぞれの空間には、それぞれの価値があります。",
 
 description: `帰る場所となる住まい、
 創造力を育むオフィス、
@@ -62,6 +63,37 @@ description2: `KOKORO Livingでは、
 日本品質の設計・施工を通して、
 細部まで丁寧にこだわり、
 一人ひとりに寄り添う空間づくりを行っています。`,
+
+// Mobile
+descriptionLeadMobile: `空間には、
+それぞれの価値がある。`,
+
+descriptionMobile: `住まいも、
+創造を生み出すオフィスも、
+大切な人を迎えるレストランも、
+
+すべての空間には
+物語があり、
+
+かけがえのない時間が
+刻まれていきます。`,
+
+description2Mobile: `KOKORO Livingは、
+
+美しい空間とは、
+デザインだけではなく、
+
+心地よさ、
+使いやすさ、
+そして人と人とのつながりを
+育む場所であると考えています。
+
+日本品質の設計・施工で、
+
+一つひとつの細部まで丁寧に仕上げ、
+お客様らしさが息づく、
+永く愛される空間を
+お届けします。`,
 
     collection: "KOKORO COLLECTION",
 

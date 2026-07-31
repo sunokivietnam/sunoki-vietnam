@@ -51,25 +51,38 @@ export default function About() {
   {t.about.description2.replace(/^Tại KOKORO Living,\s*/, "")}
 </p>
 </div>
-
 {/* Mobile */}
-<div className="block md:hidden text-[15px] leading-[2] text-[#333]">
+<div className="block md:hidden text-[15px] leading-8 text-[#333]">
   <p className="text-[17px] font-bold leading-8 text-[#2B2520]">
-    {t.about.descriptionLead}
+    {t.about.descriptionLeadMobile}
   </p>
 
   <p className="mt-2 whitespace-pre-line">
-    {t.about.description}
+    {t.about.descriptionMobile}
   </p>
 
   <p className="mt-6 whitespace-pre-line">
-    Tại{" "}
-    <strong className="text-[17px] font-bold text-[#2B2520]">
-      KOKORO Living
-    </strong>
-    ,
-    {"\n"}
-    {t.about.description2.replace(/^Tại KOKORO Living,\s*/, "")}
+    {t.about.description2Mobile.startsWith("Tại KOKORO Living") ? (
+      <>
+        Tại{" "}
+        <strong className="text-[17px] font-bold text-[#2B2520]">
+          KOKORO Living
+        </strong>
+        ,
+        {"\n"}
+        {t.about.description2Mobile.replace(/^Tại KOKORO Living,\s*/, "")}
+      </>
+    ) : t.about.description2Mobile.startsWith("KOKORO Living") ? (
+      <>
+        <strong className="text-[17px] font-bold text-[#2B2520]">
+          KOKORO Living
+        </strong>
+        {"\n"}
+        {t.about.description2Mobile.replace(/^KOKORO Living(?:では|は)?、?\s*/, "")}
+      </>
+    ) : (
+      t.about.description2Mobile
+    )}
   </p>
 </div>
 
