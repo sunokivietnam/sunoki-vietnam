@@ -45,11 +45,7 @@ export const metadata: Metadata = {
   creator: "SUNOKI VIETNAM",
 
   publisher: "SUNOKI VIETNAM",
-icons: {
-  icon: "/icon.png",
-  shortcut: "/icon.png",
-  apple: "/icon.png",
-},
+
   robots: {
   index: true,
   follow: true,

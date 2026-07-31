@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
 
             <Image
-              src="/images/logo-kokoro.png"
+              src="/images/icon.png"
               alt="KOKORO Living"
               width={160}
               height={58}
