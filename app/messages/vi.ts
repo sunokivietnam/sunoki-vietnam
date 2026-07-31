@@ -109,8 +109,7 @@ collectionTitleMobile: `Chất liệu chọn lọc.
 Chuẩn Nhật trong từng đường nét`,
 
    collectionDescription:
-  `Chúng tôi tôn vinh vẻ đẹp thuần khiết của gỗ, 
-  ánh sáng và phong cách Nhật Bản, 
+  `Chúng tôi tôn vinh vẻ đẹp thuần khiết của gỗ, ánh sáng và phong cách Nhật Bản, 
   kiến tạo nên những không gian sống được hoàn thiện tinh xảo.`,
 
 collectionDescriptionMobile: `Chúng tôi tôn vinh vẻ đẹp thuần khiết của gỗ, 
