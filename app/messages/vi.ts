@@ -430,8 +430,9 @@ hoàn thành công trình`,
   titleMobile: "Liên hệ",
 
   description:
-    `Liên hệ với chúng tôi qua biểu mẫu,
-điện thoại hoặc email.`,
+    `Liên hệ với chúng tôi
+    qua biểu mẫu, điện thoại
+    hoặc email.`,
 
 descriptionMobile: `Liên hệ với chúng tôi qua biểu mẫu,
 điện thoại hoặc email.`,
