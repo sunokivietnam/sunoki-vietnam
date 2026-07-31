@@ -364,7 +364,10 @@ xin vui lòng liên hệ qua điện thoại.`}
 
                 <div className="pt-2">
 
-                  <Button type="submit">
+                  <Button
+  type="submit"
+  variant="secondary"
+>
 
                     {language === "ja"
                       ? "お問い合わせを送信"
