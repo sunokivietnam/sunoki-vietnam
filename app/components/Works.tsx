@@ -45,7 +45,7 @@ function WorkCard({
   subtitle: string;
 }) {
   return (
-    <article className="group overflow-hidden rounded-[18px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
+    <article className="group w-[90%] mx-auto overflow-hidden rounded-[18px] bg-white shadow-md transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
 
       <div className="relative aspect-[4/3] overflow-hidden rounded-t-[18px]">
 
