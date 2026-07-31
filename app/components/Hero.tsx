@@ -96,7 +96,7 @@ export default function Hero() {
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <Button
   href="#works"
-  variant="secondary"
+  variant="primary"
 >
   {t.hero.works}
 </Button>

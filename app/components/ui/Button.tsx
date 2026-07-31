@@ -6,7 +6,7 @@ type ButtonProps = {
   href?: string;
   onClick?: () => void;
   type?: "button" | "submit";
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "secondary" | "service";
 };
 
 export default function Button({
@@ -22,7 +22,9 @@ export default function Button({
  const style =
   variant === "primary"
     ? "border border-[#D8B07A] bg-[#D8B07A]/10 text-white backdrop-blur-sm hover:bg-[#D8B07A] hover:border-[#D8B07A] hover:text-white hover:-translate-y-0.5 hover:shadow-lg"
-    : "bg-[#B8895A] text-white shadow-lg hover:bg-[#A97949] hover:-translate-y-0.5 hover:shadow-xl";
+    : variant === "secondary"
+    ? "bg-[#B8895A] text-white shadow-lg hover:bg-[#A97949] hover:-translate-y-0.5 hover:shadow-xl"
+    : "bg-[#8B6A43] text-white shadow-lg hover:bg-[#745733] hover:-translate-y-0.5 hover:shadow-xl";
   if (href) {
     return (
       <Link href={href} className={`${base} ${style}`}>

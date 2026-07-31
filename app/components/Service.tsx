@@ -158,9 +158,12 @@ export default function Service() {
 
         <div className="mt-10 md:mt-14 flex justify-center">
           
-          <Button href="#works">
-            {t.service.worksButton}
-          </Button>
+          <Button
+  href="#works"
+  variant="service"
+>
+  {t.service.worksButton}
+</Button>
 
         </div>
 
