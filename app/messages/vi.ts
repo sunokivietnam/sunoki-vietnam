@@ -677,13 +677,13 @@ Nhật Bản từ năm 1963.`,
 
 description:
   `Với hơn 60 năm kinh nghiệm trong thi công và quản lý chất lượng, 
-  KOKORO Living mang đến những giải pháp không gian bền vững, tinh tế và đáng tin cậy tại Việt Nam..`,
+  chúng tôi mang đến những giải pháp không gian bền vững, tinh tế và đáng tin cậy tại Việt Nam..`,
 
 descriptionMobile:
 `Với hơn 60 năm kinh nghiệm trong 
 thi công và quản lý chất lượng,
 
-KOKORO Living mang đến 
+Chúng tôi mang đến 
 những giải pháp không gian bền vững, 
 tinh tế và đáng tin cậy tại Việt Nam.`,
 
