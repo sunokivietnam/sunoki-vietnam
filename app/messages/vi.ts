@@ -55,6 +55,7 @@ với sự tỉ mỉ trong từng chi tiết.`,
  about: {
   philosophy: "PHILOSOPHY",
 
+  title: "KOKORO Living là gì?",
   // PC
 descriptionLead: "Mỗi không gian đều mang một giá trị riêng.",
 
