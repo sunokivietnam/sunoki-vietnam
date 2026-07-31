@@ -671,8 +671,9 @@ gallery: [
 
    title: "Kế thừa tiêu chuẩn kỹ thuật và chất lượng Nhật Bản từ năm 1963.",
 
-titleMobile: `Kế thừa tiêu chuẩn kỹ thuật và 
-chất lượng Nhật Bản từ năm 1963.`,
+titleMobile: `Kế thừa tiêu chuẩn
+kỹ thuật và chất lượng 
+Nhật Bản từ năm 1963.`,
 
 description:
   `Kế thừa hơn 60 năm kinh nghiệm thi công và quản lý chất lượng từ Nhật Bản.
