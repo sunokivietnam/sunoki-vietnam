@@ -748,7 +748,7 @@ websiteDescriptionMobile:
 Tìm hiểu thêm về SUNOKI JAPAN
 và các công trình trên khắp Nhật Bản.`,
 
-    button: `SUNOKI JAPAN's
+    button: `Go to
     WEBSITE`,
   },
   contact: {
