@@ -108,8 +108,8 @@ export default function WhyKokoro() {
   <Image
     src="/images/team.png"
     alt="SUNOKI VIETNAM Team"
-    width={500}
-    height={360}
+    width={420}
+    height={500}
     className="mb-8 h-[250px] w-full rounded-2xl object-cover shadow-lg lg:mb-0 lg:h-[340px]"
     priority
   />
