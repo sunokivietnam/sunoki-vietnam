@@ -304,16 +304,16 @@ hover:-translate-y-1
   ...
 </ul>
 
-<div className="mt-6 flex items-end justify-end gap-2">
-  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+  <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
 
-  <span className="text-[20px] font-bold text-[#B8895A]">
+  <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
     90M
   </span>
 
-  <span className="pb-[2px] text-[12px] text-[#777]">
+  <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
     VNĐ
   </span>
 </div>
@@ -365,16 +365,16 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-6 flex items-end justify-end gap-2">
-  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+  <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
 
-  <span className="text-[20px] font-bold text-[#B8895A]">
-    55M
+  <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+    90M
   </span>
 
-  <span className="pb-[2px] text-[12px] text-[#777]">
+  <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
     VNĐ
   </span>
 </div>
@@ -429,16 +429,16 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-6 flex items-end justify-end gap-2">
-  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+  <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
 
-  <span className="text-[20px] font-bold text-[#B8895A]">
-    55M
+  <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+    90M
   </span>
 
-  <span className="pb-[2px] text-[12px] text-[#777]">
+  <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
     VNĐ
   </span>
 </div>
@@ -492,16 +492,16 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-6 flex items-end justify-end gap-2">
-  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+  <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
 
-  <span className="text-[20px] font-bold text-[#B8895A]">
-    55M
+  <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+    90M
   </span>
 
-  <span className="pb-[2px] text-[12px] text-[#777]">
+  <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
     VNĐ
   </span>
 </div>
@@ -555,16 +555,16 @@ hover:-translate-y-1
               ))}
            </ul>
 
-<div className="mt-6 flex items-end justify-end gap-2">
-  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+  <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
 
-  <span className="text-[20px] font-bold text-[#B8895A]">
-    55M
+  <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+    90M
   </span>
 
-  <span className="pb-[2px] text-[12px] text-[#777]">
+  <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
     VNĐ
   </span>
 </div>
@@ -619,16 +619,16 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-6 flex items-end justify-end gap-2">
-  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+  <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
 
-  <span className="text-[20px] font-bold text-[#B8895A]">
-    55M
+  <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+    90M
   </span>
 
-  <span className="pb-[2px] text-[12px] text-[#777]">
+  <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
     VNĐ
   </span>
 </div>
