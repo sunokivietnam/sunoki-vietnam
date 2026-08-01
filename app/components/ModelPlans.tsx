@@ -300,6 +300,23 @@ hover:-translate-y-1
 </li>
               ))}
             </ul>
+            <ul className="space-y-1">
+  ...
+</ul>
+
+<div className="mt-6 flex items-end justify-end gap-2">
+  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+    FROM
+  </span>
+
+  <span className="text-[20px] font-bold text-[#B8895A]">
+    90M
+  </span>
+
+  <span className="pb-[2px] text-[12px] text-[#777]">
+    VNĐ
+  </span>
+</div>
           </div>
 
           {/* Living */}
