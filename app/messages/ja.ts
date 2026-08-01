@@ -563,7 +563,7 @@ hideSpecification: "仕様を閉じる",
     "/images/modelplans/villa/11.jpg",
   ],
 
-      area: "60㎡",
+      area: "--㎡",
 
       unitPrice: "-- VNĐ /㎡",
 
