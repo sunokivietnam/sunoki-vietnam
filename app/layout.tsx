@@ -46,9 +46,9 @@ export const metadata: Metadata = {
 
   publisher: "SUNOKI VIETNAM",
 icons: {
-  icon: "/app/favicon-v2.ico",
-  shortcut: "/app/favicon-v2.ico",
-  apple: "/app/favicon-v2.ico",
+  icon: "/favicon-v2.ico",
+  shortcut: "/favicon-v2.ico",
+  apple: "/favicon-v2.ico",
 },
   robots: {
   index: true,
