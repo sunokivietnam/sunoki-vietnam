@@ -289,59 +289,175 @@ export default function ModelPlans() {
         </p>
 {showSpecsModal && (
   <div
-    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 p-6 backdrop-blur-sm"
+    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-md p-6"
     onClick={() => setShowSpecsModal(false)}
   >
     <div
       onClick={(e) => e.stopPropagation()}
-      className="
-        w-full max-w-2xl
-        rounded-3xl
-        bg-white
-        p-8
-        shadow-2xl
-        animate-[zoomIn_.25s_ease]
-      "
+      className="w-full max-w-4xl rounded-3xl bg-white shadow-2xl animate-[zoomIn_.25s_ease] overflow-hidden"
     >
-      <div className="mb-6 flex items-center justify-between">
-        <h3 className="text-2xl font-bold text-[#2B2520]">
-          Specifications
-        </h3>
+      {/* Header */}
+      <div className="relative border-b border-[#EFEAE4] px-8 py-6">
 
         <button
           onClick={() => setShowSpecsModal(false)}
-          className="text-3xl leading-none text-[#777] hover:text-black"
+          className="absolute right-6 top-5 text-3xl text-[#888] hover:text-black"
         >
           ×
         </button>
+
+        <h2 className="text-center text-3xl font-bold text-[#2B2520]">
+          Specifications
+        </h2>
       </div>
 
-      <div className="space-y-6 max-h-[70vh] overflow-y-auto">
+      {/* Body */}
+      <div className="max-h-[75vh] overflow-y-auto p-8">
 
-        <div>
-          <h4 className="font-bold text-[#B8895A]">
-            Kitchen
-          </h4>
+        <div className="grid gap-8 md:grid-cols-2">
 
-          <ul className="mt-2 space-y-1 text-[14px]">
-            <li>• Shoe Cabinet</li>
-            <li>• Refrigerator Cabinet</li>
-            <li>• Upper & Lower Cabinets</li>
-            <li>• Artificial Stone Countertop</li>
-            <li>• Glass Backsplash</li>
-            <li>• GARIS Storage System</li>
-            <li>• Range Hood</li>
-            <li>• IH Cooktop</li>
-            <li>• Sink & Faucet</li>
-          </ul>
+          {/* Kitchen */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
+              🍳 Kitchen
+            </h3>
+
+            <ul className="space-y-2">
+              {[
+                "Shoe Cabinet",
+                "Refrigerator Cabinet",
+                "Upper & Lower Cabinets",
+                "Artificial Stone Countertop",
+                "Glass Backsplash",
+                "GARIS Storage System",
+                "Range Hood",
+                "IH Cooktop",
+                "Sink & Faucet",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-[14px]">
+                  <Check className="h-4 w-4 text-[#B8895A]" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Living */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
+              🛋 Living
+            </h3>
+
+            <ul className="space-y-2">
+              {[
+                "Sofa",
+                "TV Cabinet",
+                "Dining Table",
+                "Dining Chairs",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-[14px]">
+                  <Check className="h-4 w-4 text-[#B8895A]" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Bathroom */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
+              🚿 Bathroom
+            </h3>
+
+            <ul className="space-y-2">
+              {[
+                "Vanity Cabinet",
+                "Wash Basin",
+                "Faucet",
+                "Shower Set",
+                "Toilet",
+                "Wall Tiles",
+                "Glass Shower Partition",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-[14px]">
+                  <Check className="h-4 w-4 text-[#B8895A]" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Master Bedroom */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
+              🛏 Master Bedroom
+            </h3>
+
+            <ul className="space-y-2">
+              {[
+                "Bed",
+                "Bedside Table",
+                "Wardrobe",
+                "Dressing Table",
+                "Chair",
+                "Decorative Wall Panel",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-[14px]">
+                  <Check className="h-4 w-4 text-[#B8895A]" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Second Bedroom */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
+              🛏 Second Bedroom
+            </h3>
+
+            <ul className="space-y-2">
+              {[
+                "Bed",
+                "Bedside Table",
+                "Wardrobe",
+                "Dressing Table",
+                "Chair",
+                "Decorative Wall Panel",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-[14px]">
+                  <Check className="h-4 w-4 text-[#B8895A]" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Interior */}
+          <div>
+            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
+              🏠 Interior Finish
+            </h3>
+
+            <ul className="space-y-2">
+              {[
+                "Flooring",
+                "Skirting",
+                "Wall Painting",
+                "Electrical Wiring",
+                "LED Lighting",
+                "Downlights",
+                "Interior Doors",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-[14px]">
+                  <Check className="h-4 w-4 text-[#B8895A]" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
         </div>
-
-        {/* Living */}
-        {/* Bathroom */}
-        {/* Master Bedroom */}
-        {/* Second Bedroom */}
-        {/* Interior Finish */}
-
       </div>
     </div>
   </div>
