@@ -178,3 +178,134 @@ const [currentIndex, setCurrentIndex] = useState(0);
     </section>
   );
 }
+<div>
+  <button
+    type="button"
+    onClick={() =>
+      setShowSpecs(showSpecs === index ? null : index)
+    }
+    className="flex w-full items-center justify-between rounded-full border border-[#B8895A] px-5 py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
+  >
+    <span>
+      {showSpecs === index
+        ? t.modelPlans.hideSpecification
+        : t.modelPlans.viewSpecification}
+    </span>
+
+    {showSpecs === index ? (
+      <ChevronUp size={18} />
+    ) : (
+      <ChevronDown size={18} />
+    )}
+  </button>
+
+  <div
+    className={`overflow-hidden transition-all duration-500 ${
+      showSpecs === index
+        ? "mt-5 max-h-[1200px] opacity-100"
+        : "max-h-0 opacity-0"
+    }`}
+  >
+    <div className="rounded-xl bg-[#F7F3EE] p-5">
+
+      {/* Kitchen */}
+      <div className="mb-5">
+        <h4 className="mb-2 font-semibold text-[#2B2520]">
+          🍳 Kitchen
+        </h4>
+
+        <ul className="space-y-1 text-[13px] text-[#555]">
+          <li>• Shoe Cabinet</li>
+          <li>• Refrigerator Cabinet</li>
+          <li>• Upper & Lower Cabinets</li>
+          <li>• Artificial Stone Countertop</li>
+          <li>• Glass Backsplash</li>
+          <li>• GARIS Storage System</li>
+          <li>• Range Hood</li>
+          <li>• IH Cooktop</li>
+          <li>• Sink & Faucet</li>
+        </ul>
+      </div>
+
+      {/* Living */}
+      <div className="mb-5">
+        <h4 className="mb-2 font-semibold text-[#2B2520]">
+          🛋 Living
+        </h4>
+
+        <ul className="space-y-1 text-[13px] text-[#555]">
+          <li>• Sofa</li>
+          <li>• TV Cabinet</li>
+          <li>• Dining Table</li>
+          <li>• Dining Chairs</li>
+        </ul>
+      </div>
+
+      {/* Bathroom */}
+      <div className="mb-5">
+        <h4 className="mb-2 font-semibold text-[#2B2520]">
+          🚿 Bathroom
+        </h4>
+
+        <ul className="space-y-1 text-[13px] text-[#555]">
+          <li>• Vanity Cabinet</li>
+          <li>• Wash Basin</li>
+          <li>• Faucet</li>
+          <li>• Shower Set</li>
+          <li>• Toilet</li>
+          <li>• Wall Tiles</li>
+          <li>• Glass Shower Partition</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+      {/* Master Bedroom */}
+      <div className="mb-5">
+        <h4 className="mb-2 font-semibold text-[#2B2520]">
+          🛏 Master Bedroom
+        </h4>
+
+        <ul className="space-y-1 text-[13px] text-[#555]">
+          <li>• Bed</li>
+          <li>• Bedside Table</li>
+          <li>• Wardrobe</li>
+          <li>• Dressing Table</li>
+          <li>• Chair</li>
+          <li>• Decorative Wall Panel</li>
+        </ul>
+      </div>
+
+      {/* Second Bedroom */}
+      <div className="mb-5">
+        <h4 className="mb-2 font-semibold text-[#2B2520]">
+          🛏 Second Bedroom
+        </h4>
+
+        <ul className="space-y-1 text-[13px] text-[#555]">
+          <li>• Bed</li>
+          <li>• Bedside Table</li>
+          <li>• Wardrobe</li>
+          <li>• Dressing Table</li>
+          <li>• Chair</li>
+          <li>• Decorative Wall Panel</li>
+        </ul>
+      </div>
+
+      {/* Interior Finish */}
+      <div>
+        <h4 className="mb-2 font-semibold text-[#2B2520]">
+          🏠 Interior Finish
+        </h4>
+
+        <ul className="space-y-1 text-[13px] text-[#555]">
+          <li>• Flooring</li>
+          <li>• Skirting</li>
+          <li>• Wall Painting</li>
+          <li>• Electrical Wiring</li>
+          <li>• LED Lighting</li>
+          <li>• Downlights</li>
+          <li>• Interior Doors</li>
+        </ul>
+      </div>

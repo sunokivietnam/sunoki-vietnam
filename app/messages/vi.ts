@@ -563,8 +563,11 @@ descriptionMobile:
 
   estimatedCost: "Chi phí dự kiến",
 
-  viewGallery: "Xem hình ▼",
-closeGallery: "Đóng hình ▲",
+  viewGallery: "Xem hình ảnh",
+closeGallery: "Đóng hình ảnh",
+
+viewSpecification: "Xem thông số",
+hideSpecification: "Ẩn thông số",
 
   notice:
     "※ Chi phí chỉ mang tính tham khảo. Giá thực tế sẽ thay đổi tùy theo thiết kế, vật liệu và điều kiện thi công.",

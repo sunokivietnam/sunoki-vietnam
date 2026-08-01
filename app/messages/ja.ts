@@ -530,8 +530,11 @@ descriptionMobile:
 
   estimatedCost: "概算金額",
 
-  viewGallery: "写真を見る ▼",
-closeGallery: "写真を閉じる ▲",
+  viewGallery: "施工写真を見る",
+closeGallery: "施工写真を閉じる",
+
+viewSpecification: "仕様を見る",
+hideSpecification: "仕様を閉じる",
 
   notice:
     "※掲載価格は参考価格です。設計内容・仕様・施工条件により変動します。",
