@@ -90,12 +90,30 @@ export default function ModelPlans() {
                   </div>
                   {plan.name === "Condo A" && (
   <button
-    type="button"
-    onClick={() => setShowSpecsModal(true)}
-    className="mt-4 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
-  >
-    {t.modelPlans.viewSpecification}
-  </button>
+  type="button"
+  onClick={() => setShowSpecsModal(true)}
+  className="
+    mt-4
+    flex
+    w-full
+    items-center
+    justify-center
+    gap-2
+    rounded-full
+    bg-[#B8895A]
+    py-3
+    text-[14px]
+    font-semibold
+    text-white
+    transition-all
+    duration-300
+    hover:bg-[#A97A48]
+    hover:shadow-lg
+    hover:-translate-y-0.5
+  "
+>
+  📋 {t.modelPlans.viewSpecification}
+</button>
 )}
 
 <div className="mt-6 rounded-xl bg-[#F7F3EE] p-5 text-center">
@@ -114,11 +132,29 @@ export default function ModelPlans() {
     onClick={() =>
       setShowGallery(showGallery === index ? null : index)
     }
-    className="mt-6 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
+    className="
+  mt-6
+  flex
+  w-full
+  items-center
+  justify-center
+  gap-2
+  rounded-full
+  border
+  border-[#B8895A]
+  py-3
+  text-[14px]
+  font-medium
+  text-[#B8895A]
+  transition-all
+  duration-300
+  hover:bg-[#FAF5F0]
+  hover:shadow
+"
   >
-    {showGallery === index
-      ? t.modelPlans.closeGallery
-      : t.modelPlans.viewGallery}
+    🖼 {showGallery === index
+  ? t.modelPlans.closeGallery
+  : t.modelPlans.viewGallery}
   </button>
 )}
 
