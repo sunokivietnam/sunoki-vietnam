@@ -310,6 +310,20 @@ hover:-translate-y-1
   </span>
 
   <span className="text-[20px] font-bold text-[#B8895A]">
+    55M
+  </span>
+
+  <span className="pb-[2px] text-[12px] text-[#777]">
+    VNĐ
+  </span>
+</div>
+
+<div className="mt-6 flex items-end justify-end gap-2">
+  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+    FROM
+  </span>
+
+  <span className="text-[20px] font-bold text-[#B8895A]">
     90M
   </span>
 
@@ -364,6 +378,20 @@ hover:-translate-y-1
 </li>
               ))}
             </ul>
+
+<div className="mt-6 flex items-end justify-end gap-2">
+  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+    FROM
+  </span>
+
+  <span className="text-[20px] font-bold text-[#B8895A]">
+    55M
+  </span>
+
+  <span className="pb-[2px] text-[12px] text-[#777]">
+    VNĐ
+  </span>
+</div>
           </div>
 
           {/* Bathroom */}
@@ -414,6 +442,20 @@ hover:-translate-y-1
 </li>
               ))}
             </ul>
+
+<div className="mt-6 flex items-end justify-end gap-2">
+  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+    FROM
+  </span>
+
+  <span className="text-[20px] font-bold text-[#B8895A]">
+    55M
+  </span>
+
+  <span className="pb-[2px] text-[12px] text-[#777]">
+    VNĐ
+  </span>
+</div>
           </div>
 
           {/* Master Bedroom */}
@@ -463,6 +505,20 @@ hover:-translate-y-1
 </li>
               ))}
             </ul>
+
+<div className="mt-6 flex items-end justify-end gap-2">
+  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+    FROM
+  </span>
+
+  <span className="text-[20px] font-bold text-[#B8895A]">
+    55M
+  </span>
+
+  <span className="pb-[2px] text-[12px] text-[#777]">
+    VNĐ
+  </span>
+</div>
           </div>
 
           {/* Second Bedroom */}
@@ -511,7 +567,21 @@ hover:-translate-y-1
   {item}
 </li>
               ))}
-            </ul>
+           </ul>
+
+<div className="mt-6 flex items-end justify-end gap-2">
+  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+    FROM
+  </span>
+
+  <span className="text-[20px] font-bold text-[#B8895A]">
+    55M
+  </span>
+
+  <span className="pb-[2px] text-[12px] text-[#777]">
+    VNĐ
+  </span>
+</div>
           </div>
 
           {/* Interior */}
@@ -562,6 +632,20 @@ hover:-translate-y-1
 </li>
               ))}
             </ul>
+
+<div className="mt-6 flex items-end justify-end gap-2">
+  <span className="text-[11px] uppercase tracking-wider text-[#9B8A78]">
+    FROM
+  </span>
+
+  <span className="text-[20px] font-bold text-[#B8895A]">
+    55M
+  </span>
+
+  <span className="pb-[2px] text-[12px] text-[#777]">
+    VNĐ
+  </span>
+</div>
           </div>
 
         </div>
