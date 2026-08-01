@@ -252,6 +252,9 @@ shadow-[0_25px_80px_rgba(0,0,0,0.18)] animate-[zoomIn_.25s_ease] overflow-hidden
 
           {/* Kitchen */}
           <div className="
+flex
+h-full
+flex-col
 rounded-2xl
 border
 border-[#EFE7DE]
@@ -304,7 +307,7 @@ hover:-translate-y-1
   ...
 </ul>
 
-<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+<div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
   <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
@@ -321,6 +324,9 @@ hover:-translate-y-1
 
           {/* Living */}
           <div className="
+flex
+h-full
+flex-col
 rounded-2xl
 border
 border-[#EFE7DE]
@@ -365,7 +371,7 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+<div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
   <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
@@ -382,6 +388,9 @@ hover:-translate-y-1
 
           {/* Bathroom */}
           <div className="
+flex
+h-full
+flex-col
 rounded-2xl
 border
 border-[#EFE7DE]
@@ -429,7 +438,7 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+<div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
   <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
@@ -446,6 +455,9 @@ hover:-translate-y-1
 
           {/* Master Bedroom */}
          <div className="
+flex
+h-full
+flex-col
 rounded-2xl
 border
 border-[#EFE7DE]
@@ -492,7 +504,7 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+<div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
   <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
@@ -509,6 +521,9 @@ hover:-translate-y-1
 
           {/* Second Bedroom */}
           <div className="
+flex
+h-full
+flex-col
 rounded-2xl
 border
 border-[#EFE7DE]
@@ -555,7 +570,7 @@ hover:-translate-y-1
               ))}
            </ul>
 
-<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+<div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
   <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
@@ -571,7 +586,10 @@ hover:-translate-y-1
           </div>
 
           {/* Interior */}
-          <div  className="
+          <div className="
+flex
+h-full
+flex-col
 rounded-2xl
 border
 border-[#EFE7DE]
@@ -619,7 +637,7 @@ hover:-translate-y-1
               ))}
             </ul>
 
-<div className="mt-8 flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+<div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
   <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
     FROM
   </span>
