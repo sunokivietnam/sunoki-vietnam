@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useLanguage } from "./LanguageContext";
 import {
   BadgeCheck,
@@ -49,62 +49,73 @@ export default function WhyKokoro() {
 
         {/* Title */}
 
-        <div className="mb-8 md:mb-9 max-w-3xl">
+<div className="mb-10 grid items-center gap-8 lg:grid-cols-[1fr_420px]">
 
-          <p className="mb-4 text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
-            {t.why.subtitle}
-          </p>
+  {/* Left */}
+  <div className="max-w-3xl">
+    <p className="mb-4 text-[11px] font-semibold tracking-[0.34em] text-[#B8895A]">
+      {t.why.subtitle}
+    </p>
 
-<h2
-  className="
-    text-[30px] md:text-[42px]
-    font-bold
-    leading-[1.15]
-    tracking-[-0.02em]
-    text-[#2B2520]
-    max-w-[760px]
-    md:max-w-[760px]
-  "
->
-  {t.why.title}
-</h2>
+    <h2
+      className="
+        text-[30px] md:text-[42px]
+        font-bold
+        leading-[1.15]
+        tracking-[-0.02em]
+        text-[#2B2520]
+        max-w-[760px]
+      "
+    >
+      {t.why.title}
+    </h2>
 
-          <>
-  {/* PC */}
-  <p
-    className="
-      hidden md:block
-      mt-5
-      max-w-[620px]
-      whitespace-pre-line
-      text-base
-      leading-8
-      tracking-[0.03em]
-      text-[#2B2520]/75
-    "
-  >
-    {t.why.description}
-  </p>
+    {/* PC */}
+    <p
+      className="
+        hidden md:block
+        mt-5
+        max-w-[620px]
+        whitespace-pre-line
+        text-base
+        leading-8
+        tracking-[0.03em]
+        text-[#2B2520]/75
+      "
+    >
+      {t.why.description}
+    </p>
 
-  {/* Mobile */}
-  <p
-    className="
-      md:hidden
-      mt-5
-      max-w-[620px]
-      whitespace-pre-line
-      text-[15px]
-      leading-7
-      tracking-[0.03em]
-      text-[#2B2520]/75
-    "
-  >
-    {t.why.descriptionMobile}
-  </p>
-</>
+    {/* Mobile */}
+    <p
+      className="
+        md:hidden
+        mt-5
+        max-w-[620px]
+        whitespace-pre-line
+        text-[15px]
+        leading-7
+        tracking-[0.03em]
+        text-[#2B2520]/75
+      "
+    >
+      {t.why.descriptionMobile}
+    </p>
+  </div>
 
-        </div>
+  {/* Team Photo */}
+  <div className="hidden lg:block">
+    <Image
+      src="/images/team.jpg"
+      alt="SUNOKI VIETNAM Team"
+      width={420}
+      height={320}
+      className="h-[300px] w-full rounded-2xl object-cover shadow-lg"
+      priority
+    />
+  </div>
 
+</div>
         {/* Cards */}
 
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
