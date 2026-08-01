@@ -4,11 +4,18 @@ import { useState } from "react";
 import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import { ChevronDown, ChevronUp, Check } from "lucide-react";
 
 import Container from "./ui/Container";
 import SectionTitle from "./ui/SectionTitle";
 import { useLanguage } from "./LanguageContext";
+import {
+  Check,
+  ChefHat,
+  Sofa,
+  Bath,
+  BedDouble,
+  Home,
+} from "lucide-react";
 
 export default function ModelPlans() {
   const { language } = useLanguage();
@@ -22,7 +29,6 @@ export default function ModelPlans() {
 
   const [slides, setSlides] = useState<{ src: string }[]>([]);
   const [showGallery, setShowGallery] = useState<number | null>(null);
-  const [showSpecs, setShowSpecs] = useState<number | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showSpecsModal, setShowSpecsModal] = useState(false);
  
@@ -83,136 +89,13 @@ export default function ModelPlans() {
                     <span>{plan.grade}</span>
                   </div>
                   {plan.name === "Condo A" && (
-  <div className="pt-2">
-
-    <button
-      type="button"
-      onClick={() => setShowSpecsModal(true)}
-
-      className="flex w-full items-center justify-between rounded-full border border-[#B8895A] px-5 py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
-    >
-      <span>
-        {showSpecs === index
-          ? t.modelPlans.hideSpecification
-          : t.modelPlans.viewSpecification}
-      </span>
-
-      {showSpecs === index ? (
-        <ChevronUp size={18} />
-      ) : (
-        <ChevronDown size={18} />
-      )}
-    </button>
-
-    <div
-      className={`overflow-hidden transition-all duration-500 ${
-        showSpecs === index
-          ? "mt-5 max-h-[1500px] opacity-100"
-          : "max-h-0 opacity-0"
-      }`}
-    >
-      <div className="rounded-xl bg-[#F7F3EE] p-5">       
-         {/* Kitchen */}
-        <div className="mb-5">
-          <h4 className="mb-2 font-semibold text-[#2B2520]">
-            🍳 Kitchen
-          </h4>
-
-          <ul className="space-y-1 text-[13px] text-[#555]">
-            <li>• Shoe Cabinet</li>
-            <li>• Refrigerator Cabinet</li>
-            <li>• Upper & Lower Cabinets</li>
-            <li>• Artificial Stone Countertop</li>
-            <li>• Glass Backsplash</li>
-            <li>• GARIS Storage System</li>
-            <li>• Range Hood</li>
-            <li>• IH Cooktop</li>
-            <li>• Sink & Faucet</li>
-          </ul>
-        </div>
-
-        {/* Living */}
-        <div className="mb-5">
-          <h4 className="mb-2 font-semibold text-[#2B2520]">
-            🛋 Living
-          </h4>
-
-          <ul className="space-y-1 text-[13px] text-[#555]">
-            <li>• Sofa</li>
-            <li>• TV Cabinet</li>
-            <li>• Dining Table</li>
-            <li>• Dining Chairs</li>
-          </ul>
-        </div>
-
-        {/* Bathroom */}
-        <div className="mb-5">
-          <h4 className="mb-2 font-semibold text-[#2B2520]">
-            🚿 Bathroom
-          </h4>
-
-          <ul className="space-y-1 text-[13px] text-[#555]">
-            <li>• Vanity Cabinet</li>
-            <li>• Wash Basin</li>
-            <li>• Faucet</li>
-            <li>• Shower Set</li>
-            <li>• Toilet</li>
-            <li>• Wall Tiles</li>
-            <li>• Glass Shower Partition</li>
-          </ul>
-        </div>        {/* Master Bedroom */}
-        <div className="mb-5">
-          <h4 className="mb-2 font-semibold text-[#2B2520]">
-            🛏 Master Bedroom
-          </h4>
-
-          <ul className="space-y-1 text-[13px] text-[#555]">
-            <li>• Bed</li>
-            <li>• Bedside Table</li>
-            <li>• Wardrobe</li>
-            <li>• Dressing Table</li>
-            <li>• Chair</li>
-            <li>• Decorative Wall Panel</li>
-          </ul>
-        </div>
-
-        {/* Second Bedroom */}
-        <div className="mb-5">
-          <h4 className="mb-2 font-semibold text-[#2B2520]">
-            🛏 Second Bedroom
-          </h4>
-
-          <ul className="space-y-1 text-[13px] text-[#555]">
-            <li>• Bed</li>
-            <li>• Bedside Table</li>
-            <li>• Wardrobe</li>
-            <li>• Dressing Table</li>
-            <li>• Chair</li>
-            <li>• Decorative Wall Panel</li>
-          </ul>
-        </div>
-
-        {/* Interior Finish */}
-        <div>
-          <h4 className="mb-2 font-semibold text-[#2B2520]">
-            🏠 Interior Finish
-          </h4>
-
-          <ul className="space-y-1 text-[13px] text-[#555]">
-            <li>• Flooring</li>
-            <li>• Skirting</li>
-            <li>• Wall Painting</li>
-            <li>• Electrical Wiring</li>
-            <li>• LED Lighting</li>
-            <li>• Downlights</li>
-            <li>• Interior Doors</li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
+  <button
+    type="button"
+    onClick={() => setShowSpecsModal(true)}
+    className="mt-4 w-full rounded-full border border-[#B8895A] py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
+  >
+    {t.modelPlans.viewSpecification}
+  </button>
 )}
 
 <div className="mt-6 rounded-xl bg-[#F7F3EE] p-5 text-center">
@@ -294,33 +177,47 @@ export default function ModelPlans() {
   >
     <div
       onClick={(e) => e.stopPropagation()}
-      className="w-full max-w-4xl rounded-3xl bg-white shadow-2xl animate-[zoomIn_.25s_ease] overflow-hidden"
+      className="w-full max-w-5xl rounded-3xl bg-white shadow-2xl animate-[zoomIn_.25s_ease] overflow-hidden"
     >
       {/* Header */}
       <div className="relative border-b border-[#EFEAE4] px-8 py-6">
 
         <button
-          onClick={() => setShowSpecsModal(false)}
-          className="absolute right-6 top-5 text-3xl text-[#888] hover:text-black"
-        >
-          ×
-        </button>
+  onClick={() => setShowSpecsModal(false)}
+  className="
+    absolute
+    right-5
+    top-5
+    flex
+    h-10
+    w-10
+    items-center
+    justify-center
+    rounded-full
+    transition
+    hover:bg-[#F5F1EC]
+    hover:text-[#B8895A]
+  "
+>
+  <span className="text-[28px] leading-none">×</span>
+</button>
 
-        <h2 className="text-center text-3xl font-bold text-[#2B2520]">
-          Specifications
-        </h2>
+        <h2 className="text-center text-4xl font-bold tracking-tight text-[#2B2520]">
+  {t.modelPlans.specification}
+</h2>
       </div>
 
       {/* Body */}
-      <div className="max-h-[75vh] overflow-y-auto p-8">
+      <div className="max-h-[75vh] overflow-y-auto p-10 md:p-12">
 
         <div className="grid gap-8 md:grid-cols-2">
 
           {/* Kitchen */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
-              🍳 Kitchen
-            </h3>
+            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+  <ChefHat className="h-5 w-5" />
+  Kitchen
+</h3>
 
             <ul className="space-y-2">
               {[
@@ -334,7 +231,18 @@ export default function ModelPlans() {
                 "IH Cooktop",
                 "Sink & Faucet",
               ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-[14px]">
+                <li
+  className="
+    flex items-center
+    gap-3
+    rounded-lg
+    px-2
+    py-1.5
+    text-[14px]
+    transition
+    hover:bg-[#FAF7F3]
+  "
+>
                   <Check className="h-4 w-4 text-[#B8895A]" />
                   {item}
                 </li>
@@ -344,9 +252,10 @@ export default function ModelPlans() {
 
           {/* Living */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
-              🛋 Living
-            </h3>
+            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+  <Sofa className="h-5 w-5" />
+  Living
+</h3>
 
             <ul className="space-y-2">
               {[
@@ -355,7 +264,18 @@ export default function ModelPlans() {
                 "Dining Table",
                 "Dining Chairs",
               ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-[14px]">
+                <li
+  className="
+    flex items-center
+    gap-3
+    rounded-lg
+    px-2
+    py-1.5
+    text-[14px]
+    transition
+    hover:bg-[#FAF7F3]
+  "
+>
                   <Check className="h-4 w-4 text-[#B8895A]" />
                   {item}
                 </li>
@@ -365,9 +285,10 @@ export default function ModelPlans() {
 
           {/* Bathroom */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
-              🚿 Bathroom
-            </h3>
+            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+  <Bath className="h-5 w-5" />
+  Bathroom
+</h3>
 
             <ul className="space-y-2">
               {[
@@ -379,8 +300,18 @@ export default function ModelPlans() {
                 "Wall Tiles",
                 "Glass Shower Partition",
               ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-[14px]">
-                  <Check className="h-4 w-4 text-[#B8895A]" />
+               <li
+  className="
+    flex items-center
+    gap-3
+    rounded-lg
+    px-2
+    py-1.5
+    text-[14px]
+    transition
+    hover:bg-[#FAF7F3]
+  "
+>
                   {item}
                 </li>
               ))}
@@ -389,9 +320,10 @@ export default function ModelPlans() {
 
           {/* Master Bedroom */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
-              🛏 Master Bedroom
-            </h3>
+            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+  <BedDouble className="h-5 w-5" />
+  Master Bedroom
+</h3>
 
             <ul className="space-y-2">
               {[
@@ -402,7 +334,18 @@ export default function ModelPlans() {
                 "Chair",
                 "Decorative Wall Panel",
               ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-[14px]">
+               <li
+  className="
+    flex items-center
+    gap-3
+    rounded-lg
+    px-2
+    py-1.5
+    text-[14px]
+    transition
+    hover:bg-[#FAF7F3]
+  "
+>
                   <Check className="h-4 w-4 text-[#B8895A]" />
                   {item}
                 </li>
@@ -412,9 +355,10 @@ export default function ModelPlans() {
 
           {/* Second Bedroom */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
-              🛏 Second Bedroom
-            </h3>
+            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+  <BedDouble className="h-5 w-5" />
+  Second Bedroom
+</h3>
 
             <ul className="space-y-2">
               {[
@@ -425,7 +369,18 @@ export default function ModelPlans() {
                 "Chair",
                 "Decorative Wall Panel",
               ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-[14px]">
+                <li
+  className="
+    flex items-center
+    gap-3
+    rounded-lg
+    px-2
+    py-1.5
+    text-[14px]
+    transition
+    hover:bg-[#FAF7F3]
+  "
+>
                   <Check className="h-4 w-4 text-[#B8895A]" />
                   {item}
                 </li>
@@ -435,9 +390,10 @@ export default function ModelPlans() {
 
           {/* Interior */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-[#B8895A]">
-              🏠 Interior Finish
-            </h3>
+           <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+  <Home className="h-5 w-5" />
+  Interior Finish
+</h3>
 
             <ul className="space-y-2">
               {[
@@ -449,8 +405,18 @@ export default function ModelPlans() {
                 "Downlights",
                 "Interior Doors",
               ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-[14px]">
-                  <Check className="h-4 w-4 text-[#B8895A]" />
+                <li
+  className="
+    flex items-center
+    gap-3
+    rounded-lg
+    px-2
+    py-1.5
+    text-[14px]
+    transition
+    hover:bg-[#FAF7F3]
+  "
+>                  <Check className="h-4 w-4 text-[#B8895A]" />
                   {item}
                 </li>
               ))}
