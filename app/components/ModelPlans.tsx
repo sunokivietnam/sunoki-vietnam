@@ -177,7 +177,9 @@ export default function ModelPlans() {
   >
     <div
       onClick={(e) => e.stopPropagation()}
-      className="w-full max-w-6xl rounded-3xl bg-white shadow-2xl animate-[zoomIn_.25s_ease] overflow-hidden"
+      className="w-full max-w-6xl rounded-3xl bg-white/95
+backdrop-blur-xl
+shadow-[0_25px_80px_rgba(0,0,0,0.18)] animate-[zoomIn_.25s_ease] overflow-hidden"
     >
       {/* Header */}
       <div className="relative border-b border-[#EFEAE4] px-8 py-6">
@@ -213,7 +215,18 @@ export default function ModelPlans() {
         <div className="grid gap-8 md:grid-cols-2">
 
           {/* Kitchen */}
-          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+          <div className="
+rounded-2xl
+border
+border-[#EFE7DE]
+bg-[#FCFAF8]
+p-6
+transition-all
+duration-300
+hover:bg-[#F8F4EF]
+hover:shadow-md
+hover:-translate-y-1
+">
             <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <ChefHat className="h-5 w-5" />
   Kitchen
@@ -233,6 +246,7 @@ export default function ModelPlans() {
               ].map((item) => (
                <li
   className="
+   group
     flex items-center
     gap-3
     rounded-lg
@@ -245,7 +259,7 @@ export default function ModelPlans() {
     hover:translate-x-1
   "
 >
-  <Check className="h-4 w-4 text-[#B8895A]" />
+  <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
   {item}
 </li>
               ))}
@@ -253,7 +267,18 @@ export default function ModelPlans() {
           </div>
 
           {/* Living */}
-          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+          <div className="
+rounded-2xl
+border
+border-[#EFE7DE]
+bg-[#FCFAF8]
+p-6
+transition-all
+duration-300
+hover:bg-[#F8F4EF]
+hover:shadow-md
+hover:-translate-y-1
+">
             <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <Sofa className="h-5 w-5" />
   Living
@@ -268,6 +293,7 @@ export default function ModelPlans() {
               ].map((item) => (
                 <li
   className="
+    group
     flex items-center
     gap-3
     rounded-lg
@@ -280,7 +306,7 @@ export default function ModelPlans() {
     hover:translate-x-1
   "
 >
-  <Check className="h-4 w-4 text-[#B8895A]" />
+  <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
   {item}
 </li>
               ))}
@@ -288,7 +314,18 @@ export default function ModelPlans() {
           </div>
 
           {/* Bathroom */}
-          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+          <div className="
+rounded-2xl
+border
+border-[#EFE7DE]
+bg-[#FCFAF8]
+p-6
+transition-all
+duration-300
+hover:bg-[#F8F4EF]
+hover:shadow-md
+hover:-translate-y-1
+">
             <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <Bath className="h-5 w-5" />
   Bathroom
@@ -306,6 +343,7 @@ export default function ModelPlans() {
               ].map((item) => (
                <li
   className="
+    group
     flex items-center
     gap-3
     rounded-lg
@@ -318,7 +356,7 @@ export default function ModelPlans() {
     hover:translate-x-1
   "
 >
-  <Check className="h-4 w-4 text-[#B8895A]" />
+  <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
   {item}
 </li>
               ))}
@@ -326,7 +364,18 @@ export default function ModelPlans() {
           </div>
 
           {/* Master Bedroom */}
-         <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+         <div className="
+rounded-2xl
+border
+border-[#EFE7DE]
+bg-[#FCFAF8]
+p-6
+transition-all
+duration-300
+hover:bg-[#F8F4EF]
+hover:shadow-md
+hover:-translate-y-1
+">
            <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <BedDouble className="h-5 w-5" />
   Master Bedroom
@@ -343,6 +392,7 @@ export default function ModelPlans() {
               ].map((item) => (
                <li
   className="
+    group
     flex items-center
     gap-3
     rounded-lg
@@ -355,7 +405,7 @@ export default function ModelPlans() {
     hover:translate-x-1
   "
 >
-  <Check className="h-4 w-4 text-[#B8895A]" />
+  <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
   {item}
 </li>
               ))}
@@ -363,7 +413,18 @@ export default function ModelPlans() {
           </div>
 
           {/* Second Bedroom */}
-          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+          <div className="
+rounded-2xl
+border
+border-[#EFE7DE]
+bg-[#FCFAF8]
+p-6
+transition-all
+duration-300
+hover:bg-[#F8F4EF]
+hover:shadow-md
+hover:-translate-y-1
+">
             <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <BedDouble className="h-5 w-5" />
   Second Bedroom
@@ -380,6 +441,7 @@ export default function ModelPlans() {
               ].map((item) => (
                <li
   className="
+    group
     flex items-center
     gap-3
     rounded-lg
@@ -392,7 +454,7 @@ export default function ModelPlans() {
     hover:translate-x-1
   "
 >
-  <Check className="h-4 w-4 text-[#B8895A]" />
+  <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
   {item}
 </li>
               ))}
@@ -400,7 +462,18 @@ export default function ModelPlans() {
           </div>
 
           {/* Interior */}
-          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+          <div  className="
+rounded-2xl
+border
+border-[#EFE7DE]
+bg-[#FCFAF8]
+p-6
+transition-all
+duration-300
+hover:bg-[#F8F4EF]
+hover:shadow-md
+hover:-translate-y-1
+">
            <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <Home className="h-5 w-5" />
   Interior Finish
@@ -418,6 +491,7 @@ export default function ModelPlans() {
               ].map((item) => (
                <li
   className="
+    group
     flex items-center
     gap-3
     rounded-lg
@@ -430,7 +504,7 @@ export default function ModelPlans() {
     hover:translate-x-1
   "
 >
-  <Check className="h-4 w-4 text-[#B8895A]" />
+  <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
   {item}
 </li>
               ))}
