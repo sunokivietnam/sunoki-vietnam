@@ -105,12 +105,12 @@ export default function WhyKokoro() {
 
   {/* Team Photo */}
  <div className="order-1 lg:order-2">
-  <Image
+ <Image
   src="/images/team.png"
   alt="SUNOKI VIETNAM Team"
-  width={400}
+  width={480}
   height={300}
-  className="mb-8 h-[220px] w-full rounded-2xl object-cover shadow-lg lg:mb-0 lg:h-[280px]"
+  className="mb-8 h-[220px] w-full rounded-[18px] object-cover shadow-lg lg:mb-0 lg:h-[280px]"
   priority
 />
 </div>
