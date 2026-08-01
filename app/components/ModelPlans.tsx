@@ -219,7 +219,7 @@ export default function ModelPlans() {
   Kitchen
 </h3>
 
-            <ul className="space-y-1.5">
+            <ul className="space-y-1">
               {[
                 "Shoe Cabinet",
                 "Refrigerator Cabinet",
@@ -259,7 +259,7 @@ export default function ModelPlans() {
   Living
 </h3>
 
-            <ul className="space-y-1.5">
+            <ul className="space-y-1">
               {[
                 "Sofa",
                 "TV Cabinet",
@@ -294,7 +294,7 @@ export default function ModelPlans() {
   Bathroom
 </h3>
 
-            <ul className="space-y-1.5">
+            <ul className="space-y-1">
               {[
                 "Vanity Cabinet",
                 "Wash Basin",
@@ -332,7 +332,7 @@ export default function ModelPlans() {
   Master Bedroom
 </h3>
 
-            <ul className="space-y-1.5">
+            <ul className="space-y-1">
               {[
                 "Bed",
                 "Bedside Table",
@@ -369,7 +369,7 @@ export default function ModelPlans() {
   Second Bedroom
 </h3>
 
-            <ul className="space-y-1.5">
+            <ul className="space-y-1">
               {[
                 "Bed",
                 "Bedside Table",
@@ -406,7 +406,7 @@ export default function ModelPlans() {
   Interior Finish
 </h3>
 
-            <ul className="space-y-1.5">
+            <ul className="space-y-1">
               {[
                 "Flooring",
                 "Skirting",
