@@ -241,13 +241,13 @@ export default function ModelPlans() {
     text-[14px]
     transition-all
     duration-200
-    hover:bg-[#F7F3EE]
+    hover:bg-[#F8F4EF]
     hover:translate-x-1
   "
 >
-                  <Check className="h-4 w-4 text-[#B8895A]" />
-                  {item}
-                </li>
+  <Check className="h-4 w-4 text-[#B8895A]" />
+  {item}
+</li>
               ))}
             </ul>
           </div>
@@ -276,13 +276,13 @@ export default function ModelPlans() {
     text-[14px]
     transition-all
     duration-200
-    hover:bg-[#F7F3EE]
+    hover:bg-[#F8F4EF]
     hover:translate-x-1
   "
 >
-                  <Check className="h-4 w-4 text-[#B8895A]" />
-                  {item}
-                </li>
+  <Check className="h-4 w-4 text-[#B8895A]" />
+  {item}
+</li>
               ))}
             </ul>
           </div>
@@ -314,12 +314,13 @@ export default function ModelPlans() {
     text-[14px]
     transition-all
     duration-200
-    hover:bg-[#F7F3EE]
+    hover:bg-[#F8F4EF]
     hover:translate-x-1
   "
 >
-                  {item}
-                </li>
+  <Check className="h-4 w-4 text-[#B8895A]" />
+  {item}
+</li>
               ))}
             </ul>
           </div>
@@ -350,13 +351,13 @@ export default function ModelPlans() {
     text-[14px]
     transition-all
     duration-200
-    hover:bg-[#F7F3EE]
+    hover:bg-[#F8F4EF]
     hover:translate-x-1
   "
 >
-                  <Check className="h-4 w-4 text-[#B8895A]" />
-                  {item}
-                </li>
+  <Check className="h-4 w-4 text-[#B8895A]" />
+  {item}
+</li>
               ))}
             </ul>
           </div>
@@ -377,7 +378,7 @@ export default function ModelPlans() {
                 "Chair",
                 "Decorative Wall Panel",
               ].map((item) => (
-                <li
+               <li
   className="
     flex items-center
     gap-3
@@ -385,13 +386,15 @@ export default function ModelPlans() {
     px-2
     py-1.5
     text-[14px]
-    transition
-    hover:bg-[#FAF7F3]
+    transition-all
+    duration-200
+    hover:bg-[#F8F4EF]
+    hover:translate-x-1
   "
 >
-                  <Check className="h-4 w-4 text-[#B8895A]" />
-                  {item}
-                </li>
+  <Check className="h-4 w-4 text-[#B8895A]" />
+  {item}
+</li>
               ))}
             </ul>
           </div>
@@ -423,13 +426,13 @@ export default function ModelPlans() {
     text-[14px]
     transition-all
     duration-200
-    hover:bg-[#F7F3EE]
+    hover:bg-[#F8F4EF]
     hover:translate-x-1
   "
->                 
-<Check className="h-4 w-4 text-[#B8895A]" />
-                  {item}
-                </li>
+>
+  <Check className="h-4 w-4 text-[#B8895A]" />
+  {item}
+</li>
               ))}
             </ul>
           </div>
