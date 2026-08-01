@@ -177,7 +177,7 @@ export default function ModelPlans() {
   >
     <div
       onClick={(e) => e.stopPropagation()}
-      className="w-full max-w-5xl rounded-3xl bg-white shadow-2xl animate-[zoomIn_.25s_ease] overflow-hidden"
+      className="w-full max-w-6xl rounded-3xl bg-white shadow-2xl animate-[zoomIn_.25s_ease] overflow-hidden"
     >
       {/* Header */}
       <div className="relative border-b border-[#EFEAE4] px-8 py-6">
@@ -213,13 +213,13 @@ export default function ModelPlans() {
         <div className="grid gap-8 md:grid-cols-2">
 
           {/* Kitchen */}
-          <div>
-            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+            <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <ChefHat className="h-5 w-5" />
   Kitchen
 </h3>
 
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               {[
                 "Shoe Cabinet",
                 "Refrigerator Cabinet",
@@ -231,7 +231,7 @@ export default function ModelPlans() {
                 "IH Cooktop",
                 "Sink & Faucet",
               ].map((item) => (
-                <li
+               <li
   className="
     flex items-center
     gap-3
@@ -239,8 +239,10 @@ export default function ModelPlans() {
     px-2
     py-1.5
     text-[14px]
-    transition
-    hover:bg-[#FAF7F3]
+    transition-all
+    duration-200
+    hover:bg-[#F7F3EE]
+    hover:translate-x-1
   "
 >
                   <Check className="h-4 w-4 text-[#B8895A]" />
@@ -251,13 +253,13 @@ export default function ModelPlans() {
           </div>
 
           {/* Living */}
-          <div>
-            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+            <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <Sofa className="h-5 w-5" />
   Living
 </h3>
 
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               {[
                 "Sofa",
                 "TV Cabinet",
@@ -272,8 +274,10 @@ export default function ModelPlans() {
     px-2
     py-1.5
     text-[14px]
-    transition
-    hover:bg-[#FAF7F3]
+    transition-all
+    duration-200
+    hover:bg-[#F7F3EE]
+    hover:translate-x-1
   "
 >
                   <Check className="h-4 w-4 text-[#B8895A]" />
@@ -284,13 +288,13 @@ export default function ModelPlans() {
           </div>
 
           {/* Bathroom */}
-          <div>
-            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+            <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <Bath className="h-5 w-5" />
   Bathroom
 </h3>
 
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               {[
                 "Vanity Cabinet",
                 "Wash Basin",
@@ -308,8 +312,10 @@ export default function ModelPlans() {
     px-2
     py-1.5
     text-[14px]
-    transition
-    hover:bg-[#FAF7F3]
+    transition-all
+    duration-200
+    hover:bg-[#F7F3EE]
+    hover:translate-x-1
   "
 >
                   {item}
@@ -319,13 +325,13 @@ export default function ModelPlans() {
           </div>
 
           {/* Master Bedroom */}
-          <div>
-            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+         <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+           <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <BedDouble className="h-5 w-5" />
   Master Bedroom
 </h3>
 
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               {[
                 "Bed",
                 "Bedside Table",
@@ -342,8 +348,10 @@ export default function ModelPlans() {
     px-2
     py-1.5
     text-[14px]
-    transition
-    hover:bg-[#FAF7F3]
+    transition-all
+    duration-200
+    hover:bg-[#F7F3EE]
+    hover:translate-x-1
   "
 >
                   <Check className="h-4 w-4 text-[#B8895A]" />
@@ -354,13 +362,13 @@ export default function ModelPlans() {
           </div>
 
           {/* Second Bedroom */}
-          <div>
-            <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+            <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <BedDouble className="h-5 w-5" />
   Second Bedroom
 </h3>
 
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               {[
                 "Bed",
                 "Bedside Table",
@@ -389,13 +397,13 @@ export default function ModelPlans() {
           </div>
 
           {/* Interior */}
-          <div>
-           <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-[#B8895A]">
+          <div className="rounded-2xl border border-[#EFE7DE] bg-[#FCFAF8] p-6">
+           <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
   <Home className="h-5 w-5" />
   Interior Finish
 </h3>
 
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               {[
                 "Flooring",
                 "Skirting",
@@ -405,7 +413,7 @@ export default function ModelPlans() {
                 "Downlights",
                 "Interior Doors",
               ].map((item) => (
-                <li
+               <li
   className="
     flex items-center
     gap-3
@@ -413,10 +421,13 @@ export default function ModelPlans() {
     px-2
     py-1.5
     text-[14px]
-    transition
-    hover:bg-[#FAF7F3]
+    transition-all
+    duration-200
+    hover:bg-[#F7F3EE]
+    hover:translate-x-1
   "
->                  <Check className="h-4 w-4 text-[#B8895A]" />
+>                 
+<Check className="h-4 w-4 text-[#B8895A]" />
                   {item}
                 </li>
               ))}
