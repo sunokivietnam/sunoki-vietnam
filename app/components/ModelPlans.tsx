@@ -112,7 +112,7 @@ export default function ModelPlans() {
     hover:-translate-y-0.5
   "
 >
-  📋 {t.modelPlans.viewSpecification}
+  {t.modelPlans.viewSpecification}
 </button>
 )}
 
@@ -152,7 +152,7 @@ export default function ModelPlans() {
   hover:shadow
 "
   >
-    🖼 {showGallery === index
+    {showGallery === index
   ? t.modelPlans.closeGallery
   : t.modelPlans.viewGallery}
   </button>
