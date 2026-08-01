@@ -24,7 +24,8 @@ export default function ModelPlans() {
   const [showGallery, setShowGallery] = useState<number | null>(null);
   const [showSpecs, setShowSpecs] = useState<number | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  const [showSpecsModal, setShowSpecsModal] = useState(false);
+ 
   const openGallery = (gallery: string[]) => {
     setSlides(gallery.map((src) => ({ src })));
     setOpen(true);
@@ -86,9 +87,8 @@ export default function ModelPlans() {
 
     <button
       type="button"
-      onClick={() =>
-        setShowSpecs(showSpecs === index ? null : index)
-      }
+      onClick={() => setShowSpecsModal(true)}
+
       className="flex w-full items-center justify-between rounded-full border border-[#B8895A] px-5 py-3 text-[14px] font-medium text-[#B8895A] transition-all duration-300 hover:bg-[#B8895A] hover:text-white"
     >
       <span>
@@ -287,7 +287,65 @@ export default function ModelPlans() {
             {t.modelPlans.noticeMobile}
           </span>
         </p>
+{showSpecsModal && (
+  <div
+    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 p-6 backdrop-blur-sm"
+    onClick={() => setShowSpecsModal(false)}
+  >
+    <div
+      onClick={(e) => e.stopPropagation()}
+      className="
+        w-full max-w-2xl
+        rounded-3xl
+        bg-white
+        p-8
+        shadow-2xl
+        animate-[zoomIn_.25s_ease]
+      "
+    >
+      <div className="mb-6 flex items-center justify-between">
+        <h3 className="text-2xl font-bold text-[#2B2520]">
+          Specifications
+        </h3>
 
+        <button
+          onClick={() => setShowSpecsModal(false)}
+          className="text-3xl leading-none text-[#777] hover:text-black"
+        >
+          ×
+        </button>
+      </div>
+
+      <div className="space-y-6 max-h-[70vh] overflow-y-auto">
+
+        <div>
+          <h4 className="font-bold text-[#B8895A]">
+            Kitchen
+          </h4>
+
+          <ul className="mt-2 space-y-1 text-[14px]">
+            <li>• Shoe Cabinet</li>
+            <li>• Refrigerator Cabinet</li>
+            <li>• Upper & Lower Cabinets</li>
+            <li>• Artificial Stone Countertop</li>
+            <li>• Glass Backsplash</li>
+            <li>• GARIS Storage System</li>
+            <li>• Range Hood</li>
+            <li>• IH Cooktop</li>
+            <li>• Sink & Faucet</li>
+          </ul>
+        </div>
+
+        {/* Living */}
+        {/* Bathroom */}
+        {/* Master Bedroom */}
+        {/* Second Bedroom */}
+        {/* Interior Finish */}
+
+      </div>
+    </div>
+  </div>
+)}
         <Lightbox
           open={open}
           close={() => setOpen(false)}
