@@ -113,6 +113,7 @@ export default function WhyKokoro() {
   className="mb-8 h-[220px] w-full rounded-2xl object-cover shadow-lg lg:mb-0 lg:h-[280px]"
   priority
 />
+</div>
 
 </div>
         {/* Cards */}
