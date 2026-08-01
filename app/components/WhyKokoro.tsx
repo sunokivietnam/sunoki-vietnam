@@ -105,14 +105,14 @@ export default function WhyKokoro() {
 
   {/* Team Photo */}
   <div className="hidden lg:block">
-   <Image
-  src="/images/team.jpg"
-  alt="SUNOKI VIETNAM Team"
-  width={500}
-  height={360}
-  className="mt-3 h-[340px] w-full rounded-2xl object-cover shadow-lg"
-  priority
-/>
+    <Image
+      src="/images/team.jpg"
+      alt="SUNOKI VIETNAM Team"
+      width={420}
+      height={320}
+      className="h-[300px] w-full rounded-2xl object-cover shadow-lg"
+      priority
+    />
   </div>
 
 </div>
