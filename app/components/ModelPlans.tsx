@@ -95,9 +95,9 @@ export default function ModelPlans() {
     setShowSpecsModal(true);
   } else if (plan.name === "Condo B") {
     setShowSpecsModalB(true);
-  } else if (plan.name === "Villa") {
-    setShowSpecsModalVilla(true);
-  }
+  } else if (plan.name === "Villa Residence") {
+  setShowSpecsModalVilla(true);
+}
 }}
   className="
     mt-4
