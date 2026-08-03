@@ -543,44 +543,9 @@ hideSpecification: "仕様を閉じる",
     "※掲載価格は参考価格です。\n設計内容・仕様・施工条件により\n変動します。",
 
   plans: [
+    
     {
       label: "PLAN 01",
-      name: "Villa Residence",
-
-      image: "/images/modelplans/villa/main.jpg",
-       gallery: [
-    "/images/modelplans/villa/12.jpg",
-    "/images/modelplans/villa/01.jpg",
-    "/images/modelplans/villa/02.jpg",
-    "/images/modelplans/villa/03.jpg",
-    "/images/modelplans/villa/04.jpg",
-    "/images/modelplans/villa/05.jpg",
-    "/images/modelplans/villa/06.jpg",
-    "/images/modelplans/villa/07.jpg",
-    "/images/modelplans/villa/08.jpg",
-    "/images/modelplans/villa/09.jpg",
-    "/images/modelplans/villa/10.jpg",
-    "/images/modelplans/villa/11.jpg",
-  ],
-
-      area: "--㎡",
-
-      unitPrice: "-- VNĐ /㎡",
-
-      grade: "Luxury",
-
-      specifications: [
-        "天然木",
-        "造作家具",
-        "間接照明",
-        "和モダン",
-      ],
-
-      estimatedCost: "-- VNĐ",
-    },
-
-    {
-      label: "PLAN 02",
       name: "Condo A",
 
       image: "/images/modelplans/condo-a/main.jpg",
@@ -610,7 +575,7 @@ gallery: [
     },
 
     {
-      label: "PLAN 03",
+      label: "PLAN 02",
       name: "Condo B",
 
       image: "/images/modelplans/condo-b/main.jpg",
@@ -634,6 +599,41 @@ gallery: [
         "キッチン",
         "照明",
         "家具",
+      ],
+
+      estimatedCost: "-- VNĐ",
+    },
+    {
+      label: "PLAN 03",
+      name: "Villa Residence",
+
+      image: "/images/modelplans/villa/main.jpg",
+       gallery: [
+    "/images/modelplans/villa/12.jpg",
+    "/images/modelplans/villa/01.jpg",
+    "/images/modelplans/villa/02.jpg",
+    "/images/modelplans/villa/03.jpg",
+    "/images/modelplans/villa/04.jpg",
+    "/images/modelplans/villa/05.jpg",
+    "/images/modelplans/villa/06.jpg",
+    "/images/modelplans/villa/07.jpg",
+    "/images/modelplans/villa/08.jpg",
+    "/images/modelplans/villa/09.jpg",
+    "/images/modelplans/villa/10.jpg",
+    "/images/modelplans/villa/11.jpg",
+  ],
+
+      area: "--㎡",
+
+      unitPrice: "-- VNĐ /㎡",
+
+      grade: "Luxury",
+
+      specifications: [
+        "天然木",
+        "造作家具",
+        "間接照明",
+        "和モダン",
       ],
 
       estimatedCost: "-- VNĐ",

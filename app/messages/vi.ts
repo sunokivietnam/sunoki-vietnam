@@ -576,8 +576,68 @@ hideSpecification: "Ẩn thông số",
     "※ Chi phí chỉ mang tính tham khảo.\nGiá thực tế sẽ thay đổi\ntùy theo thiết kế, vật liệu\nvà điều kiện thi công.",
 
   plans: [
+    
     {
       label: "PLAN 01",
+      name: "Condo A",
+
+      image: "/images/modelplans/condo-a/main.jpg",
+gallery: [
+  "/images/modelplans/condo-a/07.jpg",
+  "/images/modelplans/condo-a/01.jpg",
+  "/images/modelplans/condo-a/02.jpg",
+  "/images/modelplans/condo-a/03.jpg",
+  "/images/modelplans/condo-a/04.jpg",
+  "/images/modelplans/condo-a/05.jpg",
+  "/images/modelplans/condo-a/06.jpg",
+],
+      area: "--㎡",
+
+      unitPrice: "-- VNĐ /㎡",
+
+      grade: "Standard",
+
+      specifications: [
+        "Gỗ sồi",
+        "Tủ lưu trữ",
+        "Chiếu sáng",
+        "Nội thất",
+      ],
+
+      estimatedCost: "-- VNĐ",
+    },
+
+    {
+      label: "PLAN 02",
+      name: "Condo B",
+
+      image: "/images/modelplans/condo-b/main.jpg",
+gallery: [
+  "/images/modelplans/condo-b/01.jpg",
+  "/images/modelplans/condo-b/02.jpg",
+  "/images/modelplans/condo-b/03.jpg",
+  "/images/modelplans/condo-b/04.jpg",
+  "/images/modelplans/condo-b/05.jpg",
+  "/images/modelplans/condo-b/06.jpg",
+  "/images/modelplans/condo-b/07.jpg",
+],
+      area: "--㎡",
+
+      unitPrice: "-- VNĐ /㎡",
+
+      grade: "Premium",
+
+      specifications: [
+        "Gỗ óc chó",
+        "Bếp",
+        "Chiếu sáng",
+        "Nội thất",
+      ],
+
+      estimatedCost: "-- VNĐ",
+    },
+    {
+      label: "PLAN 03",
       name: "Villa Residence",
 
       image: "/images/modelplans/villa/main.jpg",
@@ -612,65 +672,6 @@ hideSpecification: "Ẩn thông số",
       estimatedCost: "-- VNĐ",
     },
 
-    {
-      label: "PLAN 02",
-      name: "Condo A",
-
-      image: "/images/modelplans/condo-a/main.jpg",
-gallery: [
-  "/images/modelplans/condo-a/07.jpg",
-  "/images/modelplans/condo-a/01.jpg",
-  "/images/modelplans/condo-a/02.jpg",
-  "/images/modelplans/condo-a/03.jpg",
-  "/images/modelplans/condo-a/04.jpg",
-  "/images/modelplans/condo-a/05.jpg",
-  "/images/modelplans/condo-a/06.jpg",
-],
-      area: "--㎡",
-
-      unitPrice: "-- VNĐ /㎡",
-
-      grade: "Standard",
-
-      specifications: [
-        "Gỗ sồi",
-        "Tủ lưu trữ",
-        "Chiếu sáng",
-        "Nội thất",
-      ],
-
-      estimatedCost: "-- VNĐ",
-    },
-
-    {
-      label: "PLAN 03",
-      name: "Condo B",
-
-      image: "/images/modelplans/condo-b/main.jpg",
-gallery: [
-  "/images/modelplans/condo-b/01.jpg",
-  "/images/modelplans/condo-b/02.jpg",
-  "/images/modelplans/condo-b/03.jpg",
-  "/images/modelplans/condo-b/04.jpg",
-  "/images/modelplans/condo-b/05.jpg",
-  "/images/modelplans/condo-b/06.jpg",
-  "/images/modelplans/condo-b/07.jpg",
-],
-      area: "--㎡",
-
-      unitPrice: "-- VNĐ /㎡",
-
-      grade: "Premium",
-
-      specifications: [
-        "Gỗ óc chó",
-        "Bếp",
-        "Chiếu sáng",
-        "Nội thất",
-      ],
-
-      estimatedCost: "-- VNĐ",
-    },
   ],
 },
   group: {
