@@ -86,7 +86,7 @@ export default function ModelPlans() {
                   {(
   plan.name === "Condo A" ||
   plan.name === "Condo B" ||
-  plan.name === "Villa"
+  plan.name === "Villa Residence"
 ) && (
   <button
   type="button"
