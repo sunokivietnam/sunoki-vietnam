@@ -1,4 +1,5 @@
 "use client";
+import SpecificationModalB from "./SpecificationModalB";
 import SpecificationModal from "./SpecificationModal";
 import { useState } from "react";
 import Image from "next/image";
@@ -23,7 +24,8 @@ export default function ModelPlans() {
   const [showGallery, setShowGallery] = useState<number | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showSpecsModal, setShowSpecsModal] = useState(false);
- 
+  const [showSpecsModalB, setShowSpecsModalB] = useState(false);
+
   const openGallery = (gallery: string[]) => {
     setSlides(gallery.map((src) => ({ src })));
     setOpen(true);
@@ -80,10 +82,16 @@ export default function ModelPlans() {
                     <span>{t.modelPlans.grade}</span>
                     <span>{plan.grade}</span>
                   </div>
-                  {plan.name === "Condo A" && (
+                  {(plan.name === "Condo A" || plan.name === "Condo B") && (
   <button
   type="button"
-  onClick={() => setShowSpecsModal(true)}
+  onClick={() => {
+  if (plan.name === "Condo A") {
+    setShowSpecsModal(true);
+  } else if (plan.name === "Condo B") {
+    setShowSpecsModalB(true);
+  }
+}}
   className="
     mt-4
     flex
@@ -204,7 +212,11 @@ export default function ModelPlans() {
   onClose={() => setShowSpecsModal(false)}
   t={t}
 />
-
+<SpecificationModalB
+  open={showSpecsModalB}
+  onClose={() => setShowSpecsModalB(false)}
+  t={t}
+/>
         <Lightbox
           open={open}
           close={() => setOpen(false)}
