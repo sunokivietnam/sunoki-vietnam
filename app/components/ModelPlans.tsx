@@ -1,4 +1,5 @@
 "use client";
+import SpecificationModalVilla from "./SpecificationModalVilla";
 import SpecificationModalB from "./SpecificationModalB";
 import SpecificationModal from "./SpecificationModal";
 import { useState } from "react";
@@ -25,7 +26,7 @@ export default function ModelPlans() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showSpecsModal, setShowSpecsModal] = useState(false);
   const [showSpecsModalB, setShowSpecsModalB] = useState(false);
-
+  const [showSpecsModalVilla, setShowSpecsModalVilla] = useState(false);
   const openGallery = (gallery: string[]) => {
     setSlides(gallery.map((src) => ({ src })));
     setOpen(true);
@@ -82,7 +83,11 @@ export default function ModelPlans() {
                     <span>{t.modelPlans.grade}</span>
                     <span>{plan.grade}</span>
                   </div>
-                  {(plan.name === "Condo A" || plan.name === "Condo B") && (
+                  {(
+  plan.name === "Condo A" ||
+  plan.name === "Condo B" ||
+  plan.name === "Villa"
+) && (
   <button
   type="button"
   onClick={() => {
@@ -90,6 +95,8 @@ export default function ModelPlans() {
     setShowSpecsModal(true);
   } else if (plan.name === "Condo B") {
     setShowSpecsModalB(true);
+  } else if (plan.name === "Villa") {
+    setShowSpecsModalVilla(true);
   }
 }}
   className="
@@ -215,6 +222,11 @@ export default function ModelPlans() {
 <SpecificationModalB
   open={showSpecsModalB}
   onClose={() => setShowSpecsModalB(false)}
+  t={t}
+/>
+<SpecificationModalVilla
+  open={showSpecsModalVilla}
+  onClose={() => setShowSpecsModalVilla(false)}
   t={t}
 />
         <Lightbox
