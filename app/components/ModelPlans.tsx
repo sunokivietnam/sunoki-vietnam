@@ -208,12 +208,12 @@ export default function ModelPlans() {
         </p>
 {showSpecsModal && (
   <div
-    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-md p-6"
+    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-md p-3 md:p-6"
     onClick={() => setShowSpecsModal(false)}
   >
     <div
       onClick={(e) => e.stopPropagation()}
-      className="w-full max-w-6xl rounded-3xl bg-white/95
+      className="w-[96vw] md:w-full max-w-6xl rounded-3xl bg-white/95
 backdrop-blur-xl
 shadow-[0_25px_80px_rgba(0,0,0,0.18)] animate-[zoomIn_.25s_ease] overflow-hidden"
     >
@@ -240,15 +240,15 @@ shadow-[0_25px_80px_rgba(0,0,0,0.18)] animate-[zoomIn_.25s_ease] overflow-hidden
   <span className="text-[28px] leading-none">×</span>
 </button>
 
-        <h2 className="text-center text-4xl font-bold tracking-tight text-[#2B2520]">
+        <h2 className="text-center text-2xl md:text-4xl font-bold tracking-tight text-[#2B2520]">
   {t.modelPlans.specification}
 </h2>
       </div>
 
       {/* Body */}
-      <div className="max-h-[75vh] overflow-y-auto p-10 md:p-12">
+      <div className="max-h-[75vh] overflow-y-auto p-5 md:p-12">
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-8">
 
           {/* Kitchen */}
           <div className="
