@@ -22,110 +22,20 @@ export default function SpecificationModal({
 }: SpecificationModalProps) {
   if (!open) return null;
 
-  const sections = [
-    {
-      title: "Kitchen",
-      icon: ChefHat,
-      items: [
-        "Shoe Cabinet",
-        "Refrigerator Cabinet",
-        "Upper & Lower Cabinets",
-        "Artificial Stone Countertop",
-        "Glass Backsplash",
-        "GARIS Storage System",
-        "Range Hood",
-        "IH Cooktop",
-        "Sink & Faucet",
-      ],
-    },
-    {
-      title: "Living",
-      icon: Sofa,
-      items: [
-        "Sofa",
-        "Dining Table & Chairs",
-        "TV Cabinet",
-      ],
-    },
-    {
-      title: "Bathroom",
-      icon: Bath,
-      items: [
-        "Vanity Cabinet",
-        "Wash Basin",
-        "Faucet",
-        "Shower Set",
-        "Toilet",
-        "Wall Tiles",
-        "Glass Shower Partition",
-      ],
-    },
-    {
-      title: "Master Bedroom",
-      icon: BedDouble,
-      items: [
-        "Bed",
-        "Bedside Table",
-        "Wardrobe",
-        "Dressing Table",
-        "Chair",
-        "Decorative Wall Panels",
-      ],
-    },
-    {
-      title: "Second Bedroom",
-      icon: BedDouble,
-      items: [
-        "Bed",
-        "Bedside Table",
-        "Decorative Wall Panel",
-        "Wardrobe",
-        "Dressing Table",
-        "Chair",
-      ],
-    },
-    {
-      title: "Interior Finish",
-      icon: Home,
-      items: [
-        "Flooring",
-        "Skirting",
-        "Wall Painting",
-        "Electrical Wiring",
-        "LED Strip Lighting",
-        "LED Power Supply & Touch Sensors",
-        "Downlights",
-        "Interior Doors",
-      ],
-    },
-  ];
-
   return (
     <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 p-3 backdrop-blur-md md:p-6"
+      className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-md p-3 md:p-6"
       onClick={onClose}
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="
-          flex
-          max-h-[90vh]
-          w-[96vw]
-          max-w-6xl
-          flex-col
-          overflow-hidden
-          rounded-3xl
-          bg-white/95
-          shadow-[0_25px_80px_rgba(0,0,0,0.18)]
-          backdrop-blur-xl
-        "
+        className="w-[96vw] md:w-full max-w-6xl overflow-hidden rounded-3xl bg-white/95 shadow-[0_25px_80px_rgba(0,0,0,0.18)] backdrop-blur-xl animate-[zoomIn_.25s_ease]"
       >
         {/* Header */}
-        <div className="relative shrink-0 border-b border-[#EFEAE4] px-8 py-6">
+        <div className="relative border-b border-[#EFEAE4] px-8 py-6">
+
           <button
-            type="button"
             onClick={onClose}
-            aria-label="Close"
             className="
               absolute
               right-5
@@ -136,7 +46,6 @@ export default function SpecificationModal({
               items-center
               justify-center
               rounded-full
-              text-[#555]
               transition
               hover:bg-[#F5F1EC]
               hover:text-[#B8895A]
@@ -145,134 +54,438 @@ export default function SpecificationModal({
             <span className="text-[28px] leading-none">×</span>
           </button>
 
-          <p className="mb-2 text-center text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B8895A]">
-            Condo A
-          </p>
-
-          <h2 className="text-center text-2xl font-bold tracking-tight text-[#2B2520] md:text-4xl">
+          <h2 className="text-center text-2xl md:text-4xl font-bold tracking-tight text-[#2B2520]">
             {t.modelPlans.specification}
           </h2>
         </div>
 
         {/* Body */}
-        <div className="overflow-y-auto p-5 md:p-10">
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-7">
-            {sections.map((section) => {
-              const Icon = section.icon;
+        <div className="max-h-[75vh] overflow-y-auto p-5 md:p-12">
 
-              return (
-                <div
-                  key={section.title}
-                  className="
-                    flex
-                    h-full
-                    flex-col
-                    rounded-2xl
-                    border
-                    border-[#EFE7DE]
-                    bg-[#FCFAF8]
-                    p-6
-                    transition-all
-                    duration-300
-                    hover:-translate-y-1
-                    hover:bg-[#F8F4EF]
-                    hover:shadow-md
-                  "
-                >
-                  <h3
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-8">
+
+            {/* Kitchen */}
+            <div
+              className="
+                flex
+                h-full
+                flex-col
+                rounded-2xl
+                border
+                border-[#EFE7DE]
+                bg-[#FCFAF8]
+                p-6
+                transition-all
+                duration-300
+                hover:bg-[#F8F4EF]
+                hover:shadow-md
+                hover:-translate-y-1
+              "
+            >
+              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
+                <ChefHat className="h-5 w-5" />
+                Kitchen
+              </h3>
+
+              <ul className="space-y-1">
+                {[
+                  "Shoe Cabinet",
+                  "Refrigerator Cabinet",
+                  "Upper & Lower Cabinets",
+                  "Artificial Stone Countertop",
+                  "Glass Backsplash",
+                  "GARIS Storage System",
+                  "Range Hood",
+                  "IH Cooktop",
+                  "Sink & Faucet",
+                ].map((item) => (
+                  <li
+                    key={item}
                     className="
-                      mb-4
+                      group
                       flex
                       items-center
-                      gap-2
-                      border-b
-                      border-[#ECE4DA]
-                      pb-3
-                      text-lg
-                      font-semibold
-                      text-[#B8895A]
+                      gap-3
+                      rounded-lg
+                      px-2
+                      py-1.5
+                      text-[14px]
+                      transition-all
+                      duration-200
+                      hover:bg-[#F8F4EF]
+                      hover:translate-x-1
                     "
                   >
-                    <Icon className="h-5 w-5" />
-                    {section.title}
-                  </h3>
+                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
 
-                  <ul className="space-y-1">
-                    {section.items.map((item) => (
-                      <li
-                        key={item}
-                        className="
-                          group
-                          flex
-                          items-center
-                          gap-3
-                          rounded-lg
-                          px-2
-                          py-1.5
-                          text-[14px]
-                          text-[#4F4944]
-                          transition-all
-                          duration-200
-                          hover:translate-x-1
-                          hover:bg-[#F8F4EF]
-                        "
-                      >
-                        <Check
-                          className="
-                            h-4
-                            w-4
-                            shrink-0
-                            text-[#B8895A]
-                            transition-transform
-                            duration-200
-                            group-hover:scale-125
-                          "
-                        />
+              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                  FROM
+                </span>
 
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
+                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+                  90M
+                </span>
 
-          {/* Reference Price */}
-          <div
-            className="
-              mt-7
-              rounded-2xl
-              border
-              border-[#E8DDD1]
-              bg-[#F7F3EE]
-              px-6
-              py-6
-              text-center
-            "
-          >
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B3A08D]">
-              {languageLabel(t)}
-            </p>
+                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                  VNĐ
+                </span>
+              </div>
+            </div>
+                        {/* Living */}
+            <div
+              className="
+                flex
+                h-full
+                flex-col
+                rounded-2xl
+                border
+                border-[#EFE7DE]
+                bg-[#FCFAF8]
+                p-6
+                transition-all
+                duration-300
+                hover:bg-[#F8F4EF]
+                hover:shadow-md
+                hover:-translate-y-1
+              "
+            >
+              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
+                <Sofa className="h-5 w-5" />
+                Living
+              </h3>
 
-            <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#B8895A]">
-              Reference Price · FROM
-            </p>
+              <ul className="space-y-1">
+                {[
+                  "Sofa",
+                  "TV Cabinet",
+                  "Dining Table",
+                  "Dining Chairs",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="
+                      group
+                      flex
+                      items-center
+                      gap-3
+                      rounded-lg
+                      px-2
+                      py-1.5
+                      text-[14px]
+                      transition-all
+                      duration-200
+                      hover:bg-[#F8F4EF]
+                      hover:translate-x-1
+                    "
+                  >
+                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
 
-            <p className="mt-2 text-[30px] font-extrabold leading-none text-[#2B2520] md:text-[36px]">
-              212.55M
-            </p>
+              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                  FROM
+                </span>
 
-            <p className="mt-2 text-[12px] font-medium text-[#9B8C7D]">
-              VNĐ · Excluding VAT
-            </p>
+                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+                  90M
+                </span>
+
+                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                  VNĐ
+                </span>
+              </div>
+            </div>
+
+            {/* Bathroom */}
+            <div
+              className="
+                flex
+                h-full
+                flex-col
+                rounded-2xl
+                border
+                border-[#EFE7DE]
+                bg-[#FCFAF8]
+                p-6
+                transition-all
+                duration-300
+                hover:bg-[#F8F4EF]
+                hover:shadow-md
+                hover:-translate-y-1
+              "
+            >
+              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
+                <Bath className="h-5 w-5" />
+                Bathroom
+              </h3>
+
+              <ul className="space-y-1">
+                {[
+                  "Vanity Cabinet",
+                  "Wash Basin",
+                  "Faucet",
+                  "Shower Set",
+                  "Toilet",
+                  "Wall Tiles",
+                  "Glass Shower Partition",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="
+                      group
+                      flex
+                      items-center
+                      gap-3
+                      rounded-lg
+                      px-2
+                      py-1.5
+                      text-[14px]
+                      transition-all
+                      duration-200
+                      hover:bg-[#F8F4EF]
+                      hover:translate-x-1
+                    "
+                  >
+                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                  FROM
+                </span>
+
+                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+                  90M
+                </span>
+
+                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                  VNĐ
+                </span>
+              </div>
+            </div>
+                        {/* Master Bedroom */}
+            <div
+              className="
+                flex
+                h-full
+                flex-col
+                rounded-2xl
+                border
+                border-[#EFE7DE]
+                bg-[#FCFAF8]
+                p-6
+                transition-all
+                duration-300
+                hover:bg-[#F8F4EF]
+                hover:shadow-md
+                hover:-translate-y-1
+              "
+            >
+              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
+                <BedDouble className="h-5 w-5" />
+                Master Bedroom
+              </h3>
+
+              <ul className="space-y-1">
+                {[
+                  "Bed",
+                  "Bedside Table",
+                  "Wardrobe",
+                  "Dressing Table",
+                  "Chair",
+                  "Decorative Wall Panel",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="
+                      group
+                      flex
+                      items-center
+                      gap-3
+                      rounded-lg
+                      px-2
+                      py-1.5
+                      text-[14px]
+                      transition-all
+                      duration-200
+                      hover:bg-[#F8F4EF]
+                      hover:translate-x-1
+                    "
+                  >
+                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                  FROM
+                </span>
+
+                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+                  90M
+                </span>
+
+                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                  VNĐ
+                </span>
+              </div>
+            </div>
+
+            {/* Second Bedroom */}
+            <div
+              className="
+                flex
+                h-full
+                flex-col
+                rounded-2xl
+                border
+                border-[#EFE7DE]
+                bg-[#FCFAF8]
+                p-6
+                transition-all
+                duration-300
+                hover:bg-[#F8F4EF]
+                hover:shadow-md
+                hover:-translate-y-1
+              "
+            >
+              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
+                <BedDouble className="h-5 w-5" />
+                Second Bedroom
+              </h3>
+
+              <ul className="space-y-1">
+                {[
+                  "Bed",
+                  "Bedside Table",
+                  "Wardrobe",
+                  "Dressing Table",
+                  "Chair",
+                  "Decorative Wall Panel",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="
+                      group
+                      flex
+                      items-center
+                      gap-3
+                      rounded-lg
+                      px-2
+                      py-1.5
+                      text-[14px]
+                      transition-all
+                      duration-200
+                      hover:bg-[#F8F4EF]
+                      hover:translate-x-1
+                    "
+                  >
+                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                  FROM
+                </span>
+
+                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+                  90M
+                </span>
+
+                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                  VNĐ
+                </span>
+              </div>
+            </div>
+                        {/* Interior Finish */}
+            <div
+              className="
+                flex
+                h-full
+                flex-col
+                rounded-2xl
+                border
+                border-[#EFE7DE]
+                bg-[#FCFAF8]
+                p-6
+                transition-all
+                duration-300
+                hover:bg-[#F8F4EF]
+                hover:shadow-md
+                hover:-translate-y-1
+              "
+            >
+              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
+                <Home className="h-5 w-5" />
+                Interior Finish
+              </h3>
+
+              <ul className="space-y-1">
+                {[
+                  "Flooring",
+                  "Skirting",
+                  "Wall Painting",
+                  "Electrical Wiring",
+                  "LED Lighting",
+                  "Downlights",
+                  "Interior Doors",
+                ].map((item) => (
+                  <li
+                    key={item}
+                    className="
+                      group
+                      flex
+                      items-center
+                      gap-3
+                      rounded-lg
+                      px-2
+                      py-1.5
+                      text-[14px]
+                      transition-all
+                      duration-200
+                      hover:bg-[#F8F4EF]
+                      hover:translate-x-1
+                    "
+                  >
+                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
+                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                  FROM
+                </span>
+
+                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+                  90M
+                </span>
+
+                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                  VNĐ
+                </span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
     </div>
   );
-}
-
-function languageLabel(t: any) {
-  return t?.modelPlans?.condoA ?? "Condo A";
-}
