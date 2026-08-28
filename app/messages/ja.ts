@@ -689,7 +689,61 @@ hideSpecification: "仕様を閉じる",
     "ダウンライト（3色切替・Panasonic）",
     "室内ドア（MDF・3本ライン）",
   ],
+villa: {
+  kitchenDining: {
+    title: "キッチン・ダイニング",
+    items: [],
+    price: "328,000,000 VNĐ",
+  },
 
+  living: {
+    title: "リビング",
+    items: [],
+    price: "223,300,000 VNĐ",
+  },
+
+  livingVipEntertainment: {
+    title: "VIPリビング・エンターテインメント",
+    items: [],
+    price: "645,500,000 VNĐ",
+  },
+
+  decorativeStorage: {
+    title: "造作収納",
+    items: [],
+    price: "61,700,000 VNĐ",
+  },
+
+  masterBedroom: {
+    title: "マスターベッドルーム",
+    items: [],
+    price: "219,200,000 VNĐ",
+  },
+
+  smallBedroom: {
+    title: "子供部屋",
+    items: [],
+    price: "177,700,000 VNĐ",
+  },
+
+  bathroomWc: {
+    title: "バスルーム・トイレ",
+    items: [],
+    price: "257,000,000 VNĐ",
+  },
+
+  laundry: {
+    title: "ランドリー",
+    items: [],
+    price: "132,200,000 VNĐ",
+  },
+
+  roughCompletionFinishing: {
+    title: "仕上げ工事",
+    items: [],
+    price: "839,000,000 VNĐ",
+  },
+},
   interiorFinishPrice: "481,200,000 VNĐ",
 },
 
@@ -764,11 +818,12 @@ hideSpecification: "仕様を閉じる",
   estimatedCost: "859.381.000 VNĐ",
 },
     {
-      label: "PLAN 03",
-      name: "Villa Residence",
+  label: "PLAN 03",
+  name: "Villa Residence",
 
-      image: "/images/modelplans/villa/main.jpg",
-       gallery: [
+  image: "/images/modelplans/villa/main.jpg",
+
+  gallery: [
     "/images/modelplans/villa/12.jpg",
     "/images/modelplans/villa/01.jpg",
     "/images/modelplans/villa/02.jpg",
@@ -783,21 +838,21 @@ hideSpecification: "仕様を閉じる",
     "/images/modelplans/villa/11.jpg",
   ],
 
-      area: "--㎡",
+  area: "180㎡",
 
-      unitPrice: "-- VNĐ /㎡",
+  unitPrice: "16,020,000 VNĐ /㎡",
 
-      grade: "Luxury",
+  grade: "Luxury",
 
-      specifications: [
-        "天然木",
-        "造作家具",
-        "間接照明",
-        "和モダン",
-      ],
+  specifications: [
+    "天然木",
+    "造作家具",
+    "間接照明",
+    "和モダン",
+  ],
 
-      estimatedCost: "-- VNĐ",
-    },
+  estimatedCost: "2,883,600,000 VNĐ",
+},
   ],
 },
      group: {

@@ -725,6 +725,61 @@ condoB: {
 
   interiorFinishPrice: "481.200.000 VNĐ",
 },
+villa: {
+  kitchenDining: {
+    title: "Bếp & Phòng ăn",
+    items: [],
+    price: "328.000.000 VNĐ",
+  },
+
+  living: {
+    title: "Phòng khách",
+    items: [],
+    price: "223.300.000 VNĐ",
+  },
+
+  livingVipEntertainment: {
+    title: "Phòng khách VIP & Giải trí",
+    items: [],
+    price: "645.500.000 VNĐ",
+  },
+
+  decorativeStorage: {
+    title: "Tủ lưu trữ trang trí",
+    items: [],
+    price: "61.700.000 VNĐ",
+  },
+
+  masterBedroom: {
+    title: "Phòng ngủ Master",
+    items: [],
+    price: "219.200.000 VNĐ",
+  },
+
+  smallBedroom: {
+    title: "Phòng ngủ nhỏ",
+    items: [],
+    price: "177.700.000 VNĐ",
+  },
+
+  bathroomWc: {
+    title: "Phòng tắm & WC",
+    items: [],
+    price: "257.000.000 VNĐ",
+  },
+
+  laundry: {
+    title: "Phòng giặt",
+    items: [],
+    price: "132.200.000 VNĐ",
+  },
+
+  roughCompletionFinishing: {
+    title: "Hoàn thiện",
+    items: [],
+    price: "839.000.000 VNĐ",
+  },
+},
   notice:
     "※ Chi phí chỉ mang tính tham khảo. Giá thực tế sẽ thay đổi tùy theo thiết kế, vật liệu và điều kiện thi công.",
 
@@ -796,42 +851,42 @@ condoB: {
 
   estimatedCost: "859.381.000 VNĐ",
 },
-    {
-      label: "PLAN 03",
-      name: "Villa Residence",
+   {
+  label: "PLAN 03",
+  name: "Villa Residence",
 
-      image: "/images/modelplans/villa/main.jpg",
-      gallery: [
-        "/images/modelplans/villa/12.jpg",
-        "/images/modelplans/villa/01.jpg",
-        "/images/modelplans/villa/02.jpg",
-        "/images/modelplans/villa/03.jpg",
-        "/images/modelplans/villa/04.jpg",
-        "/images/modelplans/villa/05.jpg",
-        "/images/modelplans/villa/06.jpg",
-        "/images/modelplans/villa/07.jpg",
-        "/images/modelplans/villa/08.jpg",
-        "/images/modelplans/villa/09.jpg",
-        "/images/modelplans/villa/10.jpg",
-        "/images/modelplans/villa/11.jpg",
-      ],
+  image: "/images/modelplans/villa/main.jpg",
 
-      area: "--㎡",
+  gallery: [
+    "/images/modelplans/villa/12.jpg",
+    "/images/modelplans/villa/01.jpg",
+    "/images/modelplans/villa/02.jpg",
+    "/images/modelplans/villa/03.jpg",
+    "/images/modelplans/villa/04.jpg",
+    "/images/modelplans/villa/05.jpg",
+    "/images/modelplans/villa/06.jpg",
+    "/images/modelplans/villa/07.jpg",
+    "/images/modelplans/villa/08.jpg",
+    "/images/modelplans/villa/09.jpg",
+    "/images/modelplans/villa/10.jpg",
+    "/images/modelplans/villa/11.jpg",
+  ],
 
-      unitPrice: "-- VNĐ /㎡",
+  area: "180㎡",
 
-      grade: "Luxury",
+  unitPrice: "16.020.000 VNĐ /㎡",
 
-      specifications: [
-        "Gỗ tự nhiên",
-        "Nội thất đóng",
-        "Đèn hắt",
-        "Phong cách Nhật",
-      ],
+  grade: "Luxury",
 
-      estimatedCost: "-- VNĐ",
-    },
+  specifications: [
+    "Gỗ tự nhiên",
+    "Nội thất đóng",
+    "Đèn hắt",
+    "Phong cách Nhật",
+  ],
 
+  estimatedCost: "2.883.600.000 VNĐ",
+},
   ],
 },
   group: {

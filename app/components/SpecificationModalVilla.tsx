@@ -4,8 +4,11 @@ import {
   Check,
   ChefHat,
   Sofa,
-  Bath,
+  Tv,
+  Archive,
   BedDouble,
+  Bath,
+  WashingMachine,
   Home,
 } from "lucide-react";
 
@@ -15,26 +18,75 @@ type SpecificationModalProps = {
   t: any;
 };
 
-export default function SpecificationModal({
+export default function SpecificationModalVilla({
   open,
   onClose,
   t,
 }: SpecificationModalProps) {
   if (!open) return null;
 
+  const sections = [
+    {
+      key: "kitchenDining",
+      icon: ChefHat,
+    },
+    {
+      key: "living",
+      icon: Sofa,
+    },
+    {
+      key: "livingVipEntertainment",
+      icon: Tv,
+    },
+    {
+      key: "decorativeStorage",
+      icon: Archive,
+    },
+    {
+      key: "masterBedroom",
+      icon: BedDouble,
+    },
+    {
+      key: "smallBedroom",
+      icon: BedDouble,
+    },
+    {
+      key: "bathroomWc",
+      icon: Bath,
+    },
+    {
+      key: "laundry",
+      icon: WashingMachine,
+    },
+    {
+      key: "roughCompletionFinishing",
+      icon: Home,
+    },
+  ];
+
   return (
     <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-md p-3 md:p-6"
+      className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 p-3 backdrop-blur-md md:p-6"
       onClick={onClose}
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="w-[96vw] md:w-full max-w-6xl overflow-hidden rounded-3xl bg-white/95 shadow-[0_25px_80px_rgba(0,0,0,0.18)] backdrop-blur-xl animate-[zoomIn_.25s_ease]"
+        className="
+          w-[96vw]
+          md:w-full
+          max-w-6xl
+          overflow-hidden
+          rounded-3xl
+          bg-white/95
+          shadow-[0_25px_80px_rgba(0,0,0,0.18)]
+          backdrop-blur-xl
+          animate-[zoomIn_.25s_ease]
+        "
       >
         {/* Header */}
         <div className="relative border-b border-[#EFEAE4] px-8 py-6">
-
           <button
+            type="button"
             onClick={onClose}
             className="
               absolute
@@ -54,436 +106,184 @@ export default function SpecificationModal({
             <span className="text-[28px] leading-none">×</span>
           </button>
 
-          <h2 className="text-center text-2xl md:text-4xl font-bold tracking-tight text-[#2B2520]">
+          <p className="text-center text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B8895A]">
+            Villa Residence
+          </p>
+
+          <h2 className="mt-2 text-center text-2xl font-bold tracking-tight text-[#2B2520] md:text-4xl">
             {t.modelPlans.specification}
           </h2>
         </div>
 
         {/* Body */}
         <div className="max-h-[75vh] overflow-y-auto p-5 md:p-12">
-
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-8">
+            {sections.map((section) => {
+              const data = t.modelPlans.villa[section.key];
+              const Icon = section.icon;
 
-            {/* Kitchen */}
-            <div
-              className="
-                flex
-                h-full
-                flex-col
-                rounded-2xl
-                border
-                border-[#EFE7DE]
-                bg-[#FCFAF8]
-                p-6
-                transition-all
-                duration-300
-                hover:bg-[#F8F4EF]
-                hover:shadow-md
-                hover:-translate-y-1
-              "
-            >
-              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
-                <ChefHat className="h-5 w-5" />
-                Kitchen
-              </h3>
-
-              <ul className="space-y-1">
-                {[
-                  "Shoe Cabinet",
-                  "Refrigerator Cabinet",
-                  "Upper & Lower Cabinets",
-                  "Artificial Stone Countertop",
-                  "Glass Backsplash",
-                  "GARIS Storage System",
-                  "Range Hood",
-                  "IH Cooktop",
-                  "Sink & Faucet",
-                ].map((item) => (
-                  <li
-                    key={item}
+              return (
+                <div
+                  key={section.key}
+                  className="
+                    flex
+                    h-full
+                    flex-col
+                    rounded-2xl
+                    border
+                    border-[#EFE7DE]
+                    bg-[#FCFAF8]
+                    p-6
+                    transition-all
+                    duration-300
+                    hover:bg-[#F8F4EF]
+                    hover:shadow-md
+                    hover:-translate-y-1
+                  "
+                >
+                  <h3
                     className="
-                      group
+                      mb-5
                       flex
                       items-center
-                      gap-3
-                      rounded-lg
-                      px-2
-                      py-1.5
-                      text-[14px]
-                      transition-all
-                      duration-200
-                      hover:bg-[#F8F4EF]
-                      hover:translate-x-1
+                      gap-2
+                      border-b
+                      border-[#ECE4DA]
+                      pb-3
+                      text-lg
+                      font-semibold
+                      text-[#B8895A]
                     "
                   >
-                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
+                    <Icon className="h-5 w-5" />
+                    {data.title}
+                  </h3>
 
-              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
-                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
-                  FROM
-                </span>
+                  <ul className="space-y-1">
+                    {data.items.map((item: string) => (
+                      <li
+                        key={item}
+                        className="
+                          group
+                          flex
+                          items-center
+                          gap-3
+                          rounded-lg
+                          px-2
+                          py-1.5
+                          text-[14px]
+                          text-[#555]
+                          transition-all
+                          duration-200
+                          hover:bg-[#F8F4EF]
+                          hover:translate-x-1
+                        "
+                      >
+                        <Check
+                          className="
+                            h-4
+                            w-4
+                            shrink-0
+                            text-[#B8895A]
+                            transition-transform
+                            duration-200
+                            group-hover:scale-125
+                          "
+                        />
 
-                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                  90M
-                </span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
 
-                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
-                  VNĐ
-                </span>
-              </div>
+                  {/* Category Price */}
+                  <div
+                    className="
+                      mt-auto
+                      flex
+                      items-end
+                      justify-end
+                      gap-1
+                      border-t
+                      border-[#EFE7DE]
+                      pt-4
+                    "
+                  >
+                    <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                      {t.modelPlans.from}
+                    </span>
+
+                    <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
+                      {data.price.replace(" VNĐ", "")}
+                    </span>
+
+                    <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                      VNĐ
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Reference Price */}
+          <div
+            className="
+              mt-8
+              rounded-2xl
+              border
+              border-[#EFE7DE]
+              bg-[#F7F3EE]
+              px-6
+              py-6
+              text-center
+            "
+          >
+            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B8895A]">
+              {t.modelPlans.referencePrice}
+            </p>
+
+            <div className="mt-3 flex items-end justify-center gap-2">
+              <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                {t.modelPlans.from}
+              </span>
+
+              <span className="text-[30px] font-extrabold leading-none text-[#B8895A] md:text-[36px]">
+                2,883.6M
+              </span>
+
+              <span className="pb-[3px] text-[13px] font-medium text-[#A99B8D]">
+                VNĐ
+              </span>
             </div>
-                        {/* Living */}
-            <div
+
+            <p className="mt-3 text-[12px] text-[#999]">
+              {t.modelPlans.excludingVat}
+            </p>
+          </div>
+
+          {/* Close Button */}
+          <div className="mt-6 flex justify-center">
+            <button
+              type="button"
+              onClick={onClose}
               className="
-                flex
-                h-full
-                flex-col
-                rounded-2xl
+                rounded-full
                 border
-                border-[#EFE7DE]
-                bg-[#FCFAF8]
-                p-6
+                border-[#B8895A]
+                px-8
+                py-3
+                text-[14px]
+                font-medium
+                text-[#B8895A]
                 transition-all
                 duration-300
-                hover:bg-[#F8F4EF]
-                hover:shadow-md
-                hover:-translate-y-1
+                hover:bg-[#FAF5F0]
+                hover:shadow
               "
             >
-              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
-                <Sofa className="h-5 w-5" />
-                Living
-              </h3>
-
-              <ul className="space-y-1">
-                {[
-                  "Sofa",
-                  "TV Cabinet",
-                  "Dining Table",
-                  "Dining Chairs",
-                ].map((item) => (
-                  <li
-                    key={item}
-                    className="
-                      group
-                      flex
-                      items-center
-                      gap-3
-                      rounded-lg
-                      px-2
-                      py-1.5
-                      text-[14px]
-                      transition-all
-                      duration-200
-                      hover:bg-[#F8F4EF]
-                      hover:translate-x-1
-                    "
-                  >
-                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
-                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
-                  FROM
-                </span>
-
-                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                  90M
-                </span>
-
-                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
-                  VNĐ
-                </span>
-              </div>
-            </div>
-
-            {/* Bathroom */}
-            <div
-              className="
-                flex
-                h-full
-                flex-col
-                rounded-2xl
-                border
-                border-[#EFE7DE]
-                bg-[#FCFAF8]
-                p-6
-                transition-all
-                duration-300
-                hover:bg-[#F8F4EF]
-                hover:shadow-md
-                hover:-translate-y-1
-              "
-            >
-              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
-                <Bath className="h-5 w-5" />
-                Bathroom
-              </h3>
-
-              <ul className="space-y-1">
-                {[
-                  "Vanity Cabinet",
-                  "Wash Basin",
-                  "Faucet",
-                  "Shower Set",
-                  "Toilet",
-                  "Wall Tiles",
-                  "Glass Shower Partition",
-                ].map((item) => (
-                  <li
-                    key={item}
-                    className="
-                      group
-                      flex
-                      items-center
-                      gap-3
-                      rounded-lg
-                      px-2
-                      py-1.5
-                      text-[14px]
-                      transition-all
-                      duration-200
-                      hover:bg-[#F8F4EF]
-                      hover:translate-x-1
-                    "
-                  >
-                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
-                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
-                  FROM
-                </span>
-
-                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                  90M
-                </span>
-
-                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
-                  VNĐ
-                </span>
-              </div>
-            </div>
-                        {/* Master Bedroom */}
-            <div
-              className="
-                flex
-                h-full
-                flex-col
-                rounded-2xl
-                border
-                border-[#EFE7DE]
-                bg-[#FCFAF8]
-                p-6
-                transition-all
-                duration-300
-                hover:bg-[#F8F4EF]
-                hover:shadow-md
-                hover:-translate-y-1
-              "
-            >
-              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
-                <BedDouble className="h-5 w-5" />
-                Master Bedroom
-              </h3>
-
-              <ul className="space-y-1">
-                {[
-                  "Bed",
-                  "Bedside Table",
-                  "Wardrobe",
-                  "Dressing Table",
-                  "Chair",
-                  "Decorative Wall Panel",
-                ].map((item) => (
-                  <li
-                    key={item}
-                    className="
-                      group
-                      flex
-                      items-center
-                      gap-3
-                      rounded-lg
-                      px-2
-                      py-1.5
-                      text-[14px]
-                      transition-all
-                      duration-200
-                      hover:bg-[#F8F4EF]
-                      hover:translate-x-1
-                    "
-                  >
-                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
-                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
-                  FROM
-                </span>
-
-                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                  90M
-                </span>
-
-                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
-                  VNĐ
-                </span>
-              </div>
-            </div>
-
-            {/* Second Bedroom */}
-            <div
-              className="
-                flex
-                h-full
-                flex-col
-                rounded-2xl
-                border
-                border-[#EFE7DE]
-                bg-[#FCFAF8]
-                p-6
-                transition-all
-                duration-300
-                hover:bg-[#F8F4EF]
-                hover:shadow-md
-                hover:-translate-y-1
-              "
-            >
-              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
-                <BedDouble className="h-5 w-5" />
-                Second Bedroom
-              </h3>
-
-              <ul className="space-y-1">
-                {[
-                  "Bed",
-                  "Bedside Table",
-                  "Wardrobe",
-                  "Dressing Table",
-                  "Chair",
-                  "Decorative Wall Panel",
-                ].map((item) => (
-                  <li
-                    key={item}
-                    className="
-                      group
-                      flex
-                      items-center
-                      gap-3
-                      rounded-lg
-                      px-2
-                      py-1.5
-                      text-[14px]
-                      transition-all
-                      duration-200
-                      hover:bg-[#F8F4EF]
-                      hover:translate-x-1
-                    "
-                  >
-                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
-                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
-                  FROM
-                </span>
-
-                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                  90M
-                </span>
-
-                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
-                  VNĐ
-                </span>
-              </div>
-            </div>
-                        {/* Interior Finish */}
-            <div
-              className="
-                flex
-                h-full
-                flex-col
-                rounded-2xl
-                border
-                border-[#EFE7DE]
-                bg-[#FCFAF8]
-                p-6
-                transition-all
-                duration-300
-                hover:bg-[#F8F4EF]
-                hover:shadow-md
-                hover:-translate-y-1
-              "
-            >
-              <h3 className="mb-5 flex items-center gap-2 border-b border-[#ECE4DA] pb-3 text-lg font-semibold text-[#B8895A]">
-                <Home className="h-5 w-5" />
-                Interior Finish
-              </h3>
-
-              <ul className="space-y-1">
-                {[
-                  "Flooring",
-                  "Skirting",
-                  "Wall Painting",
-                  "Electrical Wiring",
-                  "LED Lighting",
-                  "Downlights",
-                  "Interior Doors",
-                ].map((item) => (
-                  <li
-                    key={item}
-                    className="
-                      group
-                      flex
-                      items-center
-                      gap-3
-                      rounded-lg
-                      px-2
-                      py-1.5
-                      text-[14px]
-                      transition-all
-                      duration-200
-                      hover:bg-[#F8F4EF]
-                      hover:translate-x-1
-                    "
-                  >
-                    <Check className="h-4 w-4 text-[#B8895A] transition-transform duration-200 group-hover:scale-125" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-auto flex items-end justify-end gap-1 border-t border-[#EFE7DE] pt-4">
-                <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
-                  FROM
-                </span>
-
-                <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                  90M
-                </span>
-
-                <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
-                  VNĐ
-                </span>
-              </div>
-            </div>
-
+              {t.modelPlans.hideSpecification}
+            </button>
           </div>
         </div>
       </div>
