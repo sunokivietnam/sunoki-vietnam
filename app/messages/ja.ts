@@ -597,6 +597,101 @@ hideSpecification: "仕様を閉じる",
       "室内ドア",
     ],
   },
+  condoB: {
+  kitchen: [
+    "造作収納キャビネット",
+    "下部キッチンキャビネット",
+    "上部キッチンキャビネット",
+    "冷蔵庫収納",
+    "キッチンカウンター（ホワイトマーブル）",
+    "6人用ダイニングテーブルセット",
+    "INAXタイル壁面",
+    "Malloca 3口IHクッキングヒーター",
+    "Malloca シンク",
+    "Malloca キッチン水栓",
+    "Malloca レンジフード",
+    "GARIS ナイフ・まな板・ボトル収納",
+    "GARIS キッチン収納",
+    "GARIS スパイスラック",
+    "GARIS ダストボックス",
+  ],
+
+  kitchenPrice: "127,679,000 VNĐ",
+
+  living: [
+    "3人掛けソファ",
+    "ソファテーブル",
+    "テレビキャビネット",
+    "テレビ壁面装飾",
+    "テレビ壁面パネル",
+    "テレビ壁面パネル（追加）",
+    "テレビ横装飾キャビネット",
+  ],
+
+  livingPrice: "56,126,000 VNĐ",
+
+  bathroom: [
+    "洗面台下キャビネット",
+    "ミラーキャビネット",
+    "INAX 電子便座付きトイレ",
+    "INAX 洗面ボウル",
+    "INAX 洗面水栓",
+    "INAX タイル壁面",
+  ],
+
+  bathroomPrice: "44,800,000 VNĐ",
+
+  laundry: [
+    "洗濯室キャビネット",
+    "洗面台下キャビネット",
+    "ミラーキャビネット",
+    "INAX タイル壁面",
+  ],
+
+  laundryPrice: "31,860,000 VNĐ",
+
+  masterBedroom: [
+    "ベッド",
+    "ベッドサイドテーブル",
+    "ヘッドボード壁面",
+    "ドレッシングテーブル",
+    "ドレッシングチェア",
+    "LEDミラー",
+    "テレビキャビネット",
+    "テレビ背面壁面",
+    "ワードローブ",
+    "ワードローブ補強材",
+    "収納キャビネット",
+  ],
+
+  masterBedroomPrice: "76,456,000 VNĐ",
+
+  smallBedroom: [
+    "ベッド",
+    "ベッドサイドテーブル",
+    "ヘッドボード壁面",
+    "デスク",
+    "デスクチェア",
+    "ワードローブ",
+    "テレビキャビネット",
+    "テレビ背面壁面",
+  ],
+
+  smallBedroomPrice: "41,260,000 VNĐ",
+
+  interiorFinish: [
+    "天然木フローリング（マンゴー材）",
+    "幅木・見切り材",
+    "日本式壁紙",
+    "電気配線・移設",
+    "LED間接照明",
+    "LED電源・タッチセンサー",
+    "ダウンライト（3色切替・Panasonic）",
+    "室内ドア（MDF・3本ライン）",
+  ],
+
+  interiorFinishPrice: "481,200,000 VNĐ",
+},
 
   notice:
     "※掲載価格は参考価格です。設計内容・仕様・施工条件により変動します。",
@@ -638,34 +733,36 @@ hideSpecification: "仕様を閉じる",
   estimatedCost: "212,554,500 VNĐ",
 },
     {
-      label: "PLAN 02",
-      name: "Condo B",
+  label: "PLAN 02",
+  name: "Condo B",
 
-      image: "/images/modelplans/condo-b/main.jpg",
-gallery: [
-  "/images/modelplans/condo-b/01.jpg",
-  "/images/modelplans/condo-b/02.jpg",
-  "/images/modelplans/condo-b/03.jpg",
-  "/images/modelplans/condo-b/04.jpg",
-  "/images/modelplans/condo-b/05.jpg",
-  "/images/modelplans/condo-b/06.jpg",
-  "/images/modelplans/condo-b/07.jpg",
-],
-      area: "--㎡",
+  image: "/images/modelplans/condo-b/main.jpg",
 
-      unitPrice: "-- VNĐ /㎡",
+  gallery: [
+    "/images/modelplans/condo-b/01.jpg",
+    "/images/modelplans/condo-b/02.jpg",
+    "/images/modelplans/condo-b/03.jpg",
+    "/images/modelplans/condo-b/04.jpg",
+    "/images/modelplans/condo-b/05.jpg",
+    "/images/modelplans/condo-b/06.jpg",
+    "/images/modelplans/condo-b/07.jpg",
+  ],
 
-      grade: "Premium",
+  area: "100㎡",
 
-      specifications: [
-        "ウォールナット",
-        "キッチン",
-        "照明",
-        "家具",
-      ],
+  unitPrice: "約8,594,000 VNĐ /㎡",
 
-      estimatedCost: "-- VNĐ",
-    },
+  grade: "Premium",
+
+  specifications: [
+    "ウォールナット",
+    "キッチン",
+    "照明",
+    "家具",
+  ],
+
+  estimatedCost: "859.381.000 VNĐ",
+},
     {
       label: "PLAN 03",
       name: "Villa Residence",

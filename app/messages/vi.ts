@@ -630,7 +630,101 @@ hideSpecification: "Ẩn thông số",
       "Cửa nội thất",
     ],
   },
+condoB: {
+  kitchen: [
+    "Tủ giày",
+    "Tủ lạnh âm tủ",
+    "Tủ bếp trên và dưới",
+    "Tủ lưu trữ bếp",
+    "Mặt bàn bếp đá nhân tạo",
+    "Bộ bàn ăn 6 người",
+    "Gạch ốp tường INAX",
+    "Bếp từ 3 vùng nấu Malloca",
+    "Chậu rửa Malloca",
+    "Vòi nước bếp Malloca",
+    "Máy hút mùi Malloca",
+    "Kệ dao, thớt và chai lọ GARIS",
+    "Hệ thống lưu trữ bếp GARIS",
+    "Kệ gia vị GARIS",
+    "Thùng rác âm tủ GARIS",
+  ],
 
+  kitchenPrice: "127.679.000 VNĐ",
+
+  living: [
+    "Sofa 3 chỗ",
+    "Bàn sofa",
+    "Tủ TV",
+    "Trang trí tường TV",
+    "Tấm ốp tường TV",
+    "Tấm ốp tường TV bổ sung",
+    "Tủ trang trí bên TV",
+  ],
+
+  livingPrice: "56.126.000 VNĐ",
+
+  bathroom: [
+    "Tủ lavabo",
+    "Tủ gương",
+    "Bồn cầu INAX kèm nắp điện tử",
+    "Chậu rửa INAX",
+    "Vòi lavabo INAX",
+    "Gạch ốp tường INAX",
+  ],
+
+  bathroomPrice: "44.800.000 VNĐ",
+
+  laundry: [
+    "Tủ phòng giặt",
+    "Tủ lavabo",
+    "Tủ gương",
+    "Gạch ốp tường INAX",
+  ],
+
+  laundryPrice: "31.860.000 VNĐ",
+
+  masterBedroom: [
+    "Giường",
+    "Bàn đầu giường",
+    "Tường đầu giường",
+    "Bàn trang điểm",
+    "Ghế trang điểm",
+    "Gương LED",
+    "Tủ TV",
+    "Tường phía sau TV",
+    "Tủ quần áo",
+    "Vật liệu gia cố tủ quần áo",
+    "Tủ lưu trữ",
+  ],
+
+  masterBedroomPrice: "76.456.000 VNĐ",
+
+  smallBedroom: [
+    "Giường",
+    "Bàn đầu giường",
+    "Tường đầu giường",
+    "Bàn làm việc",
+    "Ghế làm việc",
+    "Tủ quần áo",
+    "Tủ TV",
+    "Tường phía sau TV",
+  ],
+
+  smallBedroomPrice: "41.260.000 VNĐ",
+
+  interiorFinish: [
+    "Sàn gỗ tự nhiên (gỗ xoài)",
+    "Len chân tường và nẹp hoàn thiện",
+    "Giấy dán tường Nhật Bản",
+    "Hệ thống điện và di dời",
+    "Đèn LED chiếu sáng gián tiếp",
+    "Nguồn LED và cảm biến chạm",
+    "Đèn downlight (3 chế độ màu, Panasonic)",
+    "Cửa phòng (MDF, 3 đường kẻ)",
+  ],
+
+  interiorFinishPrice: "481.200.000 VNĐ",
+},
   notice:
     "※ Chi phí chỉ mang tính tham khảo. Giá thực tế sẽ thay đổi tùy theo thiết kế, vật liệu và điều kiện thi công.",
 
@@ -672,34 +766,36 @@ hideSpecification: "Ẩn thông số",
 },
 
     {
-      label: "PLAN 02",
-      name: "Condo B",
+  label: "PLAN 02",
+  name: "Condo B",
 
-      image: "/images/modelplans/condo-b/main.jpg",
-gallery: [
-  "/images/modelplans/condo-b/01.jpg",
-  "/images/modelplans/condo-b/02.jpg",
-  "/images/modelplans/condo-b/03.jpg",
-  "/images/modelplans/condo-b/04.jpg",
-  "/images/modelplans/condo-b/05.jpg",
-  "/images/modelplans/condo-b/06.jpg",
-  "/images/modelplans/condo-b/07.jpg",
-],
-      area: "--㎡",
+  image: "/images/modelplans/condo-b/main.jpg",
 
-      unitPrice: "-- VNĐ /㎡",
+  gallery: [
+    "/images/modelplans/condo-b/01.jpg",
+    "/images/modelplans/condo-b/02.jpg",
+    "/images/modelplans/condo-b/03.jpg",
+    "/images/modelplans/condo-b/04.jpg",
+    "/images/modelplans/condo-b/05.jpg",
+    "/images/modelplans/condo-b/06.jpg",
+    "/images/modelplans/condo-b/07.jpg",
+  ],
 
-      grade: "Premium",
+  area: "100㎡",
 
-      specifications: [
-        "Gỗ óc chó",
-        "Bếp",
-        "Chiếu sáng",
-        "Nội thất",
-      ],
+  unitPrice: "Khoảng 8.594.000 VNĐ /㎡",
 
-      estimatedCost: "-- VNĐ",
-    },
+  grade: "Premium",
+
+  specifications: [
+    "Gỗ óc chó",
+    "Bếp",
+    "Chiếu sáng",
+    "Nội thất",
+  ],
+
+  estimatedCost: "859.381.000 VNĐ",
+},
     {
       label: "PLAN 03",
       name: "Villa Residence",
