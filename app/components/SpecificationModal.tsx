@@ -489,3 +489,4 @@ export default function SpecificationModal({
       </div>
     </div>
   );
+}
