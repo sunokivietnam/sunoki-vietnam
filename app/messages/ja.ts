@@ -689,6 +689,9 @@ hideSpecification: "仕様を閉じる",
     "ダウンライト（3色切替・Panasonic）",
     "室内ドア（MDF・3本ライン）",
   ],
+  interiorFinishPrice: "81,200,000 VNĐ",
+   },
+
 villa: {
   kitchenDining: {
     title: "キッチン・ダイニング",
@@ -743,8 +746,6 @@ villa: {
     items: [],
     price: "839,000,000 VNĐ",
   },
-},
-  interiorFinishPrice: "481,200,000 VNĐ",
 },
 
   notice:
