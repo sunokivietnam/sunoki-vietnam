@@ -1,18 +1,18 @@
 "use client";
 
 import {
-  Check,
   ChefHat,
   Sofa,
   Tv,
   Archive,
   BedDouble,
+  Baby,
   Bath,
   WashingMachine,
   Home,
 } from "lucide-react";
 
-type SpecificationModalProps = {
+type SpecificationModalVillaProps = {
   open: boolean;
   onClose: () => void;
   t: any;
@@ -22,45 +22,56 @@ export default function SpecificationModalVilla({
   open,
   onClose,
   t,
-}: SpecificationModalProps) {
+}: SpecificationModalVillaProps) {
   if (!open) return null;
+
+  const villa = t.modelPlans.villa;
 
   const sections = [
     {
-      key: "kitchenDining",
+      title: villa.kitchenDining.title,
       icon: ChefHat,
+      price: villa.kitchenDining.price,
     },
     {
-      key: "living",
+      title: villa.living.title,
       icon: Sofa,
+      price: villa.living.price,
     },
     {
-      key: "livingVipEntertainment",
+      title: villa.livingVipEntertainment.title,
       icon: Tv,
+      price: villa.livingVipEntertainment.price,
     },
     {
-      key: "decorativeStorage",
+      title: villa.decorativeStorage.title,
       icon: Archive,
+      price: villa.decorativeStorage.price,
     },
     {
-      key: "masterBedroom",
+      title: villa.masterBedroom.title,
       icon: BedDouble,
+      price: villa.masterBedroom.price,
     },
     {
-      key: "smallBedroom",
-      icon: BedDouble,
+      title: villa.smallBedroom.title,
+      icon: Baby,
+      price: villa.smallBedroom.price,
     },
     {
-      key: "bathroomWc",
+      title: villa.bathroomWc.title,
       icon: Bath,
+      price: villa.bathroomWc.price,
     },
     {
-      key: "laundry",
+      title: villa.laundry.title,
       icon: WashingMachine,
+      price: villa.laundry.price,
     },
     {
-      key: "roughCompletionFinishing",
+      title: villa.roughCompletionFinishing.title,
       icon: Home,
+      price: villa.roughCompletionFinishing.price,
     },
   ];
 
@@ -73,7 +84,6 @@ export default function SpecificationModalVilla({
         onClick={(e) => e.stopPropagation()}
         className="
           w-[96vw]
-          md:w-full
           max-w-6xl
           overflow-hidden
           rounded-3xl
@@ -84,14 +94,15 @@ export default function SpecificationModalVilla({
         "
       >
         {/* Header */}
-        <div className="relative border-b border-[#EFEAE4] px-8 py-6">
+        <div className="relative border-b border-[#EFEAE4] px-6 py-6 md:px-8">
           <button
             type="button"
             onClick={onClose}
+            aria-label="Close"
             className="
               absolute
-              right-5
-              top-5
+              right-4
+              top-4
               flex
               h-10
               w-10
@@ -101,6 +112,8 @@ export default function SpecificationModalVilla({
               transition
               hover:bg-[#F5F1EC]
               hover:text-[#B8895A]
+              md:right-5
+              md:top-5
             "
           >
             <span className="text-[28px] leading-none">×</span>
@@ -119,15 +132,14 @@ export default function SpecificationModalVilla({
         <div className="max-h-[75vh] overflow-y-auto p-5 md:p-12">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-8">
             {sections.map((section) => {
-              const data = t.modelPlans.villa[section.key];
               const Icon = section.icon;
 
               return (
                 <div
-                  key={section.key}
+                  key={section.title}
                   className="
                     flex
-                    h-full
+                    min-h-[180px]
                     flex-col
                     rounded-2xl
                     border
@@ -136,14 +148,13 @@ export default function SpecificationModalVilla({
                     p-6
                     transition-all
                     duration-300
+                    hover:-translate-y-1
                     hover:bg-[#F8F4EF]
                     hover:shadow-md
-                    hover:-translate-y-1
                   "
                 >
                   <h3
                     className="
-                      mb-5
                       flex
                       items-center
                       gap-2
@@ -156,68 +167,19 @@ export default function SpecificationModalVilla({
                     "
                   >
                     <Icon className="h-5 w-5" />
-                    {data.title}
+                    {section.title}
                   </h3>
 
-                  <ul className="space-y-1">
-                    {data.items.map((item: string) => (
-                      <li
-                        key={item}
-                        className="
-                          group
-                          flex
-                          items-center
-                          gap-3
-                          rounded-lg
-                          px-2
-                          py-1.5
-                          text-[14px]
-                          text-[#555]
-                          transition-all
-                          duration-200
-                          hover:bg-[#F8F4EF]
-                          hover:translate-x-1
-                        "
-                      >
-                        <Check
-                          className="
-                            h-4
-                            w-4
-                            shrink-0
-                            text-[#B8895A]
-                            transition-transform
-                            duration-200
-                            group-hover:scale-125
-                          "
-                        />
-
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  {/* Category Price */}
-                  <div
-                    className="
-                      mt-auto
-                      flex
-                      items-end
-                      justify-end
-                      gap-1
-                      border-t
-                      border-[#EFE7DE]
-                      pt-4
-                    "
-                  >
-                    <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+                  <div className="mt-auto border-t border-[#ECE4DA] pt-5 text-right">
+                    <span className="mr-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#B3A08D]">
                       {t.modelPlans.from}
                     </span>
 
                     <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                      {data.price.replace(" VNĐ", "")}
+                      {section.price.replace(" VNĐ", "")}
                     </span>
 
-                    <span className="pb-[2px] text-[13px] font-medium text-[#A99B8D]">
+                    <span className="ml-1 text-[12px] font-medium text-[#A99B8D]">
                       VNĐ
                     </span>
                   </div>
@@ -226,7 +188,7 @@ export default function SpecificationModalVilla({
             })}
           </div>
 
-          {/* Reference Price */}
+          {/* Total Reference Price */}
           <div
             className="
               mt-8
@@ -249,7 +211,7 @@ export default function SpecificationModalVilla({
               </span>
 
               <span className="text-[30px] font-extrabold leading-none text-[#B8895A] md:text-[36px]">
-                2,883.6M
+                2,884.6M
               </span>
 
               <span className="pb-[3px] text-[13px] font-medium text-[#A99B8D]">
