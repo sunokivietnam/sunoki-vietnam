@@ -568,7 +568,69 @@ closeGallery: "Đóng hình ảnh",
 
 viewSpecification: "Xem thông số",
 hideSpecification: "Ẩn thông số",
+  referencePrice: "Giá tham khảo",
+  from: "TỪ",
+  excludingVat: "Chưa bao gồm VAT",
 
+  condoA: {
+    kitchen: [
+      "Tủ giày",
+      "Tủ lạnh",
+      "Tủ bếp trên & dưới",
+      "Mặt đá nhân tạo",
+      "Kính ốp bếp",
+      "Hệ thống lưu trữ GARIS",
+      "Máy hút mùi",
+      "Bếp từ",
+      "Chậu rửa & vòi nước",
+    ],
+
+    living: [
+      "Sofa",
+      "Bàn ăn & ghế ăn",
+      "Tủ TV",
+    ],
+
+    bathroom: [
+      "Tủ lavabo",
+      "Chậu rửa",
+      "Vòi nước",
+      "Bộ sen tắm",
+      "Bồn cầu",
+      "Gạch ốp tường",
+      "Vách kính phòng tắm",
+    ],
+
+    masterBedroom: [
+      "Giường",
+      "Bàn đầu giường",
+      "Tủ quần áo",
+      "Bàn trang điểm",
+      "Ghế",
+      "Tấm ốp tường trang trí",
+    ],
+
+    secondBedroom: [
+      "Giường",
+      "Bàn đầu giường",
+      "Tấm ốp tường trang trí",
+      "Tủ quần áo",
+      "Bàn trang điểm",
+      "Ghế",
+    ],
+
+    interiorFinish: [
+      "Sàn",
+      "Len chân tường",
+      "Sơn tường",
+      "Hệ thống điện",
+      "Đèn LED hắt",
+      "Nguồn LED & cảm biến chạm",
+      "Đèn downlight",
+      "Cửa nội thất",
+    ],
+  },
+  
   notice:
     "※ Chi phí chỉ mang tính tham khảo. Giá thực tế sẽ thay đổi tùy theo thiết kế, vật liệu và điều kiện thi công.",
 
