@@ -27,37 +27,54 @@ export default function SpecificationModal({
       title: "Kitchen",
       icon: ChefHat,
       items: t.modelPlans.condoA.kitchen,
+      price: "55.72M",
     },
     {
       title: "Living",
       icon: Sofa,
       items: t.modelPlans.condoA.living,
+      price: "19.06M",
     },
     {
       title: "Bathroom",
       icon: Bath,
       items: t.modelPlans.condoA.bathroom,
+      price: "14.05M",
     },
     {
       title: "Master Bedroom",
       icon: BedDouble,
       items: t.modelPlans.condoA.masterBedroom,
+      price: "35.88M",
     },
     {
       title: "Second Bedroom",
       icon: BedDouble,
       items: t.modelPlans.condoA.secondBedroom,
+      price: "24.17M",
     },
     {
       title: "Interior Finish",
       icon: Home,
       items: t.modelPlans.condoA.interiorFinish,
+      price: "63.68M",
     },
   ];
 
   return (
     <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 p-3 backdrop-blur-md md:p-6"
+      className="
+        fixed
+        inset-0
+        z-[9999]
+        flex
+        items-center
+        justify-center
+        bg-black/40
+        p-3
+        backdrop-blur-md
+        md:p-6
+      "
       onClick={onClose}
     >
       <div
@@ -99,11 +116,30 @@ export default function SpecificationModal({
             <span className="text-[28px] leading-none">×</span>
           </button>
 
-          <p className="text-center text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B8895A]">
+          <p
+            className="
+              text-center
+              text-[11px]
+              font-semibold
+              uppercase
+              tracking-[0.28em]
+              text-[#B8895A]
+            "
+          >
             Condo A
           </p>
 
-          <h2 className="mt-2 text-center text-2xl font-bold tracking-tight text-[#2B2520] md:text-4xl">
+          <h2
+            className="
+              mt-2
+              text-center
+              text-2xl
+              font-bold
+              tracking-tight
+              text-[#2B2520]
+              md:text-4xl
+            "
+          >
             {t.modelPlans.specification}
           </h2>
         </div>
@@ -133,6 +169,7 @@ export default function SpecificationModal({
                     hover:shadow-md
                   "
                 >
+                  {/* Category title */}
                   <h3
                     className="
                       mb-5
@@ -151,6 +188,7 @@ export default function SpecificationModal({
                     {section.title}
                   </h3>
 
+                  {/* Specification items */}
                   <ul className="space-y-1">
                     {section.items.map((item: string) => (
                       <li
@@ -187,12 +225,60 @@ export default function SpecificationModal({
                       </li>
                     ))}
                   </ul>
+
+                  {/* Category Price */}
+                  <div
+                    className="
+                      mt-5
+                      flex
+                      items-baseline
+                      justify-end
+                      border-t
+                      border-[#ECE4DA]
+                      pt-4
+                    "
+                  >
+                    <span
+                      className="
+                        mr-1
+                        text-[10px]
+                        font-semibold
+                        uppercase
+                        tracking-[0.2em]
+                        text-[#B3A08D]
+                      "
+                    >
+                      {t.modelPlans.from}
+                    </span>
+
+                    <span
+                      className="
+                        text-[25px]
+                        font-extrabold
+                        leading-none
+                        text-[#B8895A]
+                      "
+                    >
+                      {section.price}
+                    </span>
+
+                    <span
+                      className="
+                        ml-1
+                        text-[12px]
+                        font-medium
+                        text-[#A99B8D]
+                      "
+                    >
+                      VNĐ
+                    </span>
+                  </div>
                 </div>
               );
             })}
           </div>
 
-          {/* Reference Price */}
+          {/* Total Reference Price */}
           <div
             className="
               mt-8
@@ -205,20 +291,50 @@ export default function SpecificationModal({
               text-center
             "
           >
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B8895A]">
+            <p
+              className="
+                text-[11px]
+                font-semibold
+                uppercase
+                tracking-[0.28em]
+                text-[#B8895A]
+              "
+            >
               {t.modelPlans.referencePrice}
             </p>
 
             <div className="mt-3 flex items-end justify-center gap-2">
-              <span className="text-[12px] uppercase tracking-[0.18em] text-[#B3A08D]">
+              <span
+                className="
+                  text-[12px]
+                  uppercase
+                  tracking-[0.18em]
+                  text-[#B3A08D]
+                "
+              >
                 {t.modelPlans.from}
               </span>
 
-              <span className="text-[30px] font-extrabold leading-none text-[#B8895A] md:text-[36px]">
+              <span
+                className="
+                  text-[30px]
+                  font-extrabold
+                  leading-none
+                  text-[#B8895A]
+                  md:text-[36px]
+                "
+              >
                 212.55M
               </span>
 
-              <span className="pb-[3px] text-[13px] font-medium text-[#A99B8D]">
+              <span
+                className="
+                  pb-[3px]
+                  text-[13px]
+                  font-medium
+                  text-[#A99B8D]
+                "
+              >
                 VNĐ
               </span>
             </div>

@@ -597,7 +597,7 @@ hideSpecification: "仕様を閉じる",
       "室内ドア",
     ],
   },
-  
+
   notice:
     "※掲載価格は参考価格です。設計内容・仕様・施工条件により変動します。",
 
@@ -607,35 +607,36 @@ hideSpecification: "仕様を閉じる",
   plans: [
     
     {
-      label: "PLAN 01",
-      name: "Condo A",
+  label: "PLAN 01",
+  name: "Condo A",
 
-      image: "/images/modelplans/condo-a/main.jpg",
-gallery: [
-  "/images/modelplans/condo-a/07.jpg",
-  "/images/modelplans/condo-a/01.jpg",
-  "/images/modelplans/condo-a/02.jpg",
-  "/images/modelplans/condo-a/03.jpg",
-  "/images/modelplans/condo-a/04.jpg",
-  "/images/modelplans/condo-a/05.jpg",
-  "/images/modelplans/condo-a/06.jpg",
-],
-      area: "--㎡",
+  image: "/images/modelplans/condo-a/main.jpg",
 
-      unitPrice: "-- VNĐ /㎡",
+  gallery: [
+    "/images/modelplans/condo-a/07.jpg",
+    "/images/modelplans/condo-a/01.jpg",
+    "/images/modelplans/condo-a/02.jpg",
+    "/images/modelplans/condo-a/03.jpg",
+    "/images/modelplans/condo-a/04.jpg",
+    "/images/modelplans/condo-a/05.jpg",
+    "/images/modelplans/condo-a/06.jpg",
+  ],
 
-      grade: "Standard",
+  area: "68㎡",
 
-      specifications: [
-        "オーク材",
-        "収納",
-        "照明",
-        "家具",
-      ],
+  unitPrice: "約3,126,000 VNĐ /㎡",
 
-      estimatedCost: "-- VNĐ",
-    },
+  grade: "Standard",
 
+  specifications: [
+    "オーク材",
+    "収納",
+    "照明",
+    "家具",
+  ],
+
+  estimatedCost: "212,554,500 VNĐ",
+},
     {
       label: "PLAN 02",
       name: "Condo B",

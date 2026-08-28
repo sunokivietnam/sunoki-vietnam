@@ -630,7 +630,7 @@ hideSpecification: "Ẩn thông số",
       "Cửa nội thất",
     ],
   },
-  
+
   notice:
     "※ Chi phí chỉ mang tính tham khảo. Giá thực tế sẽ thay đổi tùy theo thiết kế, vật liệu và điều kiện thi công.",
 
@@ -640,34 +640,36 @@ hideSpecification: "Ẩn thông số",
   plans: [
     
     {
-      label: "PLAN 01",
-      name: "Condo A",
+  label: "PLAN 01",
+  name: "Condo A",
 
-      image: "/images/modelplans/condo-a/main.jpg",
-gallery: [
-  "/images/modelplans/condo-a/07.jpg",
-  "/images/modelplans/condo-a/01.jpg",
-  "/images/modelplans/condo-a/02.jpg",
-  "/images/modelplans/condo-a/03.jpg",
-  "/images/modelplans/condo-a/04.jpg",
-  "/images/modelplans/condo-a/05.jpg",
-  "/images/modelplans/condo-a/06.jpg",
-],
-      area: "--㎡",
+  image: "/images/modelplans/condo-a/main.jpg",
 
-      unitPrice: "-- VNĐ /㎡",
+  gallery: [
+    "/images/modelplans/condo-a/07.jpg",
+    "/images/modelplans/condo-a/01.jpg",
+    "/images/modelplans/condo-a/02.jpg",
+    "/images/modelplans/condo-a/03.jpg",
+    "/images/modelplans/condo-a/04.jpg",
+    "/images/modelplans/condo-a/05.jpg",
+    "/images/modelplans/condo-a/06.jpg",
+  ],
 
-      grade: "Standard",
+  area: "68㎡",
 
-      specifications: [
-        "Gỗ sồi",
-        "Tủ lưu trữ",
-        "Chiếu sáng",
-        "Nội thất",
-      ],
+  unitPrice: "Khoảng 3.126.000 VNĐ /㎡",
 
-      estimatedCost: "-- VNĐ",
-    },
+  grade: "Standard",
+
+  specifications: [
+    "Gỗ sồi",
+    "Tủ lưu trữ",
+    "Đèn chiếu sáng",
+    "Nội thất",
+  ],
+
+  estimatedCost: "212.554.500 VNĐ",
+},
 
     {
       label: "PLAN 02",
