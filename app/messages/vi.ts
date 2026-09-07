@@ -781,11 +781,17 @@ villa: {
   price: "61.680.000 VNĐ",
 },
 
-  masterBedroom: {
-    title: "Phòng ngủ Master",
-    items: [],
-    price: "219.200.000 VNĐ",
-  },
+ masterBedroom: {
+  title: "Phòng ngủ Master",
+  items: [
+    "Vách lam đầu giường MDF phủ melamine",
+    "Giường 1,8m",
+    "Bàn đầu giường",
+    "Tủ trang trí MDF phủ melamine",
+    "Tủ quần áo MDF phủ melamine",
+  ],
+  price: "219.156.000 VNĐ",
+},
 
   smallBedroom: {
     title: "Phòng ngủ nhỏ",
