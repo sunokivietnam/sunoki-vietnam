@@ -224,7 +224,7 @@ export default function SpecificationModalVilla({
 </h3>
 
 {section.items?.length > 0 && (
-  <ul className="mt-5 space-y-2">
+  <ul className="mt-6 space-y-3">
     {section.items.map((item: string) => (
       <li
         key={item}
