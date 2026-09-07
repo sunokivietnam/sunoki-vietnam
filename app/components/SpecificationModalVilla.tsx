@@ -291,9 +291,9 @@ export default function SpecificationModalVilla({
               </span>
             </div>
 
-            <p className="mt-3 text-[12px] text-[#999]">
-              {t.modelPlans.excludingVat}
-            </p>
+            <p className="mt-4 text-[11px] tracking-[0.08em] text-[#9A8D80]">
+  {t.modelPlans.excludingVat}
+</p>
           </div>
 
           {/* Close Button */}
