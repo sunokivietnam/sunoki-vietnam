@@ -34,11 +34,12 @@ export default function SpecificationModalVilla({
   items: villa.kitchenDining.items,
   price: villa.kitchenDining.price,
 },
-    {
-      title: villa.living.title,
-      icon: Sofa,
-      price: villa.living.price,
-    },
+   {
+  title: villa.living.title,
+  icon: Sofa,
+  items: villa.living.items,
+  price: villa.living.price,
+},
     {
       title: villa.livingVipEntertainment.title,
       icon: Tv,
