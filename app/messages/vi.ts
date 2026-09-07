@@ -189,12 +189,12 @@ sống tiện nghi, thoải mái.`,
     title: "Nhà hàng & Văn phòng",
 
     description:
-      "Thiết kế và thi công nhà hàng, văn phòng với không gian đẹp, tiện dụng và thu hút khách hàng.",
+  "Thiết kế và thi công nhà hàng, văn phòng với không gian đẹp, tiện dụng và thu hút khách hàng.",
 
     descriptionMobile:
-`Thiết kế nhà hàng và văn phòng.
-Không gian đẹp, thu hút khách 
-và tiện sử dụng.`,
+`Thiết kế và thi công nhà hàng,
+văn phòng với không gian đẹp,
+tiện dụng và thu hút khách hàng.`,
   },
 
   {
