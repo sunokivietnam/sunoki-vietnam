@@ -800,10 +800,29 @@ villa: {
   },
 
   bathroomWc: {
-    title: "Phòng tắm & WC",
-    items: [],
-    price: "257.000.000 VNĐ",
-  },
+  title: "Phòng tắm & WC",
+  items: [
+    "Tủ treo lavabo",
+    "Mặt bàn đá solid surface",
+    "Tủ gương",
+    "Cửa phòng vệ sinh",
+    "Vách kính phòng tắm",
+    "Bồn cầu điện tử INAX",
+    "Chậu lavabo INAX",
+    "Vòi lavabo INAX",
+    "Gạch ốp tường INAX",
+    "Bồn tắm đặt sàn INAX 1,7m",
+    "Tủ treo lavabo",
+    "Mặt bàn đá solid surface",
+    "Tủ gương",
+    "Cửa phòng vệ sinh",
+    "Vách kính phòng tắm",
+    "Bồn cầu điện tử INAX",
+    "Chậu lavabo INAX",
+    "Vòi lavabo INAX",
+  ],
+  price: "256.972.000 VNĐ",
+},
 
   laundry: {
     title: "Phòng giặt",
