@@ -29,10 +29,11 @@ export default function SpecificationModalVilla({
 
   const sections = [
     {
-      title: villa.kitchenDining.title,
-      icon: ChefHat,
-      price: villa.kitchenDining.price,
-    },
+  title: villa.kitchenDining.title,
+  icon: ChefHat,
+  items: villa.kitchenDining.items,
+  price: villa.kitchenDining.price,
+},
     {
       title: villa.living.title,
       icon: Sofa,
@@ -154,23 +155,37 @@ export default function SpecificationModalVilla({
                   "
                 >
                   <h3
-                    className="
-                      flex
-                      items-center
-                      gap-2
-                      border-b
-                      border-[#ECE4DA]
-                      pb-3
-                      text-lg
-                      font-semibold
-                      text-[#B8895A]
-                    "
-                  >
-                    <Icon className="h-5 w-5" />
-                    {section.title}
-                  </h3>
+  className="
+    flex
+    items-center
+    gap-2
+    border-b
+    border-[#ECE4DA]
+    pb-3
+    text-lg
+    font-semibold
+    text-[#B8895A]
+  "
+>
+  <Icon className="h-5 w-5" />
+  {section.title}
+</h3>
 
-                  <div className="mt-auto border-t border-[#ECE4DA] pt-5 text-right">
+{section.items?.length > 0 && (
+  <ul className="mt-5 space-y-2">
+    {section.items.map((item: string) => (
+      <li
+        key={item}
+        className="flex items-start gap-2 text-[13px] leading-relaxed text-[#555]"
+      >
+        <span className="mt-[7px] h-1 w-1 shrink-0 rounded-full bg-[#B8895A]" />
+        <span>{item}</span>
+      </li>
+    ))}
+  </ul>
+)}
+
+<div className="mt-auto border-t border-[#ECE4DA] pt-5 text-right">
                     <span className="mr-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#B3A08D]">
                       {t.modelPlans.from}
                     </span>
