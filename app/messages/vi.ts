@@ -831,10 +831,16 @@ villa: {
 },
 
   laundry: {
-    title: "Phòng giặt",
-    items: [],
-    price: "132.200.000 VNĐ",
-  },
+  title: "Phòng giặt",
+  items: [
+    "Tủ phòng giặt",
+    "Tủ treo lavabo",
+    "Mặt bàn đá solid surface",
+    "Vòi lavabo",
+    "Cửa phòng trong nhà ×5",
+  ],
+  price: "132.249.000 VNĐ",
+},
 
   roughCompletionFinishing: {
     title: "Hoàn thiện",
