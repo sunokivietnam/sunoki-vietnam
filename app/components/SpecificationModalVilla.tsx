@@ -65,10 +65,11 @@ export default function SpecificationModalVilla({
   price: villa.smallBedroom.price,
 },
     {
-      title: villa.bathroomWc.title,
-      icon: Bath,
-      price: villa.bathroomWc.price,
-    },
+  title: villa.bathroomWc.title,
+  icon: Bath,
+  items: villa.bathroomWc.items,
+  price: villa.bathroomWc.price,
+},
     {
       title: villa.laundry.title,
       icon: WashingMachine,
