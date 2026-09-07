@@ -772,10 +772,14 @@ villa: {
 },
 
   decorativeStorage: {
-    title: "Tủ lưu trữ trang trí",
-    items: [],
-    price: "61.700.000 VNĐ",
-  },
+  title: "Tủ lưu trữ trang trí",
+  items: [
+    "Nẹp trần MDF chống ẩm phủ melamine",
+    "Tủ trang trí MDF chống ẩm phủ melamine",
+    "Tủ kệ MDF chống ẩm phủ melamine",
+  ],
+  price: "61.680.000 VNĐ",
+},
 
   masterBedroom: {
     title: "Phòng ngủ Master",
