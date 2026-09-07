@@ -738,11 +738,15 @@ villa: {
   price: "645,453,000 VNĐ",
 },
 
-  decorativeStorage: {
-    title: "造作収納",
-    items: [],
-    price: "61,700,000 VNĐ",
-  },
+ decorativeStorage: {
+  title: "造作収納",
+  items: [
+    "天井見切り・MDF造作",
+    "MDF造作収納",
+    "MDF造作キャビネット",
+  ],
+  price: "61,680,000 VNĐ",
+},
 
   masterBedroom: {
     title: "マスターベッドルーム",
