@@ -228,7 +228,7 @@ export default function SpecificationModalVilla({
     {section.items.map((item: string) => (
       <li
         key={item}
-        className="flex items-start gap-2 text-[13px] leading-relaxed text-[#555]"
+        className="flex items-start gap-3 text-[13px] leading-[1.8] text-[#625A53]"
       >
         <span className="mt-[7px] h-1 w-1 shrink-0 rounded-full bg-[#B8895A]" />
         <span>{item}</span>
