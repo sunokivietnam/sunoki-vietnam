@@ -798,10 +798,16 @@ villa: {
 },
 
   laundry: {
-    title: "ランドリー",
-    items: [],
-    price: "132,200,000 VNĐ",
-  },
+  title: "ランドリー",
+  items: [
+    "ランドリーキャビネット",
+    "洗面台吊りキャビネット",
+    "ソリッドサーフェス天板",
+    "洗面水栓",
+    "各階室内ドア",
+  ],
+  price: "132,249,000 VNĐ",
+},
 
   roughCompletionFinishing: {
     title: "仕上げ工事",
