@@ -745,10 +745,21 @@ villa: {
 },
 
   living: {
-    title: "Phòng khách",
-    items: [],
-    price: "223.300.000 VNĐ",
-  },
+  title: "Phòng khách",
+  items: [
+    "Tủ TV",
+    "Vách MDF giật cấp",
+    "Vách tường MDF",
+    "Vách MDF bổ sung",
+    "Tủ trang trí bên TV",
+    "Vách tường phía sau sofa",
+    "Sofa",
+    "Ghế sofa đơn",
+    "Bàn sofa",
+    "Tủ giày",
+  ],
+  price: "223.310.000 VNĐ",
+},
 
   livingVipEntertainment: {
     title: "Phòng khách VIP & Giải trí",
