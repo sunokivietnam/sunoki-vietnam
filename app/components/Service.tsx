@@ -31,7 +31,7 @@ export default function Service() {
   </h2>
 
   {/* PC */}
-<p className="hidden md:block mx-auto mt-5 max-w-[900px] text-[15px] leading-8 text-[#666]">
+<p className="hidden md:block mx-auto mt-5 max-w-[900px] whitespace-pre-line text-[15px] leading-8 text-[#666]">
   {t.service.description}
 </p>
 
