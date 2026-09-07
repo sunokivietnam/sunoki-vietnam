@@ -842,11 +842,20 @@ villa: {
   price: "132.249.000 VNĐ",
 },
 
-  roughCompletionFinishing: {
-    title: "Hoàn thiện",
-    items: [],
-    price: "839.000.000 VNĐ",
-  },
+ roughCompletionFinishing: {
+  title: "Hoàn thiện",
+  items: [
+    "Sàn gỗ xoài tự nhiên",
+    "Len chân tường và nẹp đồng màu",
+    "Sơn hiệu ứng",
+    "Di dời và điều chỉnh hệ thống điện",
+    "Đèn LED dây (trắng, vàng, trung tính)",
+    "Nguồn LED & cảm biến chạm",
+    "Đèn downlight (3 chế độ màu, Panasonic)",
+    "Cửa phòng trong nhà ×5",
+  ],
+  price: "839.000.000 VNĐ",
+},
 },
   notice:
     "※ Chi phí chỉ mang tính tham khảo. Giá thực tế sẽ thay đổi tùy theo thiết kế, vật liệu và điều kiện thi công.",
