@@ -794,10 +794,16 @@ villa: {
 },
 
   smallBedroom: {
-    title: "Phòng ngủ nhỏ",
-    items: [],
-    price: "177.700.000 VNĐ",
-  },
+  title: "Phòng ngủ nhỏ",
+  items: [
+    "Vách lam đầu giường MDF phủ melamine",
+    "Giường 1,6m ×2",
+    "Bàn đầu giường ×2",
+    "Tủ trang trí MDF phủ melamine",
+    "Tủ quần áo MDF phủ melamine",
+  ],
+  price: "177.724.000 VNĐ",
+},
 
   bathroomWc: {
   title: "Phòng tắm & WC",
