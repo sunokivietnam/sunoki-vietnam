@@ -929,7 +929,7 @@ villa: {
     "和モダン",
   ],
 
-  estimatedCost: "2,883,600,000 VNĐ",
+  estimatedCost: "2,883,589,000 VNĐ",
 },
   ],
 },
