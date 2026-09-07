@@ -252,7 +252,7 @@ export default function SpecificationModalB({
               </span>
 
               <span className="text-[30px] font-extrabold leading-none text-[#B8895A] md:text-[36px]">
-                859.381M
+                859.381.000 
               </span>
 
               <span className="pb-[3px] text-[13px] font-medium text-[#A99B8D]">

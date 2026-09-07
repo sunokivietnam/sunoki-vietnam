@@ -27,37 +27,37 @@ export default function SpecificationModal({
       title: "Kitchen",
       icon: ChefHat,
       items: t.modelPlans.condoA.kitchen,
-      price: "55.72M",
+      price: "55.720.000 VND",
     },
     {
       title: "Living",
       icon: Sofa,
       items: t.modelPlans.condoA.living,
-      price: "19.06M",
+      price: "19.060.000 VND",
     },
     {
       title: "Bathroom",
       icon: Bath,
       items: t.modelPlans.condoA.bathroom,
-      price: "14.05M",
+      price: "14.050.000 VND",
     },
     {
       title: "Master Bedroom",
       icon: BedDouble,
       items: t.modelPlans.condoA.masterBedroom,
-      price: "35.88M",
+      price: "35.880.000 VND",
     },
     {
       title: "Second Bedroom",
       icon: BedDouble,
       items: t.modelPlans.condoA.secondBedroom,
-      price: "24.17M",
+      price: "24.170.000 VND",
     },
     {
       title: "Interior Finish",
       icon: Home,
       items: t.modelPlans.condoA.interiorFinish,
-      price: "63.68M",
+      price: "63.680.000 VND",
     },
   ];
 
@@ -324,7 +324,7 @@ export default function SpecificationModal({
                   md:text-[36px]
                 "
               >
-                212.55M
+                212.550.000
               </span>
 
               <span
