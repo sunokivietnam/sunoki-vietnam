@@ -174,7 +174,7 @@ chất lượng Nhật Bản.`,
     title: "Nhà ở",
 
     description:
-      "Nhà mới, cải tạo và nâng cấp theo tiêu chuẩn Nhật Bản, mang đến không gian sống tiện nghi và thoải mái.",
+  "Thiết kế, xây mới và cải tạo nhà ở theo tiêu chuẩn Nhật Bản, tối ưu công năng và kiến tạo không gian sống tiện nghi, thoải mái.",
 
     descriptionMobile:
 `Nhà mới, cải tạo, nâng cấp.
