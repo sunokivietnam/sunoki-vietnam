@@ -726,11 +726,23 @@ condoB: {
   interiorFinishPrice: "481.200.000 VNĐ",
 },
 villa: {
-  kitchenDining: {
-    title: "Bếp & Phòng ăn",
-    items: [],
-    price: "328.000.000 VNĐ",
-  },
+ kitchenDining: {
+  title: "Bếp & Phòng ăn",
+  items: [
+    "Bàn ăn",
+    "Ghế ăn ×6",
+    "Tủ lưu trữ sàn bếp",
+    "Mặt bàn đá nhân tạo",
+    "Tủ bếp dưới",
+    "Tủ bếp trên",
+    "Gạch ốp tường bếp INAX",
+    "Bếp từ 3 vùng nấu Malloca",
+    "Chậu rửa Malloca",
+    "Vòi nước bếp Malloca",
+    "Máy hút mùi Malloca",
+  ],
+  price: "328.045.000 VNĐ",
+},
 
   living: {
     title: "Phòng khách",
