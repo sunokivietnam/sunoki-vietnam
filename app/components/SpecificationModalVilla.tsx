@@ -242,9 +242,9 @@ export default function SpecificationModalVilla({
                       {t.modelPlans.from}
                     </span>
 
-                    <span className="text-[24px] font-extrabold leading-none text-[#B8895A]">
-                      {section.price.replace(" VNĐ", "")}
-                    </span>
+                    <span className="text-[23px] font-bold leading-none tracking-[0.01em] text-[#B8895A]">
+  {section.price.replace(" VNĐ", "")}
+</span>
 
                     <span className="ml-1 text-[12px] font-medium text-[#A99B8D]">
                       VNĐ
