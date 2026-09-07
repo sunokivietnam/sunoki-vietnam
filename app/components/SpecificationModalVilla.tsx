@@ -237,7 +237,7 @@ export default function SpecificationModalVilla({
   </ul>
 )}
 
-<div className="mt-auto border-t border-[#ECE4DA] pt-5 text-right">
+<div className="mt-auto border-t border-[#E8DED2] pt-5 text-right">
                     <span className="mr-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[#B3A08D]">
                       {t.modelPlans.from}
                     </span>
