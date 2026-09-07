@@ -27,37 +27,37 @@ export default function SpecificationModal({
       title: "Kitchen",
       icon: ChefHat,
       items: t.modelPlans.condoA.kitchen,
-      price: "55.720.000 VND",
+      price: "55.720.000",
     },
     {
       title: "Living",
       icon: Sofa,
       items: t.modelPlans.condoA.living,
-      price: "19.060.000 VND",
+      price: "19.060.000",
     },
     {
       title: "Bathroom",
       icon: Bath,
       items: t.modelPlans.condoA.bathroom,
-      price: "14.050.000 VND",
+      price: "14.050.000",
     },
     {
       title: "Master Bedroom",
       icon: BedDouble,
       items: t.modelPlans.condoA.masterBedroom,
-      price: "35.880.000 VND",
+      price: "35.880.000",
     },
     {
       title: "Second Bedroom",
       icon: BedDouble,
       items: t.modelPlans.condoA.secondBedroom,
-      price: "24.170.000 VND",
+      price: "24.170.000",
     },
     {
       title: "Interior Finish",
       icon: Home,
       items: t.modelPlans.condoA.interiorFinish,
-      price: "63.680.000 VND",
+      price: "63.680.000",
     },
   ];
 
