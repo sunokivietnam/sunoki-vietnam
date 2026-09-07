@@ -167,23 +167,27 @@ export default function SpecificationModalVilla({
 
               return (
                 <div
-                  key={section.title}
-                  className="
-                    flex
-                    min-h-[180px]
-                    flex-col
-                    rounded-2xl
-                    border
-                    border-[#EFE7DE]
-                    bg-[#FCFAF8]
-                    p-6
-                    transition-all
-                    duration-300
-                    hover:-translate-y-1
-                    hover:bg-[#F8F4EF]
-                    hover:shadow-md
-                  "
-                >
+  key={section.title}
+  className="
+    group
+    relative
+    flex
+    min-h-[180px]
+    flex-col
+    overflow-hidden
+    rounded-[20px]
+    border
+    border-[#E8DED2]
+    bg-[#FDFBF8]
+    p-6
+    shadow-[0_4px_20px_rgba(95,72,48,0.04)]
+    transition-all
+    duration-300
+    hover:-translate-y-1
+    hover:border-[#D8C3AD]
+    hover:shadow-[0_12px_35px_rgba(95,72,48,0.09)]
+  "
+>
                   <h3
   className="
     flex
