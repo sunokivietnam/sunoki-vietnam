@@ -53,10 +53,11 @@ export default function SpecificationModalVilla({
   price: villa.decorativeStorage.price,
 },
     {
-      title: villa.masterBedroom.title,
-      icon: BedDouble,
-      price: villa.masterBedroom.price,
-    },
+  title: villa.masterBedroom.title,
+  icon: BedDouble,
+  items: villa.masterBedroom.items,
+  price: villa.masterBedroom.price,
+},
     {
       title: villa.smallBedroom.title,
       icon: Baby,
