@@ -77,10 +77,11 @@ export default function SpecificationModalVilla({
   price: villa.laundry.price,
 },
     {
-      title: villa.roughCompletionFinishing.title,
-      icon: Home,
-      price: villa.roughCompletionFinishing.price,
-    },
+  title: villa.roughCompletionFinishing.title,
+  icon: Home,
+  items: villa.roughCompletionFinishing.items,
+  price: villa.roughCompletionFinishing.price,
+},
   ];
 
   return (

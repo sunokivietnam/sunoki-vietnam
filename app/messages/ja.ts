@@ -809,11 +809,20 @@ villa: {
   price: "132,249,000 VNĐ",
 },
 
-  roughCompletionFinishing: {
-    title: "仕上げ工事",
-    items: [],
-    price: "839,000,000 VNĐ",
-  },
+ roughCompletionFinishing: {
+  title: "仕上げ工事",
+  items: [
+    "天然木フローリング（マンゴー材）",
+    "同色の幅木・見切り材",
+    "エフェクト塗装",
+    "電気配線・移設",
+    "LEDテープライト（白色・電球色・昼白色）",
+    "LED電源・タッチセンサー",
+    "ダウンライト（3色切替・Panasonic）",
+    "各階室内ドア ×5",
+  ],
+  price: "839,000,000 VNĐ",
+},
 },
 
   notice:
