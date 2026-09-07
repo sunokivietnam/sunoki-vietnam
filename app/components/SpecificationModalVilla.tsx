@@ -260,7 +260,7 @@ export default function SpecificationModalVilla({
               </span>
 
               <span className="text-[30px] font-extrabold leading-none text-[#B8895A] md:text-[36px]">
-                2,884.6M
+                2,883,589,000
               </span>
 
               <span className="pb-[3px] text-[13px] font-medium text-[#A99B8D]">
