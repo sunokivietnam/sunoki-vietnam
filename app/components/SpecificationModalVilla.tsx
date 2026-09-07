@@ -172,7 +172,7 @@ export default function SpecificationModalVilla({
     group
     relative
     flex
-    min-h-[180px]
+    min-h-[260px]
     flex-col
     overflow-hidden
     rounded-[20px]
