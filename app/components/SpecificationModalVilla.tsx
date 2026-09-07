@@ -282,9 +282,9 @@ export default function SpecificationModalVilla({
                 {t.modelPlans.from}
               </span>
 
-              <span className="text-[30px] font-extrabold leading-none text-[#B8895A] md:text-[36px]">
-                2,883,589,000
-              </span>
+              <span className="text-[30px] font-bold leading-none tracking-[0.02em] text-[#A8794D] md:text-[38px]">
+  2,883,589,000
+</span>
 
               <span className="pb-[3px] text-[13px] font-medium text-[#A99B8D]">
                 VNĐ
