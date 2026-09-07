@@ -258,15 +258,20 @@ export default function SpecificationModalVilla({
           {/* Total Reference Price */}
           <div
             className="
-              mt-8
-              rounded-2xl
-              border
-              border-[#EFE7DE]
-              bg-[#F7F3EE]
-              px-6
-              py-6
-              text-center
-            "
+  relative
+  mt-10
+  overflow-hidden
+  rounded-[24px]
+  border
+  border-[#DCC8B3]
+  bg-[#FBF7F2]
+  px-6
+  py-8
+  text-center
+  shadow-[0_8px_30px_rgba(95,72,48,0.06)]
+  md:px-10
+  md:py-9
+"
           >
             <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B8895A]">
               {t.modelPlans.referencePrice}
