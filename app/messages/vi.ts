@@ -157,7 +157,8 @@ nét đẹp giản dị vào ngôi nhà bạn.`,
     title: "Dịch vụ",
 
     description:
-      "Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản, đáp ứng đa dạng nhu cầu từ nhà ở, nhà hàng, phòng tắm, nhà vệ sinh đến các hạng mục nội thất.",
+      `Cung cấp dịch vụ thiết kế và thi công theo tiêu chuẩn Nhật Bản, đáp ứng đa dạng nhu cầu từ nhà ở, 
+      nhà hàng, phòng tắm, nhà vệ sinh đến các hạng mục nội thất.`,
 
 descriptionMobile:
 `Nhà ở, nhà hàng, không gian nội thất
