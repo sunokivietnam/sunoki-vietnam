@@ -41,10 +41,11 @@ export default function SpecificationModalVilla({
   price: villa.living.price,
 },
     {
-      title: villa.livingVipEntertainment.title,
-      icon: Tv,
-      price: villa.livingVipEntertainment.price,
-    },
+  title: villa.livingVipEntertainment.title,
+  icon: Tv,
+  items: villa.livingVipEntertainment.items,
+  price: villa.livingVipEntertainment.price,
+},
     {
       title: villa.decorativeStorage.title,
       icon: Archive,

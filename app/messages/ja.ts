@@ -729,10 +729,14 @@ villa: {
 },
 
   livingVipEntertainment: {
-    title: "VIPリビング・エンターテインメント",
-    items: [],
-    price: "645,500,000 VNĐ",
-  },
+  title: "VIPリビング・エンターテインメント",
+  items: [
+    "テレビキャビネット・装飾キャビネット",
+    "造作キャビネット",
+    "造作家具",
+  ],
+  price: "645,453,000 VNĐ",
+},
 
   decorativeStorage: {
     title: "造作収納",
