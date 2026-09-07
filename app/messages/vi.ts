@@ -177,9 +177,10 @@ chất lượng Nhật Bản.`,
   "Thiết kế, xây mới và cải tạo nhà ở theo tiêu chuẩn Nhật Bản, tối ưu công năng và kiến tạo không gian sống tiện nghi, thoải mái.",
 
     descriptionMobile:
-`Nhà mới, cải tạo, nâng cấp.
-Mang đến không gian
-sống tiện nghi chuẩn Nhật Bản.`,
+`Thiết kế, xây mới và cải tạo nhà ở 
+theo tiêu chuẩn Nhật Bản, 
+tối ưu công năng và kiến tạo không gian
+sống tiện nghi, thoải mái.`,
   },
 
   {
