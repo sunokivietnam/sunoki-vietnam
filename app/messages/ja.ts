@@ -806,7 +806,7 @@ villa: {
     "洗面水栓",
     "各階室内ドア",
   ],
-  price: "132,249,000 VNĐ",
+  price: "47.249.000 VNĐ",
 },
 
  roughCompletionFinishing: {
@@ -821,7 +821,7 @@ villa: {
     "ダウンライト（3色切替・Panasonic）",
     "各階室内ドア ×5",
   ],
-  price: "839,000,000 VNĐ",
+  price: "924.000.000 VNĐ",
 },
 },
 
