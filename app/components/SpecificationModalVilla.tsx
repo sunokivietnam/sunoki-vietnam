@@ -192,17 +192,35 @@ export default function SpecificationModalVilla({
   className="
     flex
     items-center
-    gap-2
+    gap-3
     border-b
-    border-[#ECE4DA]
-    pb-3
-    text-lg
+    border-[#E8DED2]
+    pb-4
+    text-[17px]
     font-semibold
-    text-[#B8895A]
+    tracking-[0.02em]
+    text-[#5A4635]
   "
 >
-  <Icon className="h-5 w-5" />
-  {section.title}
+  <span
+    className="
+      flex
+      h-9
+      w-9
+      shrink-0
+      items-center
+      justify-center
+      rounded-full
+      border
+      border-[#DCC8B3]
+      bg-[#FAF5EF]
+      text-[#B8895A]
+    "
+  >
+    <Icon className="h-[17px] w-[17px]" />
+  </span>
+
+  <span>{section.title}</span>
 </h3>
 
 {section.items?.length > 0 && (
