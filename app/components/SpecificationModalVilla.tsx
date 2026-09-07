@@ -103,39 +103,61 @@ export default function SpecificationModalVilla({
         "
       >
         {/* Header */}
-        <div className="relative border-b border-[#EFEAE4] px-6 py-6 md:px-8">
-          <button
-            type="button"
-            onClick={onClose}
-            aria-label="Close"
-            className="
-              absolute
-              right-4
-              top-4
-              flex
-              h-10
-              w-10
-              items-center
-              justify-center
-              rounded-full
-              transition
-              hover:bg-[#F5F1EC]
-              hover:text-[#B8895A]
-              md:right-5
-              md:top-5
-            "
-          >
-            <span className="text-[28px] leading-none">×</span>
-          </button>
+<div className="relative overflow-hidden border-b border-[#E8DED2] bg-[#FBF8F4] px-6 py-8 md:px-10 md:py-10">
+  {/* Decorative line */}
+  <div className="absolute left-1/2 top-0 h-[3px] w-24 -translate-x-1/2 bg-[#B8895A]" />
 
-          <p className="text-center text-[11px] font-semibold uppercase tracking-[0.28em] text-[#B8895A]">
-            Villa Residence
-          </p>
+  {/* Close */}
+  <button
+    type="button"
+    onClick={onClose}
+    aria-label="Close"
+    className="
+      absolute
+      right-4
+      top-4
+      flex
+      h-10
+      w-10
+      items-center
+      justify-center
+      rounded-full
+      border
+      border-[#E8DED2]
+      bg-white/70
+      text-[#8E8175]
+      transition-all
+      duration-300
+      hover:border-[#B8895A]
+      hover:bg-white
+      hover:text-[#B8895A]
+      md:right-6
+      md:top-6
+    "
+  >
+    <span className="text-[25px] font-light leading-none">×</span>
+  </button>
 
-          <h2 className="mt-2 text-center text-2xl font-bold tracking-tight text-[#2B2520] md:text-4xl">
-            {t.modelPlans.specification}
-          </h2>
-        </div>
+  <div className="text-center">
+    <p className="text-[10px] font-semibold uppercase tracking-[0.42em] text-[#B8895A]">
+      Villa Residence
+    </p>
+
+    <div className="mx-auto mt-4 flex items-center justify-center gap-3">
+      <span className="h-px w-10 bg-[#D8C7B5]" />
+      <span className="h-1.5 w-1.5 rotate-45 border border-[#B8895A]" />
+      <span className="h-px w-10 bg-[#D8C7B5]" />
+    </div>
+
+    <h2 className="mt-4 text-2xl font-light tracking-[0.08em] text-[#2B2520] md:text-4xl">
+      {t.modelPlans.specification}
+    </h2>
+
+    <p className="mt-3 text-[11px] tracking-[0.18em] text-[#A99B8D]">
+      LUXURY INTERIOR SPECIFICATION
+    </p>
+  </div>
+</div>
 
         {/* Body */}
         <div className="max-h-[75vh] overflow-y-auto p-5 md:p-12">
