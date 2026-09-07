@@ -837,9 +837,8 @@ villa: {
     "Tủ treo lavabo",
     "Mặt bàn đá solid surface",
     "Vòi lavabo",
-    "Cửa phòng trong nhà ×5",
   ],
-  price: "132.249.000 VNĐ",
+  price: "47.249.000 VNĐ",
 },
 
  roughCompletionFinishing: {
@@ -854,7 +853,7 @@ villa: {
     "Đèn downlight (3 chế độ màu, Panasonic)",
     "Cửa phòng trong nhà ×5",
   ],
-  price: "839.000.000 VNĐ",
+ price: "924.000.000 VNĐ",
 },
 },
   notice:
