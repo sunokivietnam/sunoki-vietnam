@@ -761,11 +761,15 @@ villa: {
   price: "223.310.000 VNĐ",
 },
 
-  livingVipEntertainment: {
-    title: "Phòng khách VIP & Giải trí",
-    items: [],
-    price: "645.500.000 VNĐ",
-  },
+ livingVipEntertainment: {
+  title: "Phòng khách VIP & Giải trí",
+  items: [
+    "Tủ TV kết hợp tủ trang trí",
+    "Tủ nội thất đóng",
+    "Nội thất đóng theo thiết kế",
+  ],
+  price: "645.453.000 VNĐ",
+},
 
   decorativeStorage: {
     title: "Tủ lưu trữ trang trí",
