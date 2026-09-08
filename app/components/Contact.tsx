@@ -206,7 +206,6 @@ Vui lòng nhập thêm yêu cầu của bạn。
 ベトナムで安心して暮らせる空間をご提案します。`
                 : `Từ nhà ở đến nhà hàng, văn phòng và cải tạo,
                 chúng tôi đồng hành trọn vẹn từ thiết kế đến thi công, 
-                
                 với sự tỉ mỉ và chất lượng theo tiêu chuẩn Nhật Bản.`}
 
             </p>
