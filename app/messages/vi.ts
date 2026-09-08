@@ -394,12 +394,12 @@ tiếng Việt.`,
     {
       title: "Thiết kế & Thi công",
       description:
-        "Một đơn vị phụ trách toàn bộ công trình.",
+        "Một đầu mối quản lý xuyên suốt từ thiết kế đến thi công.",
 
       descriptionMobile:
-`Thiết kế đến
-thi công
-trọn gói.`,
+`Một đầu mối quản lý 
+xuyên suốt từ thiết kế 
+đến thi công..`,
     },
 
     {
