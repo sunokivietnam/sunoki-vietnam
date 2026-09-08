@@ -101,6 +101,7 @@ export default function Process() {
 
           <div className="absolute left-[8%] right-[8%] top-9 h-[2px] bg-[#E8D8C7]" />
 
+          <div className="process-line absolute left-[8%] right-[8%] top-9 h-[2px] bg-[#B8895A]" />
 
           <div className="grid grid-cols-5 gap-5">{steps.map((step, index) => {
 
