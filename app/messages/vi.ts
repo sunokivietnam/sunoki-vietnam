@@ -276,15 +276,10 @@ hài hòa giữa công năng, tiện nghi và thẩm mỹ.`,
       title: "Nhà hàng",
 
       description:
-        "Thiết kế và thi công nhà hàng, văn phòng cùng các không gian thương mại,\nđảm bảo sự cân bằng giữa tính thẩm mỹ, công năng và trải nghiệm của khách hàng.",
+  "Thiết kế và thi công nhà hàng, văn phòng cùng các không gian thương mại, đảm bảo sự cân bằng giữa tính thẩm mỹ, công năng và trải nghiệm của khách hàng.",
 
-       descriptionMobile: `Thiết kế và thi công
-nhà hàng, văn phòng
-và các không gian thương mại.
-Đảm bảo sự cân bằng
-giữa tính thẩm mỹ,
-công năng và
-trải nghiệm khách hàng.`,
+descriptionMobile:
+  "Thiết kế và thi công nhà hàng, văn phòng cùng các không gian thương mại.\nĐảm bảo sự cân bằng giữa tính thẩm mỹ, công năng và trải nghiệm khách hàng.",
 
       items: [
         {
