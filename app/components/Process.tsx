@@ -28,33 +28,7 @@ export default function Process() {
       className="bg-[#F8F5F1] py-12 md:py-16"
     >
       <style>{`
-        @keyframes lineGrow {
-          from {
-            transform: scaleX(0);
-          }
-          to {
-            transform: scaleX(1);
-          }
-        }
-
-        @keyframes fadeUp {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        .process-line {
-          transform-origin: left;
-          animation: lineGrow 1.2s ease forwards;
-          animation-timeline: view();
-          animation-range: entry 15% cover 35%;
-        }
-
+        
         .process-item {
           opacity: 0;
           animation: fadeUp .7s ease forwards;
