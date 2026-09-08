@@ -410,12 +410,11 @@ sau khi công trình hoàn thiện.`,
     title: "Quy trình thi công",
 
     description:
-      "Chúng tôi sẽ hỗ trợ cẩn thận từ khi tiếp nhận yêu cầu đến khi hoàn thành công trình.",
+      "Đồng hành cùng khách hàng xuyên suốt từ tư vấn, thiết kế đến thi công và hoàn thiện công trình.",
 
 descriptionMobile:
-`Chúng tôi sẽ hỗ trợ cẩn thận 
-từ khi tiếp nhận yêu cầu đến khi 
-hoàn thành công trình`,
+`Đồng hành cùng khách hàng xuyên suốt từ tư vấn, 
+thiết kế đến thi công và hoàn thiện công trình`,
     steps: [
   {
   number: "01",
