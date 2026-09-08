@@ -424,12 +424,12 @@ thiết kế đến thi công và hoàn thiện công trình`,
   titleMobile: "Liên hệ",
 
   description:
-    `Liên hệ với chúng tôi
+    `Kết nối với chúng tôi
     qua biểu mẫu, điện thoại
-    hoặc email.`,
+    hoặc email để được tư vấn..`,
 
-descriptionMobile: `Liên hệ với chúng tôi qua
-biểu mẫu, điện thoại hoặc email.`,
+descriptionMobile: `Kết nối với chúng tôi qua biểu mẫu,
+điện thoại hoặc email để được tư vấn..`,
 },
   {
   number: "02",
