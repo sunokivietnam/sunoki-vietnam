@@ -405,7 +405,7 @@ xuyên suốt từ thiết kế
     {
       title: "Hỗ trợ sau thi công",
       description:
-        "Đồng hành và hỗ trợ tận tâm sau khi công trình hoàn thiện.",
+        "Đồng hành và hỗ trợ tận tâm sau khi công trình\nhoàn thiện.",
 
       descriptionMobile:
 `Đồng hành và hỗ trợ tận tâm
