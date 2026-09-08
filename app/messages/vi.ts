@@ -382,7 +382,7 @@ tại Nhật Bản.`,
     {
       title: "Hỗ trợ Nhật & Việt",
       description:
-        "Tư vấn và hỗ trợ tận tâm bằng tiếng Nhật và tiếng Việt.",
+        "Tư vấn và hỗ trợ tận tâm bằng tiếng Nhật\nvà tiếng Việt.",
 
       descriptionMobile:
 `Tư vấn và hỗ trợ
