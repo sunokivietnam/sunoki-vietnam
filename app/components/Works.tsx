@@ -202,7 +202,7 @@ export default function Works() {
 </p>
 
 {/* Mobile */}
-<p className="block md:hidden mt-3 text-[15px] leading-[1.9] whitespace-pre-line text-[#666]">
+<p className="block md:hidden mt-3 text-[14px] leading-[1.6] whitespace-pre-line text-[#666]">
   {t.works.commercial.descriptionMobile}
 </p>
 
