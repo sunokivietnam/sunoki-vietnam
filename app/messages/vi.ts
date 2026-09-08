@@ -474,8 +474,9 @@ Gửi báo giá chi tiết.`,
 `Thi công & Kiểm soát`,
 
   description:
-    `Thi công theo tiêu chuẩn Nhật Bản,
-    kiểm soát chặt chẽ từng công đoạn.`,
+    `Thi công theo tiêu chuẩn
+    Nhật Bản, kiểm soát chặt chẽ
+    từng công đoạn.`,
 
   descriptionMobile:
 `Thi công theo tiêu chuẩn Nhật Bản,
