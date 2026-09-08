@@ -197,7 +197,7 @@ export default function Works() {
             </h3>
 
             {/* PC */}
-<p className="hidden md:block mt-3 max-w-lg text-[15px] leading-7 whitespace-pre-line text-[#666]">
+<p className="hidden md:block mt-3 max-w-[900px] text-[15px] leading-7 whitespace-pre-line text-[#666]">
   {t.works.commercial.description}
 </p>
 
