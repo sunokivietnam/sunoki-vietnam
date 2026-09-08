@@ -394,7 +394,7 @@ tiếng Việt.`,
     {
       title: "Thiết kế & Thi công",
       description:
-        "Một đầu mối quản lý xuyên suốt từ thiết kế đến thi công.",
+        "Một đầu mối quản lý xuyên suốt từ thiết kế đến\nthi công.",
 
       descriptionMobile:
 `Một đầu mối quản lý 
