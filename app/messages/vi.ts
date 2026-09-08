@@ -371,12 +371,12 @@ chất lượng thiết kế..`,
     {
       title: "Đội ngũ đào tạo tại Nhật",
       description:
-        "Nhân viên được đào tạo và có kinh nghiệm tại Nhật.",
+        "Đội ngũ giàu kinh nghiệm, được đào tạo bài bản tại Nhật Bản.",
 
       descriptionMobile:
-`Đào tạo và
-kinh nghiệm
-tại Nhật.`,
+`Đội ngũ giàu kinh nghiệm,
+được đào tạo bài bản
+tại Nhật Bản.`,
     },
 
     {
