@@ -405,11 +405,11 @@ xuyên suốt từ thiết kế
     {
       title: "Hỗ trợ sau thi công",
       description:
-        "Đồng hành sau khi công trình hoàn thành.",
+        "Đồng hành và hỗ trợ tận tâm sau khi công trình hoàn thiện.",
 
       descriptionMobile:
-`Hỗ trợ sau
-khi bàn giao.`,
+`Đồng hành và hỗ trợ tận tâm
+sau khi công trình hoàn thiện.`,
     },
   ],
 },  process: {
