@@ -238,12 +238,10 @@ hài hòa ánh sáng, vật liệu và bóng đổ
       title: "Nhà ở",
 
       description:
-        "Không gian sống đạt tiêu chuẩn Nhật Bản.\nMang đến sự tiện nghi, công năng và vẻ đẹp hài hòa.",
-descriptionMobile: `Không gian sống
-đạt tiêu chuẩn Nhật Bản.
-Mang đến sự tiện nghi,
-công năng
-và vẻ đẹp hài hòa.`,
+        "Kiến tạo không gian sống chuẩn Nhật,\nhài hòa giữa công năng, tiện nghi và thẩm mỹ.",
+descriptionMobile: `Kiến tạo không gian sống chuẩn Nhật,
+hài hòa giữa công năng,
+tiện nghi và thẩm mỹ..`,
 
       items: [
         {
