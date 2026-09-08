@@ -361,11 +361,11 @@ Nhật Bản.`,
     {
       title: "Kiến trúc sư Nhật Bản",
       description:
-        "Kiến trúc sư Nhật Bản giám sát thiết kế.",
+        "Trực tiếp giám sát và đảm bảo chất lượng thiết kế.",
 
       descriptionMobile:
-`Kiến trúc sư Nhật Bản
-giám sát thiết kế.`,
+`Trực tiếp giám sát và đảm bảo
+chất lượng thiết kế..`,
     },
 
     {
