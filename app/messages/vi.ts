@@ -340,7 +340,7 @@ như ngoài đời thực.`,
   title: "Vì sao\nchọn chất lượng Nhật Bản?",
 
   description:
-    "Với sự tỉ mỉ trong từng chi tiết,\nthiết kế và thi công theo tiêu chuẩn Nhật Bản,\nchúng tôi tạo nên không gian sống đáng tin cậy.",
+    "Tỉ mỉ trong từng chi tiết, chuẩn mực trong từng công đoạn.\nChúng tôi ứng dụng tiêu chuẩn Nhật Bản vào thiết kế và thi công,\nmang đến những không gian bền vững, tiện nghi và đáng tin cậy.",
 
   descriptionMobile:
     "Với sự tỉ mỉ trong từng chi tiết,\nthiết kế và thi công theo tiêu chuẩn Nhật Bản,\nchúng tôi tạo nên\nkhông gian sống đáng tin cậy.",
