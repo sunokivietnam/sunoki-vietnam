@@ -440,12 +440,12 @@ descriptionMobile: `Kết nối với chúng tôi qua biểu mẫu,
 `Tư vấn & Khảo sát`,
 
   description:
-    `Tư vấn nhu cầu và ngân sách.
-Khảo sát hiện trạng công trình.`,
+    `Tìm hiểu nhu cầu, ngân sách và
+    khảo sát hiện trạng công trình..`,
 
   descriptionMobile:
-`Tư vấn nhu cầu và ngân sách.
-Khảo sát hiện trạng công trình.`,
+`Tìm hiểu nhu cầu, ngân sách và
+khảo sát hiện trạng công trình..`,
 },
  {
   number: "03",
