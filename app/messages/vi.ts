@@ -441,11 +441,11 @@ descriptionMobile: `Kết nối với chúng tôi qua biểu mẫu,
 
   description:
     `Tìm hiểu nhu cầu, ngân sách và
-    khảo sát hiện trạng công trình..`,
+    khảo sát hiện trạng công trình.`,
 
   descriptionMobile:
 `Tìm hiểu nhu cầu, ngân sách và
-khảo sát hiện trạng công trình..`,
+khảo sát hiện trạng công trình.`,
 },
  {
   number: "03",
@@ -468,19 +468,18 @@ Gửi báo giá chi tiết.`,
   number: "04",
 
   title: `Thi công & 
-  Quản lý chất lượng`,
+  Kiểm soát chất lượng`,
 
   titleMobile:
-`Thi công & Quản lý`,
+`Thi công & Kiểm soát`,
 
   description:
-    `Thi công theo tiêu chuẩn 
-    Nhật Bản với quy trình kiểm soát 
-    chất lượng nghiêm ngặt.`,
+    `Thi công theo tiêu chuẩn Nhật Bản,
+    kiểm soát chặt chẽ từng công đoạn.`,
 
   descriptionMobile:
-`Thi công theo tiêu chuẩn Nhật Bản.
-Kiểm soát chất lượng.`,
+`Thi công theo tiêu chuẩn Nhật Bản,
+    kiểm soát chặt chẽ từng công đoạn.`,
 },
   {
   number: "05",
