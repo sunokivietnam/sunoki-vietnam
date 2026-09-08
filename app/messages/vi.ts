@@ -382,10 +382,11 @@ tại Nhật Bản.`,
     {
       title: "Hỗ trợ Nhật & Việt",
       description:
-        "Tư vấn bằng tiếng Nhật và tiếng Việt.",
+        "Tư vấn và hỗ trợ tận tâm bằng tiếng Nhật và tiếng Việt.",
 
       descriptionMobile:
-`Tư vấn bằng
+`Tư vấn và hỗ trợ
+tận tâm bằng
 tiếng Nhật &
 tiếng Việt.`,
     },
