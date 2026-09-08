@@ -1065,21 +1065,19 @@ và các công trình trên khắp Nhật Bản.`,
   footer: {
   menu: "MENU",
 
-  title: `Mang chất lượng
-  tiêu chuẩn Nhật Bản
-đến Việt Nam.`,
+  title: `Chất lượng Nhật Bản,
+  kiến tạo không gian Việt.`,
 
-  titleMobile: `Mang chất lượng
-  tiêu chuẩn Nhật Bản
-đến Việt Nam.`,
+  titleMobile: `Chất lượng Nhật Bản,
+  kiến tạo không gian Việt.`,
 
   description:
-    "Từ nhà ở,  nhà hàng đến nội thất.\nChúng tôi mang đến không gian sống an toàn và tiện nghi và bền vững với thiết kế và thi công theo tiêu chuẩn Nhật Bản.",
+    "Mang tinh thần và tiêu chuẩn Nhật Bản vào từng công trình – \nan toàn, tiện nghi, tinh tế và bền vững.",
 
-  descriptionMobile: `Từ nhà ở, nhà hàng đến nội thất.
-Chúng tôi mang đến không gian sống an toàn,
-tiện nghi và bền vững với thiết kế và thi công
-theo tiêu chuẩn Nhật Bản.`,
+  descriptionMobile: `Mang tinh thần và tiêu chuẩn Nhật Bản
+  vào từng công trình
+  – an toàn, tiện nghi, 
+  tinh tế và bền vững.`,
 },
 };
 
