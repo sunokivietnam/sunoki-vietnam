@@ -371,7 +371,7 @@ chất lượng thiết kế..`,
     {
       title: "Đội ngũ đào tạo tại Nhật",
       description:
-        "Đội ngũ giàu kinh nghiệm, được đào tạo bài bản tại Nhật Bản.",
+        "Đội ngũ giàu kinh nghiệm, được đào tạo bài bản\ntại Nhật Bản.",
 
       descriptionMobile:
 `Đội ngũ giàu kinh nghiệm,
