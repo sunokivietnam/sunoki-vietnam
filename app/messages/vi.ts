@@ -343,7 +343,7 @@ như ngoài đời thực.`,
     "Tỉ mỉ trong từng chi tiết, chuẩn mực trong từng công đoạn.\nChúng tôi ứng dụng tiêu chuẩn Nhật Bản vào thiết kế và thi công,\nmang đến những không gian bền vững, tiện nghi và đáng tin cậy.",
 
   descriptionMobile:
-    "Tỉ mỉ trong từng chi tiết,\nchuẩn mực trong từng công đoạn.\nChúng tôi ứng dụng tiêu chuẩn Nhật Bản vào thiết kế và thi công,\nmang đến những không gian bền vững, tiện nghi và đáng tin cậy.",
+    "Tỉ mỉ trong từng chi tiết,\nchuẩn mực trong từng công đoạn.\nChúng tôi ứng dụng tiêu chuẩn Nhật Bản\nvào thiết kế và thi công,\nmang đến những không gian bền vững,\ntiện nghi và đáng tin cậy.",
 
   features: [
     {
