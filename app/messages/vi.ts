@@ -216,12 +216,12 @@ Cải tạo đẹp, tiện nghi và hiện đại.`,
     title: "Không gian Nhật",
 
     description:
-      "Thiết kế không gian mang đậm tinh thần Nhật Bản.\nTận dụng ánh sáng, vật liệu và bóng đổ để tạo nên không gian thư thái và tinh tế.",
+      "Kiến tạo không gian đậm tinh thần Nhật Bản, hài hòa ánh sáng, vật liệu và bóng đổ\nđể mang đến cảm giác thư thái, tinh tế.",
 
     descriptionMobile:
-`Thiết kế không gian Nhật.
-Tận dụng ánh sáng,
-vật liệu và bóng đổ để tạo cảm giác thư thái.`,
+`Kiến tạo không gian đậm tinh thần Nhật Bản,
+hài hòa ánh sáng, vật liệu và bóng đổ
+để mang đến cảm giác thư thái, tinh tế.`,
   },
 ],
   },  works: {
