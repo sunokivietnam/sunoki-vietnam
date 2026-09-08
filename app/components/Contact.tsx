@@ -204,11 +204,10 @@ Vui lòng nhập thêm yêu cầu của bạn。
 
 日本品質の設計・施工で、
 ベトナムで安心して暮らせる空間をご提案します。`
-                : `Từ nhà ở, cải tạo, nhà hàng đến văn phòng,
-chúng tôi luôn sẵn sàng hỗ trợ.
-
-Mang đến không gian sống chất lượng Nhật Bản
-ngay tại Việt Nam.`}
+                : `Từ nhà ở đến nhà hàng, văn phòng và cải tạo,
+                chúng tôi đồng hành trọn vẹn từ thiết kế đến thi công, 
+                
+                với sự tỉ mỉ và chất lượng theo tiêu chuẩn Nhật Bản.`}
 
             </p>
 
