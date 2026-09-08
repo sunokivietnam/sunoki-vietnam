@@ -489,16 +489,15 @@ Gửi báo giá chi tiết.`,
   Bàn giao`,
 
   titleMobile:
-`Kiểm tra chất lượng, 
-hoàn thiện và bàn giao công trình.`,
+`Hoàn thiện & Bàn giao`,
 
   description:
    `Kiểm tra chất lượng, 
-hoàn thiện và bàn giao công trình.`,
+   hoàn thiện và bàn giao công trình.`,
 
   descriptionMobile:
-`Kiểm tra lần cuối.
-Bàn giao công trình.`,
+`Kiểm tra chất lượng,
+hoàn thiện và bàn giao công trình.`,
 },
 ],
   }, 
