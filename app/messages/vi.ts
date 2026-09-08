@@ -1075,9 +1075,7 @@ và các công trình trên khắp Nhật Bản.`,
     "Mang tinh thần và tiêu chuẩn Nhật Bản vào từng công trình – \nan toàn, tiện nghi, tinh tế và bền vững.",
 
   descriptionMobile: `Mang tinh thần và tiêu chuẩn Nhật Bản
-  vào từng công trình
-  – an toàn, tiện nghi, 
-  tinh tế và bền vững.`,
+  vào từng công trình – an toàn, tiện nghi, tinh tế và bền vững.`,
 },
 };
 
