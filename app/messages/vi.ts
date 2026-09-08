@@ -349,10 +349,11 @@ như ngoài đời thực.`,
     {
       title: "Chất lượng Nhật Bản",
       description:
-        "Quản lý chất lượng theo tiêu chuẩn Nhật Bản.",
+        "Kiểm soát chất lượng nghiêm ngặt theo tiêu chuẩn Nhật Bản.",
 
       descriptionMobile:
-`Quản lý chất lượng
+`Kiểm soát chất lượng
+nghiêm ngặt
 theo tiêu chuẩn
 Nhật Bản.`,
     },
