@@ -944,7 +944,7 @@ villa: {
 
   area: "425㎡",
 
-  unitPrice: "16.020.000 VNĐ /㎡",
+  unitPrice: "Khoảng 16.020.000 VNĐ /㎡",
 
   grade: "Luxury",
 
