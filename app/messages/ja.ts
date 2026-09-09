@@ -916,7 +916,7 @@ villa: {
     "/images/modelplans/villa/11.jpg",
   ],
 
-  area: "180㎡",
+  area: "425㎡",
 
   unitPrice: "16,020,000 VNĐ /㎡",
 
